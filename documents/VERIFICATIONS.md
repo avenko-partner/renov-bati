@@ -1,3 +1,5 @@
+> Version courante : 23. SEO renforcé sur les trois pages ; titres et descriptions, 14 services structurés, contenu local et FAQ. Préparation locale des canoniques, données et sitemap pages/images vérifiée. Rapport : verification-seo-v23.json. Aucune publication, indexation, position Google ou validation en ligne effectuée. Rapports précédents historiques.
+
 > Version courante : 22. Flèches diagonales remplacées par des SVG décoratifs, avec trait et couleur définis, notamment près du téléphone. Structure SVG et liens vérifiés ; aucun rendu sur téléphone physique contrôlé. Rapports antérieurs historiques.
 
 > Version courante : 21. Garanties centrées sur mobile : visuels, titres, descriptions, liens et introduction. Vérification de la cascade CSS sur les formats étroits et segmentés ; pas de rendu navigateur. Rapports précédents historiques.

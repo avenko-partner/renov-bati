@@ -1,0 +1,21 @@
+{
+  "version": 23,
+  "status": "PASS",
+  "unique_titles_and_descriptions": 3,
+  "home_and_portfolio_target": "Yvelines (78)",
+  "declared_services": 14,
+  "visible_faq": 3,
+  "publication_preparation_only": true,
+  "prepared_indexable_pages": 2,
+  "sitemap_image_entries": 34,
+  "canonical_and_social_urls": true,
+  "schema_json_valid": true,
+  "preserved_real_address": true,
+  "no_fictitious_reviews_or_coordinates": true,
+  "links_and_assets_valid": true,
+  "limits": [
+    "Pas de site publié, de mesure de classement ou d’indexation Google.",
+    "Pas de test en ligne Rich Results, PageSpeed Insights ou Search Console.",
+    "Analyse DOM et génération XML, sans rendu navigateur."
+  ]
+}

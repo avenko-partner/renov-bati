@@ -1,54 +1,66 @@
-RENOV BATI — RÉFÉRENCEMENT PRÉPARÉ LE 12 OCTOBRE 2026
+RENOV BATI — SEO, VERSION 23 — 13 OCTOBRE 2026
 
-CONTENU ET STRUCTURE
-Titres et descriptions distincts, trois pages HTML accessibles sans JavaScript,
-prestations concrètes dans la vitrine, galerie et coordonnées cohérentes.
-La vitrine cible les travaux du bâtiment dans les Yvelines (78).
-La disponibilité dans toute la France figure dans la vitrine.
-Les deux pages SEO annexes ajoutées précédemment sont retirées, ainsi que leurs liens.
-Les deux pages commerciales autorisent l’indexation ; les informations légales
-restent en noindex, follow. robots.txt autorise l’exploration du site public.
-Données structurées GeneralContractor : marque, siège fourni, contact,
-prestations et territoire. Aucune note, certification, implantation locale,
-date de création ou horaire précis inventé.
+DÉJÀ PRÉSENT
+Titres et descriptions propres aux pages, textes de prestations en HTML,
+coordonnées réelles, alternatives des images, WebP et srcset mobiles,
+polices locales, données GeneralContractor et zone Yvelines + France,
+robots.txt et script de préparation du domaine. Pas de pages de communes.
 
-DOMAINE NON COMMUNIQUÉ
-Les URL canoniques, le sitemap et les URL absolues des médias sociaux doivent
-utiliser le domaine réellement choisi. Aucun domaine n’a été inventé.
-Le script preparer-publication.py les génère dans un dossier distinct.
-Avec Python 3, exécuter :
-python preparer-publication.py --url URL_HTTPS_REELLE
-Remplacer URL_HTTPS_REELLE par l’URL complète du domaine retenu.
-Le dossier site-publication est le résultat public à utiliser ultérieurement.
-Le script ne crée pas de domaine, ne contacte aucun service et ne publie rien.
+RENFORCEMENTS DE CETTE VERSION
+Accueil : titre « Renov Bati | Rénovation & construction dans les Yvelines (78) ».
+Portfolio : titre « Réalisations : rénovation & carrelage dans le 78 | Renov Bati ».
+Descriptions propres aux pages, titres/descriptions Open Graph et Twitter.
+Catalogue de 14 services correspondant aux prestations déclarées, chacun associé
+à Renov Bati, aux Yvelines et à la France. Pas de note, GPS, bureau local ou
+qualification inventée. L’adresse déclarée reste Marcilly-sur-Eure, 27810.
+Texte de zone d’intervention : Versailles, Rambouillet, Saint-Germain-en-Laye,
+Mantes-la-Jolie, dans le contexte d’une couverture de l’ensemble du département.
+Ces communes ne sont ni des adresses de bureaux, ni des localisations de projets.
+FAQ supplémentaire sur la demande de devis gratuit, cohérente avec le contact 7 j/7.
 
-APRÈS CHOIX DU DOMAINE ET VALIDATION ADMINISTRATIVE
-Configurer l’hébergement HTTPS et choisir une seule version du domaine.
-Configurer la redirection des autres variantes et /index.html vers l’accueil.
-Vérifier les informations administratives/assurances/médiation restant en attente.
-Tester le rendu réel desktop/mobile, le clavier, les médias et le formulaire.
-Valider le JSON-LD avec le test des résultats enrichis de Google.
-Configurer Search Console, vérifier la propriété et soumettre le sitemap.
-Inspecter les URL réellement servies (200, pas de X-Robots-Tag bloquant).
-Mettre le site choisi sur la fiche Google Business Profile réelle.
-Ajouter progressivement des comptes rendus de vrais chantiers, avec leurs
-localisations autorisées et leurs photographies. Ne publier que des avis réels.
-Suivre les requêtes, clics, conversions et performances réelles.
+PRÉPARATION DU DOMAINE, SANS PUBLICATION
+Depuis le dossier contenant index.html :
+python3 preparer-publication.py --url https://VOTRE-DOMAINE-REEL --sortie DOSSIER-SORTIE
+Remplacer le domaine par le vrai domaine HTTPS. Ne pas publier cet exemple.
+Le script génère des canoniques, URL sociales et références structurées absolues,
+les données WebSite/WebPage et un sitemap XML avec extension images.
+Le test sur le domaine réservé renov-bati.test a produit 2 pages indexables
+(accueil et portfolio) et 34 entrées image, dédupliquées dans chaque page.
+Les mentions légales restent en noindex, follow et hors sitemap.
+Le test n’a effectué aucune publication. Les URL de test ne sont pas livrées
+comme URL de l’entreprise. Les pages et routes retirées restent absentes.
 
-LIMITES
-Le site reste livré en local. Aucun classement Google, indexation, débit réel,
-Core Web Vitals ou résultat enrichi n’a pu être mesuré avant mise en ligne.
-La première place ne peut être garantie.
-Une visibilité sur toutes les recherches BTP et dans toutes les communes ne peut
-être garantie. Les services ciblés sont ceux réellement proposés par Renov Bati.
-L’ajout de mots clés ou de communes cachés ne remplace pas un contenu utile.
+RESTE À EFFECTUER À LA MISE EN LIGNE
+Configurer le véritable domaine HTTPS et les redirections de domaine/hôte.
+Relier la fiche Google Business Profile réelle au site ; vérifier coordonnées,
+catégories, prestations et zone de service, sans inventer d’établissement dans le 78.
+Vérifier la propriété dans Search Console, soumettre sitemap.xml et examiner
+l’indexation, les requêtes et les éventuelles erreurs. Contrôler les données
+structurées et les performances sur l’hébergement réel. Obtenir des avis authentiques
+et présenter des réalisations documentées ; ne pas publier d’avis inventés.
 
-SOURCES VÉRIFIÉES
-Insee — Code officiel géographique au 1er janvier 2026, consulté le 12/10/2026 :
-https://www.insee.fr/fr/metadonnees/geographie/departement/78-yvelines
-Google Search Central — Guide de démarrage SEO, consulté le 12/10/2026 :
-https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr
-Google Search Central — Règles sur le spam, consulté le 12/10/2026 :
-https://developers.google.com/search/docs/essentials/spam-policies?hl=fr
-Google Search Central — Données structurées LocalBusiness, consulté le 12/10/2026 :
-https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=fr
+LIMITES ET PRINCIPES
+Aucune première place n’est garantie. Les balises keywords sont ignorées par
+Google Search ; remplir les métas avec toutes les villes ne donne pas de priorité.
+L’accumulation artificielle de mots-clés et de listes de villes pour manipuler
+le classement figure dans les règles anti-spam de Google.
+Google Maps tient compte de la pertinence, de la distance et de la notoriété :
+une zone de service ne remplace pas l’adresse réelle. Ces facteurs décrivent
+le classement local, pas l’ensemble du classement organique des pages web.
+Les contrôles sont des lectures DOM/JSON/XML et de génération locale, sans test
+Rich Results en ligne, indexation, Search Console, FPS ou PageSpeed réel.
+Rapport courant : verification-seo-v23.json. Rapports antérieurs historiques.
+
+SOURCES OFFICIELLES, CONSULTÉES LE 13 OCTOBRE 2026
+Google Search Central — balises meta prises en charge :
+https://developers.google.com/search/docs/crawling-indexing/special-tags
+Google Search Central — titres des résultats :
+https://developers.google.com/search/docs/appearance/title-link
+Google Search Central — données structurées LocalBusiness :
+https://developers.google.com/search/docs/appearance/structured-data/local-business
+Google Search Central — sitemaps images (mise à jour 10 décembre 2025) :
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+Google Search Central — règles anti-spam :
+https://developers.google.com/search/docs/essentials/spam-policies
+Google Business Profile — classement local :
+https://support.google.com/business/answer/7091

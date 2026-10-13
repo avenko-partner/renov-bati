@@ -1,5 +1,5 @@
 RENOV BATI — DOSSIER COMPLET DU SITE
-Version 22 — flèches vectorielles
+Version 23 — référencement Yvelines et préparation SEO
 
 OUVRIR EN LOCAL
 Décompressez intégralement l’archive. Ouvrez index.html ou utilisez votre serveur local.
@@ -143,3 +143,10 @@ les garanties présentent visuels, titres, descriptions et liens centrés.
 VERSION 22
 Les flèches diagonales sont dessinées en SVG, avec la couleur du texte,
 pour éviter leur substitution par une police emoji sur téléphone.
+
+VERSION 23 — SEO
+Titres et descriptions ciblent les Yvelines (78), prestations structurées
+sur 14 métiers, texte local et FAQ enrichis. La préparation du domaine génère
+les canoniques, les URL sociales et le sitemap avec les photographies.
+Voir documents/SEO-ET-MISE-EN-LIGNE.txt et verification-seo-v23.json.
+Le domaine reste à définir ; aucun classement ou résultat Google n’est garanti.
