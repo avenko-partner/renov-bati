@@ -1,5 +1,5 @@
 RENOV BATI — DOSSIER COMPLET DU SITE
-Version 21 — garanties centrées sur mobile
+Version 22 — flèches vectorielles
 
 OUVRIR EN LOCAL
 Décompressez intégralement l’archive. Ouvrez index.html ou utilisez votre serveur local.
@@ -139,3 +139,7 @@ Le titre, la description et les légendes et alternatives correspondantes sont h
 VERSION 21
 Sur les écrans de 760 px et moins et les écrans à deux segments horizontaux,
 les garanties présentent visuels, titres, descriptions et liens centrés.
+
+VERSION 22
+Les flèches diagonales sont dessinées en SVG, avec la couleur du texte,
+pour éviter leur substitution par une police emoji sur téléphone.

@@ -1,3 +1,5 @@
+> Version courante : 22. Flèches diagonales remplacées par des SVG décoratifs, avec trait et couleur définis, notamment près du téléphone. Structure SVG et liens vérifiés ; aucun rendu sur téléphone physique contrôlé. Rapports antérieurs historiques.
+
 > Version courante : 21. Garanties centrées sur mobile : visuels, titres, descriptions, liens et introduction. Vérification de la cascade CSS sur les formats étroits et segmentés ; pas de rendu navigateur. Rapports précédents historiques.
 
 > Version courante : 20. Projet commercial renommé « Carrelage en grande surface » sur la vitrine, le portfolio et la fiche projet, avec descriptions et alternatives correspondantes harmonisées. Vérification ciblée du contenu et des ressources ; rapports antérieurs historiques.

@@ -456,3 +456,7 @@
  .warranty-footer>p{margin-inline:auto}
  .warranty-footer .text-link{display:inline-flex;justify-content:center;margin-inline:auto}
 }
+
+/* A drawn arrow keeps the same appearance without emoji font substitution. */
+.direction-icon{display:inline-block;width:.95em;height:.95em;flex:none;vertical-align:-.12em;overflow:visible;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.contact-phone .direction-icon{width:22px;height:22px}
