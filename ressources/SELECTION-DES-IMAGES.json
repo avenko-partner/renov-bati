@@ -1,0 +1,370 @@
+[
+  {
+    "index": 1,
+    "name": "11c8726b-09a6-4869-a093-65ae0f6cf829.jpg",
+    "width": 1157,
+    "height": 1574,
+    "bytes": 212149,
+    "webp": "ressources/fournies-webp/11c8726b-09a6-4869-a093-65ae0f6cf829.webp",
+    "webp_bytes": 145152,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 2,
+    "name": "11f88952-59fc-408d-9621-2f64c8cfdb87.jpg",
+    "width": 1280,
+    "height": 1600,
+    "bytes": 325328,
+    "webp": "ressources/fournies-webp/11f88952-59fc-408d-9621-2f64c8cfdb87.webp",
+    "webp_bytes": 264878,
+    "use": "Sélection présentée : sol-commercial",
+    "site_asset": "assets/photos/sol-commercial.webp",
+    "site_bytes": 283118
+  },
+  {
+    "index": 3,
+    "name": "153a5657-2d6d-4fda-8a10-bf3fbbfbf7fe.jpg",
+    "width": 1088,
+    "height": 1586,
+    "bytes": 304594,
+    "webp": "ressources/fournies-webp/153a5657-2d6d-4fda-8a10-bf3fbbfbf7fe.webp",
+    "webp_bytes": 235204,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 4,
+    "name": "1a9f29f3-c079-43f8-a86e-2c773bc51da2.jpg",
+    "width": 1159,
+    "height": 1556,
+    "bytes": 278823,
+    "webp": "ressources/fournies-webp/1a9f29f3-c079-43f8-a86e-2c773bc51da2.webp",
+    "webp_bytes": 213096,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 5,
+    "name": "232ea730-e5cf-4654-9c34-a6924d1851aa.jpg",
+    "width": 1600,
+    "height": 644,
+    "bytes": 32764,
+    "webp": "ressources/fournies-webp/232ea730-e5cf-4654-9c34-a6924d1851aa.webp",
+    "webp_bytes": 19648,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 6,
+    "name": "2438b7cf-7c6e-4c20-bda9-52741ecf1441.jpg",
+    "width": 1506,
+    "height": 627,
+    "bytes": 58875,
+    "webp": "ressources/fournies-webp/2438b7cf-7c6e-4c20-bda9-52741ecf1441.webp",
+    "webp_bytes": 52428,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 7,
+    "name": "2ca64266-ba78-4ea7-a606-7d754b8be602.jpg",
+    "width": 842,
+    "height": 277,
+    "bytes": 27707,
+    "webp": "ressources/fournies-webp/2ca64266-ba78-4ea7-a606-7d754b8be602.webp",
+    "webp_bytes": 23938,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 8,
+    "name": "2cd45507-bb71-4221-968a-fadda45dcc5a.jpg",
+    "width": 855,
+    "height": 436,
+    "bytes": 21124,
+    "webp": "ressources/fournies-webp/2cd45507-bb71-4221-968a-fadda45dcc5a.webp",
+    "webp_bytes": 14024,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 9,
+    "name": "2e2e06c1-8ed2-4fb9-97cc-bbfed204b972.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 356913,
+    "webp": "ressources/fournies-webp/2e2e06c1-8ed2-4fb9-97cc-bbfed204b972.webp",
+    "webp_bytes": 326414,
+    "use": "Sélection présentée : veranda-jardin",
+    "site_asset": "assets/photos/veranda-jardin.webp",
+    "site_bytes": 346180
+  },
+  {
+    "index": 10,
+    "name": "362349fe-d2ea-451c-a0cf-0d36b63a4cb7.jpg",
+    "width": 592,
+    "height": 376,
+    "bytes": 13012,
+    "webp": "ressources/fournies-webp/362349fe-d2ea-451c-a0cf-0d36b63a4cb7.webp",
+    "webp_bytes": 11120,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 11,
+    "name": "4337b25a-c9ce-4dda-b108-de664c1fc1d1.jpg",
+    "width": 1052,
+    "height": 1464,
+    "bytes": 347147,
+    "webp": "ressources/fournies-webp/4337b25a-c9ce-4dda-b108-de664c1fc1d1.webp",
+    "webp_bytes": 299030,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 12,
+    "name": "4cb1781d-f8e0-4ec6-ac12-c47f08b5af27.jpg",
+    "width": 1175,
+    "height": 1561,
+    "bytes": 266102,
+    "webp": "ressources/fournies-webp/4cb1781d-f8e0-4ec6-ac12-c47f08b5af27.webp",
+    "webp_bytes": 194722,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 13,
+    "name": "4ea6dfb8-bf8d-452d-ae4a-956529df91e6.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 151907,
+    "webp": "ressources/fournies-webp/4ea6dfb8-bf8d-452d-ae4a-956529df91e6.webp",
+    "webp_bytes": 80014,
+    "use": "Sélection présentée : salle-de-bains-apres",
+    "site_asset": "assets/photos/salle-de-bains-apres.webp",
+    "site_bytes": 88514
+  },
+  {
+    "index": 14,
+    "name": "54efeb2b-1d63-48b9-a0e9-49b4a04279af.jpg",
+    "width": 1600,
+    "height": 478,
+    "bytes": 26635,
+    "webp": "ressources/fournies-webp/54efeb2b-1d63-48b9-a0e9-49b4a04279af.webp",
+    "webp_bytes": 13240,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 15,
+    "name": "564fb61e-a28e-48c0-b67f-44b4a1e83ce5.jpg",
+    "width": 1176,
+    "height": 1544,
+    "bytes": 268018,
+    "webp": "ressources/fournies-webp/564fb61e-a28e-48c0-b67f-44b4a1e83ce5.webp",
+    "webp_bytes": 200680,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 16,
+    "name": "56834da0-d040-4a34-ae21-e57abf053ce0.jpg",
+    "width": 1001,
+    "height": 1532,
+    "bytes": 302166,
+    "webp": "ressources/fournies-webp/56834da0-d040-4a34-ae21-e57abf053ce0.webp",
+    "webp_bytes": 282550,
+    "use": "Sélection présentée : veranda-salon",
+    "site_asset": "assets/photos/veranda-salon.webp",
+    "site_bytes": 301770
+  },
+  {
+    "index": 17,
+    "name": "56f4a23f-3dde-4d92-8542-62be15cb6368.jpg",
+    "width": 1280,
+    "height": 1600,
+    "bytes": 265730,
+    "webp": "ressources/fournies-webp/56f4a23f-3dde-4d92-8542-62be15cb6368.webp",
+    "webp_bytes": 168554,
+    "use": "Écarté des projets terminés : chantier en cours ou finitions visibles"
+  },
+  {
+    "index": 18,
+    "name": "5789aad8-510d-41f3-9e12-405f175e5261.jpg",
+    "width": 1043,
+    "height": 1504,
+    "bytes": 221982,
+    "webp": "ressources/fournies-webp/5789aad8-510d-41f3-9e12-405f175e5261.webp",
+    "webp_bytes": 149476,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 19,
+    "name": "67ece822-2aff-489f-a240-d9924f95119d.jpg",
+    "width": 1280,
+    "height": 1600,
+    "bytes": 139939,
+    "webp": "ressources/fournies-webp/67ece822-2aff-489f-a240-d9924f95119d.webp",
+    "webp_bytes": 73176,
+    "use": "Sélection présentée : cuisine-detail",
+    "site_asset": "assets/photos/cuisine-detail.webp",
+    "site_bytes": 78974
+  },
+  {
+    "index": 20,
+    "name": "7009ec4a-42d1-4ecf-af8c-66c5326cd75e.jpg",
+    "width": 988,
+    "height": 1095,
+    "bytes": 80937,
+    "webp": "ressources/fournies-webp/7009ec4a-42d1-4ecf-af8c-66c5326cd75e.webp",
+    "webp_bytes": 252178,
+    "use": "Logo original, palette et monogramme recadré"
+  },
+  {
+    "index": 21,
+    "name": "7c45147c-0c0b-488f-979b-b48894bebb7a.jpg",
+    "width": 694,
+    "height": 359,
+    "bytes": 18841,
+    "webp": "ressources/fournies-webp/7c45147c-0c0b-488f-979b-b48894bebb7a.webp",
+    "webp_bytes": 16270,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 22,
+    "name": "8d3d5c18-1eb2-4787-b47f-6ecec96f2142.jpg",
+    "width": 1163,
+    "height": 1542,
+    "bytes": 305229,
+    "webp": "ressources/fournies-webp/8d3d5c18-1eb2-4787-b47f-6ecec96f2142.webp",
+    "webp_bytes": 244780,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 23,
+    "name": "94dbe8ce-ffa2-4de2-a62c-49f3dd5e07aa.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 211637,
+    "webp": "ressources/fournies-webp/94dbe8ce-ffa2-4de2-a62c-49f3dd5e07aa.webp",
+    "webp_bytes": 160954,
+    "use": "Écarté des projets terminés : chantier en cours ou finitions visibles"
+  },
+  {
+    "index": 24,
+    "name": "98aa6f85-89c9-448c-b078-c5433f960822.jpg",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 351433,
+    "webp": "ressources/fournies-webp/98aa6f85-89c9-448c-b078-c5433f960822.webp",
+    "webp_bytes": 307162,
+    "use": "Sélection présentée : veranda-lumiere",
+    "site_asset": "assets/photos/veranda-lumiere.webp",
+    "site_bytes": 329562
+  },
+  {
+    "index": 25,
+    "name": "a33bbc68-0982-4187-91b9-5c35ffe187cc.jpg",
+    "width": 1179,
+    "height": 1551,
+    "bytes": 185782,
+    "webp": "ressources/fournies-webp/a33bbc68-0982-4187-91b9-5c35ffe187cc.webp",
+    "webp_bytes": 109534,
+    "use": "Avant de la salle de bains",
+    "site_asset": "assets/photos/salle-de-bains-avant.webp",
+    "site_bytes": 120466
+  },
+  {
+    "index": 26,
+    "name": "a87dbce2-99dd-42dc-aad1-0a01ff37a654.jpg",
+    "width": 1151,
+    "height": 1566,
+    "bytes": 169772,
+    "webp": "ressources/fournies-webp/a87dbce2-99dd-42dc-aad1-0a01ff37a654.webp",
+    "webp_bytes": 102974,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 27,
+    "name": "ab9868e4-eac5-46d0-aa1c-b6dbf6919450.jpg",
+    "width": 1068,
+    "height": 1522,
+    "bytes": 247755,
+    "webp": "ressources/fournies-webp/ab9868e4-eac5-46d0-aa1c-b6dbf6919450.webp",
+    "webp_bytes": 186432,
+    "use": "Écarté du site : rendu de synthèse apparent, provenance non établie"
+  },
+  {
+    "index": 28,
+    "name": "aff95788-3999-4331-9439-690e127f4c3f.jpg",
+    "width": 1200,
+    "height": 1600,
+    "bytes": 287172,
+    "webp": "ressources/fournies-webp/aff95788-3999-4331-9439-690e127f4c3f.webp",
+    "webp_bytes": 228028,
+    "use": "Écarté des projets terminés : chantier en cours ou finitions visibles"
+  },
+  {
+    "index": 29,
+    "name": "b4a42f12-6e88-4b3f-a243-bc4aef8fa861.jpg",
+    "width": 512,
+    "height": 312,
+    "bytes": 15246,
+    "webp": "ressources/fournies-webp/b4a42f12-6e88-4b3f-a243-bc4aef8fa861.webp",
+    "webp_bytes": 12436,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 30,
+    "name": "b8c6f9f0-5c07-4607-af3c-c5de3d27f4e6.jpg",
+    "width": 260,
+    "height": 87,
+    "bytes": 4983,
+    "webp": "ressources/fournies-webp/b8c6f9f0-5c07-4607-af3c-c5de3d27f4e6.webp",
+    "webp_bytes": 4818,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 31,
+    "name": "d4931beb-92ec-40ec-afe7-eb219f9cb0e8.jpg",
+    "width": 453,
+    "height": 268,
+    "bytes": 9095,
+    "webp": "ressources/fournies-webp/d4931beb-92ec-40ec-afe7-eb219f9cb0e8.webp",
+    "webp_bytes": 7616,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 32,
+    "name": "d81572f2-1cd5-49ec-995f-0bab0bfad872.jpg",
+    "width": 635,
+    "height": 303,
+    "bytes": 12266,
+    "webp": "ressources/fournies-webp/d81572f2-1cd5-49ec-995f-0bab0bfad872.webp",
+    "webp_bytes": 10836,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  },
+  {
+    "index": 33,
+    "name": "e7738739-5222-4d89-8163-17debd1c18d0.jpg",
+    "width": 1280,
+    "height": 1600,
+    "bytes": 153388,
+    "webp": "ressources/fournies-webp/e7738739-5222-4d89-8163-17debd1c18d0.webp",
+    "webp_bytes": 80034,
+    "use": "Sélection présentée : cuisine-lumiere",
+    "site_asset": "assets/photos/cuisine-lumiere.webp",
+    "site_bytes": 87430
+  },
+  {
+    "index": 34,
+    "name": "f27357b6-b0ab-4bf4-8601-1263504f49bb.jpg",
+    "width": 1600,
+    "height": 900,
+    "bytes": 319114,
+    "webp": "ressources/fournies-webp/f27357b6-b0ab-4bf4-8601-1263504f49bb.webp",
+    "webp_bytes": 301300,
+    "use": "Sélection présentée : plage-piscine",
+    "site_asset": "assets/photos/plage-piscine.webp",
+    "site_bytes": 320540
+  },
+  {
+    "index": 35,
+    "name": "fa2b47e9-faf6-428c-977d-aa6749bb00c8.jpg",
+    "width": 1236,
+    "height": 802,
+    "bytes": 41322,
+    "webp": "ressources/fournies-webp/fa2b47e9-faf6-428c-977d-aa6749bb00c8.webp",
+    "webp_bytes": 27760,
+    "use": "Référence client fournie ; adaptation monochrome dorée"
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "pages": [
+    {
+      "file": "index.html",
+      "title": "Renov Bati | Rénovation &amp; construction Yvelines (78)",
+      "description": "Construction, rénovation tous corps d’état et aménagement dans les Yvelines (78) et toute la France. Découvrez Renov Bati et demandez un devis gratuit.",
+      "robots": "index, follow, max-image-preview:large"
+    },
+    {
+      "file": "informations.html",
+      "title": "Informations & garanties — Renov Bati",
+      "description": "Mentions légales, données personnelles, assurances et garanties des travaux de Renov Bati.",
+      "robots": "noindex, follow"
+    },
+    {
+      "file": "projets.html",
+      "title": "Réalisations : rénovation, toiture &amp; carrelage | Renov Bati",
+      "description": "Rénovation intérieure, façades, toiture, terrasses et carrelage professionnel. Découvrez les réalisations Renov Bati et nos prestations dans les Yvelines et en France.",
+      "robots": "index, follow, max-image-preview:large"
+    }
+  ],
+  "html_images": 74,
+  "business_jsonld": true,
+  "canonical_and_sitemap_generator": true,
+  "domain_assigned": false,
+  "online_google_validation": false,
+  "search_console": false,
+  "core_web_vitals_measured": false,
+  "real_browser_rendering": false
+}

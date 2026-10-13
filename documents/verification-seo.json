@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 18,
+  "coverage": [
+    "Titres et descriptions distincts des cinq pages",
+    "Un seul h1 par page et affichage commercial indexable",
+    "Annuaire complet : 259 noms et codes INSEE identiques à la source officielle",
+    "Toutes les communes accessibles sans JavaScript",
+    "Annotations éditoriales retirées de la vitrine",
+    "Couverture France indiquée dans la vitrine, zones et données structurées",
+    "Prestations complètes et maillage vers devis, projets, zones",
+    "Nouvelles feuilles CSS et tous les scripts : syntaxe valide",
+    "Réduction des mouvements et transitions de pages prévues",
+    "Recherche commune accentuée sans accents",
+    "Recherche avec espaces et traits d’union",
+    "Aucun résultat et navigation par lettre désactivée",
+    "Effacer rétablit toutes les communes, lettres et focus",
+    "Fermeture animée puis fermeture réelle et restitution du focus",
+    "Échap déclenche la fermeture, clics répétés sans accumulation",
+    "Réduction pendant la fermeture libère immédiatement la fiche",
+    "Lien devis reste immédiat pendant la fermeture animée",
+    "Animation bloquée : délai de secours libère la fiche"
+  ],
+  "environment": "DOM simulé, source Insee comparée, CSS/JS analysés. Aucun navigateur rendu."
+}

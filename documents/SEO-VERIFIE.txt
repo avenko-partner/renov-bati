@@ -1,0 +1,41 @@
+RENOV BATI — ÉTAT EXACT DU RÉFÉRENCEMENT AU 12 OCTOBRE 2026
+
+PRÉSENT ET CONTRÔLÉ DANS LE DOSSIER
+Titres et descriptions propres aux trois pages.
+Un h1 par page, textes sur les travaux proposés et les Yvelines (78)/France.
+Accès internes vers le devis, les projets et les informations.
+HTML de contenu lisible sans JavaScript. Aucune page d’annuaire ni page par ville.
+JSON-LD GeneralContractor : marque, siège, téléphone, email, zone desservie
+et catalogue des six familles de prestations. Aucun avis ou label inventé.
+Images en WebP, srcset cohérents et alternative descriptive ou décorative adaptée.
+Responsive, commandes au clavier, réduction des mouvements et polices locales.
+robots.txt autorise l’exploration. Deux pages commerciales en index, follow ;
+informations légales en noindex, follow.
+Préloader lié aux ressources critiques avec un dessin perceptible du logo :
+2,14 secondes sur chargement rapide, plafond absolu de 3,5 secondes.
+Préparation des URL canoniques, images de partage, JSON-LD et sitemap via le
+script preparer-publication.py, contrôlée avec un domaine de test non livré.
+
+RESTE À FINALISER AVEC LA MISE EN LIGNE
+Le domaine réel n’a pas été communiqué : les URL absolues finales et le sitemap
+définitif ne peuvent pas être remplis avec une adresse réelle à ce stade.
+Configurer HTTPS, l’URL principale et les redirections de l’hébergement.
+Valider les données structurées avec l’outil Google des résultats enrichis.
+Vérifier le domaine dans Search Console et soumettre le sitemap.
+Renseigner ce domaine sur la fiche Google Business Profile réelle.
+Mesurer les Core Web Vitals, l’indexation, les recherches et les prises de contact.
+Développer progressivement le contenu de vrais chantiers et les avis authentiques.
+Le fichier local ne suffit pas à créer une présence mesurée sur Google.
+
+CE QUI N’EST PAS ÉTABLI
+Aucun classement Google, score de performance réel ou résultat enrichi
+n’est mesuré ou garanti. Le terme « premium » n’est pas une note SEO vérifiée.
+Cette préparation ne prouve pas que le site apparaîtra pour chaque métier
+du BTP dans toutes les communes. Aucun domaine, agence, client ou avis supplémentaire inventé.
+Le rendu dans un navigateur réel n’a pas été vérifié. Aucun site publié.
+
+SOURCES : GOOGLE SEARCH CENTRAL, CONSULTÉES LE 12 OCTOBRE 2026
+Guide de démarrage SEO :
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr
+Données structurées d’établissement local :
+https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=fr

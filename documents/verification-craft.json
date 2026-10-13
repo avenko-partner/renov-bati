@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": 10,
+  "details": [
+    "Bandeau retiré",
+    "Trois photographies et six arrivées ciblées",
+    "Auchan dans galerie et portfolio, gymnase absent",
+    "CSS analysé",
+    "Images et tailles srcset présentes",
+    "Entrée puis annulation immédiate lors de la réduction",
+    "Préférence réduite sans animation",
+    "Sans IntersectionObserver : contenu disponible",
+    "Sans Web Animations : aucun échec",
+    "Sortie page annule animation et observation"
+  ],
+  "limite": "Simulation DOM et analyse statique, rendu navigateur non vérifié."
+}

@@ -1,0 +1,54 @@
+RENOV BATI — RÉFÉRENCEMENT PRÉPARÉ LE 12 OCTOBRE 2026
+
+CONTENU ET STRUCTURE
+Titres et descriptions distincts, trois pages HTML accessibles sans JavaScript,
+prestations concrètes dans la vitrine, galerie et coordonnées cohérentes.
+La vitrine cible les travaux du bâtiment dans les Yvelines (78).
+La disponibilité dans toute la France figure dans la vitrine.
+Les deux pages SEO annexes ajoutées précédemment sont retirées, ainsi que leurs liens.
+Les deux pages commerciales autorisent l’indexation ; les informations légales
+restent en noindex, follow. robots.txt autorise l’exploration du site public.
+Données structurées GeneralContractor : marque, siège fourni, contact,
+prestations et territoire. Aucune note, certification, implantation locale,
+date de création ou horaire précis inventé.
+
+DOMAINE NON COMMUNIQUÉ
+Les URL canoniques, le sitemap et les URL absolues des médias sociaux doivent
+utiliser le domaine réellement choisi. Aucun domaine n’a été inventé.
+Le script preparer-publication.py les génère dans un dossier distinct.
+Avec Python 3, exécuter :
+python preparer-publication.py --url URL_HTTPS_REELLE
+Remplacer URL_HTTPS_REELLE par l’URL complète du domaine retenu.
+Le dossier site-publication est le résultat public à utiliser ultérieurement.
+Le script ne crée pas de domaine, ne contacte aucun service et ne publie rien.
+
+APRÈS CHOIX DU DOMAINE ET VALIDATION ADMINISTRATIVE
+Configurer l’hébergement HTTPS et choisir une seule version du domaine.
+Configurer la redirection des autres variantes et /index.html vers l’accueil.
+Vérifier les informations administratives/assurances/médiation restant en attente.
+Tester le rendu réel desktop/mobile, le clavier, les médias et le formulaire.
+Valider le JSON-LD avec le test des résultats enrichis de Google.
+Configurer Search Console, vérifier la propriété et soumettre le sitemap.
+Inspecter les URL réellement servies (200, pas de X-Robots-Tag bloquant).
+Mettre le site choisi sur la fiche Google Business Profile réelle.
+Ajouter progressivement des comptes rendus de vrais chantiers, avec leurs
+localisations autorisées et leurs photographies. Ne publier que des avis réels.
+Suivre les requêtes, clics, conversions et performances réelles.
+
+LIMITES
+Le site reste livré en local. Aucun classement Google, indexation, débit réel,
+Core Web Vitals ou résultat enrichi n’a pu être mesuré avant mise en ligne.
+La première place ne peut être garantie.
+Une visibilité sur toutes les recherches BTP et dans toutes les communes ne peut
+être garantie. Les services ciblés sont ceux réellement proposés par Renov Bati.
+L’ajout de mots clés ou de communes cachés ne remplace pas un contenu utile.
+
+SOURCES VÉRIFIÉES
+Insee — Code officiel géographique au 1er janvier 2026, consulté le 12/10/2026 :
+https://www.insee.fr/fr/metadonnees/geographie/departement/78-yvelines
+Google Search Central — Guide de démarrage SEO, consulté le 12/10/2026 :
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr
+Google Search Central — Règles sur le spam, consulté le 12/10/2026 :
+https://developers.google.com/search/docs/essentials/spam-policies?hl=fr
+Google Search Central — Données structurées LocalBusiness, consulté le 12/10/2026 :
+https://developers.google.com/search/docs/appearance/structured-data/local-business?hl=fr

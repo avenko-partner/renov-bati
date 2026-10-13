@@ -1,0 +1,1043 @@
+{
+  "source": "Insee, Code officiel géographique au 1er janvier 2026",
+  "url": "https://www.insee.fr/fr/metadonnees/geographie/departement/78-yvelines",
+  "accessed": "2026-10-12",
+  "communes": [
+    {
+      "name": "Ablis",
+      "code": "78003"
+    },
+    {
+      "name": "Achères",
+      "code": "78005"
+    },
+    {
+      "name": "Adainville",
+      "code": "78006"
+    },
+    {
+      "name": "Aigremont",
+      "code": "78007"
+    },
+    {
+      "name": "Allainville",
+      "code": "78009"
+    },
+    {
+      "name": "Andelu",
+      "code": "78013"
+    },
+    {
+      "name": "Andrésy",
+      "code": "78015"
+    },
+    {
+      "name": "Arnouville-lès-Mantes",
+      "code": "78020"
+    },
+    {
+      "name": "Aubergenville",
+      "code": "78029"
+    },
+    {
+      "name": "Auffargis",
+      "code": "78030"
+    },
+    {
+      "name": "Auffreville-Brasseuil",
+      "code": "78031"
+    },
+    {
+      "name": "Aulnay-sur-Mauldre",
+      "code": "78033"
+    },
+    {
+      "name": "Auteuil",
+      "code": "78034"
+    },
+    {
+      "name": "Autouillet",
+      "code": "78036"
+    },
+    {
+      "name": "Bailly",
+      "code": "78043"
+    },
+    {
+      "name": "Bazainville",
+      "code": "78048"
+    },
+    {
+      "name": "Bazemont",
+      "code": "78049"
+    },
+    {
+      "name": "Bazoches-sur-Guyonne",
+      "code": "78050"
+    },
+    {
+      "name": "Bennecourt",
+      "code": "78057"
+    },
+    {
+      "name": "Beynes",
+      "code": "78062"
+    },
+    {
+      "name": "Blaru",
+      "code": "78068"
+    },
+    {
+      "name": "Boinville-en-Mantois",
+      "code": "78070"
+    },
+    {
+      "name": "Boinville-le-Gaillard",
+      "code": "78071"
+    },
+    {
+      "name": "Boinvilliers",
+      "code": "78072"
+    },
+    {
+      "name": "Bois-d'Arcy",
+      "code": "78073"
+    },
+    {
+      "name": "Boissets",
+      "code": "78076"
+    },
+    {
+      "name": "Boissy-Mauvoisin",
+      "code": "78082"
+    },
+    {
+      "name": "Boissy-sans-Avoir",
+      "code": "78084"
+    },
+    {
+      "name": "Bonnelles",
+      "code": "78087"
+    },
+    {
+      "name": "Bonnières-sur-Seine",
+      "code": "78089"
+    },
+    {
+      "name": "Bouafle",
+      "code": "78090"
+    },
+    {
+      "name": "Bougival",
+      "code": "78092"
+    },
+    {
+      "name": "Bourdonné",
+      "code": "78096"
+    },
+    {
+      "name": "Breuil-Bois-Robert",
+      "code": "78104"
+    },
+    {
+      "name": "Brueil-en-Vexin",
+      "code": "78113"
+    },
+    {
+      "name": "Bréval",
+      "code": "78107"
+    },
+    {
+      "name": "Buc",
+      "code": "78117"
+    },
+    {
+      "name": "Buchelay",
+      "code": "78118"
+    },
+    {
+      "name": "Bullion",
+      "code": "78120"
+    },
+    {
+      "name": "Béhoust",
+      "code": "78053"
+    },
+    {
+      "name": "Carrières-sous-Poissy",
+      "code": "78123"
+    },
+    {
+      "name": "Carrières-sur-Seine",
+      "code": "78124"
+    },
+    {
+      "name": "Cernay-la-Ville",
+      "code": "78128"
+    },
+    {
+      "name": "Chambourcy",
+      "code": "78133"
+    },
+    {
+      "name": "Chanteloup-les-Vignes",
+      "code": "78138"
+    },
+    {
+      "name": "Chapet",
+      "code": "78140"
+    },
+    {
+      "name": "Chatou",
+      "code": "78146"
+    },
+    {
+      "name": "Chaufour-lès-Bonnières",
+      "code": "78147"
+    },
+    {
+      "name": "Chavenay",
+      "code": "78152"
+    },
+    {
+      "name": "Chevreuse",
+      "code": "78160"
+    },
+    {
+      "name": "Choisel",
+      "code": "78162"
+    },
+    {
+      "name": "Châteaufort",
+      "code": "78143"
+    },
+    {
+      "name": "Civry-la-Forêt",
+      "code": "78163"
+    },
+    {
+      "name": "Clairefontaine-en-Yvelines",
+      "code": "78164"
+    },
+    {
+      "name": "Coignières",
+      "code": "78168"
+    },
+    {
+      "name": "Condé-sur-Vesgre",
+      "code": "78171"
+    },
+    {
+      "name": "Conflans-Sainte-Honorine",
+      "code": "78172"
+    },
+    {
+      "name": "Courgent",
+      "code": "78185"
+    },
+    {
+      "name": "Cravent",
+      "code": "78188"
+    },
+    {
+      "name": "Crespières",
+      "code": "78189"
+    },
+    {
+      "name": "Croissy-sur-Seine",
+      "code": "78190"
+    },
+    {
+      "name": "Dammartin-en-Serve",
+      "code": "78192"
+    },
+    {
+      "name": "Dampierre-en-Yvelines",
+      "code": "78193"
+    },
+    {
+      "name": "Dannemarie",
+      "code": "78194"
+    },
+    {
+      "name": "Davron",
+      "code": "78196"
+    },
+    {
+      "name": "Drocourt",
+      "code": "78202"
+    },
+    {
+      "name": "Ecquevilly",
+      "code": "78206"
+    },
+    {
+      "name": "Favrieux",
+      "code": "78231"
+    },
+    {
+      "name": "Feucherolles",
+      "code": "78233"
+    },
+    {
+      "name": "Flacourt",
+      "code": "78234"
+    },
+    {
+      "name": "Flexanville",
+      "code": "78236"
+    },
+    {
+      "name": "Flins-Neuve-Église",
+      "code": "78237"
+    },
+    {
+      "name": "Flins-sur-Seine",
+      "code": "78238"
+    },
+    {
+      "name": "Follainville-Dennemont",
+      "code": "78239"
+    },
+    {
+      "name": "Fontenay-Mauvoisin",
+      "code": "78245"
+    },
+    {
+      "name": "Fontenay-Saint-Père",
+      "code": "78246"
+    },
+    {
+      "name": "Fontenay-le-Fleury",
+      "code": "78242"
+    },
+    {
+      "name": "Freneuse",
+      "code": "78255"
+    },
+    {
+      "name": "Gaillon-sur-Montcient",
+      "code": "78261"
+    },
+    {
+      "name": "Galluis",
+      "code": "78262"
+    },
+    {
+      "name": "Gambais",
+      "code": "78263"
+    },
+    {
+      "name": "Gambaiseuil",
+      "code": "78264"
+    },
+    {
+      "name": "Garancières",
+      "code": "78265"
+    },
+    {
+      "name": "Gargenville",
+      "code": "78267"
+    },
+    {
+      "name": "Gazeran",
+      "code": "78269"
+    },
+    {
+      "name": "Gommecourt",
+      "code": "78276"
+    },
+    {
+      "name": "Goupillières",
+      "code": "78278"
+    },
+    {
+      "name": "Goussonville",
+      "code": "78281"
+    },
+    {
+      "name": "Grandchamp",
+      "code": "78283"
+    },
+    {
+      "name": "Gressey",
+      "code": "78285"
+    },
+    {
+      "name": "Grosrouvre",
+      "code": "78289"
+    },
+    {
+      "name": "Guernes",
+      "code": "78290"
+    },
+    {
+      "name": "Guerville",
+      "code": "78291"
+    },
+    {
+      "name": "Guitrancourt",
+      "code": "78296"
+    },
+    {
+      "name": "Guyancourt",
+      "code": "78297"
+    },
+    {
+      "name": "Hardricourt",
+      "code": "78299"
+    },
+    {
+      "name": "Hargeville",
+      "code": "78300"
+    },
+    {
+      "name": "Herbeville",
+      "code": "78305"
+    },
+    {
+      "name": "Hermeray",
+      "code": "78307"
+    },
+    {
+      "name": "Houdan",
+      "code": "78310"
+    },
+    {
+      "name": "Houilles",
+      "code": "78311"
+    },
+    {
+      "name": "Issou",
+      "code": "78314"
+    },
+    {
+      "name": "Jambville",
+      "code": "78317"
+    },
+    {
+      "name": "Jouars-Pontchartrain",
+      "code": "78321"
+    },
+    {
+      "name": "Jouy-Mauvoisin",
+      "code": "78324"
+    },
+    {
+      "name": "Jouy-en-Josas",
+      "code": "78322"
+    },
+    {
+      "name": "Jumeauville",
+      "code": "78325"
+    },
+    {
+      "name": "Juziers",
+      "code": "78327"
+    },
+    {
+      "name": "L'Étang-la-Ville",
+      "code": "78224"
+    },
+    {
+      "name": "La Boissière-École",
+      "code": "78077"
+    },
+    {
+      "name": "La Celle-Saint-Cloud",
+      "code": "78126"
+    },
+    {
+      "name": "La Celle-les-Bordes",
+      "code": "78125"
+    },
+    {
+      "name": "La Falaise",
+      "code": "78230"
+    },
+    {
+      "name": "La Hauteville",
+      "code": "78302"
+    },
+    {
+      "name": "La Queue-les-Yvelines",
+      "code": "78513"
+    },
+    {
+      "name": "La Verrière",
+      "code": "78644"
+    },
+    {
+      "name": "La Villeneuve-en-Chevrie",
+      "code": "78668"
+    },
+    {
+      "name": "Lainville-en-Vexin",
+      "code": "78329"
+    },
+    {
+      "name": "Le Chesnay-Rocquencourt",
+      "code": "78158"
+    },
+    {
+      "name": "Le Mesnil-Saint-Denis",
+      "code": "78397"
+    },
+    {
+      "name": "Le Mesnil-le-Roi",
+      "code": "78396"
+    },
+    {
+      "name": "Le Pecq",
+      "code": "78481"
+    },
+    {
+      "name": "Le Perray-en-Yvelines",
+      "code": "78486"
+    },
+    {
+      "name": "Le Port-Marly",
+      "code": "78502"
+    },
+    {
+      "name": "Le Tartre-Gaudran",
+      "code": "78606"
+    },
+    {
+      "name": "Le Tertre-Saint-Denis",
+      "code": "78608"
+    },
+    {
+      "name": "Le Tremblay-sur-Mauldre",
+      "code": "78623"
+    },
+    {
+      "name": "Le Vésinet",
+      "code": "78650"
+    },
+    {
+      "name": "Les Alluets-le-Roi",
+      "code": "78010"
+    },
+    {
+      "name": "Les Bréviaires",
+      "code": "78108"
+    },
+    {
+      "name": "Les Clayes-sous-Bois",
+      "code": "78165"
+    },
+    {
+      "name": "Les Essarts-le-Roi",
+      "code": "78220"
+    },
+    {
+      "name": "Les Loges-en-Josas",
+      "code": "78343"
+    },
+    {
+      "name": "Les Mesnuls",
+      "code": "78398"
+    },
+    {
+      "name": "Les Mureaux",
+      "code": "78440"
+    },
+    {
+      "name": "Limay",
+      "code": "78335"
+    },
+    {
+      "name": "Limetz-Villez",
+      "code": "78337"
+    },
+    {
+      "name": "Lommoye",
+      "code": "78344"
+    },
+    {
+      "name": "Longnes",
+      "code": "78346"
+    },
+    {
+      "name": "Longvilliers",
+      "code": "78349"
+    },
+    {
+      "name": "Louveciennes",
+      "code": "78350"
+    },
+    {
+      "name": "Lévis-Saint-Nom",
+      "code": "78334"
+    },
+    {
+      "name": "Magnanville",
+      "code": "78354"
+    },
+    {
+      "name": "Magny-les-Hameaux",
+      "code": "78356"
+    },
+    {
+      "name": "Maisons-Laffitte",
+      "code": "78358"
+    },
+    {
+      "name": "Mantes-la-Jolie",
+      "code": "78361"
+    },
+    {
+      "name": "Mantes-la-Ville",
+      "code": "78362"
+    },
+    {
+      "name": "Marcq",
+      "code": "78364"
+    },
+    {
+      "name": "Mareil-Marly",
+      "code": "78367"
+    },
+    {
+      "name": "Mareil-le-Guyon",
+      "code": "78366"
+    },
+    {
+      "name": "Mareil-sur-Mauldre",
+      "code": "78368"
+    },
+    {
+      "name": "Marly-le-Roi",
+      "code": "78372"
+    },
+    {
+      "name": "Maule",
+      "code": "78380"
+    },
+    {
+      "name": "Maulette",
+      "code": "78381"
+    },
+    {
+      "name": "Maurecourt",
+      "code": "78382"
+    },
+    {
+      "name": "Maurepas",
+      "code": "78383"
+    },
+    {
+      "name": "Meulan-en-Yvelines",
+      "code": "78401"
+    },
+    {
+      "name": "Millemont",
+      "code": "78404"
+    },
+    {
+      "name": "Milon-la-Chapelle",
+      "code": "78406"
+    },
+    {
+      "name": "Mittainville",
+      "code": "78407"
+    },
+    {
+      "name": "Moisson",
+      "code": "78410"
+    },
+    {
+      "name": "Mondreville",
+      "code": "78413"
+    },
+    {
+      "name": "Montainville",
+      "code": "78415"
+    },
+    {
+      "name": "Montalet-le-Bois",
+      "code": "78416"
+    },
+    {
+      "name": "Montchauvet",
+      "code": "78417"
+    },
+    {
+      "name": "Montesson",
+      "code": "78418"
+    },
+    {
+      "name": "Montfort-l'Amaury",
+      "code": "78420"
+    },
+    {
+      "name": "Montigny-le-Bretonneux",
+      "code": "78423"
+    },
+    {
+      "name": "Morainvilliers",
+      "code": "78431"
+    },
+    {
+      "name": "Mousseaux-sur-Seine",
+      "code": "78437"
+    },
+    {
+      "name": "Mulcent",
+      "code": "78439"
+    },
+    {
+      "name": "Médan",
+      "code": "78384"
+    },
+    {
+      "name": "Ménerville",
+      "code": "78385"
+    },
+    {
+      "name": "Méricourt",
+      "code": "78391"
+    },
+    {
+      "name": "Méré",
+      "code": "78389"
+    },
+    {
+      "name": "Mézières-sur-Seine",
+      "code": "78402"
+    },
+    {
+      "name": "Mézy-sur-Seine",
+      "code": "78403"
+    },
+    {
+      "name": "Neauphle-le-Château",
+      "code": "78442"
+    },
+    {
+      "name": "Neauphle-le-Vieux",
+      "code": "78443"
+    },
+    {
+      "name": "Neauphlette",
+      "code": "78444"
+    },
+    {
+      "name": "Noisy-le-Roi",
+      "code": "78455"
+    },
+    {
+      "name": "Notre-Dame-de-la-Mer",
+      "code": "78320"
+    },
+    {
+      "name": "Nézel",
+      "code": "78451"
+    },
+    {
+      "name": "Oinville-sur-Montcient",
+      "code": "78460"
+    },
+    {
+      "name": "Orcemont",
+      "code": "78464"
+    },
+    {
+      "name": "Orgerus",
+      "code": "78465"
+    },
+    {
+      "name": "Orgeval",
+      "code": "78466"
+    },
+    {
+      "name": "Orphin",
+      "code": "78470"
+    },
+    {
+      "name": "Orsonville",
+      "code": "78472"
+    },
+    {
+      "name": "Orvilliers",
+      "code": "78474"
+    },
+    {
+      "name": "Osmoy",
+      "code": "78475"
+    },
+    {
+      "name": "Paray-Douaville",
+      "code": "78478"
+    },
+    {
+      "name": "Perdreauville",
+      "code": "78484"
+    },
+    {
+      "name": "Plaisir",
+      "code": "78490"
+    },
+    {
+      "name": "Poigny-la-Forêt",
+      "code": "78497"
+    },
+    {
+      "name": "Poissy",
+      "code": "78498"
+    },
+    {
+      "name": "Ponthévrard",
+      "code": "78499"
+    },
+    {
+      "name": "Porcheville",
+      "code": "78501"
+    },
+    {
+      "name": "Prunay-en-Yvelines",
+      "code": "78506"
+    },
+    {
+      "name": "Prunay-le-Temple",
+      "code": "78505"
+    },
+    {
+      "name": "Raizeux",
+      "code": "78516"
+    },
+    {
+      "name": "Rambouillet",
+      "code": "78517"
+    },
+    {
+      "name": "Rennemoulin",
+      "code": "78518"
+    },
+    {
+      "name": "Richebourg",
+      "code": "78520"
+    },
+    {
+      "name": "Rochefort-en-Yvelines",
+      "code": "78522"
+    },
+    {
+      "name": "Rolleboise",
+      "code": "78528"
+    },
+    {
+      "name": "Rosay",
+      "code": "78530"
+    },
+    {
+      "name": "Rosny-sur-Seine",
+      "code": "78531"
+    },
+    {
+      "name": "Sailly",
+      "code": "78536"
+    },
+    {
+      "name": "Saint-Arnoult-en-Yvelines",
+      "code": "78537"
+    },
+    {
+      "name": "Saint-Cyr-l'École",
+      "code": "78545"
+    },
+    {
+      "name": "Saint-Forget",
+      "code": "78548"
+    },
+    {
+      "name": "Saint-Germain-de-la-Grange",
+      "code": "78550"
+    },
+    {
+      "name": "Saint-Germain-en-Laye",
+      "code": "78551"
+    },
+    {
+      "name": "Saint-Hilarion",
+      "code": "78557"
+    },
+    {
+      "name": "Saint-Illiers-la-Ville",
+      "code": "78558"
+    },
+    {
+      "name": "Saint-Illiers-le-Bois",
+      "code": "78559"
+    },
+    {
+      "name": "Saint-Lambert",
+      "code": "78561"
+    },
+    {
+      "name": "Saint-Léger-en-Yvelines",
+      "code": "78562"
+    },
+    {
+      "name": "Saint-Martin-de-Bréthencourt",
+      "code": "78564"
+    },
+    {
+      "name": "Saint-Martin-des-Champs",
+      "code": "78565"
+    },
+    {
+      "name": "Saint-Martin-la-Garenne",
+      "code": "78567"
+    },
+    {
+      "name": "Saint-Nom-la-Bretèche",
+      "code": "78571"
+    },
+    {
+      "name": "Saint-Rémy-l'Honoré",
+      "code": "78576"
+    },
+    {
+      "name": "Saint-Rémy-lès-Chevreuse",
+      "code": "78575"
+    },
+    {
+      "name": "Sainte-Mesme",
+      "code": "78569"
+    },
+    {
+      "name": "Sartrouville",
+      "code": "78586"
+    },
+    {
+      "name": "Saulx-Marchais",
+      "code": "78588"
+    },
+    {
+      "name": "Senlisse",
+      "code": "78590"
+    },
+    {
+      "name": "Septeuil",
+      "code": "78591"
+    },
+    {
+      "name": "Soindres",
+      "code": "78597"
+    },
+    {
+      "name": "Sonchamp",
+      "code": "78601"
+    },
+    {
+      "name": "Tacoignières",
+      "code": "78605"
+    },
+    {
+      "name": "Tessancourt-sur-Aubette",
+      "code": "78609"
+    },
+    {
+      "name": "Thiverval-Grignon",
+      "code": "78615"
+    },
+    {
+      "name": "Thoiry",
+      "code": "78616"
+    },
+    {
+      "name": "Tilly",
+      "code": "78618"
+    },
+    {
+      "name": "Toussus-le-Noble",
+      "code": "78620"
+    },
+    {
+      "name": "Trappes",
+      "code": "78621"
+    },
+    {
+      "name": "Triel-sur-Seine",
+      "code": "78624"
+    },
+    {
+      "name": "Vaux-sur-Seine",
+      "code": "78638"
+    },
+    {
+      "name": "Verneuil-sur-Seine",
+      "code": "78642"
+    },
+    {
+      "name": "Vernouillet",
+      "code": "78643"
+    },
+    {
+      "name": "Versailles",
+      "code": "78646"
+    },
+    {
+      "name": "Vert",
+      "code": "78647"
+    },
+    {
+      "name": "Vicq",
+      "code": "78653"
+    },
+    {
+      "name": "Vieille-Église-en-Yvelines",
+      "code": "78655"
+    },
+    {
+      "name": "Villennes-sur-Seine",
+      "code": "78672"
+    },
+    {
+      "name": "Villepreux",
+      "code": "78674"
+    },
+    {
+      "name": "Villette",
+      "code": "78677"
+    },
+    {
+      "name": "Villiers-Saint-Frédéric",
+      "code": "78683"
+    },
+    {
+      "name": "Villiers-le-Mahieu",
+      "code": "78681"
+    },
+    {
+      "name": "Viroflay",
+      "code": "78686"
+    },
+    {
+      "name": "Voisins-le-Bretonneux",
+      "code": "78688"
+    },
+    {
+      "name": "Vélizy-Villacoublay",
+      "code": "78640"
+    },
+    {
+      "name": "Élancourt",
+      "code": "78208"
+    },
+    {
+      "name": "Émancé",
+      "code": "78209"
+    },
+    {
+      "name": "Épône",
+      "code": "78217"
+    },
+    {
+      "name": "Évecquemont",
+      "code": "78227"
+    }
+  ]
+}

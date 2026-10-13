@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "checks": 22,
+  "coverage": [
+    "Entrée après le préloader, coordonnée et déclenchée une seule fois",
+    "Sans préloader, une entrée unique reste disponible",
+    "Échap à l’intro, ancre directe et retour historique ne relancent pas l’entrée",
+    "Chaque métier possède une arrivée photo/présentation/prestations et ne rejoue pas",
+    "Le métier central utilise le sens de révélation opposé",
+    "Séquence de matière : deux photos, titre et texte sont coordonnés",
+    "Réduction initiale : aucune animation JavaScript",
+    "Réduction manuelle en cours : animations et clones arrêtés immédiatement",
+    "Réduction native en cours : tous les effets s’arrêtent",
+    "Sans preferences.js, la réduction système reste respectée",
+    "Les effets absents ou en erreur gardent tous les contenus utilisables",
+    "Filtre : état, compteur et projets changent immédiatement pendant la transition",
+    "Clones de sortie décoratifs : inertes, sans identifiant dupliqué ni projet interactif",
+    "Fin des animations : nettoyage des clones et restitution du style naturel",
+    "Clics rapides : la dernière catégorie gagne, sans résidu d’une transition précédente",
+    "La catégorie déjà choisie ne redémarre pas les animations",
+    "Redimensionnement : effets annulés, résultats et navigation conservés",
+    "Sortie de page et restauration : arrêt puis observation des sections encore inédites",
+    "Avant/après : transition des boutons, déplacement manuel immédiat",
+    "Clavier et réduction : le comparateur garde un état direct cohérent",
+    "Les changements de catégorie conservent le focus de l’action",
+    "Styles de mouvement sans contenu durablement masqué et avec repli réduit"
+  ],
+  "method": "Simulation DOM, API d’animation et rectangles simulés. Vérifie les états et nettoyages, pas le rendu ni la fluidité perçue dans un navigateur réel."
+}

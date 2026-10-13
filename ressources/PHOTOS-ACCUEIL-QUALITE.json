@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-13",
+  "scope": "Seulement les trois photos de l’ouverture. Originaux du portfolio conservés.",
+  "changes": "Trois dérivés desktop rééchantillonnés à 200 % depuis les JPEG source, filtre Lanczos en espace RGB linéaire, export WebP qualité 96. Variante écran de 1440 px et variantes mobiles de 720 px. Aucun ajout, suppression ou recomposition d’élément ; les photos du portfolio sont conservées.",
+  "retouch_trials": [
+    {
+      "id": "piscine",
+      "mode": "Imagegen intégré, édition avec photographie source",
+      "prompt": "Use case: identity-preserve. Asset type: real construction-project photograph, for a company's website, edited from the supplied photograph ONLY. Input image is the edit target, not inspiration. Primary request: subtle faithful photographic cleanup and quality enhancement. Reduce visible JPEG artifacts and sensor grain, recover gentle edge definition, modestly balance exposure and white balance; keep natural original colours and realistic texture. This is documentary retouching of a REAL completed project. Keep exactly the same scene, crop, camera perspective, shapes, materials, patterns, architecture, object counts and all existing details. Do not redesign, beautify architecture, repair construction, replace objects, remove clutter or reflections, add furniture, people, text, logos or watermarks. Do not add invented fine details, exaggerated HDR, artificial gloss, halos or over-sharpening. Output one image only, no split comparison and no collage. Outdoor pool and beige stone surround. Preserve the exact pool outline, coping, every paver joint, natural stone veining, pebble border, grass, trees, metal posts, house and garden furniture. Preserve framing and perspective. Landscape 16:9; output at least original 1600 x 900 resolution, preferably 2560 x 1440.",
+      "integrated": false,
+      "rejection_reason": "Le dessin de certains joints et la texture du dallage changent."
+    },
+    {
+      "id": "bain-pierre",
+      "mode": "Imagegen intégré, édition avec photographie source",
+      "prompt": "Use case: identity-preserve. Asset type: real construction-project photograph, for a company's website, edited from the supplied photograph ONLY. Input image is the edit target, not inspiration. Primary request: subtle faithful photographic cleanup and quality enhancement. Reduce visible JPEG artifacts and sensor grain, recover gentle edge definition, modestly balance exposure and white balance; keep natural original colours and realistic texture. This is documentary retouching of a REAL completed project. Keep exactly the same scene, crop, camera perspective, shapes, materials, patterns, architecture, object counts and all existing details. Do not redesign, beautify architecture, repair construction, replace objects, remove clutter or reflections, add furniture, people, text, logos or watermarks. Do not add invented fine details, exaggerated HDR, artificial gloss, halos or over-sharpening. Output one image only, no split comparison and no collage. Actual grey veined tiled bathroom with two black vessel basins, two round mirrors (left one partly cropped), black vanity, glass shower with black perimeter and ceiling rain shower. Preserve exact geometry, tile and stone veining, joints, lighting fixtures, reflections, black fixtures, and all fittings; retain the partial objects at image edges. No tile replacement. Portrait original ratio 989:1441; output at least original resolution, preferably around 1600 x 2330.",
+      "integrated": false,
+      "rejection_reason": "Certaines veines du carrelage et certains reflets changent."
+    },
+    {
+      "id": "cuisine",
+      "mode": "Imagegen intégré, édition avec photographie source",
+      "prompt": "Use case: identity-preserve. Asset type: real construction-project photograph, for a company's website, edited from the supplied photograph ONLY. Input image is the edit target, not inspiration. Primary request: subtle faithful photographic cleanup and quality enhancement. Reduce visible JPEG artifacts and sensor grain, recover gentle edge definition, modestly balance exposure and white balance; keep natural original colours and realistic texture. This is documentary retouching of a REAL completed project. Keep exactly the same scene, crop, camera perspective, shapes, materials, patterns, architecture, object counts and all existing details. Do not redesign, beautify architecture, repair construction, replace objects, remove clutter or reflections, add furniture, people, text, logos or watermarks. Do not add invented fine details, exaggerated HDR, artificial gloss, halos or over-sharpening. Output one image only, no split comparison and no collage. Actual narrow kitchen with taupe cabinets on both sides, gold handles, white stone counters, LED strips, tall refrigerator on left, sink on right, glass-panel door at back, jar and plate on left counter, small cooker near sink. Preserve every cabinet, handle, appliance, item, tile joint, perspective and light location. Portrait 4:5; output at least original 1280 x 1600 resolution, preferably 2048 x 2560.",
+      "integrated": false,
+      "rejection_reason": "Des proportions et des détails d’équipement changent."
+    }
+  ],
+  "assets": [
+    {
+      "id": "piscine",
+      "source": "1037_f27357b6-b0ab-4bf4-8601-1263504f49bb.jpg",
+      "source_sha256": "1d1b73497895d85d31ffb21f0960ff075616e6dcb54294a6bdae5fbd84324732",
+      "desktop": "hero-piscine.webp",
+      "width": 3200,
+      "height": 1800,
+      "desktop_bytes": 606818,
+      "encoding": "WebP qualité 96, rééchantillonnage Lanczos à 200 %, calcul en RGB linéaire",
+      "mobile": "hero-piscine-mobile.webp",
+      "mobile_width": 720,
+      "mobile_height": 405,
+      "mobile_bytes": 139300,
+      "mobile_encoding": "WebP qualité 94, redimensionnement Lanczos",
+      "source_width": 1600,
+      "source_height": 900,
+      "screen": "hero-piscine-ecran.webp",
+      "screen_width": 1440,
+      "screen_height": 810,
+      "screen_bytes": 229732,
+      "screen_encoding": "WebP qualité 96, filtre Lanczos, largeur 1440 px"
+    },
+    {
+      "id": "bain-pierre",
+      "source": "0989_e7df3050-c594-4339-ad61-866e164168a3.jpg",
+      "source_sha256": "81f767ea8b96f82179b9898c6223a3578f20458d5d915116592c808fd8b1a590",
+      "desktop": "hero-bain-pierre.webp",
+      "width": 1978,
+      "height": 2882,
+      "desktop_bytes": 277882,
+      "encoding": "WebP qualité 96, rééchantillonnage Lanczos à 200 %, calcul en RGB linéaire",
+      "mobile": "hero-bain-pierre-mobile.webp",
+      "mobile_width": 720,
+      "mobile_height": 1049,
+      "mobile_bytes": 225860,
+      "mobile_encoding": "WebP qualité 94, redimensionnement Lanczos",
+      "source_width": 989,
+      "source_height": 1441,
+      "screen": "hero-bain-pierre-ecran.webp",
+      "screen_width": 1440,
+      "screen_height": 2098,
+      "screen_bytes": 188736,
+      "screen_encoding": "WebP qualité 96, filtre Lanczos, largeur 1440 px"
+    },
+    {
+      "id": "cuisine",
+      "source": "0988_e7738739-5222-4d89-8163-17debd1c18d0.jpg",
+      "source_sha256": "359f63c3728f97e3529d586cb3b89a50c4abb59bdc15d9dd086e5d293eb71fe4",
+      "desktop": "hero-cuisine.webp",
+      "width": 2560,
+      "height": 3200,
+      "desktop_bytes": 168598,
+      "encoding": "WebP qualité 96, rééchantillonnage Lanczos à 200 %, calcul en RGB linéaire",
+      "mobile": "hero-cuisine-mobile.webp",
+      "mobile_width": 720,
+      "mobile_height": 900,
+      "mobile_bytes": 87282,
+      "mobile_encoding": "WebP qualité 94, redimensionnement Lanczos",
+      "source_width": 1280,
+      "source_height": 1600,
+      "screen": "hero-cuisine-ecran.webp",
+      "screen_width": 1440,
+      "screen_height": 1800,
+      "screen_bytes": 78404,
+      "screen_encoding": "WebP qualité 96, filtre Lanczos, largeur 1440 px"
+    }
+  ],
+  "version": 14,
+  "limits": "Rééchantillonnage non génératif pour lisser l’agrandissement. La définition native des JPEG reste la limite des détails réels ; les dimensions augmentées ne représentent pas de nouvelles informations photographiques.",
+  "method": "ImageMagick 6.9.12-98 Q16 : auto-orient, sRGB → RGB, filtre Lanczos, resize, RGB → sRGB, suppression des métadonnées, WebP qualité 96, méthode 6."
+}

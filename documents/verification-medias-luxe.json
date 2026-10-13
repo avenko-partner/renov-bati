@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "version": 14,
+  "verified_at": "2026-10-13T02:09:05.498210+02:00",
+  "html_images": 76,
+  "images_by_page": {
+    "index.html": 52,
+    "informations.html": 4,
+    "projets.html": 20
+  },
+  "unique_webp_references_checked": 65,
+  "hero_images_verified": 3,
+  "quality_method": "Dérivés rééchantillonnés à 200 % et versions 1440 px en WebP qualité 96. Variantes 720 px et portfolio inchangés.",
+  "changed_public_files": [
+    "hero-gallery.js",
+    "index.html",
+    "assets/photos/hero-bain-pierre.webp",
+    "assets/photos/hero-cuisine.webp",
+    "assets/photos/hero-piscine.webp"
+  ],
+  "added_public_files": [
+    "assets/photos/hero-piscine-ecran.webp",
+    "assets/photos/hero-bain-pierre-ecran.webp",
+    "assets/photos/hero-cuisine-ecran.webp"
+  ],
+  "limits": "Contrôle des fichiers, dimensions, variantes et inspection des trois photos exportées. Aucun rendu du site ni mesure de netteté perçue dans un navigateur."
+}

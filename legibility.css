@@ -1,0 +1,38 @@
+/* Typography only: the brand palette and existing text colours are preserved. */
+body{font-size:16px;line-height:1.8}
+.hero-copy>p:not(.hero-note),.transformation-copy>p:not(.eyebrow),.expertise-heading>p:last-child,.warranty-heading>p:last-child,.contact-copy>p:not(.eyebrow):not(.contact-availability){font-size:16px;line-height:1.85}
+.expertise-columns article>p,.expertise-columns ul,.warranty-grid article>p,.contact-person p,.contact-area p,.project-dialog-copy>p:not(.eyebrow):not(.project-source),.project-dialog-copy ul{font-size:15px;line-height:1.9}
+.material-copy p,.portfolio-project-copy>p:not(.eyebrow),.document-lead,.information-main section p,.information-main section li{font-size:16px;line-height:1.85}
+.warranty-grid h3{font-size:22px;line-height:1.4}.warranty-grid article>p{min-height:115px}
+.eyebrow,.hero-meta .eyebrow,.transformation-copy .eyebrow,.expertise-heading .eyebrow,.warranty-heading .eyebrow,.contact-copy .eyebrow,.trust-heading .eyebrow,.material-heading .eyebrow,.footer-address>.eyebrow{font-size:11px}.hero-meta>span,.utility-bar,.hero-note,.hero-bottom,.transformation-details,.compare-toolbar button,.compare-toolbar output,#compare-hint{font-size:12px}
+.button,.header-quote,.text-link,.hero-phone,.main-nav{font-size:13px}
+.project-filters button,.projects-toolbar>p,.marquee-pause{font-size:13px}
+.project-caption p,.project-index,.portfolio-note,.trust-note,.warranty-footer>p,.project-source{font-size:12px;line-height:1.85}
+.warranty-grid article>a:last-child,.expertise-columns .text-link,.warranty-footer .text-link{font-size:13px}
+.hero .hero-main figcaption,.hero .hero-detail figcaption,.material-photo figcaption,.portfolio-project-photos figcaption{font-size:12px;line-height:1.8}
+.project-path ol,.project-path>p:last-child{font-size:12px;line-height:1.85}
+.quote-fields label{font-size:13px}.quote-fields input{font-size:16px}.quote-privacy,.quote-delivery,.quote-result-actions button{font-size:12px;line-height:1.85}.quote-error{font-size:14px}.quote-result dl{font-size:14px}
+.contact-availability,.contact-person>span,.contact-area>span{font-size:12px;line-height:1.85}.contact-person a{font-size:14px;overflow-wrap:anywhere}
+.footer-address>p:not(.eyebrow),.footer-address>a,.footer-top>nav{font-size:13px;line-height:1.85}.footer-address>a{overflow-wrap:anywhere}.footer-bottom,.footer-bottom nav{font-size:12px;line-height:1.8}
+.information-main dl,.portfolio-project-copy ul{font-size:14px;line-height:1.85}.information-main section .legal-source{font-size:12px!important;line-height:1.9!important}
+.portfolio-nav,.information-nav,.document-header>a:last-child{font-size:13px;line-height:1.85}
+.social-link{display:inline-flex;align-items:center;gap:10px;min-height:44px;max-width:100%;color:inherit}
+.social-link svg{width:21px;height:21px;flex:0 0 21px;fill:none;stroke:currentColor;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}
+.social-link:hover>span{text-decoration:underline;text-underline-offset:5px}
+.contact-socials{display:flex;align-items:center;flex-wrap:wrap;gap:12px 25px;margin-top:22px;color:var(--gold);font-size:14px}
+.footer-top>nav .social-link{gap:10px}
+
+@media(max-width:1150px){.header-inner{gap:22px}.main-nav{gap:18px;font-size:12px}.header-quote{font-size:12px;padding-inline:13px;gap:16px}.footer-top{gap:25px}}
+@media(max-width:900px){.js .main-nav a{font-size:29px}.quote-label-desktop{display:none}.quote-label-mobile{display:inline}.header-quote{font-size:12px}.warranty-grid{gap:23px}.warranty-grid article>p{font-size:14px}.warranty-grid h3{font-size:20px}}
+@media(max-width:700px){
+ body{font-size:15px}.hero-copy>p:not(.hero-note),.transformation-copy>p:not(.eyebrow),.expertise-heading>p:last-child,.warranty-heading>p:last-child,.contact-copy>p:not(.eyebrow):not(.contact-availability){font-size:15px;line-height:1.8}
+ .expertise-columns article>p,.expertise-columns ul,.warranty-grid article>p,.contact-person p,.contact-area p,.project-dialog-copy>p:not(.eyebrow):not(.project-source),.project-dialog-copy ul{font-size:14px}
+ .eyebrow,.hero-meta .eyebrow,.transformation-copy .eyebrow,.expertise-heading .eyebrow,.warranty-heading .eyebrow,.contact-copy .eyebrow,.trust-heading .eyebrow,.material-heading .eyebrow,.footer-address>.eyebrow{font-size:10px}.hero .hero-main figcaption,.hero .hero-detail figcaption,.portfolio-note,.trust-note,.hero-note,.contact-availability{font-size:11px}
+ .material-copy p,.portfolio-project-copy>p:not(.eyebrow),.document-lead,.information-main section p,.information-main section li{font-size:15px}
+ .warranty-grid h3{font-size:19px}.warranty-grid article>p{min-height:0}.project-caption h3{font-size:19px}.project-caption p{font-size:10px}.project-caption{gap:9px}
+ .project-filters{gap:15px}.project-filters button,.projects-toolbar>p{font-size:12px}.compare-toolbar{flex-wrap:wrap}.compare-toolbar button,.compare-toolbar output,#compare-hint{font-size:12px}
+ .header-quote{font-size:11px}.hero-phone,.hero-actions .button,.quote-panel .button{font-size:13px}.hero-bottom{font-size:11px}
+ .footer-top{grid-template-columns:95px minmax(0,1fr) 33px;gap:20px}.footer-address>p:not(.eyebrow),.footer-address>a,.footer-top>nav{font-size:12px}.footer-bottom,.footer-bottom nav{font-size:11px}
+ .information-main dl>div{font-size:14px}.information-main section .legal-source{font-size:12px!important}.contact-socials{font-size:14px}
+}
+@media(max-width:460px){.utility-bar{font-size:9px;line-height:1.6}.hero-meta .eyebrow{font-size:10px}.hero .hero-main figcaption{padding-left:36%;font-size:10px}.hero .hero-detail figcaption{font-size:10px}.header-inner{gap:12px}.header-actions{gap:9px}.quote-fields label{font-size:13px}.quote-privacy,.quote-delivery{font-size:12px}.expertise-columns article{grid-template-columns:1fr}.expertise-columns h3{grid-column:1}.expertise-columns article>p{grid-column:1;grid-row:auto}.expertise-columns ul{grid-column:1;grid-row:auto;margin-top:17px}.expertise-columns .text-link{grid-column:1;grid-row:auto;font-size:13px}.project-path ol{gap:18px}.project-path ol>li{font-size:11px}.footer-top{grid-template-columns:85px minmax(0,1fr) 32px;gap:16px}.warranty-grid article{grid-template-columns:1fr;max-width:360px;justify-self:center}.warranty-grid article>a:first-child{grid-column:1;grid-row:auto;max-width:285px;justify-self:center}.warranty-grid h3,.warranty-grid article>p,.warranty-grid article>a:last-child{grid-column:1;text-align:center}.warranty-grid h3{margin-top:16px}.warranty-grid article>a:last-child{justify-self:center;font-size:13px}}

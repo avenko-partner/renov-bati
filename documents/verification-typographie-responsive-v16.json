@@ -1,0 +1,814 @@
+{
+  "status": "PASS",
+  "version": 16,
+  "date": "2026-10-13",
+  "profiles": 40,
+  "method": "Estimation des avances typographiques depuis le Manrope 400 local, à une échelle 64×, avec espacement de lettres de −0,055 em.",
+  "limits": [
+    "Pillow mesure les glyphes ; ce calcul ne remplace pas la composition dans un navigateur et ne vérifie pas tous les textes.",
+    "Le calcul compte les espacements entre caractères et conserve une marge conservatrice sur le dernier caractère."
+  ],
+  "raqm_available": true,
+  "records": [
+    {
+      "width": 320,
+      "height": 480,
+      "reading_width": 320,
+      "font_size": 38,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 179.702,
+          "available_width": 288,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 226.271,
+          "available_width": 288,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "reading_width": 320,
+      "font_size": 38,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 179.702,
+          "available_width": 288,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 226.271,
+          "available_width": 288,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "reading_width": 360,
+      "font_size": 38,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 179.702,
+          "available_width": 328,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 226.271,
+          "available_width": 328,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "reading_width": 375,
+      "font_size": 39.375,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 186.204,
+          "available_width": 343,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 234.458,
+          "available_width": 343,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reading_width": 390,
+      "font_size": 40.949999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 193.669,
+          "available_width": 354,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 243.858,
+          "available_width": 354,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 414,
+      "height": 896,
+      "reading_width": 414,
+      "font_size": 43.46999999999999,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 205.563,
+          "available_width": 378,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 258.833,
+          "available_width": 378,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "reading_width": 430,
+      "font_size": 45.15,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 213.547,
+          "available_width": 394,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 268.887,
+          "available_width": 394,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 480,
+      "height": 800,
+      "reading_width": 480,
+      "font_size": 50.4,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 238.374,
+          "available_width": 441.6,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 300.149,
+          "available_width": 441.6,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 540,
+      "height": 720,
+      "reading_width": 540,
+      "font_size": 56.699999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 268.151,
+          "available_width": 496.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 337.641,
+          "available_width": 496.8,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "reading_width": 600,
+      "font_size": 63,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 297.927,
+          "available_width": 552,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 375.133,
+          "available_width": 552,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 640,
+      "height": 900,
+      "reading_width": 640,
+      "font_size": 67,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 316.844,
+          "available_width": 588.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 398.952,
+          "available_width": 588.8,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 641,
+      "height": 900,
+      "reading_width": 641,
+      "font_size": 67.30499999999999,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 318.326,
+          "available_width": 589.72,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 400.818,
+          "available_width": 589.72,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 700,
+      "height": 900,
+      "reading_width": 700,
+      "font_size": 70,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 331.031,
+          "available_width": 644,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 416.815,
+          "available_width": 644,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 760,
+      "height": 1024,
+      "reading_width": 760,
+      "font_size": 70,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 331.031,
+          "available_width": 700,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 416.815,
+          "available_width": 700,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 761,
+      "height": 1024,
+      "reading_width": 761,
+      "font_size": 43,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 203.347,
+          "available_width": 358.739,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 256.044,
+          "available_width": 358.739,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "reading_width": 768,
+      "font_size": 43.392,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 205.193,
+          "available_width": 362.206,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 258.368,
+          "available_width": 362.206,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "reading_width": 820,
+      "font_size": 46.33,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 219.085,
+          "available_width": 387.962,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 275.859,
+          "available_width": 387.962,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 900,
+      "height": 1200,
+      "reading_width": 900,
+      "font_size": 50.85,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 240.437,
+          "available_width": 427.586,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 302.744,
+          "available_width": 427.586,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 960,
+      "height": 768,
+      "reading_width": 960,
+      "font_size": 54.24,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 256.472,
+          "available_width": 457.304,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 322.934,
+          "available_width": 457.304,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 961,
+      "height": 768,
+      "reading_width": 961,
+      "font_size": 55.73799999999999,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 263.566,
+          "available_width": 510.096,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 331.867,
+          "available_width": 510.096,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "reading_width": 1024,
+      "font_size": 59.391999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 280.858,
+          "available_width": 544.622,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 353.641,
+          "available_width": 544.622,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1100,
+      "height": 800,
+      "reading_width": 1100,
+      "font_size": 63.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 301.694,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 379.876,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1101,
+      "height": 800,
+      "reading_width": 1101,
+      "font_size": 62.757,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 296.741,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 373.64,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "reading_width": 1280,
+      "font_size": 72.96000000000001,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 344.992,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 434.394,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reading_width": 1440,
+      "font_size": 82.08,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 388.147,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 488.733,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1680,
+      "height": 1050,
+      "reading_width": 1680,
+      "font_size": 88,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 416.152,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 523.996,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "reading_width": 1920,
+      "font_size": 88,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 416.152,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 523.996,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "reading_width": 2560,
+      "font_size": 88,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 416.152,
+          "available_width": 570,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 523.996,
+          "available_width": 570,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "reading_width": 568,
+      "font_size": 36,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 170.244,
+          "available_width": 522.56,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 214.362,
+          "available_width": 522.56,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "reading_width": 667,
+      "font_size": 36,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 170.244,
+          "available_width": 613.64,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 214.362,
+          "available_width": 613.64,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "reading_width": 844,
+      "font_size": 40.51199999999999,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 191.6,
+          "available_width": 399.849,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 241.254,
+          "available_width": 399.849,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "reading_width": 932,
+      "font_size": 44.736,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 211.548,
+          "available_width": 443.436,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 266.369,
+          "available_width": 443.436,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "reading_width": 1024,
+      "font_size": 59.391999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 280.858,
+          "available_width": 544.622,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 353.641,
+          "available_width": 544.622,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1114,
+      "height": 720,
+      "reading_width": 540,
+      "font_size": 56.699999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 268.151,
+          "available_width": 496,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 337.641,
+          "available_width": 496,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "reading_width": 700,
+      "font_size": 67,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 316.844,
+          "available_width": 656,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 398.952,
+          "available_width": 656,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 1000,
+      "height": 720,
+      "reading_width": 320,
+      "font_size": 38,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 179.702,
+          "available_width": 276,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 226.271,
+          "available_width": 276,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 540,
+      "height": 1114,
+      "reading_width": 540,
+      "font_size": 56.699999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 268.151,
+          "available_width": 496.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 337.641,
+          "available_width": 496.8,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "reading_width": 390,
+      "font_size": 40.949999999999996,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 193.669,
+          "available_width": 354,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 243.858,
+          "available_width": 354,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "reading_width": 430,
+      "font_size": 45.15,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 213.547,
+          "available_width": 394,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 268.887,
+          "available_width": 394,
+          "fits": true
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "reading_width": 844,
+      "font_size": 40.51199999999999,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "estimated_width": 191.6,
+          "available_width": 386.186,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "estimated_width": 241.254,
+          "available_width": 386.186,
+          "fits": true
+        }
+      ]
+    }
+  ]
+}

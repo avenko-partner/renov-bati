@@ -1,0 +1,50 @@
+@property --reveal{syntax:'<percentage>';inherits:true;initial-value:50%}
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:page-leave .2s ease-out both}
+::view-transition-new(root){animation:page-arrive .36s cubic-bezier(.22,.75,.22,1) both}
+@keyframes page-leave{to{opacity:0}}
+@keyframes page-arrive{from{opacity:0}to{opacity:1}}
+.site-header.is-scrolled .brand>img{transform:scale(.94)}
+.button{transition:background-position .75s var(--ease),border-color .35s ease,box-shadow .4s ease}
+.button-gold:hover{box-shadow:0 6px 24px rgba(157,124,92,.14)}
+.text-link,.document-header>a:last-child,.social-link{transition:color .3s ease,background-color .35s ease,border-color .35s ease}
+.project-photo img{transition:transform .8s cubic-bezier(.22,.75,.22,1)}
+.project-open .project-arrow{transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.project-open:hover .project-arrow,.project-open:focus-visible .project-arrow{transform:translate(3px,-3px)}
+.project-caption{transition:border-color .35s ease}
+.project-open:hover .project-caption,.project-open:focus-visible .project-caption{border-color:var(--gold)}
+.project-ghost{position:absolute;pointer-events:none!important;z-index:2;margin:0!important;transform-origin:0 0;overflow:hidden}
+.project-ghost *{pointer-events:none!important}
+.project-ghost .project-photo{aspect-ratio:var(--project-ratio,4/5)}
+.project-dialog[open]{animation:dialog-arrive .4s cubic-bezier(.16,1,.3,1)}
+.project-dialog[open]::backdrop{animation:backdrop-arrive .35s ease}
+.project-dialog[open] .project-dialog-media{animation:none}
+.project-dialog[open] .project-dialog-copy{animation:none}
+.project-dialog.is-closing{pointer-events:none}
+@keyframes dialog-arrive{from{opacity:.2;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes backdrop-arrive{from{opacity:0}to{opacity:1}}
+.compare-stage.is-settling{transition:--reveal .56s cubic-bezier(.16,1,.3,1)}
+.compare-stage.is-dragging{transition:none}
+.compare-divider>span{transition:transform .25s var(--ease),background-color .25s ease}
+.compare-stage.is-dragging .compare-divider>span{transform:translate(-50%,-50%) scale(1.1);background:var(--panel)}
+.expertise-questions details[open]>p{animation:answer-arrive .3s ease-out}
+@keyframes answer-arrive{from{opacity:.6;transform:translateY(-4px)}to{opacity:1;transform:none}}
+@media(max-width:1100px),(horizontal-viewport-segments:2){
+ .js .menu-is-open .main-nav a{animation:menu-link-arrive .42s cubic-bezier(.16,1,.3,1) both}
+ .js .menu-is-open .main-nav a:nth-child(2){animation-delay:.035s}
+ .js .menu-is-open .main-nav a:nth-child(3){animation-delay:.07s}
+ .js .menu-is-open .main-nav a:nth-child(4){animation-delay:.105s}
+ .js .menu-is-open .main-nav a:nth-child(5){animation-delay:.14s}
+}
+@keyframes menu-link-arrive{from{opacity:.3;transform:translateX(-12px)}to{opacity:1;transform:none}}
+@media(hover:hover) and (pointer:fine){.compare-stage:hover:not(.is-dragging) .compare-divider>span{transform:translate(-50%,-50%) scale(1.06)}}
+.reduce-motion::view-transition-old(root),.reduce-motion::view-transition-new(root){animation:none!important}
+@media(prefers-reduced-motion:reduce){
+ ::view-transition-old(root),::view-transition-new(root){animation:none!important}
+ .project-ghost{display:none!important}
+ .project-open:hover .project-arrow,.project-open:focus-visible .project-arrow{transform:none}
+ .compare-stage:hover .compare-divider>span,.compare-stage.is-dragging .compare-divider>span{transform:translate(-50%,-50%)!important}
+}
+.reduce-motion .project-ghost{display:none!important}
+.reduce-motion .project-open:hover .project-arrow,.reduce-motion .project-open:focus-visible .project-arrow{transform:none}
+.reduce-motion .compare-stage:hover .compare-divider>span,.reduce-motion .compare-stage.is-dragging .compare-divider>span{transform:translate(-50%,-50%)!important}

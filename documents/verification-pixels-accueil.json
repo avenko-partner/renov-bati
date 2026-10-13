@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-13",
+  "method": "Inspection des trois images exportées et comparaison numérique au JPEG fourni. Aucun rendu du site en navigateur.",
+  "images": [
+    {
+      "id": "piscine",
+      "original": [
+        1600,
+        900
+      ],
+      "export": [
+        3200,
+        1800
+      ],
+      "comparison": "Dérivé WebP ramené à la taille du JPEG pour un contrôle numérique ; cette comparaison ne mesure pas un gain réel de détails.",
+      "mean_absolute_error_0_255": 2.71,
+      "psnr_db": 36.022
+    },
+    {
+      "id": "bain-pierre",
+      "original": [
+        989,
+        1441
+      ],
+      "export": [
+        1978,
+        2882
+      ],
+      "comparison": "Dérivé WebP ramené à la taille du JPEG pour un contrôle numérique ; cette comparaison ne mesure pas un gain réel de détails.",
+      "mean_absolute_error_0_255": 1.882,
+      "psnr_db": 39.543
+    },
+    {
+      "id": "cuisine",
+      "original": [
+        1280,
+        1600
+      ],
+      "export": [
+        2560,
+        3200
+      ],
+      "comparison": "Dérivé WebP ramené à la taille du JPEG pour un contrôle numérique ; cette comparaison ne mesure pas un gain réel de détails.",
+      "mean_absolute_error_0_255": 1.313,
+      "psnr_db": 41.191
+    }
+  ],
+  "limits": "Interpolation non générative. Les pixels ajoutés sont calculés à partir des pixels voisins ; aucune nouvelle information photographique n’est récupérée. PSNR mesure ici la proximité numérique après redimensionnement, pas la netteté perçue.",
+  "status": "PASS",
+  "version": 14,
+  "verified_at": "2026-10-13T02:09:05.498210+02:00",
+  "inspection": "Les trois JPEG source et les trois WebP desktop ont été ouverts comme fichiers d’image ; pas de recomposition, d’ajout ou de suppression dans cette conversion.",
+  "native_detail_recovery": false
+}

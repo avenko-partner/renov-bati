@@ -1,0 +1,556 @@
+{
+  "status": "PASS",
+  "method": "Analyse de la cascade CSS, mesure des deux lignes avec le fichier Manrope fourni et calcul des colonnes du nouveau premier écran. Estimation de la position initiale de la photo sans navigateur rendu ; safe-area supposée nulle. Ne certifie pas tous les débordements, la hauteur des textes, les performances ou le rendu réel.",
+  "profiles": [
+    {
+      "viewport": "320×568",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 40.0,
+      "title_column_px": 288.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 189.2,
+          "available_px": 288.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 238.2,
+          "available_px": 288.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 278.0,
+      "main_photo_width_estimate_px": 201.5,
+      "main_photo_height_estimate_px": 148.7,
+      "detail_photo_width_estimate_px": 72.5
+    },
+    {
+      "viewport": "360×740",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 41.8,
+      "title_column_px": 328.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 197.7,
+          "available_px": 328.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 248.9,
+          "available_px": 328.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 281.8,
+      "main_photo_width_estimate_px": 230.9,
+      "main_photo_height_estimate_px": 170.4,
+      "detail_photo_width_estimate_px": 83.1
+    },
+    {
+      "viewport": "375×667",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 43.5,
+      "title_column_px": 343.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 205.7,
+          "available_px": 343.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 259.0,
+          "available_px": 343.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 285.6,
+      "main_photo_width_estimate_px": 241.9,
+      "main_photo_height_estimate_px": 178.6,
+      "detail_photo_width_estimate_px": 87.1
+    },
+    {
+      "viewport": "390×844",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 45.2,
+      "title_column_px": 354.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 213.7,
+          "available_px": 354.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 269.1,
+          "available_px": 354.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 292.4,
+      "main_photo_width_estimate_px": 247.1,
+      "main_photo_height_estimate_px": 182.4,
+      "detail_photo_width_estimate_px": 88.9
+    },
+    {
+      "viewport": "430×932",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 49.9,
+      "title_column_px": 394.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 236.0,
+          "available_px": 394.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 297.1,
+          "available_px": 394.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 302.5,
+      "main_photo_width_estimate_px": 276.5,
+      "main_photo_height_estimate_px": 204.1,
+      "detail_photo_width_estimate_px": 99.5
+    },
+    {
+      "viewport": "540×720",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 62.6,
+      "title_column_px": 496.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 296.0,
+          "available_px": 496.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 372.7,
+          "available_px": 496.8,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 330.4,
+      "main_photo_width_estimate_px": 352.1,
+      "main_photo_height_estimate_px": 259.9,
+      "detail_photo_width_estimate_px": 126.7
+    },
+    {
+      "viewport": "600×800",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 69.6,
+      "title_column_px": 552.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 329.1,
+          "available_px": 540.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 414.4,
+          "available_px": 540.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 345.5,
+      "main_photo_width_estimate_px": 392.6,
+      "main_photo_height_estimate_px": 289.9,
+      "detail_photo_width_estimate_px": 141.4
+    },
+    {
+      "viewport": "700×900",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 74.0,
+      "title_column_px": 644.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 349.9,
+          "available_px": 540.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 440.6,
+          "available_px": 540.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 355.1,
+      "main_photo_width_estimate_px": 460.3,
+      "main_photo_height_estimate_px": 339.8,
+      "detail_photo_width_estimate_px": 165.7
+    },
+    {
+      "viewport": "768×1024",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 44.0,
+      "title_column_px": 283.5,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 208.1,
+          "available_px": 283.5,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 262.0,
+          "available_px": 283.5,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 405.7,
+      "main_photo_height_estimate_px": 299.5,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "820×1180",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 44.0,
+      "title_column_px": 303.6,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 208.1,
+          "available_px": 303.6,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 262.0,
+          "available_px": 303.6,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 433.8,
+      "main_photo_height_estimate_px": 320.2,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "900×1200",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 44.6,
+      "title_column_px": 333.6,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 210.9,
+          "available_px": 333.6,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 265.6,
+          "available_px": 333.6,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 476.4,
+      "main_photo_height_estimate_px": 351.7,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "960×1280",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 47.5,
+      "title_column_px": 355.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 224.6,
+          "available_px": 355.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 282.8,
+          "available_px": 355.8,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 508.2,
+      "main_photo_height_estimate_px": 375.1,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "1024×768",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 50.7,
+      "title_column_px": 379.6,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 239.8,
+          "available_px": 379.6,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 301.9,
+          "available_px": 379.6,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 542.0,
+      "main_photo_height_estimate_px": 400.2,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "1100×800",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 54.5,
+      "title_column_px": 407.7,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 257.2,
+          "available_px": 407.7,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 323.9,
+          "available_px": 407.7,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 119.0,
+      "main_photo_width_estimate_px": 582.3,
+      "main_photo_height_estimate_px": 429.9,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "1280×800",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 65.9,
+      "title_column_px": 474.5,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 311.6,
+          "available_px": 474.5,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 392.4,
+          "available_px": 474.5,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 139.7,
+      "main_photo_width_estimate_px": 482.2,
+      "main_photo_height_estimate_px": 356.0,
+      "detail_photo_width_estimate_px": 173.6
+    },
+    {
+      "viewport": "1440×900",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 74.2,
+      "title_column_px": 533.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 350.9,
+          "available_px": 533.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 441.9,
+          "available_px": 533.8,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 143.6,
+      "main_photo_width_estimate_px": 542.5,
+      "main_photo_height_estimate_px": 400.5,
+      "detail_photo_width_estimate_px": 195.3
+    },
+    {
+      "viewport": "1680×1050",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 86.5,
+      "title_column_px": 624.9,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 409.0,
+          "available_px": 624.9,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 515.0,
+          "available_px": 624.9,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 149.0,
+      "main_photo_width_estimate_px": 635.9,
+      "main_photo_height_estimate_px": 469.4,
+      "detail_photo_width_estimate_px": 228.9
+    },
+    {
+      "viewport": "1920×1080",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 88.0,
+      "title_column_px": 623.3,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 416.2,
+          "available_px": 623.3,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 524.0,
+          "available_px": 623.3,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 149.0,
+      "main_photo_width_estimate_px": 634.3,
+      "main_photo_height_estimate_px": 468.3,
+      "detail_photo_width_estimate_px": 228.4
+    },
+    {
+      "viewport": "2560×1440",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 88.0,
+      "title_column_px": 623.3,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 416.2,
+          "available_px": 623.3,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 524.0,
+          "available_px": 623.3,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 149.0,
+      "main_photo_width_estimate_px": 634.3,
+      "main_photo_height_estimate_px": 468.3,
+      "detail_photo_width_estimate_px": 228.4
+    },
+    {
+      "viewport": "844×390",
+      "segments": 1,
+      "composition": "présentation à gauche, photos dès la première ligne à droite",
+      "hero_font_px": 44.0,
+      "title_column_px": 312.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 208.1,
+          "available_px": 312.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 262.0,
+          "available_px": 312.8,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 99.0,
+      "main_photo_width_estimate_px": 446.7,
+      "main_photo_height_estimate_px": 329.8,
+      "detail_photo_width_estimate_px": 108
+    },
+    {
+      "viewport": "1114×720",
+      "segments": 2,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 62.6,
+      "title_column_px": 496.0,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 296.0,
+          "available_px": 496.0,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 372.7,
+          "available_px": 496.0,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 331.2,
+      "main_photo_width_estimate_px": 351.5,
+      "main_photo_height_estimate_px": 259.5,
+      "detail_photo_width_estimate_px": 126.5
+    },
+    {
+      "viewport": "540×1114",
+      "segments": 1,
+      "composition": "titre puis photos puis présentation",
+      "hero_font_px": 62.6,
+      "title_column_px": 496.8,
+      "lines": [
+        {
+          "text": "L’empreinte",
+          "width_px": 296.0,
+          "available_px": 496.8,
+          "fits": true
+        },
+        {
+          "text": "de vos projets.",
+          "width_px": 372.7,
+          "available_px": 496.8,
+          "fits": true
+        }
+      ],
+      "main_photo_top_estimate_px": 330.4,
+      "main_photo_width_estimate_px": 352.1,
+      "main_photo_height_estimate_px": 259.9,
+      "detail_photo_width_estimate_px": 126.7
+    }
+  ]
+}

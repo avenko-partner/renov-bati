@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": 24,
+  "date": "2026-10-12",
+  "environment": "Simulation DOM et horloge contrôlée ; aucun rendu navigateur.",
+  "coverage": [
+    "Initialisation : préloader visible et accessible, arrière-plan inert, bouton de passage focalisé",
+    "Phase de dessin puis de matière sans pourcentage factice",
+    "Fin après séquence et ressources prêtes, arrière-plan libéré",
+    "Retrait final : classe et attributs retirent réellement le préloader",
+    "Passer l’introduction libère immédiatement la page, même avec des médias bloqués",
+    "Les promesses tardives ne réouvrent pas une introduction passée",
+    "Échap ferme l’introduction et rend le focus au contenu",
+    "Mouvements réduits : aucune introduction ni inert dès l’arrivée",
+    "Changement système pendant le dessin : arrêt immédiat",
+    "Accès direct au devis : aucune introduction interposée",
+    "Navigation retour : aucune répétition de l’introduction",
+    "Les ressources bloquées respectent le plafond de temps",
+    "À 3,4 secondes, déblocage forcé et aucun élément inert résiduel",
+    "Script principal du préloader absent : garde-fou autonome",
+    "Échap fonctionne aussi avant le chargement du contrôleur principal",
+    "Erreur de décodage image : sortie prévue sans attente infinie",
+    "Retour d’une page mise en cache : état de lecture restauré",
+    "Passer avant le premier frame annule le travail graphique en attente",
+    "Un callback déjà en file ne peut pas réouvrir une introduction terminée",
+    "Ressources prêtes à 3,3 s : fondu engagé sans dépasser l’échéance absolue",
+    "Le masque visuel a disparu au plus tard à 3,4 s, même en fin de fondu",
+    "Réduction système native fonctionne si preferences.js est absent",
+    "Les contours ne disparaissent qu’après disponibilité du logo original",
+    "Toutes les simulations de préloader terminent sans erreur JS"
+  ]
+}

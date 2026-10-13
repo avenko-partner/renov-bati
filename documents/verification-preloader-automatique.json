@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": 18,
+  "coverage": [
+    "Préloader visible, surfaces inertes et aucune commande ou texte décoratif",
+    "La progression suit une ressource effectivement décodée",
+    "Pas de fin prématurée si la photo principale ou les polices attendent",
+    "Sortie dès la fin des polices, sans minimum de 1920 ms",
+    "Ressources déjà en cache : aucun délai artificiel",
+    "Photo en erreur : site libéré après règlement des autres ressources",
+    "Logo en erreur : contours disponibles sans faux logo prêt",
+    "Ressources bloquées : plafond absolu de 2500 ms",
+    "Fin tardive : fondu limité par le plafond absolu",
+    "Contrôleur absent : bootstrap libère la page",
+    "Overlay absent : aucun blocage permanent",
+    "Échap : sortie de secours sans commande visible",
+    "Réduction système au chargement : aucun blocage",
+    "Réduction système en cours, indépendante de preferences.js",
+    "Ancre directe et retour navigateur : parcours conservé",
+    "Premier frame différé : pas de réactivation après la sortie",
+    "Page quittée ou restaurée : surfaces accessibles",
+    "Fond uni cohérent avec le logo fourni"
+  ],
+  "environment": "Simulation DOM, promesses de ressources contrôlées et horloge simulée. Aucun navigateur rendu."
+}

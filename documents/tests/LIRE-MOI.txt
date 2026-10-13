@@ -1,0 +1,15 @@
+SOURCES DES CONTRÔLES — développement uniquement
+
+Ces fichiers ne sont pas nécessaires au fonctionnement du site.
+Le site reste utilisable sans compilation ni installation.
+Les scripts JS utilisent Node.js avec jsdom et css-tree (versions fixées dans package.json).
+Le script typographique utilise Python et Pillow, et la police fournie.
+
+Les scripts de simulation et de cascade reçoivent le chemin du dossier public comme premier argument.
+La simulation reçoit aussi une copie décompressée de la version 15 comme second argument
+pour reproduire la régression et comparer les médias. Cette ancienne livraison n’est pas dupliquée ici.
+L’argument suivant permet de choisir le chemin du rapport.
+Le script Python attend une racine de travail comportant dist/ et documents/.
+
+Ces tests calculent des états, des déclarations et des estimations.
+Ils ne rendent aucune page dans un navigateur et ne constituent pas des tests sur appareils réels.

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "version": 15,
+  "checks": 43,
+  "coverage": [
+    "Syntaxe de tous les scripts et des feuilles CSS de la livraison",
+    "Trois pages : ressources locales, srcset, ancres, IDs uniques et alternatives disponibles",
+    "La navigation ne modifie plus hauteur ou largeur au seuil du scroll, sur aucun breakpoint",
+    "Comparaison v14/v15 : aucune nouvelle lecture géométrique pendant 20 frames de scroll stable",
+    "Une rafale de 60 événements de scroll ne programme qu’une mise à jour",
+    "Toutes les mesures précèdent les écritures lors d’une invalidation du layout",
+    "Le chapitre actif et la progression restent exacts dans les deux sens",
+    "Même chapitre : aucune réécriture répétée des attributs de navigation",
+    "Resize et changements de contenu actualisent les mesures mises en cache",
+    "Sans ResizeObserver, les filtres et le formulaire invalident aussi les mesures",
+    "Retour historique : la mise à jour de scroll est nettoyée puis restaurée une seule fois",
+    "Navigation accessible de 320 à 1440 px, y compris écran à deux segments",
+    "Préloader complet : dessin, attente et restitution du scroll à 2,14 secondes avec ressources prêtes",
+    "Une photo bloquée ne laisse pas le défilement verrouillé après le plafond absolu de 3,5 secondes",
+    "Molette et geste tactile ne sont jamais interceptés au début ni après le préloader",
+    "Entrée : cinq effets légers, aucun zoom ou fondu sur la surface photographique entière",
+    "Le premier scroll annule seulement les effets d’entrée ; les animations des métiers restent disponibles",
+    "Position restaurée, ancre directe et préférence de mouvement réduit évitent une nouvelle entrée",
+    "Avant la fin du préloader, le carrousel ne décode aucune photo et ne lance aucun timer",
+    "Préchargement étalé : une seule prochaine photo, priorité basse, après une seconde et une période inactive",
+    "Minuterie native : progression de 4,5 secondes sans boucle JavaScript par frame",
+    "Boucle automatique : douze rotations sans double minuterie, avec fiche et légende synchronisées",
+    "Pause et reprise conservent 40 % de progression puis attendent exactement les 2,7 secondes restantes",
+    "Choix manuel : chargement prioritaire, nouveau délai entier, annonce accessible et simple fondu",
+    "Décodage lent : la photo actuelle reste affichée ; le dernier clic gagne",
+    "Erreur ou délai de chargement dépassé : vue actuelle conservée, message manuel et commandes disponibles",
+    "Onglet masqué et ouverture hors écran suspendent le temps sans perdre la progression",
+    "Focus clavier suspend la boucle ; le clic à la souris sur une commande ne la bloque pas",
+    "Survol et resize ne réinitialisent pas les 4,5 secondes du carrousel",
+    "Préférence système et commande de réduction des mouvements arrêtent décodage anticipé et effets",
+    "Sans Web Animations, le timer visuel conserve son repli et se nettoie à la pause",
+    "Sans requestAnimationFrame ni période inactive native, les replis gardent le rythme",
+    "Départ et retour de page : tâches inactives, effets et timer nettoyés, aucune boucle dupliquée",
+    "Événement d’intro manqué : la suppression de sa classe démarre une seule boucle",
+    "Premier scroll avec tous les scripts : entrée annulée, navigation active, délai photographique intact",
+    "Comparateur, galerie, fiche projet et demande de devis restent utilisables",
+    "Ruban des douze logos : pause, reprise, duplication sans accumulation et mouvement réduit",
+    "Photos améliorées, dégradé commun, progression dorée et contenu légal conservés",
+    "Pause durant le décodage automatique : résultat tardif ignoré, ordre repris sans vue sautée",
+    "Photo automatique indisponible : conservation de la vue et poursuite vers la suivante",
+    "Échap au préloader libère les surfaces immédiatement sans relancer les effets du titre",
+    "Échec de Web Animations sur le timer : repli par frame toujours disponible",
+    "Scroll pendant un fondu : suppression des grandes surfaces animées, progression et prochain délai inchangés"
+  ],
+  "measurements": {
+    "scroll_geometry_reads": {
+      "14": {
+        "frames": 20,
+        "section_reads": 80,
+        "page_height_reads": 20
+      },
+      "15": {
+        "frames": 20,
+        "section_reads": 0,
+        "page_height_reads": 0
+      }
+    },
+    "preloader_ready_release_ms": 2140,
+    "initial_carousel_decode": {
+      "version14": "Three Image requests initiated together by warm()",
+      "version15": "One next-image request after 1000 ms and idle callback"
+    },
+    "native_progress_javascript_raf_count": 0,
+    "asset_files_identical_to_v14": 78
+  },
+  "environment": "Simulation DOM jsdom avec horloge, décodage, Web Animations, IntersectionObserver et ResizeObserver contrôlés ; analyse de la syntaxe et des chemins.",
+  "limits": [
+    "Aucun rendu ni trace de performance dans un navigateur réel.",
+    "Les lectures mesurées sont des appels au code dans le scénario simulé, pas des temps de rendu, FPS ou Core Web Vitals.",
+    "Le préloader conserve volontairement le verrouillage du scroll pendant sa séquence de chargement.",
+    "Le rendu et la perception de fluidité sur les appareils du visiteur restent à confirmer."
+  ]
+}

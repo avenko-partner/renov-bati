@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pages": 4,
+  "removed": [
+    "zones-intervention.html",
+    "zones.js"
+  ],
+  "links_to_removed_page": 0,
+  "sitemap_commercial_pages": 3,
+  "browser_rendering": false
+}

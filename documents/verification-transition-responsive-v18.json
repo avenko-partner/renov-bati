@@ -1,0 +1,365 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "version": 18,
+  "checks": 38,
+  "coverage": [
+    "Syntaxe de tous les scripts et feuilles CSS",
+    "Trois pages : liens locaux, ancres, ressources, srcset, alternatives et IDs uniques",
+    "Régression v15 reproduite en simulation : éléments visibles pendant la sortie puis retour à une opacité de départ",
+    "Etat initial caché derrière le logo ; les animations sont créées avant que sa sortie commence",
+    "L’entrée de chaque composant est monotone avant, pendant et après la disparition du préloader",
+    "Fin de l’intro à 2140 ms : aucun nouveau démarrage d’animation ; la boucle photo seule démarre",
+    "Script craft chargé une seconde après l’intro : aucun élément déjà visible n’est réanimé",
+    "Script craft arrivé pendant la sortie : état préparé et entrée unique sans composant visible auparavant",
+    "Resize pendant la sortie : annulation sûre, contenu dans son état final et aucun retour à zéro",
+    "Scroll immédiatement après le préloader : entrée annulée sans bloquer les contrôles ni faire disparaître le texte",
+    "Sans Web Animations, le contenu est visible au début de la sortie et reste utilisable",
+    "Mouvements réduits avant le chargement : aucun préloader ni entrée cachée",
+    "Réduction des mouvements pendant le fondu : sortie immédiate, contenu final et aucun effet restant",
+    "Ancre directe et retour historique : pas d’entrée tardive ni de préloader",
+    "Ressource principale lente : logo gardé et libération au plafond de 3500 ms, sans animation tardive",
+    "Échap avant et pendant la sortie restitue le focus et ne relance pas l’intro",
+    "Aucune animation des sections suivantes avant la fin de l’intro ; elles restent disponibles ensuite",
+    "Menu accessible de 320 à 1440 px, double segment, Escape, liens et changement de largeur",
+    "Premiers scrolls : mesures mises en cache, progression exacte et événements regroupés",
+    "Quatre cycles complets à 4500 ms, légende et fiche synchronisées sans annonce automatique",
+    "Pause conserve 40 % ; reprise sur les 2700 ms restantes",
+    "Un seul préchargement différé de photo ; un choix manuel repart sur un délai entier",
+    "En double segment, le chargement des photos utilise la largeur du panneau et suit ses changements",
+    "Dernier clic gagnant après un décodage lent ; erreur conserve la vue actuelle",
+    "Onglet masqué, ouverture hors écran et focus clavier suspendent le temps restant",
+    "Resize et scroll ne réinitialisent pas le délai photographique et nettoient les copies de fondu",
+    "Avant/après, galerie filtrée et fiche projet fonctionnent encore sur des formats étroits",
+    "Formulaire : validation, coordonnées accentuées, brouillon réel et retour à la saisie",
+    "Ruban transparent des douze références : pause et réduction des animations",
+    "Molette et gestes tactiles restent libres ; la préférence de mouvement reste accessible",
+    "Logo original, 69 contours, palette, fichiers médias et contenu légal/SEO préservés",
+    "Après accueil : chaque visuel est observé séparément, sans masquer le contenu",
+    "Ancre et scroll rapide : aucun retour en arrière des composants déjà dans la zone de lecture",
+    "Une animation par visuel ; les projets masqués restent observés jusqu’à leur affichage",
+    "Resize, page masquée et réduction des mouvements restituent les états finaux sans laisser de style caché",
+    "Filtres rapides : annulation avant mesures, translations seules, pas de hauteur animée ou de texte déformé",
+    "Fiche projet : une seule transition photo, aucune lecture de largeur forcée, fermeture et réduction nettoient les effets",
+    "Accueil, logo, carrousel, données et médias inchangés depuis la version acceptée 17"
+  ],
+  "measurements": {
+    "baseline_v15": {
+      "at_exit_start_ms": 1780,
+      "opacity_during_overlay_exit": 1,
+      "at_overlay_hidden_ms": 2140,
+      "opacity_after_overlay_hidden": 0.35,
+      "method": "Opacité issue de la cascade CSS et des keyframes, pas pixels rendus."
+    },
+    "entrance_opacity_traces": {
+      ".hero-line-inner": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0.06451612903225806
+        },
+        {
+          "at": 1900,
+          "opacity": 0.1935483870967742
+        },
+        {
+          "at": 2000,
+          "opacity": 0.3548387096774194
+        },
+        {
+          "at": 2139,
+          "opacity": 0.5790322580645161
+        },
+        {
+          "at": 2140,
+          "opacity": 0.5806451612903226
+        },
+        {
+          "at": 2200,
+          "opacity": 0.6774193548387096
+        },
+        {
+          "at": 2380,
+          "opacity": 0.967741935483871
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ],
+      ".hero-line:nth-child(2) .hero-line-inner": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0
+        },
+        {
+          "at": 1900,
+          "opacity": 0.12903225806451613
+        },
+        {
+          "at": 2000,
+          "opacity": 0.2903225806451613
+        },
+        {
+          "at": 2139,
+          "opacity": 0.5145161290322581
+        },
+        {
+          "at": 2140,
+          "opacity": 0.5161290322580645
+        },
+        {
+          "at": 2200,
+          "opacity": 0.6129032258064516
+        },
+        {
+          "at": 2380,
+          "opacity": 0.9032258064516129
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ],
+      ".hero-copy>.eyebrow": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0.08
+        },
+        {
+          "at": 1900,
+          "opacity": 0.24
+        },
+        {
+          "at": 2000,
+          "opacity": 0.44
+        },
+        {
+          "at": 2139,
+          "opacity": 0.718
+        },
+        {
+          "at": 2140,
+          "opacity": 0.72
+        },
+        {
+          "at": 2200,
+          "opacity": 0.84
+        },
+        {
+          "at": 2380,
+          "opacity": 1
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ],
+      ".hero-brief": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0
+        },
+        {
+          "at": 1900,
+          "opacity": 0.08928571428571429
+        },
+        {
+          "at": 2000,
+          "opacity": 0.26785714285714285
+        },
+        {
+          "at": 2139,
+          "opacity": 0.5160714285714286
+        },
+        {
+          "at": 2140,
+          "opacity": 0.5178571428571429
+        },
+        {
+          "at": 2200,
+          "opacity": 0.625
+        },
+        {
+          "at": 2380,
+          "opacity": 0.9464285714285714
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ],
+      ".hero-controls": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0
+        },
+        {
+          "at": 1900,
+          "opacity": 0.03571428571428571
+        },
+        {
+          "at": 2000,
+          "opacity": 0.21428571428571427
+        },
+        {
+          "at": 2139,
+          "opacity": 0.4625
+        },
+        {
+          "at": 2140,
+          "opacity": 0.4642857142857143
+        },
+        {
+          "at": 2200,
+          "opacity": 0.5714285714285714
+        },
+        {
+          "at": 2380,
+          "opacity": 0.8928571428571429
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ],
+      ".hero-project": [
+        {
+          "at": 0,
+          "opacity": 0
+        },
+        {
+          "at": 1700,
+          "opacity": 0
+        },
+        {
+          "at": 1780,
+          "opacity": 0
+        },
+        {
+          "at": 1820,
+          "opacity": 0
+        },
+        {
+          "at": 1900,
+          "opacity": 0.08928571428571429
+        },
+        {
+          "at": 2000,
+          "opacity": 0.26785714285714285
+        },
+        {
+          "at": 2139,
+          "opacity": 0.5160714285714286
+        },
+        {
+          "at": 2140,
+          "opacity": 0.5178571428571429
+        },
+        {
+          "at": 2200,
+          "opacity": 0.625
+        },
+        {
+          "at": 2380,
+          "opacity": 0.9464285714285714
+        },
+        {
+          "at": 2440,
+          "opacity": 1
+        },
+        {
+          "at": 3000,
+          "opacity": 1
+        }
+      ]
+    },
+    "identical_asset_files": 78
+  },
+  "environment": "Simulation DOM avec horloge, Image/decode, Web Animations, IntersectionObserver et ResizeObserver contrôlés, plus analyse de la cascade CSS.",
+  "limits": [
+    "Aucun rendu navigateur ni capture visuelle réalisé.",
+    "Les traces d’opacité sont calculées depuis la cascade et les keyframes. La simulation interpole linéairement pour vérifier le sens de progression ; elle ne mesure pas le rendu réel de la courbe d’accélération.",
+    "Les tests de largeur et segments sont des scénarios CSS, pas des appareils physiques.",
+    "Aucune mesure FPS ou Core Web Vitals."
+  ]
+}

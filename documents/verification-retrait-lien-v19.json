@@ -1,0 +1,12 @@
+{
+  "version": 19,
+  "status": "PASS",
+  "removed_link": true,
+  "removed_script_references": true,
+  "projects_opened_closed": 8,
+  "project_photo_navigation": true,
+  "focus_restored": true,
+  "comparator_preserved": true,
+  "scripts_syntax": true,
+  "method": "Simulation DOM à horloge contrôlée ; aucun rendu navigateur."
+}

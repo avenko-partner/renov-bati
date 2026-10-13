@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "contact_sheets_reviewed": 31,
+  "archive_images": 1109,
+  "selected": [
+    {
+      "index": 38,
+      "original_name": "0a7ed3b7-060e-4e58-adb4-bd6269b8ee5c.jpg",
+      "source_sha256": "047b52f52a703bbcaf07161a502651afdaccb738ef62e7492074dd747b097c4f",
+      "file": "bain-clair",
+      "width": 1200,
+      "height": 1600,
+      "mobileWidth": 720,
+      "mobileHeight": 960,
+      "webp_bytes": 136040,
+      "role": "Salle de bains supplémentaire, galerie et portfolio",
+      "provenance": "Archive fournie par l’entreprise ; contrôle des octets et examen visuel. Aucune année, adresse de chantier ou certification attribuée."
+    },
+    {
+      "index": 456,
+      "original_name": "6b4d0d54-fc67-474b-856d-6a33bb0ef244.jpg",
+      "source_sha256": "31d01ce9dbc9853c2a70658e13d61cfee62d97ebec48e6ebe9d0a07d5385f6bb",
+      "file": "douche-detail",
+      "width": 979,
+      "height": 1427,
+      "mobileWidth": 659,
+      "mobileHeight": 960,
+      "webp_bytes": 197080,
+      "role": "Détail de carrelage, section matière et fiche salle de bains",
+      "provenance": "Archive fournie par l’entreprise ; contrôle des octets et examen visuel. Aucune année, adresse de chantier ou certification attribuée."
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "index": 375,
+      "reason": "Échafaudage encore visible depuis la véranda ; écartée pour l’ouverture."
+    },
+    {
+      "index": 13,
+      "reason": "Matériel visible sur la couverture ; écartée des photos de finition."
+    },
+    {
+      "index": 417,
+      "reason": "Marques au sol et accessoires visibles ; écartée pour l’ouverture."
+    },
+    {
+      "index": 963,
+      "reason": "Balises et attente de canalisations visibles ; écartée pour l’ouverture."
+    }
+  ],
+  "new_generated_construction_photos": 0
+}

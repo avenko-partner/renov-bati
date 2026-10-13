@@ -1,0 +1,148 @@
+RENOV BATI — RESPONSIVE, VERSION 18
+
+MODIFICATION COURANTE — VERSION 18
+Animations par visuel après l’accueil, sans clip-path ou état caché.
+Translations des cartes filtrées sans déformation ou hauteur animée.
+Entrée unique de la fiche projet, changement de photo sans largeur forcée.
+Typographie secondaire augmentée et cadres desktop légèrement agrandis.
+Accueil, préloader, carrousel, données et médias conservés.
+
+VÉRIFICATIONS COURANTES
+38 contrôles DOM et ressources : verification-transition-responsive-v18.json.
+40 profils CSS : verification-geometrie-responsive-v18.json.
+8 profils de bureau, 4 comparaisons des cadres compacts : verification-images-desktop-v18.json.
+Les tailles CSS sont simulées : aucun navigateur rendu ni appareil physique contrôlé.
+Les rapports v17 et précédents restent historiques.
+
+MODIFICATIONS ANTÉRIEURES
+Les accès aux deux pages SEO annexes sont retirés. Aucun routeur ni règle de
+routage vers ces pages n’existe dans ce projet statique. Les fichiers ne sont
+plus présents et leurs liens sont supprimés. Les descriptions utiles des
+prestations sont réunies dans la vitrine. Les pages publiques sont index.html,
+projets.html et informations.html. Le sitemap préparé comporte les deux pages
+commerciales indexables ; les informations restent en noindex, follow.
+
+La couche responsive commune et la composition finale contrôlent les proportions,
+les espacements et les colonnes. Formulaire et galerie en une colonne sur les petits écrans,
+organisation intermédiaire des métiers et garanties, menu compact jusqu’à
+1100 px. Les tailles de texte restent lisibles et les contrôles principaux
+ont des dimensions tactiles de 44 px minimum. Les champs restent à 16 px.
+Les images disposent de srcset et tailles de chargement adaptés aux cartes.
+Les liens du pied de page et les coordonnées longues peuvent revenir à la ligne.
+Les fiches projets s’adaptent à la hauteur disponible ; fermeture accessible.
+
+Les zones de sécurité sont prises en compte avec viewport-fit et safe-area.
+Le zoom n’est pas interdit. Les formats paysage courts disposent de règles
+spécifiques pour la navbar, le menu, les fiches et le préloader.
+Si le navigateur expose deux segments côte à côte, le site utilise une zone
+de lecture dans le premier segment et une photographie dans le second.
+Les interfaces fixes évitent la charnière. Deux segments superposés limitent
+les menus, fiches et préloader au premier segment. Lorsque cette information
+n’est pas disponible, le site utilise la mise en page fluide normale.
+La détection des segments a une disponibilité limitée : voir les sources.
+
+CONTRÔLES EFFECTUÉS — VERSION 16 (HISTORIQUE)
+31 contrôles DOM/horloge passent. Le comportement de la version 15 est reproduit :
+le titre avait une opacité de 1 durant la sortie, puis revenait à 0,35 à son animation.
+La version 16 prépare l’état initial avant la sortie du logo ; les sept petits effets
+commencent au début du fondu, à 1780 ms avec ressources prêtes. Leur progression
+reste monotone dans les traces simulées, avant et après la fermeture à 2140 ms.
+Un script tardif ne relance pas l’entrée. Les cas sans Web Animations, mouvement réduit,
+ressource bloquée, Échap, scroll, resize, ancre et historique sont couverts.
+La galerie, les fiches, les filtres, le devis, le comparateur et le ruban sont contrôlés.
+Quatre cycles complets de trois vues à 4500 ms passent, avec pause à 40 %, reprise sur
+2700 ms, clics rapides, chargement lent/en erreur, focus, hors écran et onglet masqué.
+Le logo, les 69 contours SVG, les médias, les données d’entreprise et le SEO sont conservés.
+
+40 profils CSS sont analysés : téléphones de 320 à 640 px, seuils 641/760/761/960/961/
+1100/1101 px, tablettes, bureaux jusqu’à 2560 px, quatre paysages courts, doubles
+segments horizontaux/verticaux et trois cas de zones de sécurité. La cascade tient
+compte des sélecteurs, priorités, règles media, variables, largeurs et hauteurs calculées.
+Les menus, fenêtres, colonnes, photo et commandes principales sont examinés.
+Une estimation du titre utilise le Manrope 400 local et l’espacement des lettres.
+Ces profils, calculs et traces ne sont pas une exécution sur iPhone, Surface Duo ou autre matériel.
+Le rendu complet, tous les retours à la ligne, le zoom et le clavier virtuel ne sont pas mesurés.
+
+Rapports courants : verification-transition-responsive-v16.json,
+verification-geometrie-responsive-v16.json et verification-typographie-responsive-v16.json.
+Les résultats des versions précédentes ci-dessous sont historiques et ne sont pas recomptés.
+
+CONTRÔLES EFFECTUÉS — VERSION 15 (HISTORIQUE)
+43 contrôles ciblés ont passé : syntaxe de tous les scripts/styles, ressources
+et ancres des trois pages, scroll coalescé, mesures regroupées avant les écritures,
+chapitres actifs, redimensionnement et invalidation du cache après contenu modifié.
+Le scénario de 20 frames n’appelle plus getBoundingClientRect pour les chapitres
+ni scrollHeight après l’initialisation. La version 14 effectuait 80 et 20 lectures.
+Ce sont des appels au code dans une simulation, pas des temps ou scores de performance.
+La navigation garde sa géométrie à tous ses breakpoints ; son fond est uni.
+Menus simulés à 320, 375, 540, 768, 960, 1100 et 1440 px, et à 1440 px
+avec deux segments. Aucun de ces cas n’est un test sur appareil réel.
+Préloader avec ressources prêtes : restitution à 2140 ms ; photo bloquée :
+plafond de 3500 ms. Aucun geste de molette ou tactile n’est intercepté.
+Cinq effets d’entrée légers, annulés quand on descend. La grande photo ne zoome plus.
+Une seule photo est décodée à l’avance, après une seconde et une période inactive.
+La barre dorée utilise Web Animations sans boucle JavaScript par frame ;
+les replis sont contrôlés sans Web Animations, requestAnimationFrame ou idle callback.
+Douze rotations à 4500 ms, progression et pause à 40 %, reprise sur 2700 ms,
+clics rapides, chargements lents/en erreur, onglet masqué, hors écran, clavier,
+resize, retour historique, réduction des mouvements et annulation des fondus au scroll.
+Galerie, fiches, comparateur, devis et ruban restent utilisables en simulation.
+Les 78 fichiers des assets sont identiques octet par octet à la version 14.
+Rapport courant : verification-fluidite-scroll.json.
+
+CONTRÔLES EFFECTUÉS — VERSION 14 (HISTORIQUE)
+Les résultats suivants n’ont pas été recomptés comme des contrôles de la version 15.
+69 contrôles DOM : galerie, comparateur, formulaire, menu, liens et alternatives.
+48 contrôles des vues photographiques : chargement et décodage, légende et
+fiche correspondantes, clics rapides, erreurs, délai maximal, annulation,
+restauration historique, focus et réduction des mouvements. La boucle de 4 500 ms
+est simulée sur quatre tours complets. Pause / reprise, préloader, onglet masqué,
+survol sans arrêt, focus souris / clavier, hors écran et fenêtre de projet sont couverts.
+Le blocage du clic dans la version précédente est reproduit. Le trait utilise le doré
+métallique de marque ; sa progression suit la minuterie de 4,5 secondes. Pause et reprise conservent
+le temps restant. Les notifications répétées ne réinitialisent pas l’échéance. Aucun rendu réel de
+l’animation n’est mesuré ; ce sont des horloges et événements contrôlés.
+22 contrôles des effets conservés : filtres, copies décoratives, arrivées de
+sections et comparaison. API d’animation et rectangles simulés.
+14 contrôles de navigation responsive, feuilles CSS, zoom et accès supprimés.
+24 contrôles du préloader : ressources, cache, erreurs, durée maximale,
+réduction des mouvements et navigation. Cache simulé : 2,14 s ; plafond 3,5 s.
+7 contrôles de contenu : huit entrées de galerie, treize fiches de portfolio,
+prestations complètes, titres, métadonnées et données structurées.
+22 profils de cascade CSS : les deux lignes du titre sont mesurées avec Manrope
+dans les colonnes actuelles. Photographie pleine largeur sur ordinateur,
+avant la présentation sur tablette et téléphone. Les segments restent pris en compte.
+76 éléments image : décodage WebP, dimensions HTML et srcset cohérents.
+65 références WebP distinctes, y compris les neuf variantes de l’ouverture.
+Trois grands WebP rééchantillonnés à 200 %, variantes écran de 1440 px et variantes
+720 px conservées. Les sources limitent les détails réels ; aucun détail absent
+n’est reconstruit. Inspection des trois exports et mesures de proximité des fichiers.
+Les essais de retouche générative rejetés ne sont pas intégrés.
+184 contrôles fonctionnels / structurels au total, hors calculs de géométrie et médias.
+
+FORMATS ANALYSÉS EN VERSION 14 — PIXELS CSS (HISTORIQUE)
+320×568, 360×740, 375×667, 390×844, 430×932, 540×720, 600×800,
+700×900, 768×1024, 820×1180, 900×1200, 960×1280, 1024×768,
+1100×800, 1280×800, 1440×900, 1680×1050, 1920×1080, 2560×1440,
+844×390, 1114×720 avec deux segments horizontaux et 540×1114 avec
+deux segments verticaux. Ces mesures ne sont pas des tests d’appareils.
+
+VÉRIFICATIONS NON RÉALISÉES
+Aucun navigateur rendu disponible : aucun contrôle visuel par capture,
+aucun test sur iPhone, Safari, Android, Surface Duo ou autre matériel réel.
+Clavier virtuel, changements de posture physiques, zoom réel, gestes natifs
+et performances ne sont pas mesurés. La mesure du titre ne vérifie pas
+à elle seule tous les débordements ou la totalité du rendu.
+Le fichier de nettoyage Windows n’a pas été exécuté avec cmd.exe ici ;
+il vise uniquement les trois anciens fichiers connus, depuis son dossier.
+L’URL localhost sur l’ordinateur du client n’est pas contrôlée depuis cet environnement.
+Il faut remplacer intégralement l’ancien dossier ou retirer ses anciens fichiers.
+Aucun site n’a été publié.
+
+SOURCES TECHNIQUES CONSULTÉES LE 12 OCTOBRE 2026
+W3C — Media Queries Level 5 :
+https://www.w3.org/TR/mediaqueries-5/
+MDN contributors — horizontal-viewport-segments, mise à jour du 20 avril 2026 :
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/horizontal-viewport-segments
+WebKit — Designing Websites for iPhone X (mécanismes viewport-fit et safe-area) :
+https://webkit.org/blog/7929/designing-websites-for-iphone-x/

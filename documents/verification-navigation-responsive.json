@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": 14,
+  "coverage": [
+    "Navigation compacte 320 px : masquage et ouverture accessibles",
+    "Navigation compacte 375 px : masquage et ouverture accessibles",
+    "Navigation compacte 540 px : masquage et ouverture accessibles",
+    "Navigation compacte 768 px : masquage et ouverture accessibles",
+    "Navigation compacte 1024 px : masquage et ouverture accessibles",
+    "Navigation compacte 1100 px : masquage et ouverture accessibles",
+    "Passage de tablette à bureau libère le menu et ferme le volet",
+    "Menu conservé entre deux largeurs de tablette",
+    "Duo : menu compact au-delà de la largeur habituelle",
+    "Image de galerie choisie selon largeur de la carte après filtre",
+    "Les trois pages chargent le responsive puis la composition finale et autorisent le zoom",
+    "Anciennes pages SEO : aucun fichier ou lien actif",
+    "Styles valides et ressources CSS locales existantes",
+    "Les surfaces tactiles et données du formulaire restent accessibles"
+  ],
+  "limit": "Simulation DOM et analyse syntaxique. Aucun test navigateur ou matériel réel."
+}

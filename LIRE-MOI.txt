@@ -1,0 +1,141 @@
+RENOV BATI — DOSSIER COMPLET DU SITE
+Version 21 — garanties centrées sur mobile
+
+OUVRIR EN LOCAL
+Décompressez intégralement l’archive. Ouvrez index.html ou utilisez votre serveur local.
+Conservez les trois pages, styles, scripts et assets dans le même dossier.
+Remplacez entièrement l’ancien dossier : extraire par-dessus ne supprime pas les anciens fichiers.
+Après remplacement, rechargez la page sans cache (Ctrl+F5 sous Windows).
+Les pages SEO ajoutées précédemment et leur script de recherche ne sont plus livrés.
+Si vous choisissez de conserver le dossier existant, le fichier Windows
+nettoyer-anciennes-pages.cmd supprime uniquement ces trois anciens fichiers.
+
+ANIMATIONS ET LISIBILITÉ
+L’accueil, le dessin du logo et le carrousel de 4,5 secondes sont conservés.
+Après l’accueil, chaque photo ou groupe de texte entre à sa propre position.
+Le contenu reste visible : aucun masque ni remise à zéro de son opacité.
+Les éléments déjà dans la zone de lecture restent stables lors d’un accès direct
+ou d’un défilement rapide. Les filtres ne déforment plus les textes et n’animent
+plus la hauteur de la grille. La fiche projet utilise une seule entrée générale
+et une transition légère lors d’un changement de photographie.
+Les légendes, liens, descriptions des garanties et listes de prestations sont agrandis.
+
+GRANDS ÉCRANS
+Au-delà de 1100 px, les photos de galerie sont limitées à 580 px, matières et
+portfolio à 620 px, avec un plafond de 68 % de la hauteur de fenêtre.
+Les petits détails de matières sont limités à 280 px ou 32 % de cette hauteur.
+Le comparateur conserve son rapport 3/4 ; sa largeur est plafonnée à 495 px
+ou 49 % de la hauteur de fenêtre. Les photos et leur définition sont conservées.
+Les cadres photo compacts et à double segment gardent leurs proportions.
+
+FLUIDITÉ ET RESPONSIVE
+Les éléments de l’accueil sont préparés derrière le logo. Leur animation démarre
+avec la sortie du préloader, sans réanimation après sa disparition. Si le script
+arrive tard, il conserve le contenu déjà visible. Resize, scroll, historique et
+réduction des mouvements gardent les éléments dans un état final utilisable.
+La hauteur du header et la place du menu utilisent une même valeur, adaptée au format.
+La photo d’accueil est moins haute sur petit écran et en paysage. Les titres,
+aperçus, galeries, métiers, garanties, formulaire et pied de page sont réorganisés
+aux seuils communs de 960, 760 et 640 px. Les zones de sécurité restent prises en compte.
+Sur mobile, la section de matières présente le titre et le texte, la grande photo,
+puis les deux détails. En double segment, le chargement photo utilise la largeur du panneau.
+Les photos et leur définition, le doré, le logo et la boucle de 4,5 secondes sont conservés.
+
+CONTENU
+Accueil avec huit réalisations choisies, portfolio complet des treize fiches,
+informations légales/confidentialité/garanties.
+Logo doré original sur un fond uni #160100, couleur dominante du fichier fourni.
+Préloader automatique : les 69 contours du logo se dessinent puis le doré original apparaît.
+La séquence reste visible lorsque les fichiers sont en cache : environ 2,14 secondes.
+La sortie attend aussi le logo, la photo principale et les polices, avec un plafond absolu
+de 3,5 secondes en cas de blocage. Aucun bouton Passer ni texte autour du logo.
+Réduction des mouvements, ancres directes et retour navigateur respectés.
+Ouverture photographique pleine largeur avec trois vues : piscine, salle de bains et cuisine.
+Défilement automatique toutes les 4,5 secondes, en boucle, après la fin du préloader.
+Commande Pause / Lecture et choix direct des trois vues. L’image, la légende et sa fiche
+restent synchronisées. Le clic à la souris sur une miniature et le survol des commandes
+laissent la boucle continuer. La barre sous la vue sélectionnée utilise le même dégradé
+doré métallique que la marque et se remplit pendant les 4,5 secondes. Pause / Lecture
+conserve la progression et reprend sur le temps restant. Le choix d’une autre vue
+repart à zéro. La rotation se suspend lorsque la page est masquée, que l’ouverture
+est hors écran ou que les commandes sont utilisées au clavier.
+La réduction des mouvements désactive le défilement automatique.
+Les trois grandes vues sont rééchantillonnées depuis les JPEG originaux : dimensions
+doublées, filtre Lanczos en RGB linéaire et export WebP qualité 96. Des variantes de
+1440 px complètent les variantes mobiles de 720 px. Les trois images occupent toute
+la largeur sur ordinateur sous le même dégradé, sans bord latéral spécifique aux portraits.
+Le traitement lisse l’agrandissement ; il ne recrée pas les détails absents des sources.
+Les autres photographies sont conservées. Voir ressources/PHOTOS-ACCUEIL-QUALITE.json.
+Le titre et le contact gardent les couleurs de la marque. Sur tablette et téléphone,
+la photo précède la présentation et les commandes ; sa hauteur reste stable durant la boucle.
+Les références passent juste après l’ouverture, puis la sélection de réalisations,
+les métiers, les trois vues de finitions et l’avant/après. Deux nouvelles photos
+de l’archive sont ajoutées : une salle de bains claire et le détail d’une douche.
+31 planches contact de l’archive de 1 109 images ont été revues pour cette sélection.
+Arrivée coordonnée pendant la sortie du préloader, réorganisation animée des filtres, transitions
+des fiches et du menu. Le comparateur anime ses boutons et suit immédiatement le geste.
+La navigation ne se réduit plus en hauteur au premier scroll.
+Les changements de vue attendent le décodage de l’image, gardent la vue actuelle
+en cas d’échec et respectent les clics rapides. Les effets s’arrêtent avec la
+réduction des mouvements ; le contenu reste utilisable
+sans les API d’animation. Direction et sources dans documents/DIRECTION-ARTISTIQUE.md.
+Photos réelles fournies, converties en WebP avec variantes mobiles.
+Avant/après interactif au pointeur et au clavier. Galerie filtrée et fiches de projets.
+Ruban continu des 12 logos fournis, avec pause et réduction des animations.
+Icônes Instagram et WhatsApp. Devis : quatre champs de coordonnées.
+Le formulaire prépare un brouillon à envoyer depuis votre messagerie ; aucun envoi automatique.
+Notre équipe est disponible dans toute la France, selon les informations fournies.
+
+RESPONSIVE
+Mise en page fluide pour petits téléphones, écrans intermédiaires et grands écrans.
+Colonnes, tailles de texte, galerie, formulaires, pied de page et fiches projets adaptés.
+Zones de sécurité pour encoches et commandes du téléphone ; zoom autorisé.
+Écrans doubles : lorsque le navigateur expose les segments, le contenu reste
+dans une zone de lecture et une photographie occupe le deuxième segment.
+Menus, fiches et préloader évitent la charnière. Le comportement normal sert de repli.
+Voir documents/RESPONSIVE-ET-VERIFICATIONS.txt pour les limites des contrôles.
+
+RÉFÉRENCEMENT
+Titres, descriptions, textes métier et données structurées de l’entreprise sont préparés.
+Aucune page d’annuaire ou route SEO supplémentaire.
+Le domaine n’a pas encore été communiqué. preparer-publication.py génère les URL
+canoniques et le sitemap avec l’adresse réelle saisie, sans publier le site.
+Voir documents/SEO-VERIFIE.txt et documents/SEO-ET-MISE-EN-LIGNE.txt.
+Un classement Google ne peut être garanti.
+
+AVANT DIFFUSION
+Vérifier les informations administratives et les attestations, désigner le médiateur,
+compléter l’hébergeur et la politique opérationnelle de conservation des données.
+Les informations concernées figurent dans documents/VALIDATIONS-AVANT-DIFFUSION.md.
+31 contrôles fonctionnels ciblés ont passé en simulation. La cascade CSS est
+analysée sur 40 profils, dont paysage, segments et zones de sécurité simulées.
+Le titre est également estimé avec la police locale ; ces calculs ne sont pas un rendu navigateur.
+Rapport de cette correction : documents/verification-images-desktop-v17.json.
+Huit profils de grands écrans et quatre contextes compacts sont contrôlés par analyse CSS.
+Les contrôles fonctionnels précédents restent ceux de la version 16 :
+documents/verification-transition-responsive-v16.json,
+documents/verification-geometrie-responsive-v16.json et
+documents/verification-typographie-responsive-v16.json.
+Les anciens rapports restent historiques et ne sont pas recomptés.
+Le rendu sur navigateur, la fluidité perçue et les appareils réels restent à contrôler.
+Aucun site n’a été publié.
+
+VÉRIFICATIONS DE LA VERSION 18
+38 contrôles de comportements et ressources passent en simulation DOM.
+La cascade CSS est contrôlée sur 40 formats, dont formats étroits, paysage,
+zones de sécurité et écrans segmentés, plus huit profils de grand écran.
+Les scripts et rapports de vérification sont dans documents/tests et documents.
+Ces contrôles ne remplacent pas un rendu réel : aucune capture navigateur,
+mesure FPS ou vérification visuelle sur téléphone physique n’a été réalisée.
+
+VERSION 19
+Le lien « Explorer l’avant / après » est retiré des fiches projet, ainsi que les
+références correspondantes du script. Le comparateur de la page reste disponible.
+
+VERSION 20
+Le projet de sol commercial est nommé « Carrelage en grande surface ».
+Le titre, la description et les légendes et alternatives correspondantes sont harmonisés.
+
+VERSION 21
+Sur les écrans de 760 px et moins et les écrans à deux segments horizontaux,
+les garanties présentent visuels, titres, descriptions et liens centrés.

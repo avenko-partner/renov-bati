@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "URL canoniques et partage absolus sur cinq pages",
+    "Sitemap avec quatre pages commerciales indexables",
+    "JSON-LD et médias liés au domaine saisi",
+    "robots.txt référence le bon sitemap",
+    "Relance sans URL en double",
+    "URL invalides refusées",
+    "Utilisable depuis le ZIP aplati"
+  ],
+  "test_domain": "Domaine fictif réservé utilisé uniquement dans un dossier temporaire, non livré",
+  "published": false
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Contours extraits du logo fourni, masque de luminance et simplification de lignes. Aucune géométrie de marque inventée.",
+  "source": "assets/logo-renov-bati.webp",
+  "source_dimensions": [
+    988,
+    1095
+  ],
+  "trace_paths": 69,
+  "trace_bytes": 18972,
+  "threshold": 18,
+  "vector_tolerance": 1.2
+}

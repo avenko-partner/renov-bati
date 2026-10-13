@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": 7,
+  "coverage": [
+    "Sélection de huit projets et compteur initial exact",
+    "Dimensions de mise en page des huit photos conformes aux proportions natives",
+    "Portfolio complet et photographie Auchan conservés",
+    "Ouverture : accès au devis et au téléphone, sans ancien collage et commentaires décoratifs",
+    "Tous les métiers, informations utiles et contact national restent disponibles",
+    "Titres, descriptions, indexabilité et h1 des trois pages cohérents",
+    "Données structurées et routes limitées au site autorisé"
+  ],
+  "limitation": "Contrôle du contenu et de la structure seulement. Aucun résultat Google, rendu navigateur, prix Awwwards ou test réel d’appareil."
+}

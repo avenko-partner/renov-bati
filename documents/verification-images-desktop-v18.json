@@ -1,0 +1,1143 @@
+{
+  "status": "PASS",
+  "version": 18,
+  "date": "2026-10-13",
+  "desktop_profiles": 8,
+  "compact_profiles_unchanged": 4,
+  "scope": "Limites de hauteur des photos secondaires sur ordinateur ; préloader et carrousel inchangés.",
+  "method": "Cascade CSS et calcul indicatif des hauteurs depuis les colonnes et rapports des photos. Aucun rendu navigateur.",
+  "limits": [
+    "Les valeurs calculées ne sont pas des mesures de pixels rendus.",
+    "Le recadrage et les alignements visuels réels restent à vérifier dans un navigateur."
+  ],
+  "records": [
+    {
+      "profile": {
+        "w": 1101,
+        "h": 768,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 369.57224999999994,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 317.1753333333333,
+              "estimated_frame_height": 422.9004444444444,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 317.1753333333333,
+              "estimated_frame_height": 462.1331196494775,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 277.17918749999995,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 491.52,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 491.52,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 491.52,
+              "height_limit": 491.52,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 491.52,
+              "height_limit": 491.52,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 491.52,
+          "material_width": "440px",
+          "portfolio_limit": 491.52,
+          "comparison_width_limit": 345.59999999999997,
+          "comparison_height_limit": 600,
+          "detail_limit": 230.39999999999998
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 369.57224999999994,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 317.1753333333333,
+              "estimated_frame_height": 422.9004444444444,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 317.1753333333333,
+              "estimated_frame_height": 462.1331196494775,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 277.17918749999995,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 522.24,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 522.24,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 522.24,
+              "height_limit": 522.24,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 492.7629999999999,
+              "estimated_frame_height": 522.24,
+              "height_limit": 522.24,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 522.24,
+          "material_width": "480px",
+          "portfolio_limit": 522.24,
+          "comparison_width_limit": 376.32,
+          "comparison_height_limit": 660,
+          "detail_limit": 245.76
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 1280,
+        "h": 720,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 431.7300000000001,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 372.42666666666673,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 372.42666666666673,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 323.79750000000007,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 460.8,
+              "height_limit": 460.8,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 460.8,
+          "material_width": "440px",
+          "portfolio_limit": 460.8,
+          "comparison_width_limit": 324,
+          "comparison_height_limit": 600,
+          "detail_limit": 216
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 431.7300000000001,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 372.42666666666673,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 372.42666666666673,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 323.79750000000007,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 575.6400000000001,
+              "estimated_frame_height": 489.6,
+              "height_limit": 489.6,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 489.6,
+          "material_width": "480px",
+          "portfolio_limit": 489.6,
+          "comparison_width_limit": 352.8,
+          "comparison_height_limit": 660,
+          "detail_limit": 230.4
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 1440,
+        "h": 900,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 487.29,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 421.81333333333333,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 421.81333333333333,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 365.46750000000003,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 576,
+          "material_width": "440px",
+          "portfolio_limit": 576,
+          "comparison_width_limit": 405,
+          "comparison_height_limit": 600,
+          "detail_limit": 260
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 487.29,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 421.81333333333333,
+              "estimated_frame_height": 562.4177777777778,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 421.81333333333333,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 365.46750000000003,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 649.72,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 612,
+          "material_width": "480px",
+          "portfolio_limit": 612,
+          "comparison_width_limit": 441,
+          "comparison_height_limit": 660,
+          "detail_limit": 280
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 1920,
+        "h": 1080,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 580,
+          "material_width": "440px",
+          "portfolio_limit": 580,
+          "comparison_width_limit": 450,
+          "comparison_height_limit": 600,
+          "detail_limit": 260
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 569.25,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 620,
+          "material_width": "480px",
+          "portfolio_limit": 620,
+          "comparison_width_limit": 495,
+          "comparison_height_limit": 660,
+          "detail_limit": 280
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 2560,
+        "h": 1440,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 580,
+          "material_width": "440px",
+          "portfolio_limit": 580,
+          "comparison_width_limit": 450,
+          "comparison_height_limit": 600,
+          "detail_limit": 260
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 569.25,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 620,
+          "material_width": "480px",
+          "portfolio_limit": 620,
+          "comparison_width_limit": 495,
+          "comparison_height_limit": 660,
+          "detail_limit": 280
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 3440,
+        "h": 1440,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 580,
+          "material_width": "440px",
+          "portfolio_limit": 580,
+          "comparison_width_limit": 450,
+          "comparison_height_limit": 600,
+          "detail_limit": 260
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 569.25,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 620,
+          "material_width": "480px",
+          "portfolio_limit": 620,
+          "comparison_width_limit": 495,
+          "comparison_height_limit": 660,
+          "detail_limit": 280
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 3840,
+        "h": 2160,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 560,
+              "height_limit": 560,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 580,
+          "material_width": "440px",
+          "portfolio_limit": 580,
+          "comparison_width_limit": 450,
+          "comparison_height_limit": 600,
+          "detail_limit": 260
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 569.25,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 426.9375,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 580,
+              "height_limit": 580,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 620,
+          "material_width": "480px",
+          "portfolio_limit": 620,
+          "comparison_width_limit": 495,
+          "comparison_height_limit": 660,
+          "detail_limit": 280
+        }
+      }
+    },
+    {
+      "profile": {
+        "w": 1920,
+        "h": 600,
+        "fine": true
+      },
+      "versions": {
+        "17": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 384,
+              "height_limit": 384,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 384,
+          "material_width": "440px",
+          "portfolio_limit": 384,
+          "comparison_width_limit": 270,
+          "comparison_height_limit": 600,
+          "detail_limit": 180
+        },
+        "18": {
+          "gallery": [
+            {
+              "project": "veranda-lumiere",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-clair",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "bain-pierre",
+              "estimated_slot_width": 494.6666666666667,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "piscine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "cuisine",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "salle-de-bains",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "terrasse",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            },
+            {
+              "project": "commerce",
+              "estimated_slot_width": 759,
+              "estimated_frame_height": 408,
+              "height_limit": 408,
+              "fit": "contain"
+            }
+          ],
+          "material_limit": 408,
+          "material_width": "480px",
+          "portfolio_limit": 408,
+          "comparison_width_limit": 294,
+          "comparison_height_limit": 660,
+          "detail_limit": 192
+        }
+      }
+    }
+  ]
+}

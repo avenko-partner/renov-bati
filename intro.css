@@ -1,0 +1,25 @@
+.brand-intro{display:none;position:fixed;inset:0;z-index:100;isolation:isolate;background:#160100;color:#fae7af;grid-template-rows:1fr;place-items:center;padding:clamp(20px,4vw,60px);opacity:1;--load-progress:0}
+.intro-pending .brand-intro,.intro-running .brand-intro{display:grid!important}
+.intro-pending body{overflow:hidden}html{scrollbar-gutter:stable}
+.brand-intro::before{display:none}
+.intro-center{display:grid;place-items:center;min-height:0;width:100%;height:100%;padding:0}
+.intro-emblem{display:block;height:min(58vh,560px);height:min(58svh,560px);max-width:min(78vw,470px);width:auto;overflow:visible}
+.intro-trace{stroke-dasharray:1;stroke-dashoffset:1;opacity:0;vector-effect:non-scaling-stroke;stroke-width:1.2px}
+.intro-running .intro-trace{animation:logo-outline var(--trace-duration,.94s) cubic-bezier(.3,.05,.25,1) var(--trace-delay,0s) both}
+.intro-drawn .intro-trace{animation:none;stroke-dashoffset:0;opacity:1}
+.intro-original{opacity:0;transition:opacity .32s ease-out}
+.intro-logo-ready .intro-original{opacity:1}.intro-logo-ready .intro-traces{opacity:0;transition:opacity .32s ease-out}
+.intro-pending .hero-copy,.intro-pending .hero-main,.intro-pending .hero-detail{animation:none!important}
+/* Set the entrance state while the logo still covers the page, before its exit. */
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-line-inner{opacity:0;transform:translateY(16px)}
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-copy>.eyebrow,
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-brief,
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-controls,
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-project{opacity:0;transform:translateY(10px)}
+.intro-pending:not(.hero-entrance-armed):not(.reduce-motion) .hero-rule{transform:scaleX(0)}
+.intro-leaving .brand-intro{pointer-events:none;animation:preloader-out .34s ease-out both}
+@keyframes logo-outline{0%{stroke-dashoffset:1;opacity:0}3%{opacity:1}100%{stroke-dashoffset:0;opacity:1}}
+@keyframes preloader-out{from{opacity:1}to{opacity:0}}
+@media(max-width:700px){.intro-emblem{height:min(55svh,470px);max-width:78vw}}
+@media(prefers-reduced-motion:reduce){.intro-pending .brand-intro,.intro-running .brand-intro,.brand-intro{display:none!important}.intro-pending body{overflow:auto}.intro-pending .hero-line-inner,.intro-pending .hero-copy>.eyebrow,.intro-pending .hero-brief,.intro-pending .hero-controls,.intro-pending .hero-project{opacity:1!important;transform:none!important}.intro-pending .hero-rule{transform:none!important}}
+.reduce-motion .brand-intro{display:none!important}.reduce-motion.intro-pending body{overflow:auto}

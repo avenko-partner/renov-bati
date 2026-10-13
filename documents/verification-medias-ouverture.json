@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "image_elements": 69,
+  "per_page": {
+    "index.html": 47,
+    "projets.html": 18,
+    "informations.html": 4
+  },
+  "unique_referenced_files": 49,
+  "coverage": [
+    "Décodage WebP",
+    "Dimensions HTML comparées aux fichiers",
+    "Largeurs srcset comparées aux fichiers"
+  ],
+  "limitation": "Vérification des fichiers et déclarations ; aucun rendu visuel navigateur."
+}

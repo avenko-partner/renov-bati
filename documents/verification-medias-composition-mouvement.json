@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "images_html": 69,
+  "pages": {
+    "index.html": 47,
+    "informations.html": 4,
+    "projets.html": 18
+  },
+  "files_checked": 49,
+  "method": "Décodage WebP, dimensions HTML et largeurs srcset avec Pillow. Aucun rendu navigateur."
+}
