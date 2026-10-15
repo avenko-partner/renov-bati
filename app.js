@@ -166,61 +166,7 @@
 
   let toastTimer;
   function toast(message){const element=$('#toast');clearTimeout(toastTimer);element.textContent=message;element.classList.add('is-visible');toastTimer=setTimeout(()=>element.classList.remove('is-visible'),2600);}
-  const dialog=$('#project-dialog'),projects=new Map(data.projects.map(project=>[project.id,project]));
-  let activeProject=null,photoIndex=0,opener=null,closingAnimation=null,closingDeadline=null,photoAnimation=null;
-  function stopPhotoMotion(){
-    if(photoAnimation){try{photoAnimation.cancel();}catch{}photoAnimation=null;}
-  }
-  window.addEventListener('resize',stopPhotoMotion,{passive:true});
-  function finishDialogClose(){
-    clearTimeout(closingDeadline);closingDeadline=null;
-    if(closingAnimation){closingAnimation.onfinish=null;closingAnimation.cancel();closingAnimation=null;}
-    dialog.classList.remove('is-closing');if(dialog.open)dialog.close();
-  }
-  function requestDialogClose(){
-    if(!dialog.open||closingAnimation)return;
-    if(reduced()||typeof dialog.animate!=='function'){finishDialogClose();return;}
-    dialog.classList.add('is-closing');
-    closingAnimation=dialog.animate([{opacity:1,transform:'translateY(0)'},{opacity:0,transform:'translateY(8px)'}],{duration:180,easing:'ease-in',fill:'none'});
-    closingAnimation.onfinish=finishDialogClose;
-    closingDeadline=setTimeout(finishDialogClose,240);
-  }
-  document.addEventListener('renov-motion-change',()=>{if(reduced()){stopPhotoMotion();if(closingAnimation)finishDialogClose();}});
-  motionMedia?.addEventListener?.('change',()=>{if(reduced())stopPhotoMotion();});
-  window.addEventListener('pagehide',()=>{stopPhotoMotion();if(closingAnimation)finishDialogClose();});
-  function showPhoto(index){
-    if(!activeProject)return;const count=activeProject.images.length;photoIndex=(index+count)%count;
-    const photo=activeProject.images[photoIndex],image=$('#project-dialog-image');
-    image.src=`./assets/photos/${photo.file}.webp`;image.alt=photo.alt;
-    if(photo.mobileWidth&&photo.width){image.srcset=`./assets/photos/${photo.file}-mobile.webp ${photo.mobileWidth}w, ./assets/photos/${photo.file}.webp ${photo.width}w`;image.sizes='(max-width: 960px) 92vw, 60vw';}
-    if(photo.width&&photo.height){image.width=photo.width;image.height=photo.height;}
-    stopPhotoMotion();
-    if(dialog.open&&!reduced()&&typeof image.animate==='function'){
-      try{
-        const effect=image.animate([{opacity:.85},{opacity:1}],{duration:300,easing:'ease-out'});photoAnimation=effect;
-        effect.finished?.then(()=>{if(photoAnimation===effect)photoAnimation=null;},()=>{if(photoAnimation===effect)photoAnimation=null;});
-      }catch{}
-    }
-    $('#project-photo-count').textContent=`${String(photoIndex+1).padStart(2,'0')} / ${String(count).padStart(2,'0')}`;
-    $('#project-photo-prev').disabled=count<=1;$('#project-photo-next').disabled=count<=1;
-  }
-  function openProject(id,trigger){
-    const project=projects.get(id);if(!project||typeof dialog.showModal!=='function')return false;
-    activeProject=project;opener=trigger;closeMenu();
-    $('#project-dialog-title').textContent=project.title;$('#project-dialog-category').textContent=project.label;$('#project-dialog-description').textContent=project.description;
-    const list=$('#project-dialog-details');list.replaceChildren();project.details.forEach(detail=>{const li=document.createElement('li');li.textContent=detail;list.append(li);});
-    showPhoto(0);dialog.showModal();body.classList.add('dialog-open');return true;
-  }
-  document.addEventListener('click',event=>{
-    const link=event.target.closest('[data-project]');if(link&&openProject(link.dataset.project,link))event.preventDefault();
-  });
-  $('[data-dialog-close]').addEventListener('click',requestDialogClose);
-  dialog.addEventListener('cancel',event=>{event.preventDefault();requestDialogClose();});
-  dialog.addEventListener('close',()=>{stopPhotoMotion();clearTimeout(closingDeadline);closingDeadline=null;if(closingAnimation){closingAnimation.onfinish=null;closingAnimation.cancel();closingAnimation=null;}dialog.classList.remove('is-closing');body.classList.remove('dialog-open');if(opener?.isConnected)opener.focus({preventScroll:true});});
-  dialog.addEventListener('click',event=>{if(event.target!==dialog)return;const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)requestDialogClose();});
-  $('#project-photo-prev').addEventListener('click',()=>showPhoto(photoIndex-1));$('#project-photo-next').addEventListener('click',()=>showPhoto(photoIndex+1));
-  dialog.addEventListener('keydown',event=>{if(!dialog.open||!activeProject||activeProject.images.length<=1||event.ctrlKey||event.metaKey||event.altKey)return;if(event.key==='ArrowLeft'||event.key==='ArrowRight'){event.preventDefault();showPhoto(photoIndex+(event.key==='ArrowRight'?1:-1));}});
-  $('#project-dialog-quote').addEventListener('click',()=>dialog.close());
+  document.addEventListener('renov-close-menu',closeMenu);
 
   // Both halves of the strip have identical widths, including on wide screens.
   const marquee=$('#logo-marquee'),track=$('.logo-track'),firstGroup=$('#logo-group'),secondGroup=$('.logo-group[aria-hidden=true]'),pause=$('#marquee-pause');

@@ -1,5 +1,5 @@
 RENOV BATI — DOSSIER COMPLET DU SITE
-Version 23 — référencement Yvelines et préparation SEO
+Version 24 — visionneuse React et transitions photographiques
 
 OUVRIR EN LOCAL
 Décompressez intégralement l’archive. Ouvrez index.html ou utilisez votre serveur local.
@@ -150,3 +150,29 @@ sur 14 métiers, texte local et FAQ enrichis. La préparation du domaine génèr
 les canoniques, les URL sociales et le sitemap avec les photographies.
 Voir documents/SEO-ET-MISE-EN-LIGNE.txt et verification-seo-v23.json.
 Le domaine reste à définir ; aucun classement ou résultat Google n’est garanti.
+
+VERSION 24 — VISIONNEUSE REACT
+La consultation des projets utilise React, compilé et inclus dans le dossier.
+Aucune installation n’est nécessaire pour ouvrir le site. React est chargé
+uniquement à l’approche d’un projet ou à son ouverture.
+Les photos suivantes sont chargées et décodées avant le fondu : la photo
+actuelle reste visible pendant l’attente. Miniatures, flèches clavier,
+glissement tactile horizontal, vue agrandie et fermeture native sont disponibles.
+Échap sort d’abord de la vue agrandie, puis ferme la fiche. Les images ne sont
+pas déformées. Les réductions de mouvement système et du site sont respectées.
+Les liens vers le portfolio servent de repli si React ne peut pas se charger.
+L’accueil, le préloader, les photos, la charte et le SEO de la version 23 sont conservés.
+
+SOURCES ET RECOMPILATION (FACULTATIF, POUR LE DÉVELOPPEUR)
+Les sources sont dans ressources/react-ui. Dans ce dossier, avec Node et npm :
+npm ci
+npm run build
+Le script reconnaît le dossier public livré et le checkout avec dist/.
+Les versions sont fixées dans package.json et package-lock.json. Les licences
+sont conservées dans ressources/react-ui/licenses et projects-react.js.LEGAL.txt.
+
+VÉRIFICATIONS COURANTES
+11 groupes de contrôles du véritable bundle React et 34 contrôles de la vitrine
+passent en simulation DOM ; 40 profils sont contrôlés par cascade CSS.
+Les 13 projets s’ouvrent avec les données et les photographies fournies.
+Pas de rendu navigateur, capture visuelle, FPS ou contrôle sur appareil physique.

@@ -1,3 +1,5 @@
+> Version courante : 24. Visionneuse React de projets avec photos décodées avant fondu, miniatures, vue agrandie et commandes tactiles/clavier. 11 groupes de contrôles React, 34 contrôles de régression et 40 profils CSS passent. Rapports : verification-react-v24.json, verification-core-v24.json et verification-geometrie-responsive-v24.json. Exécution du vrai bundle production dans jsdom, pas un rendu navigateur ni une mesure de fluidité/FPS. Rapports précédents historiques.
+
 > Version courante : 23. SEO renforcé sur les trois pages ; titres et descriptions, 14 services structurés, contenu local et FAQ. Préparation locale des canoniques, données et sitemap pages/images vérifiée. Rapport : verification-seo-v23.json. Aucune publication, indexation, position Google ou validation en ligne effectuée. Rapports précédents historiques.
 
 > Version courante : 22. Flèches diagonales remplacées par des SVG décoratifs, avec trait et couleur définis, notamment près du téléphone. Structure SVG et liens vérifiés ; aucun rendu sur téléphone physique contrôlé. Rapports antérieurs historiques.

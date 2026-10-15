@@ -1,6 +1,6 @@
 # Direction artistique — Renov Bati
 
-Version 18 — rythme des sections, transitions et lisibilité. Cette note décrit le dossier courant.
+Version 24 — consultation des projets en React. Cette note décrit le dossier courant.
 
 ## Trois directions étudiées
 
@@ -100,3 +100,9 @@ Les photographies secondaires reçoivent une limite de hauteur liée à la fenê
 L’ouverture acceptée est préservée. Le mouvement des images est un déplacement vertical court ; les textes de métier entrent latéralement pour accompagner leur composition alternée. Les photographies de matières sont observées séparément afin de respecter leur position sur mobile. Les garanties restent stables et lisibles, avec un mouvement limité du visuel et du titre. Aucun masque d’entrée ni disparition préalable n’est utilisé.
 
 Les durées des entrées se situent entre 580 et 760 ms, avec une courbe commune et sans boucle ni manipulation du scroll. Les survols restent réservés aux pointeurs précis. La réduction des mouvements système et le réglage du site neutralisent ces effets. Les petits textes sont agrandis ; les images secondaires gagnent légèrement en présence sans revenir aux hauteurs excessives de la version 16. Ces choix sont documentés et contrôlés par simulation ; leur aspect et leur fluidité réels restent à examiner dans un navigateur.
+
+## Consultation des projets — version 24
+
+La vitrine et l’ouverture acceptées sont conservées. React gère seulement le contenu du dialog natif. Les photographies restent à leur taille naturelle dans un cadre contenu ; une photo ne cède sa place qu’après chargement et décodage de la suivante. Le fondu dure 620 ms, l’ouverture 420 ms et la fermeture 200 ms. Les miniatures assurent un accès direct ; la vue agrandie donne davantage de place à l’image sans invoquer le mode plein écran du navigateur. La gestuelle verticale demeure native.
+
+Le chargement du bundle est lié à l’intention de consulter un projet. La vitrine, le portfolio et le contenu SEO restent du HTML. React n’est pas présenté comme une garantie de performance : les états et le cycle des médias sont contrôlés, mais le rendu et les FPS restent à mesurer dans un navigateur.
