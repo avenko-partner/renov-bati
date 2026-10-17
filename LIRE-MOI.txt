@@ -5,7 +5,22 @@ Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premi
 Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
 n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
 
-CETTE CORRECTION
+DERNIÈRE MISE À JOUR — PISCINE À L'ACCUEIL
+La piscine remplace uniquement la façade en première vue du carrousel d'accueil,
+avec sa miniature, sa légende et son lien vers le projet. Les deux vues suivantes
+restent la véranda puis la cuisine, toutes les 4,5 secondes. Le reste du site est conservé.
+Contrôles DOM et horloge simulée : documents/verification-retour-piscine-20261017.json.
+Pas de rendu navigateur après cette modification.
+
+COMPOSITION DES RÉALISATIONS
+Grille d’accueil recomposée : photos et légendes alignées, hauteurs maîtrisées,
+suppression des grands vides et des décalages artificiels. Les couvertures remplissent
+leur cadre ; les photos ouvertes dans une fiche restent visibles en entier.
+Voir LIRE-MOI-COMPOSITION.txt pour les changements et les limites de vérification.
+Les trois nouveaux films courts et muets restent inclus ; voir LIRE-MOI-VIDEOS-ACCUEIL.txt.
+Les éléments ci-dessous de navigation et de sécurité restent conservés.
+
+CORRECTIONS CONSERVÉES
 • Changement de page : un voile bref recouvre la page de départ. Le logo se dessine
   une seule fois sur la page d’arrivée ; il ne commence plus à moitié avant de repartir.
   L’arrivée attend les premières images, le logo et les polices, avec secours à 7 secondes.
@@ -21,8 +36,8 @@ CETTE CORRECTION
   archives et anciennes sources restent hors du dossier public.
 
 CONTENU CONSERVÉ
-48 fiches de réalisations, plus une sélection d’inspirations séparée. Les 109 photos
-et 15 films supplémentaires, leurs vues et leur ordre sont conservés. Tous les médias
+51 fiches de réalisations, plus une sélection d’inspirations séparée. Les 109 photos
+et les 15 premiers films, leurs vues et leur ordre sont conservés. Trois films sont ajoutés. Tous les médias déjà livrés
 sont identiques à ceux de la livraison précédente. Les dix couvertures vidéo optimisées
 restent présentes, sans recadrage dans les galeries. Les films sont muets.
 Le carrousel d’accueil reste à 4,5 secondes. Le comparateur de l’accueil conserve
@@ -58,7 +73,8 @@ en ligne. Le site n’est pas certifié conforme par cette revue de code.
 
 VÉRIFICATIONS
 33 groupes de contrôles de l’accueil, 23 de navigation/pagination/galeries/formulaire,
-6 d’export et configuration de sécurité, plus comparaison de tous les médias au ZIP source.
+6 d’export, 6 d’intégration des nouveaux films et photos, plus contrôle des fichiers vidéo
+et comparaison de tous les anciens médias au ZIP source.
 Les rapports datés 20261017 et les scripts associés sont dans documents/.
 Les anciens rapports sont historiques. Aucun rendu dans un vrai navigateur, test sur
 appareil physique, mesure FPS/Core Web Vitals ou test d’intrusion distant n’a été réalisé.

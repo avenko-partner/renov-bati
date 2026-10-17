@@ -14,7 +14,7 @@
     return [button.dataset.heroView,{
       ...source,file:button.dataset.heroFile||source.file,width:Number(button.dataset.heroWidth)||source.width,
       height:Number(button.dataset.heroHeight)||source.height,mobileWidth:Number(button.dataset.heroMobileWidth)||source.mobileWidth,
-      screenWidth:Number(button.dataset.heroScreenWidth)||0
+      screenWidth:Number(button.dataset.heroScreenWidth)||0,position:button.dataset.heroPosition||null
     }];
   }));
   const media=typeof matchMedia==='function'?matchMedia('(prefers-reduced-motion: reduce)'):null;
@@ -110,7 +110,7 @@
     image.dataset.heroId=id;image.sizes=imageSizes();
     image.srcset=srcset(photo);
     image.src=`./assets/photos/${photo.file}.webp`;image.alt=photo.alt;
-    image.width=photo.width;image.height=photo.height;image.style.objectPosition=positions[id]||'50% 50%';
+    image.width=photo.width;image.height=photo.height;image.style.objectPosition=photo.position||positions[id]||'50% 50%';
     frame.dataset.heroCurrent=id;link.href=`./projets.html#${id}`;link.dataset.project=id;
     document.querySelector('#hero-project-label').textContent=project.label;
     document.querySelector('#hero-project-title').textContent=project.title;

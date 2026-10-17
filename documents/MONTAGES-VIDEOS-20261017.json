@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-17",
+  "source_archive": "ertan 2.zip",
+  "original_video_count": 3,
+  "edited_video_count": 3,
+  "audio": "aucune piste audio dans les montages",
+  "encoding": "H.264, 30 images/s, pixels YUV 4:2:0, faststart, léger débruitage, fondus de 0,28 s, dimensions natives sans agrandissement",
+  "montages": [
+    {
+      "source": 1,
+      "id": "film-16",
+      "project": "bain-blanc-or",
+      "segments": [
+        [
+          0.4,
+          6.6,
+          1
+        ],
+        [
+          12.15,
+          15.3,
+          1
+        ],
+        [
+          17.55,
+          19.4,
+          1
+        ]
+      ],
+      "poster": 0.65,
+      "detail": 18.65,
+      "crf": 24,
+      "media": {
+        "id": "film-16",
+        "kind": "video",
+        "src": "./assets/collection/film-16-fac3d0734b.mp4",
+        "width": 416,
+        "height": 816,
+        "duration": 10.67,
+        "bytes": 1445997,
+        "poster": "./assets/collection/film-16-couverture-5710ed807b.webp",
+        "posterWidth": 416,
+        "posterHeight": 816,
+        "thumb": "./assets/collection/film-16-apercu-00e9e8ef2f.webp",
+        "thumbWidth": 265,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-16-detail-c338daa0a4.webp",
+        "coverDetailWidth": 416,
+        "coverDetailHeight": 816,
+        "coverPosition": "center"
+      },
+      "source_filename": "ertan 2/WhatsApp Video 2026-10-17 at 08.03.07.mp4",
+      "source_bytes": 2249171,
+      "source_duration": 19.585,
+      "source_sha256": "8bbc8ec8f9d6ec7a6bc9a4a5ce8e0d41fe5483e11ff90bf9026d3361c95f1430",
+      "output_sha256": "fac3d0734b3a1b0d464b14dea48b23e64bf756e41c4140a566a8abc3108dd9ae",
+      "images": [
+        {
+          "role": "couverture",
+          "at_seconds": 0.65,
+          "bytes": 52466,
+          "width": 416,
+          "height": 816,
+          "sha256": "5710ed807b8be7c51479ebc1a18e00c204ff8399d5f0baf59409fd4f70767624"
+        },
+        {
+          "role": "detail",
+          "at_seconds": 18.65,
+          "bytes": 52164,
+          "width": 416,
+          "height": 816,
+          "sha256": "c338daa0a489b64a2a2712bd3fd37754a5dde03e0997180e62908d46606591cd"
+        }
+      ],
+      "crossfade_seconds": 0.28
+    },
+    {
+      "source": 2,
+      "id": "film-17",
+      "project": "bain-noir-blanc",
+      "segments": [
+        [
+          0.3,
+          2.8,
+          1
+        ],
+        [
+          9.8,
+          15.8,
+          1
+        ]
+      ],
+      "poster": 0.5,
+      "detail": 11.35,
+      "crf": 24,
+      "media": {
+        "id": "film-17",
+        "kind": "video",
+        "src": "./assets/collection/film-17-9c40d29ef0.mp4",
+        "width": 416,
+        "height": 832,
+        "duration": 8.23,
+        "bytes": 703712,
+        "poster": "./assets/collection/film-17-couverture-4687d9c313.webp",
+        "posterWidth": 416,
+        "posterHeight": 832,
+        "thumb": "./assets/collection/film-17-apercu-ff49f53953.webp",
+        "thumbWidth": 260,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-17-detail-afcf4f7423.webp",
+        "coverDetailWidth": 416,
+        "coverDetailHeight": 832,
+        "coverPosition": "center"
+      },
+      "source_filename": "ertan 2/WhatsApp Video 2026-10-17 at 08.06.54.mp4",
+      "source_bytes": 2503235,
+      "source_duration": 21.858333,
+      "source_sha256": "764dfffe37b54d4fb9d887d038bd58bb4d8272aebda05cf75ffc79daccff3d60",
+      "output_sha256": "9c40d29ef08473f7622a6b4adde703f330eb57d05d26abd871edd5eba935a609",
+      "images": [
+        {
+          "role": "couverture",
+          "at_seconds": 0.5,
+          "bytes": 33412,
+          "width": 416,
+          "height": 832,
+          "sha256": "4687d9c3131d439a22cb703c422036b7208c4672e1450dd836ff9a5d474133af"
+        },
+        {
+          "role": "detail",
+          "at_seconds": 11.35,
+          "bytes": 27652,
+          "width": 416,
+          "height": 832,
+          "sha256": "afcf4f742331c36af06ca72e6600127dcf23f010e748d12f7bdb806d64369c61"
+        }
+      ],
+      "crossfade_seconds": 0.28
+    },
+    {
+      "source": 3,
+      "id": "film-18",
+      "project": "terrasse-stores",
+      "segments": [
+        [
+          4,
+          8.8,
+          1
+        ],
+        [
+          18,
+          25.8,
+          2
+        ],
+        [
+          37,
+          40.8,
+          1
+        ],
+        [
+          65.8,
+          71.6,
+          1
+        ]
+      ],
+      "poster": 5.3,
+      "detail": 68.5,
+      "crf": 25,
+      "media": {
+        "id": "film-18",
+        "kind": "video",
+        "src": "./assets/collection/film-18-b1e045c749.mp4",
+        "width": 576,
+        "height": 1024,
+        "duration": 17.5,
+        "bytes": 1849547,
+        "poster": "./assets/collection/film-18-couverture-c105692a0c.webp",
+        "posterWidth": 576,
+        "posterHeight": 1024,
+        "thumb": "./assets/collection/film-18-apercu-f76289504d.webp",
+        "thumbWidth": 292,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-18-detail-ec0c2b3545.webp",
+        "coverDetailWidth": 576,
+        "coverDetailHeight": 1024,
+        "coverPosition": "center"
+      },
+      "source_filename": "ertan 2/WhatsApp Video 2026-10-17 at 08.19.47.mp4",
+      "source_bytes": 7864698,
+      "source_duration": 85.12,
+      "source_sha256": "0028b2b9c856b2b11308eaf023da0ae83fcb473efd98678dd6f73cdf339ea239",
+      "output_sha256": "b1e045c749808b1cdbf6ec662c5864b6585d73092e2f30943ad5f492ed83da05",
+      "images": [
+        {
+          "role": "couverture",
+          "at_seconds": 5.3,
+          "bytes": 50282,
+          "width": 576,
+          "height": 1024,
+          "sha256": "c105692a0c01f44151b662ca4cf14ee30f71d1ab605adf18d89b1fd7180f56ab"
+        },
+        {
+          "role": "detail",
+          "at_seconds": 68.5,
+          "bytes": 78334,
+          "width": 576,
+          "height": 1024,
+          "sha256": "ec0c2b35450bda5f5aba5445376518acbc2dfb70bbe69bf905b34d02a9cf3b23"
+        }
+      ],
+      "crossfade_seconds": 0.28
+    }
+  ]
+}

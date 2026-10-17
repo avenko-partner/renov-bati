@@ -127,7 +127,7 @@ window.RENOV_DATA = {
     {
       "id": "veranda-lumiere",
       "category": "exterieur",
-      "label": "Menuiserie & extension",
+      "label": "Menuiserie & véranda",
       "title": "La maison s’ouvre au jardin",
       "description": "Une structure anthracite et de larges surfaces vitrées prolongent la maison vers le jardin.",
       "details": [
@@ -137,10 +137,10 @@ window.RENOV_DATA = {
       ],
       "images": [
         {
-          "file": "veranda-lumiere",
-          "alt": "Véranda à structure anthracite et baies vitrées, adossée à une maison.",
-          "width": 1600,
-          "height": 1200,
+          "file": "accueil-menuiserie",
+          "alt": "Intérieur d’une véranda anthracite : baies vitrées, toiture translucide et sol carrelé ouverts sur le jardin.",
+          "width": 1280,
+          "height": 960,
           "mobileWidth": 720
         },
         {

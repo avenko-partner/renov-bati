@@ -1,0 +1,58 @@
+# Films et nouvelle sélection de l’accueil
+
+MISE À JOUR — FILMS & PHOTOS D’ACCUEIL — 17 OCTOBRE 2026
+
+Ouvrir index.html après extraction intégrale du ZIP. Aucun déploiement effectué.
+
+Trois nouveaux films, à partir de ertan 2.zip :
+• Salle de bains blanche et dorée : 10,67 secondes.
+• Salle de bains aux vasques noires : 8,23 secondes.
+• Terrasse couverte et stores latéraux : 17,50 secondes.
+Tous les montages sont sans piste audio, en H.264 à 30 images/s, avec lecture à la demande,
+commande de pause native et démarrage rapide. Les passages répétitifs et les vues moins
+pertinentes sont retirés ; un passage fixe sur les stores est accéléré deux fois.
+Les fondus entre les plans durent 0,28 seconde. Les images ne sont ni agrandies ni recadrées
+à l’intérieur du lecteur. Léger débruitage de la vidéo et couvertures WebP choisies dans
+les sources, sans génération. La netteté reste limitée par les enregistrements WhatsApp.
+
+Les trois montages pèsent 3 999 256 octets, soit 4,00 Mo, contre 12 617 104 octets pour les
+originaux : réduction de 68,3 %, hors nouvelles couvertures. Les films ne se téléchargent
+qu’à l’ouverture d’une fiche. Les aperçus et couvertures restent des images légères.
+
+Les nouveaux lieux sont ajoutés dans trois fiches distinctes, accessibles dans les dix
+premières cartes du portfolio : aucun rapprochement avec un chantier visuellement différent.
+Le portfolio compte désormais 51 réalisations, plus une sélection d’inspirations séparée.
+Les 344 fichiers de médias déjà présents et les 49 anciens groupes sont conservés à l’identique.
+Les nouveaux fichiers à nom avec empreinte conservent le fonctionnement du cache long.
+
+ACCUEIL
+L’ouverture alterne une façade, une véranda et une cuisine, toujours toutes les 4,5 secondes.
+La sélection de huit réalisations montre une véranda, la couverture, la façade, le carrelage
+professionnel, une extension maçonnée, une salle de bains, les aménagements extérieurs et
+l’agencement de cuisine. Les vues des métiers montrent également la maçonnerie, les doublages
+et l’isolation, puis une pergola. La partie matières montre des revêtements, des marches et
+des assemblages de charpente. Les photographies sont fournies, sans nouvelle image générée.
+Les liens ouvrent la fiche correspondant au chantier visible. L’avant/après existant est
+conservé et la photo de son état final n’est plus reprise dans une carte de la sélection.
+Le préloader unique, la pagination par dix à la fin réelle de chaque lot, le crédit Avenko
+partner et les protections de l’export public sont conservés.
+
+VÉRIFICATIONS
+33 groupes sur l’accueil, 23 sur la navigation/pagination/galeries/formulaire, six sur l’export,
+six sur l’intégration des nouveaux films et liens photographiques. Les trois fichiers vidéo
+ont été décodés en entier, contrôlés par ffprobe et examinés par images de contrôle.
+Les dimensions et formats WebP, les sources, les positions du carrousel et les ressources
+publiques sont contrôlés. Les médias antérieurs sont comparés au précédent ZIP.
+Rapports : verification-accueil-videos-20261017.json, verification-navigation-videos-20261017.json,
+verification-export-videos-20261017.json, verification-integration-films-accueil-20261017.json,
+verification-nouveaux-films-20261017.json. Les anciens rapports sont historiques.
+Pas de rendu dans un navigateur, d’essai sur appareil physique, de mesure FPS ou de contrôle
+réseau Vercel réel. Les contrôles DOM et CSS ne remplacent pas une vérification visuelle.
+Le ZIP complet est vérifié par CRC et extraction avant livraison.
+
+Les informations juridiques et justificatifs qui restaient à confirmer dans la livraison
+précédente restent recensés dans documents/VALIDATIONS-AVANT-DIFFUSION.md. Le formulaire
+prépare toujours un brouillon à envoyer depuis la messagerie du visiteur.
+
+Le détail des plans, secondes sources, empreintes et paramètres est dans MONTAGES-VIDEOS-20261017.json.
+Le relevé des images et liens de l’accueil est dans SELECTION-ACCUEIL-20261017.json.

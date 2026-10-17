@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-17",
+  "changes": [
+    {
+      "project": "veranda-lumiere",
+      "before": "Des baies ouvertes sur le jardin.",
+      "after": "Véranda & baies vitrées",
+      "layout": "wide",
+      "position": "50% 50%"
+    },
+    {
+      "project": "couverture",
+      "before": "La précision du raccord.",
+      "after": "Couverture en tuiles",
+      "layout": "portrait",
+      "position": "50% 48%"
+    },
+    {
+      "project": "ravalement",
+      "before": "Une façade retrouve ses lignes.",
+      "after": "Rénovation de façade",
+      "layout": "standard",
+      "position": "50% 46%"
+    },
+    {
+      "project": "commerce",
+      "before": "La continuité des grands espaces.",
+      "after": "Carrelage en grande surface",
+      "layout": "standard",
+      "position": "50% 62%"
+    },
+    {
+      "project": "extension-maconnee",
+      "before": "Une extension aux lignes claires.",
+      "after": "Extension de maison",
+      "layout": "standard",
+      "position": "50% 47%"
+    },
+    {
+      "project": "bain-pierre",
+      "before": "La pierre rencontre le noir.",
+      "after": "Salle de bains en pierre",
+      "layout": "standard",
+      "position": "50% 47%"
+    },
+    {
+      "project": "demeure-pierre",
+      "before": "Le jardin, dans le prolongement.",
+      "after": "Aménagements en pierre",
+      "layout": "standard",
+      "position": "50% 52%"
+    },
+    {
+      "project": "cuisine",
+      "before": "Les lignes d’un intérieur.",
+      "after": "Cuisine & éclairage intégré",
+      "layout": "standard",
+      "position": "50% 48%"
+    }
+  ],
+  "preserved": [
+    "Mêmes photographies réelles et liens de chantiers.",
+    "Charte noire et dorée, préloader, films et comparateur inchangés.",
+    "Images entières dans les fiches : seul le cadrage des couvertures est adapté."
+  ],
+  "composition": "Premier duo 7/5, puis duos égaux sur ordinateur ; deux colonnes sur tablette, une sur mobile et panneau étroit."
+}

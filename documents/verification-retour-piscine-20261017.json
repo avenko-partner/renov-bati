@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-17",
+  "status": "PASS",
+  "checks": [
+    "Piscine affichée au chargement avec le préloader conservé.",
+    "Deux cycles piscine, véranda et cuisine, à 4,5 secondes par vue.",
+    "Miniature, légende, photo et lien synchronisés.",
+    "Pause et sélection manuelle conservées.",
+    "Le lien de la piscine ouvre sa galerie réelle."
+  ],
+  "limits": [
+    "Vérifications DOM et horloge simulée, sans rendu navigateur après modification."
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-17",
+  "hero": [
+    {
+      "id": "facade-maison",
+      "file": "facade-lumiere",
+      "width": 1085,
+      "height": 801,
+      "mobile": 720,
+      "thumb": "facade-lumiere-thumb",
+      "thumbWidth": 240,
+      "thumbHeight": 177,
+      "title": "Façade & maçonnerie",
+      "label": "Façade & extérieurs",
+      "projectTitle": "Une façade, son relief",
+      "position": "56% 51%",
+      "alt": "Maison à façade claire, couverture sombre et terrasse carrelée."
+    },
+    {
+      "id": "veranda-lumiere",
+      "file": "accueil-menuiserie",
+      "width": 1280,
+      "height": 960,
+      "mobile": 720,
+      "thumb": "accueil-menuiserie-thumb",
+      "thumbWidth": 240,
+      "thumbHeight": 180,
+      "title": "Menuiserie & véranda",
+      "label": "Menuiserie & véranda",
+      "projectTitle": "La maison s’ouvre au jardin",
+      "position": "56% 50%",
+      "alt": "Intérieur d’une véranda anthracite, avec baies vitrées et sol carrelé ouverts sur le jardin."
+    },
+    {
+      "id": "cuisine",
+      "file": "cuisine-lumiere",
+      "width": 1280,
+      "height": 1600,
+      "mobile": 720,
+      "thumb": "cuisine-lumiere-thumb",
+      "thumbWidth": 240,
+      "thumbHeight": 300,
+      "title": "Rénovation intérieure",
+      "label": "Cuisine & agencement",
+      "projectTitle": "Cuisine, lignes & lumière",
+      "position": "50% 54%",
+      "alt": "Cuisine aménagée aux façades coordonnées, plans clairs et éclairage intégré."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "veranda-lumiere",
+      "media": "photo-005",
+      "category": "exterieur",
+      "label": "Menuiserie & véranda",
+      "title": "Des baies ouvertes sur le jardin.",
+      "alt": "Véranda anthracite et baies vitrées au pied d’une maison."
+    },
+    {
+      "id": "couverture",
+      "media": "ancien-couverture-lucarne",
+      "category": "exterieur",
+      "label": "Couverture & toiture",
+      "title": "La précision du raccord.",
+      "alt": "Lucarne intégrée à une couverture en tuiles sombres, avec ses raccords."
+    },
+    {
+      "id": "ravalement",
+      "media": "photo-001",
+      "category": "exterieur",
+      "label": "Façade & rénovation",
+      "title": "Une façade retrouve ses lignes.",
+      "alt": "Façade claire rénovée, avec sa porte bleue et ses ouvertures."
+    },
+    {
+      "id": "commerce",
+      "media": "photo-073",
+      "category": "professionnel",
+      "label": "Carrelage professionnel",
+      "title": "La continuité des grands espaces.",
+      "alt": "Carrelage clair et joints alignés dans une allée de grande surface."
+    },
+    {
+      "id": "extension-maconnee",
+      "media": "photo-046",
+      "category": "exterieur",
+      "label": "Extension & maçonnerie",
+      "title": "Une extension aux lignes claires.",
+      "alt": "Extension maçonnée enduite avec grandes baies vitrées anthracite."
+    },
+    {
+      "id": "bain-pierre",
+      "media": "ancien-salle-de-bains-pierre",
+      "category": "interieur",
+      "label": "Salle de bains & plomberie",
+      "title": "La pierre rencontre le noir.",
+      "alt": "Double vasque noire, miroir rond et douche vitrée dans une salle de bains aux revêtements veinés."
+    },
+    {
+      "id": "demeure-pierre",
+      "media": "photo-022",
+      "category": "exterieur",
+      "label": "Terrasses & aménagements",
+      "title": "Le jardin, dans le prolongement.",
+      "alt": "Terrasse et marches en pierre claire au pied d’une maison."
+    },
+    {
+      "id": "cuisine",
+      "media": "ancien-cuisine-detail",
+      "category": "interieur",
+      "label": "Agencement & éclairage",
+      "title": "Les lignes d’un intérieur.",
+      "alt": "Plans de travail et éclairage intégré d’une cuisine aménagée."
+    }
+  ],
+  "expertise": [
+    [
+      "maconnerie-construction",
+      "photo-061",
+      "Maçonnerie & gros œuvre",
+      "Élévation de murs maçonnés et ouvertures en cours de construction."
+    ],
+    [
+      "cloisons-reseaux",
+      "photo-013",
+      "Isolation, doublages & cloisons",
+      "Doublage et isolation sous rampant pendant un chantier intérieur."
+    ],
+    [
+      "pergola-jardin",
+      "photo-006",
+      "Menuiserie & aménagement extérieur",
+      "Pergola anthracite et terrasse aménagée au pied d’une maison."
+    ]
+  ],
+  "materials": [
+    [
+      ".material-photo",
+      "photo-023",
+      "Marches et cheminement extérieur revêtus de pierre claire.",
+      "Marches en pierre · Raccords · Finitions",
+      "(max-width: 640px) 92vw, 44vw"
+    ],
+    [
+      ".material-detail",
+      "photo-075",
+      "Détail des carreaux clairs et de l’alignement des joints.",
+      "Carrelage & continuité",
+      "(max-width: 640px) 48vw, 28vw"
+    ],
+    [
+      ".material-context",
+      "photo-100",
+      "Assemblages de bois d’une charpente en cours de construction.",
+      "Charpente & assemblages",
+      "(max-width: 640px) 48vw, 28vw"
+    ]
+  ],
+  "policy": "Photographies réelles fournies, pas de génération. Sources différentes dans les sections principales. Le comparateur existant est conservé. Les dimensions de diffusion restent natives ou réduites."
+}

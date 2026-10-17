@@ -30,3 +30,9 @@ Les anciens scripts et rapports restent historiques. Les nouveaux scripts trouve
 la racine du site automatiquement ; un premier argument permet d’en indiquer une autre.
 La navigation location.assign est instrumentée uniquement dans le test pour compter
 les destinations sans ouvrir de page. Ce remplacement n’existe pas dans le site livré.
+
+FILMS ET ACCUEIL — DERNIÈRE MISE À JOUR
+Les fichiers verify-home-videos.mjs, verify-navigation-videos.mjs, verify-public-videos.mjs
+et verify-new-media-home.mjs correspondent à la sélection actuelle et aux 51 réalisations.
+Ils utilisent review-harness.mjs, jsdom et css-tree. Même commande que ci-dessus avec le nom
+du script ; le premier argument indique le dossier du site si nécessaire.

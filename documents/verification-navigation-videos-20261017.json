@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "checks": 23,
+  "coverage": [
+    "Un lot reste limité à dix tant que sa fin est sous le viewport, même à moins de 600 px",
+    "Une arrivée à la fin ajoute exactement dix cartes ; la fin du nouveau lot doit être atteinte à son tour",
+    "La fin des lots successifs révèle 10, 20, 30, 40, 50, 51 cartes puis arrête l’observation",
+    "Un saut au pied de page compte comme une fin atteinte ; les lots ne se vident pas seuls",
+    "Bouton manuel et déclenchement automatique simultanés partagent un seul ajout et le focus manuel",
+    "Changer de filtre annule l’ajout en attente et conserve uniquement les chantiers de ce filtre",
+    "Un onglet masqué suspend l’ajout ; il reprend à son retour si la fin est atteinte",
+    "Une galerie ouverte suspend l’ajout et sa fermeture le reprend sans recadrer le média",
+    "La pagination attend la fin réelle du préloader",
+    "Retour arrière et absence d’IntersectionObserver gardent le bouton utilisable",
+    "Mouvements réduits : mêmes lots, sans animations d’entrée",
+    "Une ancre mal encodée ne casse ni la grille ni l’ouverture des fiches",
+    "Trois pages : départ couvert sans dessiner une partie du logo et destination dessinée une seule fois",
+    "Deux clics pendant le départ ne produisent qu’une navigation ; annulation et bfcache rendent la page utilisable",
+    "Les ancres, liens externes, nouvel onglet et clics modifiés ne lancent pas de transition de page",
+    "Mouvements réduits : pas de voile ni de délai ajouté aux changements de page",
+    "Un lien sortant d’une galerie ferme la couche native avant de couvrir le document",
+    "Le crédit Avenko partner est présent sur les trois pages et reste accessible sur les formats étroits",
+    "Le formulaire rejette les injections HTML, caractères de contrôle et numéros surdimensionnés",
+    "Un devis valide prépare seulement un brouillon encodé, avec récapitulatif texte modifiable",
+    "Le comparateur conserve sa course complète 0 → 100 → 0 et ses commandes de pause",
+    "Une photo décodée remplace la précédente par fondu ; un clic plus récent attend la fin du fondu en cours",
+    "Les médias ouverts et les miniatures gardent leur cadrage entier sur mobile, paysage, double segment et grand écran"
+  ],
+  "environment": "Simulation DOM, horloge et chargements contrôlés, événements IntersectionObserver simulés, analyse de cascade CSS. La navigation assign est instrumentée dans le test uniquement.",
+  "limits": [
+    "Pas de rendu dans un navigateur ni sur appareil physique.",
+    "Le seuil est simulé depuis des rectangles explicites, sans mesure de défilement réelle.",
+    "Aucune mesure FPS, Core Web Vitals ou test d’intrusion distant."
+  ]
+}

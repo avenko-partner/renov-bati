@@ -1,0 +1,1023 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "method": "Simulation DOM et cascade CSS, calcul géométrique des boîtes, aucun moteur de rendu navigateur.",
+  "screen_profiles": 20,
+  "checks": [
+    "Photo, zone cliquable et légende ont la même largeur.",
+    "Les couvertures remplissent leur cadre sans réduction intrinsèque du bloc.",
+    "Façade et commerce ont les mêmes dimensions de cadre.",
+    "Hauteur des couvertures limitée sur ordinateur, paysage et tablette.",
+    "Premier duo 7/5 sur ordinateur ; duos égaux ensuite, deux colonnes tablette, une colonne mobile et panneau Duo.",
+    "Aucun décalage vertical artificiel.",
+    "Filtres et retour à la composition initiale utilisables.",
+    "Images dans les fiches entièrement visibles.",
+    "Lien vers tous les projets sans nombre inexact."
+  ],
+  "measurements": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "couverture",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "ravalement",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "commerce",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "bain-pierre",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 288,
+          "height": 240
+        },
+        {
+          "id": "cuisine",
+          "width": 288,
+          "height": 240
+        }
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        780
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "couverture",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "ravalement",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "commerce",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "bain-pierre",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 328,
+          "height": 273
+        },
+        {
+          "id": "cuisine",
+          "width": 328,
+          "height": 273
+        }
+      ]
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "couverture",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "ravalement",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "commerce",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "bain-pierre",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 343,
+          "height": 286
+        },
+        {
+          "id": "cuisine",
+          "width": 343,
+          "height": 286
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "couverture",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "ravalement",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "commerce",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "bain-pierre",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 354,
+          "height": 295
+        },
+        {
+          "id": "cuisine",
+          "width": 354,
+          "height": 295
+        }
+      ]
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "couverture",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "ravalement",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "commerce",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "bain-pierre",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 394,
+          "height": 328
+        },
+        {
+          "id": "cuisine",
+          "width": 394,
+          "height": 328
+        }
+      ]
+    },
+    {
+      "viewport": [
+        540,
+        720
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "couverture",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "ravalement",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "commerce",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "bain-pierre",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 497,
+          "height": 414
+        },
+        {
+          "id": "cuisine",
+          "width": 497,
+          "height": 414
+        }
+      ]
+    },
+    {
+      "viewport": [
+        640,
+        960
+      ],
+      "pane": null,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "couverture",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "ravalement",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "commerce",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "bain-pierre",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 589,
+          "height": 491
+        },
+        {
+          "id": "cuisine",
+          "width": 589,
+          "height": 491
+        }
+      ]
+    },
+    {
+      "viewport": [
+        641,
+        960
+      ],
+      "pane": null,
+      "columns": 2,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "couverture",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "ravalement",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "commerce",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "bain-pierre",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 283,
+          "height": 230
+        },
+        {
+          "id": "cuisine",
+          "width": 283,
+          "height": 230
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "pane": null,
+      "columns": 2,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "couverture",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "ravalement",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "commerce",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "bain-pierre",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 344,
+          "height": 261
+        },
+        {
+          "id": "cuisine",
+          "width": 344,
+          "height": 261
+        }
+      ]
+    },
+    {
+      "viewport": [
+        820,
+        1180
+      ],
+      "pane": null,
+      "columns": 2,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "couverture",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "ravalement",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "commerce",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "bain-pierre",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 368,
+          "height": 279
+        },
+        {
+          "id": "cuisine",
+          "width": 368,
+          "height": 279
+        }
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "pane": null,
+      "columns": 2,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "couverture",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "ravalement",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "commerce",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "bain-pierre",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 379,
+          "height": 250
+        },
+        {
+          "id": "cuisine",
+          "width": 379,
+          "height": 250
+        }
+      ]
+    },
+    {
+      "viewport": [
+        960,
+        768
+      ],
+      "pane": null,
+      "columns": 2,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "couverture",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "ravalement",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "commerce",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "bain-pierre",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 432,
+          "height": 326
+        },
+        {
+          "id": "cuisine",
+          "width": 432,
+          "height": 326
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 540,
+          "height": 300
+        },
+        {
+          "id": "couverture",
+          "width": 376,
+          "height": 300
+        },
+        {
+          "id": "ravalement",
+          "width": 458,
+          "height": 300
+        },
+        {
+          "id": "commerce",
+          "width": 458,
+          "height": 300
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 458,
+          "height": 300
+        },
+        {
+          "id": "bain-pierre",
+          "width": 458,
+          "height": 300
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 458,
+          "height": 300
+        },
+        {
+          "id": "cuisine",
+          "width": 458,
+          "height": 300
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1114,
+        720
+      ],
+      "pane": 540,
+      "columns": 1,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "couverture",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "ravalement",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "commerce",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "bain-pierre",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 496,
+          "height": 413
+        },
+        {
+          "id": "cuisine",
+          "width": 496,
+          "height": 413
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 678,
+          "height": 371
+        },
+        {
+          "id": "couverture",
+          "width": 475,
+          "height": 371
+        },
+        {
+          "id": "ravalement",
+          "width": 577,
+          "height": 371
+        },
+        {
+          "id": "commerce",
+          "width": 577,
+          "height": 371
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 577,
+          "height": 371
+        },
+        {
+          "id": "bain-pierre",
+          "width": 577,
+          "height": 371
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 577,
+          "height": 371
+        },
+        {
+          "id": "cuisine",
+          "width": 577,
+          "height": 371
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 765,
+          "height": 418
+        },
+        {
+          "id": "couverture",
+          "width": 537,
+          "height": 418
+        },
+        {
+          "id": "ravalement",
+          "width": 651,
+          "height": 418
+        },
+        {
+          "id": "commerce",
+          "width": 651,
+          "height": 418
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 651,
+          "height": 418
+        },
+        {
+          "id": "bain-pierre",
+          "width": 651,
+          "height": 418
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 651,
+          "height": 418
+        },
+        {
+          "id": "cuisine",
+          "width": 651,
+          "height": 418
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1900,
+        904
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 892,
+          "height": 440
+        },
+        {
+          "id": "couverture",
+          "width": 628,
+          "height": 440
+        },
+        {
+          "id": "ravalement",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "commerce",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "bain-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "cuisine",
+          "width": 760,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 892,
+          "height": 440
+        },
+        {
+          "id": "couverture",
+          "width": 628,
+          "height": 440
+        },
+        {
+          "id": "ravalement",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "commerce",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "bain-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "cuisine",
+          "width": 760,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 892,
+          "height": 440
+        },
+        {
+          "id": "couverture",
+          "width": 628,
+          "height": 440
+        },
+        {
+          "id": "ravalement",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "commerce",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "bain-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "cuisine",
+          "width": 760,
+          "height": 440
+        }
+      ]
+    },
+    {
+      "viewport": [
+        3840,
+        2160
+      ],
+      "pane": null,
+      "columns": 12,
+      "frames": [
+        {
+          "id": "veranda-lumiere",
+          "width": 892,
+          "height": 440
+        },
+        {
+          "id": "couverture",
+          "width": 628,
+          "height": 440
+        },
+        {
+          "id": "ravalement",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "commerce",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "extension-maconnee",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "bain-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "demeure-pierre",
+          "width": 760,
+          "height": 440
+        },
+        {
+          "id": "cuisine",
+          "width": 760,
+          "height": 440
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Pas de capture après modification dans un navigateur.",
+    "Pas de contrôle visuel ou de débordement réalisé sur un appareil physique."
+  ]
+}

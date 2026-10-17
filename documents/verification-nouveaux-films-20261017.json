@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "new_videos": [
+    {
+      "id": "film-16",
+      "duration": 10.67,
+      "bytes": 1445997,
+      "h264": true,
+      "fps": 30,
+      "audio_streams": 0,
+      "decoded_to_end": true,
+      "faststart": true,
+      "rotation_baked": true,
+      "poster_dimensions": [
+        416,
+        816
+      ]
+    },
+    {
+      "id": "film-17",
+      "duration": 8.23,
+      "bytes": 703712,
+      "h264": true,
+      "fps": 30,
+      "audio_streams": 0,
+      "decoded_to_end": true,
+      "faststart": true,
+      "rotation_baked": true,
+      "poster_dimensions": [
+        416,
+        832
+      ]
+    },
+    {
+      "id": "film-18",
+      "duration": 17.5,
+      "bytes": 1849547,
+      "h264": true,
+      "fps": 30,
+      "audio_streams": 0,
+      "decoded_to_end": true,
+      "faststart": true,
+      "rotation_baked": true,
+      "poster_dimensions": [
+        576,
+        1024
+      ]
+    }
+  ],
+  "original_video_bytes": 12617104,
+  "edited_video_bytes": 3999256,
+  "video_size_reduction_percent": 68.3,
+  "original_seconds": 126.563,
+  "edited_seconds": 36.4,
+  "original_assets_preserved": 344,
+  "original_project_groups_preserved": 49,
+  "limitations": [
+    "La netteté reste limitée par les sources WhatsApp ; aucune génération de détail ou mise à l’échelle supérieure.",
+    "Montages et images examinés par images de contrôle ; pas de rendu navigateur ou test sur appareil physique."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "checks": 6,
+  "coverage": [
+    "Les trois nouvelles réalisations sont visibles dans le premier lot avec des couvertures et détails locaux",
+    "Chaque nouveau film se lit seulement dans sa fiche, sans son, avec commandes et arrêt à la fermeture",
+    "Les huit cartes et les trois photos des métiers ouvrent exactement les chantiers de leurs images",
+    "La nouvelle ouverture garde une boucle de 4,5 secondes, les légendes et cadrages synchronisés",
+    "Les images principales des sections de l’accueil sont distinctes, hors miniatures et logos",
+    "Les vidéos ouvertes gardent leurs proportions et leur cadrage entier sur les principaux formats"
+  ],
+  "limitations": [
+    "Simulation DOM, horloge et cascade CSS ; pas de rendu navigateur ni d’appareil physique.",
+    "La lecture et l’arrêt sont vérifiés par événements simulés ; la validité des fichiers, l’absence d’audio et le décodage complet sont vérifiés séparément par FFmpeg/ffprobe."
+  ]
+}

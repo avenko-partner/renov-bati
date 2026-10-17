@@ -7,9 +7,11 @@ Les galeries présentent les images et films en entier ; les couvertures peuvent
 leur cadre. Les vues vidéo restent limitées par la netteté des enregistrements d’origine.
 Les fichiers originaux lourds ne sont pas dupliqués dans le ZIP du site.
 
-L’export public ne conserve que les 266 fichiers de collection référencés par les champs
+L’export public ne conserve que les 278 fichiers de collection référencés par les champs
 src, thumb, poster et coverDetail du manifeste portfolio-data.js. Les autres ressources
 nécessaires (logo, photographies d’accueil, logos, garanties et polices) sont conservées.
 Les anciens aperçus inutilisés ne sont pas publiés. Les films ne se téléchargent pas
 au simple défilement de la grille. Le cache long concerne les fichiers à nom avec empreinte.
 Voir LIRE-MOI.txt pour les commandes de préparation et les limites des vérifications.
+
+Trois nouveaux montages courts et sans son sont ajoutés. Détails dans LIRE-MOI-VIDEOS-ACCUEIL.txt.

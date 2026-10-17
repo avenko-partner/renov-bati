@@ -1,0 +1,44 @@
+RENOV BATI — COMPOSITION DES RÉALISATIONS — 17 OCTOBRE 2026
+
+Extraire entièrement le ZIP et ouvrir index.html dans renov-bati-premium/.
+Ce dossier contient le site complet et ses ressources. Aucune publication effectuée.
+
+CORRECTION
+La photo du commerce, verticale, occupait seulement une partie d'une carte très large.
+La hauteur plafonnée et le ratio de la source étaient combinés sans cadre de couverture
+indépendant, tandis que la légende conservait la largeur entière de la colonne.
+
+Les couvertures occupent maintenant un cadre stable de la même largeur que leur légende.
+Les photographies réelles restent les mêmes, avec des cadrages propres aux couvertures.
+La première paire conserve une composition 7/5 sur ordinateur ; les suivantes ont deux
+colonnes égales. Les deux photos de façade et de commerce ont le même format d'affichage.
+Les décalages verticaux artificiels sont retirés. Les images ne grossissent plus au survol.
+Les titres indiquent le type de travaux ; le lien vers la collection dit Tous les projets.
+
+Sur ordinateur, les couvertures ne dépassent pas 440 px de haut ni 64 % de la hauteur
+du viewport. Sur tablette : deux colonnes. Sur mobile et panneau Duo : une colonne,
+cadre 6/5 et légendes lisibles. Les boutons d'ouverture restent accessibles au clavier.
+
+Les photos et films ouverts dans une fiche restent intégralement cadrés (contain).
+Le préloader, les trois films ajoutés, les 51 fiches de réalisations, la sélection
+d'inspirations séparée, les fichiers vidéo muets, le comparateur automatique de l'accueil,
+la pagination par dix et le crédit Avenko partner sont conservés.
+Aucun média ajouté ni réencodé pour cette correction : aucun poids vidéo supplémentaire.
+
+VÉRIFICATIONS
+• Cascade CSS, géométrie des cadres et galerie : 20 profils de 320 à 3840 px, dont Duo.
+• Accueil, préloader, carrousel, filtres et interactions : 33 groupes de contrôles.
+• Navigation, pagination, galerie et formulaire : 23 groupes.
+• Intégration des trois films et des liens photographiques : six groupes.
+• Export public, ressources et configuration de sécurité : six groupes.
+• ZIP complet : présence des médias, CRC et comparaison des fichiers après extraction.
+
+Limite : contrôles DOM, horloge simulée, cascade CSS et calculs de dimensions.
+Pas de rendu navigateur après correction, ni de test sur appareil physique.
+Le rapport courant est documents/verification-composition-realisations-20261017.json.
+Les anciens rapports et notices sont conservés comme historique.
+
+Les justificatifs et informations légales qui restaient à confirmer sont recensés
+dans documents/VALIDATIONS-AVANT-DIFFUSION.md. Aucun nouvel avis, client, label ou
+engagement commercial n'a été ajouté. Le formulaire prépare toujours un brouillon
+que le visiteur doit envoyer depuis sa messagerie.

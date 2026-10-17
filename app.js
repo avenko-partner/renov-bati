@@ -127,7 +127,7 @@
       const layout=id==='all'?card.dataset.layout:'standard',single=visible.length===1;
       card.classList.toggle('is-featured',layout==='wide');card.classList.toggle('is-narrow',layout==='portrait');card.classList.toggle('is-single',single);
       const img=card.querySelector('.project-photo img');
-      if(img){const medium=layout==='wide'||single?'92vw':'46vw',wide=layout==='wide'?'62vw':layout==='portrait'?'30vw':'46vw';img.sizes=`(max-width: 640px) 92vw, (max-width: 960px) ${medium}, ${wide}`;}
+      if(img){const wide=single?'min(92vw, 760px)':layout==='wide'?'54vw':layout==='portrait'?'40vw':'46vw';img.sizes=`(horizontal-viewport-segments: 2) 92vw, (max-width: 640px) 92vw, (max-width: 960px) 46vw, ${wide}`;}
     });
     filters.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===id)));
     $('#project-count').textContent=`${visible.length} ${visible.length===1?'réalisation':'réalisations'}`;

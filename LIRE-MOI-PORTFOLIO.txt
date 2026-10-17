@@ -1,7 +1,7 @@
 RENOV BATI — PORTFOLIO — 17 OCTOBRE 2026
 
 Extraire tout le ZIP, puis ouvrir index.html ou projets.html.
-48 fiches de réalisations et une sélection d’inspirations indépendante sont conservées.
+51 fiches de réalisations et une sélection d’inspirations indépendante sont conservées.
 Une fiche réunit seulement les vues rapprochées visuellement d’un même chantier.
 Les séries d’évolution restent ordonnées avant, travaux, après ; les couvertures sont
 choisies séparément. Les images ouvertes et miniatures restent entières, sans zoom.
@@ -19,8 +19,11 @@ ouvertures dans un nouvel onglet, retour arrière et réduction des mouvements s
 
 L’unique comparateur est sur l’accueil : 0 à 100 puis 100 à 0 en boucle, neuf secondes
 par trajet, geste manuel prioritaire, reprise après quatre secondes sans interaction.
-Les 124 médias supplémentaires (109 photos, 15 films muets), les dix nouvelles couvertures
+Les 127 médias supplémentaires (109 photos, 18 films muets), les dix nouvelles couvertures
 vidéo et les vues complémentaires sont inchangés.
 
 Consulter LIRE-MOI.txt pour l’export public, les vérifications et les informations légales
 qui restent à confirmer. Aucune publication effectuée.
+
+Trois nouvelles fiches : bain-blanc-or, bain-noir-blanc et terrasse-stores.
+Voir LIRE-MOI-VIDEOS-ACCUEIL.txt pour les montages et la nouvelle sélection de l’accueil.
