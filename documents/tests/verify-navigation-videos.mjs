@@ -93,17 +93,17 @@ await check('Le crédit Avenko partner est présent sur les trois pages et reste
 
 await check('Le formulaire rejette les injections HTML, caractères de contrôle et numéros surdimensionnés',async()=>{
  for(const [field,value]of [['firstname','<img src=x onerror=alert(1)>'],['firstname','Jean\u0000'],['lastname','Dupont\u007f'],['phone','06 12 34 56 78\u0007'],['phone',' '.repeat(50)+'0'.repeat(42)],['email','a\u0000@example.fr']]){
-  const s=scene({preloader:false,scripts:['content.js','preferences.js','app.js']});await s.settle();const values={firstname:'Élise',lastname:'D’Angelo',phone:'+33 6 12 34 56 78',email:'elise@example.fr', [field]:value};for(const [key,text]of Object.entries(values))s.$('#quote-'+key).value=text;
+  const s=scene({preloader:false,scripts:['content.js','preferences.js','site-header.js','app.js']});await s.settle();const values={firstname:'Élise',lastname:'D’Angelo',phone:'+33 6 12 34 56 78',email:'elise@example.fr', [field]:value};for(const [key,text]of Object.entries(values))s.$('#quote-'+key).value=text;
   s.$('#quote-form').dispatchEvent(new s.w.Event('submit',{cancelable:true,bubbles:true}));assert.equal(s.$('#quote-'+field).getAttribute('aria-invalid'),'true',field);assert.equal(s.$('#quote-form').hidden,false);assert.equal(s.$('#quote-result').hidden,true);assert.equal(s.$('#quote-summary').querySelector('img'),null);s.close();
  }
 });
 await check('Un devis valide prépare seulement un brouillon encodé, avec récapitulatif texte modifiable',async()=>{
- const s=scene({preloader:false,scripts:['content.js','preferences.js','app.js']});await s.settle();for(const [key,value]of Object.entries({firstname:'Élise',lastname:'D’Angelo & Cie',phone:'+33 6 12 34 56 78',email:'elise+devis@example.fr'}))s.$('#quote-'+key).value=value;
+ const s=scene({preloader:false,scripts:['content.js','preferences.js','site-header.js','app.js']});await s.settle();for(const [key,value]of Object.entries({firstname:'Élise',lastname:'D’Angelo & Cie',phone:'+33 6 12 34 56 78',email:'elise+devis@example.fr'}))s.$('#quote-'+key).value=value;
  s.$('#quote-form').dispatchEvent(new s.w.Event('submit',{cancelable:true,bubbles:true}));assert.equal(s.$('#quote-result').hidden,false);const mail=new URL(s.$('#quote-email-link').href);assert.equal(mail.protocol,'mailto:');assert.equal(mail.pathname,'artugrul.ertan@orange.fr');assert.ok(mail.searchParams.get('body').includes('D’Angelo & Cie'));assert.ok(mail.searchParams.get('body').includes('elise+devis@example.fr'));assert.equal([...mail.searchParams].length,2);assert.equal(s.$('#quote-summary').children.length,3);await s.click('#quote-edit');assert.equal(s.$('#quote-form').hidden,false);assert.equal(s.$('#quote-firstname').value,'Élise');assert.equal(s.errors.length,0);s.close();
 });
 
 await check('Le comparateur conserve sa course complète 0 → 100 → 0 et ses commandes de pause',async()=>{
- const s=scene({preloader:false,scripts:['content.js','preferences.js','app.js','comparison-auto.js']});await s.settle();await s.intersect('#compare-stage',true);await s.frame();assert.equal(Number(s.$('#compare-range').value),0);
+ const s=scene({preloader:false,scripts:['content.js','preferences.js','site-header.js','app.js','comparison-auto.js']});await s.settle();await s.intersect('#compare-stage',true);await s.frame();assert.equal(Number(s.$('#compare-range').value),0);
  for(const expected of [100,0,100,0]){for(let i=0;i<120;i++){await s.advance(75);await s.frame();}assert.ok(Math.abs(Number(s.$('#compare-range').value)-expected)<.02);}
  await s.click('.compare-auto');const value=s.$('#compare-range').value;await s.advance(2000);await s.frame();assert.equal(s.$('#compare-range').value,value);await s.click('.compare-auto');await s.frame();await s.advance(75);await s.frame();assert.ok(Number(s.$('#compare-range').value)>0);await s.motion(true);const reduced=s.$('#compare-range').value;await s.advance(2000);await s.frame();assert.equal(s.$('#compare-range').value,reduced);s.close();
 });

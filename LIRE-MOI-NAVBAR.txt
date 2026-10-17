@@ -1,0 +1,35 @@
+RENOV BATI — NAVBAR COMMUNE — 17 OCTOBRE 2026
+
+Extraire complètement le ZIP et ouvrir index.html. Site complet, sans publication.
+
+L'en-tête de l'accueil est utilisé sur les trois pages : index.html, projets.html,
+informations.html. Même logo, mêmes quatre liens, même bouton de devis et même menu
+mobile. Les anciens en-têtes spécifiques aux réalisations et aux informations sont retirés.
+
+La navbar reste en haut au défilement avec le même état visuel que sur l'accueil.
+La barre dorée indique l'avancement de chaque page. Elle se recalcule quand de nouveaux
+projets sont affichés, quand la fenêtre change de taille et lors d'un retour arrière.
+Le script site-header.js est chargé une fois par page ; il ne dépend pas du carrousel,
+du formulaire ou des données des réalisations. Le fonctionnement de l'en-tête a été
+retiré de app.js afin d'éviter deux gestionnaires concurrents.
+
+Depuis une autre page, Savoir-faire, Avant / après, Garanties et le bouton de devis
+rejoignent les sections correspondantes de l'accueil. Réalisations rejoint projets.html.
+Le menu conserve Escape, le parcours clavier, le focus et la fermeture avant une
+navigation ou l'ouverture d'une galerie. Les liens restent présents sans JavaScript.
+
+VÉRIFICATIONS
+12 groupes sur la navbar partagée : structure identique, scroll, progression, cache des
+mesures, redimensionnement, pagination, retour arrière, mobile/Duo, clavier, liens et galeries.
+Comparaison de la cascade CSS sur 13 formats de 320 à 3840 px, avec mouvements réduits.
+33 groupes de régression accueil et 23 sur la navigation, les galeries et le formulaire.
+Six groupes sur l'intégration des films et six sur l'export public.
+Les références des médias, le contenu complet du ZIP, son CRC et son extraction sont contrôlés.
+
+Limite : simulation DOM, horloge, événements et cascade CSS. Pas de rendu navigateur
+ni d'essai sur un appareil physique ; le maintien sticky est vérifié dans les règles CSS.
+Rapport courant : documents/verification-navbar-commune-20261017.json.
+
+La piscine reste la première vue de l'accueil. Les photographies, films muets, projets,
+comparateur, préloader et crédits sont conservés. Aucun média ajouté ou réencodé.
+L'export Vercel reste dédié aux fichiers publics ; aucun déploiement n'a été réalisé.

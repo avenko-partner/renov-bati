@@ -12,7 +12,7 @@ const read=(file,base=root)=>fs.readFileSync(path.join(base,file),'utf8');
 const checks=[],measurements={};
 async function check(name,fn){await fn();checks.push(name);}
 const flush=async()=>{for(let i=0;i<10;i++)await Promise.resolve();};
-function scene({base=root,page='index.html',scripts=['content.js','preferences.js','intro.js','app.js','craft.js','hero-gallery.js'],preloader=true,animation=true,reduced=false,width=1440,height=900,segments=false,pane=540,resources=true,autoImages=true,history='navigate',hash='',noIdle=false}={}){
+function scene({base=root,page='index.html',scripts=['content.js','preferences.js','intro.js','site-header.js','app.js','craft.js','hero-gallery.js'],preloader=true,animation=true,reduced=false,width=1440,height=900,segments=false,pane=540,resources=true,autoImages=true,history='navigate',hash='',noIdle=false}={}){
  const errors=[],console=new VirtualConsole();console.on('jsdomError',e=>errors.push(e.message));
  const dom=new JSDOM(read(page,base),{url:'https://renov-bati.test/'+page+hash,runScripts:'outside-only',pretendToBeVisual:true,virtualConsole:console});
  const w=dom.window,d=w.document,$=s=>d.querySelector(s),timers=new Map(),raf=new Map(),idle=new Map(),animations=[],images=[],io=[],ro=[],media=new Map(),events=[];

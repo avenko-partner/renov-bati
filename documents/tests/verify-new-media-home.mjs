@@ -1,7 +1,7 @@
 import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';
 import {scene,flush,root,read} from './review-harness.mjs';import {styleEngine} from './renov-css-cascade-v16.mjs';
 const checks=[];async function check(name,fn){await fn();checks.push(name);}
-const scripts=['content.js','preferences.js','app.js','portfolio-data.js','portfolio.js','hero-gallery.js'];
+const scripts=['content.js','preferences.js','site-header.js','app.js','portfolio-data.js','portfolio.js','hero-gallery.js'];
 const expected=['bain-blanc-or','bain-noir-blanc','terrasse-stores'];
 await check('Les trois nouvelles réalisations sont visibles dans le premier lot avec des couvertures et détails locaux',async()=>{
  const s=scene({page:'projets.html',preloader:false,scripts:['preferences.js','portfolio-data.js','portfolio.js']});await s.settle();assert.equal(s.$('#work-grid').children.length,10);assert.equal(s.$('#work-progress').textContent,'10 / 51');assert.equal(s.$('#work-result').textContent,'51 réalisations');assert.equal(s.d.querySelectorAll('video').length,0);
@@ -19,8 +19,8 @@ await check('Les huit cartes et les trois photos des métiers ouvrent exactement
  assert.equal(s.errors.length,0);s.close();
 });
 await check('La nouvelle ouverture garde une boucle de 4,5 secondes, les légendes et cadrages synchronisés',async()=>{
- const s=scene({preloader:false,scripts:['content.js','preferences.js','hero-gallery.js']});await s.settle();assert.equal(s.$('#hero-image').dataset.heroId,'facade-maison');
- for(const id of ['veranda-lumiere','cuisine','facade-maison','veranda-lumiere','cuisine','facade-maison']){await s.advance(4499);const previous=s.$('#hero-image').dataset.heroId;assert.notEqual(previous,id);await s.advance(1);assert.equal(s.$('#hero-image').dataset.heroId,id);assert.equal(s.$('#hero-selected-project').dataset.project,id);assert.equal(s.$('[data-hero-view="'+id+'"]').getAttribute('aria-pressed'),'true');assert.equal(s.$('#hero-image').style.objectPosition,s.$('[data-hero-view="'+id+'"]').dataset.heroPosition);assert.ok(!s.$('#hero-image').src.includes('hero-piscine'));assert.ok(!s.$('#hero-image').src.includes('hero-bain-pierre'));}
+ const s=scene({preloader:false,scripts:['content.js','preferences.js','hero-gallery.js']});await s.settle();assert.equal(s.$('#hero-image').dataset.heroId,'piscine');
+ for(const id of ['veranda-lumiere','cuisine','piscine','veranda-lumiere','cuisine','piscine']){await s.advance(4499);const previous=s.$('#hero-image').dataset.heroId;assert.notEqual(previous,id);await s.advance(1);assert.equal(s.$('#hero-image').dataset.heroId,id);assert.equal(s.$('#hero-selected-project').dataset.project,id);assert.equal(s.$('[data-hero-view="'+id+'"]').getAttribute('aria-pressed'),'true');assert.equal(s.$('#hero-image').style.objectPosition,s.$('[data-hero-view="'+id+'"]').dataset.heroPosition);assert.ok(!s.$('#hero-image').src.includes('hero-bain-pierre'));}
  assert.equal(s.errors.length,0);s.close();
 });
 await check('Les images principales des sections de l’accueil sont distinctes, hors miniatures et logos',async()=>{

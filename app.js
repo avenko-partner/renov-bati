@@ -5,65 +5,7 @@
   const root=document.documentElement,body=document.body;
   const motionMedia=typeof matchMedia==='function'?matchMedia('(prefers-reduced-motion: reduce)'):null;
   const reduced=()=>Boolean(window.RENOV_MOTION?.reduced())||Boolean(motionMedia?.matches);
-  const header=$('.site-header'),toggle=$('.menu-toggle'),nav=$('.main-nav'),navLinks=$$('.main-nav a');
-  const splitScreen=typeof matchMedia==='function'?matchMedia('(horizontal-viewport-segments: 2)'):{matches:false};
-  const compactNavigation=()=>innerWidth<=1100||splitScreen.matches;
-  function syncNavigation(){
-    const concealed=compactNavigation()&&!header.classList.contains('menu-is-open');
-    nav.toggleAttribute('inert',concealed);
-    if(concealed)nav.setAttribute('aria-hidden','true');else nav.removeAttribute('aria-hidden');
-  }
-  const navEntries=navLinks.map(link=>{const target=link.getAttribute('href');return {link,section:target?.startsWith('#')?document.getElementById(target.slice(1)):null,top:Infinity};});
-  const pageProgress=$('.page-progress');
-  let scrollFrame=null,metricsDirty=true,scrollActive=true;
-  let scrollMax=1,viewportHeight=innerHeight,currentLink=null,headerScrolled=null,lastProgress=-1;
-  function updateScroll(){
-    scrollFrame=null;if(!scrollActive)return;
-    const y=scrollY;
-    // Read geometry together, only after a real layout change, before any write.
-    if(metricsDirty){
-      viewportHeight=innerHeight;scrollMax=Math.max(1,root.scrollHeight-viewportHeight);
-      navEntries.forEach(entry=>{entry.top=entry.section?entry.section.getBoundingClientRect().top+y:Infinity;});
-      metricsDirty=false;
-    }
-    let current=null;
-    navEntries.forEach(entry=>{if(entry.top<=y+viewportHeight*.3)current=entry.link;});
-    const progress=Math.max(0,Math.min(1,y/scrollMax)),scrolled=y>40;
-    if(progress!==lastProgress){if(pageProgress)pageProgress.style.transform=`scaleX(${progress})`;lastProgress=progress;}
-    if(scrolled!==headerScrolled){header.classList.toggle('is-scrolled',scrolled);headerScrolled=scrolled;}
-    if(current!==currentLink){
-      navEntries.forEach(({link})=>{if(link===current)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current');});
-      currentLink=current;
-    }
-  }
-  function requestScrollUpdate(){if(scrollActive&&scrollFrame===null)scrollFrame=requestAnimationFrame(updateScroll);}
-  function invalidateScrollMetrics(){metricsDirty=true;requestScrollUpdate();}
-  window.addEventListener('scroll',requestScrollUpdate,{passive:true});
-  if(typeof ResizeObserver==='function'){
-    const layoutObserver=new ResizeObserver(invalidateScrollMetrics);
-    [document.body,document.querySelector('main'),header].filter(Boolean).forEach(surface=>layoutObserver.observe(surface));
-  }
-  document.fonts?.ready?.then(invalidateScrollMetrics,()=>{});
-  document.addEventListener('renov-intro-complete',invalidateScrollMetrics);
-  window.addEventListener('load',invalidateScrollMetrics,{once:true});
-  window.addEventListener('pagehide',()=>{scrollActive=false;if(scrollFrame!==null)cancelAnimationFrame(scrollFrame);scrollFrame=null;});
-  window.addEventListener('pageshow',event=>{if(event.persisted){scrollActive=true;invalidateScrollMetrics();}});
-  updateScroll();
-  function closeMenu(){header.classList.remove('menu-is-open');body.classList.remove('menu-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Ouvrir le menu');syncNavigation();}
-  toggle.addEventListener('click',()=>{const open=toggle.getAttribute('aria-expanded')!=='true';toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');header.classList.toggle('menu-is-open',open);body.classList.toggle('menu-open',open);syncNavigation();});
-  syncNavigation();
-  splitScreen.addEventListener?.('change',()=>{if(!compactNavigation())closeMenu();else syncNavigation();});
-  navLinks.forEach(link=>link.addEventListener('click',closeMenu));
-  $('.header-quote').addEventListener('click',closeMenu);
-  document.addEventListener('keydown',event=>{
-    if(!body.classList.contains('menu-open'))return;
-    if(event.key==='Escape'){closeMenu();toggle.focus();}
-    if(event.key==='Tab'){
-      const controls=[$('.site-header .brand'),...navLinks,$('.header-quote'),toggle],first=controls[0],last=controls.at(-1);
-      if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
-      else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
-    }
-  });
+  const invalidateScrollMetrics=()=>window.RENOV_HEADER?.refresh();
 
   // Authentic before/after photographs; the range and pointer share one value.
   const stage=$('#compare-stage'),range=$('#compare-range'),compareButtons=$$('[data-compare]');
@@ -166,7 +108,6 @@
 
   let toastTimer;
   function toast(message){const element=$('#toast');clearTimeout(toastTimer);element.textContent=message;element.classList.add('is-visible');toastTimer=setTimeout(()=>element.classList.remove('is-visible'),2600);}
-  document.addEventListener('renov-close-menu',closeMenu);
 
   // Both halves of the strip have identical widths, including on wide screens.
   const marquee=$('#logo-marquee'),track=$('.logo-track'),firstGroup=$('#logo-group'),secondGroup=$('.logo-group[aria-hidden=true]'),pause=$('#marquee-pause');
@@ -188,7 +129,7 @@
   pause.addEventListener('click',()=>{paused=!paused;updateMarqueeControl();});
   document.addEventListener('renov-motion-change',()=>{updateMarqueeControl();requestAnimationFrame(buildMarquee);});
   updateMarqueeControl();buildMarquee();
-  window.addEventListener('resize',()=>{if(!compactNavigation())closeMenu();syncNavigation();buildMarquee();invalidateScrollMetrics();},{passive:true});
+  window.addEventListener('resize',()=>{buildMarquee();invalidateScrollMetrics();},{passive:true});
   window.addEventListener('load',buildMarquee,{once:true});
 
   // The local deliverable prepares a reviewed mail draft, never a fake send.

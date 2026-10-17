@@ -5,7 +5,14 @@ Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premi
 Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
 n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
 
-DERNIÈRE MISE À JOUR — PISCINE À L'ACCUEIL
+DERNIÈRE MISE À JOUR — NAVBAR COMMUNE
+La navbar de l'accueil est reprise sur index.html, projets.html et informations.html :
+mêmes proportions, menu mobile, maintien en haut et progression dorée au défilement.
+Un seul script commun, site-header.js, pilote les trois pages. Depuis les pages
+secondaires, les liens de sections et de devis renvoient aux bonnes ancres de l'accueil.
+Voir LIRE-MOI-NAVBAR.txt et documents/verification-navbar-commune-20261017.json.
+
+PISCINE À L'ACCUEIL
 La piscine remplace uniquement la façade en première vue du carrousel d'accueil,
 avec sa miniature, sa légende et son lien vers le projet. Les deux vues suivantes
 restent la véranda puis la cuisine, toutes les 4,5 secondes. Le reste du site est conservé.

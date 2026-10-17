@@ -10,8 +10,8 @@
     "Vercel : sortie publique dédiée, CSP, protection iframe, MIME, permissions et politique de référent configurés",
     "L’export SEO reste autonome : URLs du domaine de test, sitemap limité aux pages indexables et aucun générateur absent"
   ],
-  "public_file_count": 385,
-  "public_bytes": 42319265,
+  "public_file_count": 386,
+  "public_bytes": 42323048,
   "collection_assets": 278,
   "limits": [
     "Contrôle statique de la configuration CSP et des références ; pas d’exécution de cette politique dans un navigateur.",

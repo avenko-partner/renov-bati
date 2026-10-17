@@ -42,7 +42,7 @@ h2{font-size:clamp(38px,4.65vw,72px)}
 .main-nav{display:flex;align-items:center;gap:29px;font-size:11px;color:var(--soft)}
 .main-nav a{position:relative;padding:13px 0}
 .main-nav a::after{content:'';position:absolute;bottom:4px;left:0;right:0;height:1px;background:var(--metal);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
-.main-nav a:hover::after,.main-nav a[aria-current=location]::after{transform:scaleX(1)}
+.main-nav a:hover::after,.main-nav a[aria-current=location]::after,.main-nav a[aria-current=page]::after{transform:scaleX(1)}
 .header-actions{display:flex;align-items:center;gap:17px}
 .header-quote{display:flex;align-items:center;gap:23px;font-size:11px;line-height:1.6;border:1px solid var(--bronze);padding:12px 17px;color:var(--gold);white-space:nowrap;transition:background .3s,border-color .3s}
 .header-quote:hover{background:var(--panel);border-color:var(--gold)}

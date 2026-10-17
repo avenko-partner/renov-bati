@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "checks": 12,
+  "coverage": [
+    "Les trois pages contiennent la même navbar statique, les mêmes liens résolus, le même logo et les mêmes commandes",
+    "Toutes les pages exécutent leurs scripts réels sans dépendance au formulaire ou au carrousel sur les pages secondaires",
+    "La barre dorée suit exactement le scroll de 0 à 100 %, et revient à zéro, sur les trois pages",
+    "Le scroll regroupe les événements dans une seule frame et ne remesure pas la page à chaque mouvement",
+    "La progression se recalcule après ajout des projets, changement de taille et retour arrière",
+    "Le menu mobile, Escape et les liens fonctionnent sur les trois pages de 320 à 1100 px, et en mode Duo",
+    "Le focus reste dans le menu ouvert ; le passage au grand écran rend la navigation accessible",
+    "Les liens de la navbar secondaire rejoignent les sections exactes de l’accueil avec une seule transition",
+    "Les ancres de l’accueil et le lien vers la page courante ne relancent pas le préloader",
+    "L’ouverture d’une galerie ferme le menu partout, et la navbar reste utilisable à sa fermeture",
+    "La même cascade CSS donne les mêmes dimensions et le même maintien sticky sur 13 formats, avec préférence de mouvement réduit",
+    "Sans JavaScript, les trois navbars conservent tous leurs liens dans le HTML"
+  ],
+  "css_profiles": 13,
+  "pages": [
+    "index.html",
+    "projets.html",
+    "informations.html"
+  ],
+  "limits": [
+    "Simulation DOM, horloge et cascade CSS.",
+    "Pas de rendu dans un navigateur ni d’essai sur un appareil physique.",
+    "Le maintien sticky est vérifié dans le CSS, pas mesuré pendant un défilement réel."
+  ]
+}

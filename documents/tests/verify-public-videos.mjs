@@ -19,7 +19,7 @@ check('La sortie Vercel ne contient que les trois pages, leurs ressources locale
  assert.equal(publicFiles.filter(x=>x.endsWith('.html')).length,3);
  for(const name of ['documents/','ressources/','LIRE-MOI','preparer-','.git/','node_modules/','projects-react.js','projects-loader.js'])assert.ok(!publicFiles.some(x=>x.startsWith(name)),name);
  for(const page of pages)assert.equal(read(page,output),read(page));
- assert.equal(publicFiles.filter(x=>x.endsWith('.js')).length,11);assert.equal(publicFiles.filter(x=>x.endsWith('.css')).length,10);
+ assert.equal(publicFiles.filter(x=>x.endsWith('.js')).length,12);assert.equal(publicFiles.filter(x=>x.endsWith('.css')).length,10);
 });
 check('Les 278 médias et aperçus référencés sont présents, sans ancien aperçu inutilisé dans la collection',()=>{
  const wanted=new Set(projects.flatMap(p=>p.media.flatMap(m=>['src','thumb','poster','coverDetail'].map(key=>m[key]).filter(x=>x?.includes('/collection/')))).map(x=>x.slice(2)));
