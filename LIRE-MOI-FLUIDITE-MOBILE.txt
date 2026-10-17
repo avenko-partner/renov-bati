@@ -1,0 +1,45 @@
+RENOV BATI — PAGINATION MOBILE ET BOUTON D'ACCUEIL — 17 OCTOBRE 2026
+
+Extraire entièrement le ZIP et ouvrir renov-bati-premium/index.html.
+Le dossier est complet ; aucune publication effectuée.
+
+PAGINATION
+Les réalisations restent affichées par lots de dix. Sur téléphone, en paysage compact
+et dans un panneau Duo, le déclenchement anticipe de 30 % de la hauteur de fenêtre,
+avec une avance bornée entre 140 et 260 px. Sur ordinateur, la fin réelle du lot reste
+le déclencheur. Un contrôle de la position actuelle du repère évite qu'un ancien
+événement ajoute un lot de plus après une modification de la grille.
+
+Seulement les deux premières couvertures du lot suivant sont préparées, à faible
+priorité, lorsque sa fin approche d'une hauteur de fenêtre au maximum. Les mêmes
+sources et tailles responsives sont utilisées pour leur affichage. Les films ne sont
+pas préchargés. La préparation ne bloque pas l'ajout ; aucun délai d'attente artificiel.
+Le nouveau lot mobile est opaque dès son insertion, avec un déplacement de 6 px
+sur 280 ms sans décalage entre cartes. La préférence de mouvements réduits est respectée.
+
+Le bouton manuel, les filtres, la suspension pendant l'intro ou dans une galerie,
+la reprise d'onglet, la rotation et le retour arrière sont conservés. L'ajout automatique
+ne déplace pas le focus. La progression dorée de la navbar est informée de la nouvelle hauteur.
+
+BOUTON D'ACCUEIL
+Voir les réalisations est un bouton encadré doré, sur fond sombre, placé avec le devis
+et avant le numéro de téléphone. Il mesure au moins 56 px de haut. Les deux actions sont
+côte à côte sur grand écran et sur une colonne sur les formats compacts. La flèche SVG
+indique l'ouverture du portfolio, avec le préloader de changement de page existant.
+Le téléphone reste cliquable juste sous les deux boutons.
+
+VÉRIFICATIONS
+• 12 groupes sur l'anticipation mobile, les préparations limitées, les courses entre
+  événements, les filtres, les interruptions, les commandes et le bouton d'accueil.
+• 33 groupes de régression sur l'accueil et 23 sur la navigation et les galeries.
+• 12 groupes sur la navbar commune, dont comparaison CSS sur 13 formats.
+• Six groupes sur les médias et liens ; six sur l'export public et ses ressources.
+• ZIP contrôlé par CRC et comparaison des fichiers après extraction.
+
+Limites : simulation DOM, IntersectionObserver, horloge et cascade CSS. Pas de rendu
+navigateur ni d'essai sur téléphone physique ; pas de mesure réelle du cache, du réseau
+ou des FPS. Rapport : documents/verification-fluidite-mobile-cta-20261017.json.
+Les notices et rapports antérieurs sont conservés comme historique.
+
+Les images, vidéos et regroupements de chantiers ne sont pas modifiés. Aucun média ajouté.
+La piscine, le carrousel de 4,5 secondes, le comparateur et la navbar commune sont conservés.

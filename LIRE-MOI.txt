@@ -5,7 +5,14 @@ Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premi
 Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
 n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
 
-DERNIÈRE MISE À JOUR — NAVBAR COMMUNE
+DERNIÈRE MISE À JOUR — PAGINATION MOBILE ET BOUTON D'ACCUEIL
+Sur téléphone, les lots de dix arrivent un peu avant la fin, avec préparation des
+deux prochaines couvertures seulement. L'apparition est immédiate, sans fondu retardé.
+Le bouton Voir les réalisations est encadré doré et regroupé avec le devis, avant
+le téléphone ; il occupe toute la largeur sur les formats compacts.
+Voir LIRE-MOI-FLUIDITE-MOBILE.txt et documents/verification-fluidite-mobile-cta-20261017.json.
+
+NAVBAR COMMUNE
 La navbar de l'accueil est reprise sur index.html, projets.html et informations.html :
 mêmes proportions, menu mobile, maintien en haut et progression dorée au défilement.
 Un seul script commun, site-header.js, pilote les trois pages. Depuis les pages
@@ -31,10 +38,10 @@ CORRECTIONS CONSERVÉES
 • Changement de page : un voile bref recouvre la page de départ. Le logo se dessine
   une seule fois sur la page d’arrivée ; il ne commence plus à moitié avant de repartir.
   L’arrivée attend les premières images, le logo et les polices, avec secours à 7 secondes.
-• Projets : dix cartes au départ, puis dix de plus quand la fin du lot affiché entre
-  réellement dans l’écran. Le bouton conserve la même logique. Aucun seuil anticipé
-  de 600 px, aucun déplacement automatique du focus, aucun téléchargement des films
-  tant que leur fiche n’est pas ouverte.
+• Projets : dix cartes au départ, puis dix de plus. Sur ordinateur, le seuil reste
+  la fin du lot affiché ; sur téléphone, une avance de 140 à 260 px prépare la suite.
+  Le bouton manuel conserve la même logique. Aucun déplacement automatique du focus,
+  aucun téléchargement des films tant que leur fiche n’est pas ouverte.
 • Pieds de page : © 2026 Renov Bati, puis By Avenko partner. Avenko partner ouvre
   https://avenkopartner.com/ dans un nouvel onglet protégé.
 • Formulaire : validation renforcée. Il prépare toujours un brouillon d’e-mail relu

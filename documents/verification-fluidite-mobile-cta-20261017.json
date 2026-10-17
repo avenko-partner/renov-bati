@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "checks": 12,
+  "coverage": [
+    "Sur téléphone et panneau Duo, le prochain lot arrive 140 à 260 px avant la fin ; sur ordinateur, le seuil reste la fin exacte",
+    "Seules les deux couvertures suivantes sont préparées, une fois, sans créer de carte ni télécharger un film",
+    "Un déclenchement ajoute dix cartes et garde le focus ; les entrées anciennes ne déclenchent pas le lot suivant",
+    "Un défilement lent ne perd pas le seuil quand le repère n’entre que d’une fraction de pixel",
+    "L’ajout mobile est visible immédiatement, sans fondu ni cascade retardée ; la réduction des mouvements est respectée",
+    "Changer de filtre annule la préparation et les ajouts en attente ; les couvertures préparées suivent le nouveau filtre",
+    "La préparation et la pagination attendent la fin du préloader et se suspendent quand l’onglet est masqué",
+    "Le menu de galerie garde la pagination en pause ; après fermeture un seul lot est ajouté",
+    "Rotation et retour arrière rétablissent les bons seuils ; un ancien observateur ne peut pas ajouter de lot",
+    "Le bouton manuel garde le même ajout par dix, y compris sans IntersectionObserver",
+    "Le bouton des réalisations est placé avec le devis, avant le téléphone, avec une icône SVG et un accès direct au portfolio",
+    "Le bouton conserve au moins 56 px de hauteur et une disposition cohérente de 320 à 3840 px, dont Duo"
+  ],
+  "policy": "Lots de dix. Anticipation mobile de 30 % de la hauteur, bornée à 140–260 px ; préparation de deux images de couverture à une hauteur de fenêtre maximum avant la fin. Aucun préchargement de vidéo.",
+  "limits": [
+    "Simulation DOM, IntersectionObserver, horloge et cascade CSS ; pas de rendu navigateur ou d’appareil physique.",
+    "Les URLs de préparation et d’affichage sont comparées, sans mesure réelle du cache, des temps réseau ou des FPS."
+  ]
+}
