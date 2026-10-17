@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "version": 24,
+  "checks": 11,
+  "results": [
+    "Vrai bundle React : ouverture, décodage, miniatures, navigation, fermeture et focus",
+    "Dernière demande gagnante et photo gardée pendant un décodage lent",
+    "Erreur de photo, reprise et délai de chargement borné",
+    "Vue agrandie, Échap en deux étapes et navigation clavier",
+    "Réduction des mouvements et redimensionnement annulent les animations",
+    "Changement de projet et fermeture pendant un chargement ne réintroduisent pas une ancienne photo",
+    "Glissement tactile horizontal ; le déplacement vertical ne change pas la photo",
+    "Chargement React sur intention seulement, clic réel et dernière ouverture gagnante",
+    "Échap annule une ouverture en attente ; aucune précharge React pendant le préloader",
+    "Les treize projets s’ouvrent avec leurs données et photos ; les cadres restent bornés sur mobile et bureau",
+    "Bundle React, chargeur et données projets conservés"
+  ],
+  "environment": "Vrai bundle React production exécuté dans jsdom ; horloge, chargements et Web Animations contrôlés.",
+  "limits": [
+    "Pas de navigateur rendu, capture visuelle ou mesure FPS."
+  ]
+}

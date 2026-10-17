@@ -13,7 +13,7 @@
     nav.toggleAttribute('inert',concealed);
     if(concealed)nav.setAttribute('aria-hidden','true');else nav.removeAttribute('aria-hidden');
   }
-  const navEntries=navLinks.map(link=>({link,section:$(link.getAttribute('href')),top:Infinity}));
+  const navEntries=navLinks.map(link=>{const target=link.getAttribute('href');return {link,section:target?.startsWith('#')?document.getElementById(target.slice(1)):null,top:Infinity};});
   const pageProgress=$('.page-progress');
   let scrollFrame=null,metricsDirty=true,scrollActive=true;
   let scrollMax=1,viewportHeight=innerHeight,currentLink=null,headerScrolled=null,lastProgress=-1;
@@ -69,12 +69,12 @@
   const stage=$('#compare-stage'),range=$('#compare-range'),compareButtons=$$('[data-compare]');
   function setComparison(value){
     const numeric=Number(value);if(!Number.isFinite(numeric))return;
-    const next=Math.max(0,Math.min(100,Math.round(numeric)));
+    const next=Math.max(0,Math.min(100,Math.round(numeric*100)/100));
     range.value=String(next);stage.style.setProperty('--reveal',next+'%');
-    range.setAttribute('aria-valuetext',`Avant ${next} pour cent, après ${100-next} pour cent`);
-    $('#compare-value').textContent=`${next} % avant`;
+    const spoken=`Avant ${Math.round(next)} pour cent, après ${100-Math.round(next)} pour cent`;if(range.getAttribute('aria-valuetext')!==spoken)range.setAttribute('aria-valuetext',spoken);
+    const label=`${Math.round(next)} % avant`,output=$('#compare-value');if(output.textContent!==label)output.textContent=label;
     $('.compare-label-before').hidden=next===0;$('.compare-label-after').hidden=next===100;
-    compareButtons.forEach(button=>button.setAttribute('aria-pressed',String(Number(button.dataset.compare)===next)));
+    compareButtons.forEach(button=>{const pressed=String(Number(button.dataset.compare)===next);if(button.getAttribute('aria-pressed')!==pressed)button.setAttribute('aria-pressed',pressed);});
   }
   range.addEventListener('input',()=>{stage.classList.remove('is-settling');setComparison(range.value);});
   compareButtons.forEach(button=>button.addEventListener('click',()=>{stage.classList.toggle('is-settling',!reduced());setComparison(button.dataset.compare);}));

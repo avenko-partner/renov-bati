@@ -1,0 +1,2459 @@
+{
+  "status": "PASS",
+  "date": "2026-10-13",
+  "version": 24,
+  "profiles": 40,
+  "method": "Lecture de la cascade CSS avec sélecteurs DOM, spécificité, règles media, variables et calculs des largeurs disponibles. Aucune mise en page par moteur de navigateur.",
+  "limits": [
+    "Ces profils sont des tailles CSS et des segments simulés, pas des appareils physiques.",
+    "Les calculs ne vérifient pas les retours à la ligne réels, les pixels affichés, le zoom natif ou le clavier virtuel."
+  ],
+  "records": [
+    {
+      "w": 320,
+      "h": 480,
+      "fine": false,
+      "reading_width": 320,
+      "content_width": 288,
+      "header_height": 74,
+      "hero_columns": 1,
+      "hero_title_size": 38,
+      "hero_title_width": 288,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 220,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 406,
+      "dialog_width_limit": 300,
+      "dialog_height_limit": 460,
+      "preloader_logo_height": 211.2,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 320,
+      "h": 568,
+      "fine": false,
+      "reading_width": 320,
+      "content_width": 288,
+      "header_height": 74,
+      "hero_columns": 1,
+      "hero_title_size": 38,
+      "hero_title_width": 288,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 220,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 494,
+      "dialog_width_limit": 300,
+      "dialog_height_limit": 548,
+      "preloader_logo_height": 249.92,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 360,
+      "h": 640,
+      "fine": false,
+      "reading_width": 360,
+      "content_width": 328,
+      "header_height": 74,
+      "hero_columns": 1,
+      "hero_title_size": 38,
+      "hero_title_width": 328,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 240.12,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 566,
+      "dialog_width_limit": 340,
+      "dialog_height_limit": 620,
+      "preloader_logo_height": 281.6,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 375,
+      "h": 667,
+      "fine": false,
+      "reading_width": 375,
+      "content_width": 343,
+      "header_height": 74,
+      "hero_columns": 1,
+      "hero_title_size": 39.375,
+      "hero_title_width": 343,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 250.125,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 593,
+      "dialog_width_limit": 355,
+      "dialog_height_limit": 647,
+      "preloader_logo_height": 293.48,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "fine": false,
+      "reading_width": 390,
+      "content_width": 354,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 40.949999999999996,
+      "hero_title_width": 354,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 260.13,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 764,
+      "dialog_width_limit": 358,
+      "dialog_height_limit": 812,
+      "preloader_logo_height": 438.88,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 414,
+      "h": 896,
+      "fine": false,
+      "reading_width": 414,
+      "content_width": 378,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 43.46999999999999,
+      "hero_title_width": 378,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 276.138,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 35.19
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 35.19
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 35.19
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 35.19
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 35.19
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 35.19
+        }
+      ],
+      "menu_height_limit": 816.0000000000001,
+      "dialog_width_limit": 381.99999999999994,
+      "dialog_height_limit": 864.0000000000001,
+      "preloader_logo_height": 465.9200000000001,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 430,
+      "h": 932,
+      "fine": false,
+      "reading_width": 430,
+      "content_width": 394,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 45.15,
+      "hero_title_width": 394,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 286.81,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 36.550000000000004
+        }
+      ],
+      "menu_height_limit": 852,
+      "dialog_width_limit": 398,
+      "dialog_height_limit": 900,
+      "preloader_logo_height": 484.64,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 480,
+      "h": 800,
+      "fine": false,
+      "reading_width": 480,
+      "content_width": 441.6,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 50.4,
+      "hero_title_width": 441.6,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 320.16,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 40.800000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 40.800000000000004
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 40.800000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 40.800000000000004
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 40.800000000000004
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 40.800000000000004
+        }
+      ],
+      "menu_height_limit": 720,
+      "dialog_width_limit": 448,
+      "dialog_height_limit": 768,
+      "preloader_logo_height": 416,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 540,
+      "h": 720,
+      "fine": false,
+      "reading_width": 540,
+      "content_width": 496.8,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 56.699999999999996,
+      "hero_title_width": 496.79999999999995,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 360.18,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 45.900000000000006
+        }
+      ],
+      "menu_height_limit": 640,
+      "dialog_width_limit": 508,
+      "dialog_height_limit": 688,
+      "preloader_logo_height": 374.40000000000003,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 600,
+      "h": 800,
+      "fine": false,
+      "reading_width": 600,
+      "content_width": 552,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 63,
+      "hero_title_width": 552,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 400.20000000000005,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 51.00000000000001
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 51.00000000000001
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 51.00000000000001
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 51.00000000000001
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 51.00000000000001
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 51.00000000000001
+        }
+      ],
+      "menu_height_limit": 720,
+      "dialog_width_limit": 568,
+      "dialog_height_limit": 768,
+      "preloader_logo_height": 416,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 640,
+      "h": 900,
+      "fine": false,
+      "reading_width": 640,
+      "content_width": 588.8,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 67,
+      "hero_title_width": 588.8,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 420,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 820,
+      "dialog_width_limit": 608,
+      "dialog_height_limit": 868,
+      "preloader_logo_height": 468,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 641,
+      "h": 900,
+      "fine": false,
+      "reading_width": 641,
+      "content_width": 589.72,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 67.30499999999999,
+      "hero_title_width": 589.72,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 420,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 820,
+      "dialog_width_limit": 609,
+      "dialog_height_limit": 868,
+      "preloader_logo_height": 468,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 700,
+      "h": 900,
+      "fine": false,
+      "reading_width": 700,
+      "content_width": 644,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 70,
+      "hero_title_width": 644,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 420,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 820,
+      "dialog_width_limit": 668,
+      "dialog_height_limit": 868,
+      "preloader_logo_height": 468,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 760,
+      "h": 1024,
+      "fine": false,
+      "reading_width": 760,
+      "content_width": 700,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 70,
+      "hero_title_width": 700,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 420,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 944,
+      "dialog_width_limit": 728,
+      "dialog_height_limit": 992,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 761,
+      "h": 1024,
+      "fine": false,
+      "reading_width": 761,
+      "content_width": 704.686,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 43,
+      "hero_title_width": 358.73902325581395,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 388.11,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 47.182
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 53.27
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 47.182
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 50.226
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 50.226
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 45.660000000000004
+        }
+      ],
+      "menu_height_limit": 934,
+      "dialog_width_limit": 729,
+      "dialog_height_limit": 992,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 768,
+      "h": 1024,
+      "fine": false,
+      "reading_width": 768,
+      "content_width": 711.168,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 43.392,
+      "hero_title_width": 362.2061395348838,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 391.68,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 47.616
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 53.76
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 47.616
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 50.687999999999995
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 50.687999999999995
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 46.08
+        }
+      ],
+      "menu_height_limit": 934,
+      "dialog_width_limit": 736,
+      "dialog_height_limit": 992,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 820,
+      "h": 1180,
+      "fine": false,
+      "reading_width": 820,
+      "content_width": 759.32,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 46.33,
+      "hero_title_width": 387.9618604651162,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 418.2,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 50.839999999999996
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 57.39999999999999
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 50.839999999999996
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 54.11999999999999
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 54.11999999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 49.199999999999996
+        }
+      ],
+      "menu_height_limit": 1090,
+      "dialog_width_limit": 787.9999999999999,
+      "dialog_height_limit": 1148,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 900,
+      "h": 1200,
+      "fine": false,
+      "reading_width": 900,
+      "content_width": 833.4,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 50.85,
+      "hero_title_width": 427.58604651162796,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 459,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 55.800000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 63
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 55.800000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 59.4
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 59.4
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 54
+        }
+      ],
+      "menu_height_limit": 1110,
+      "dialog_width_limit": 868,
+      "dialog_height_limit": 1168,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 960,
+      "h": 768,
+      "fine": false,
+      "reading_width": 960,
+      "content_width": 888.96,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 54.24,
+      "hero_title_width": 457.30418604651163,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 460,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 59.519999999999996
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 64
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 59.519999999999996
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 63.35999999999999
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 63.35999999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 56
+        }
+      ],
+      "menu_height_limit": 678,
+      "dialog_width_limit": 928,
+      "dialog_height_limit": 736,
+      "preloader_logo_height": 399.36,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 961,
+      "h": 768,
+      "fine": true,
+      "reading_width": 961,
+      "content_width": 889.886,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 55.73799999999999,
+      "hero_title_width": 510.0957959183673,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 42.284
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 54.777
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 42.284
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 50.93299999999999
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 55.73799999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 41.32299999999999
+        }
+      ],
+      "menu_height_limit": 678,
+      "dialog_width_limit": 929,
+      "dialog_height_limit": 736,
+      "preloader_logo_height": 399.36,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 66,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1024,
+      "h": 768,
+      "fine": true,
+      "reading_width": 1024,
+      "content_width": 948.224,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 59.391999999999996,
+      "hero_title_width": 544.6223673469386,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 45.056000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 58.368
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 45.056000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 54.272
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 59.391999999999996
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 44.032
+        }
+      ],
+      "menu_height_limit": 678,
+      "dialog_width_limit": 992,
+      "dialog_height_limit": 736,
+      "preloader_logo_height": 399.36,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 66,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1100,
+      "h": 800,
+      "fine": true,
+      "reading_width": 1100,
+      "content_width": 1018.6,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 63.8,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 48.400000000000006
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 62.7
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 48.400000000000006
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 58.3
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 63.8
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 47.3
+        }
+      ],
+      "menu_height_limit": 710,
+      "dialog_width_limit": 1068,
+      "dialog_height_limit": 768,
+      "preloader_logo_height": 416,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 66,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1101,
+      "h": 800,
+      "fine": true,
+      "reading_width": 1101,
+      "content_width": 1019.5260000000001,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 62.757,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 48.444
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 62.757
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 48.444
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 58.352999999999994
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 63.858
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 47.342999999999996
+        }
+      ],
+      "dialog_width_limit": 1069,
+      "dialog_height_limit": 768,
+      "preloader_logo_height": 416,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1280,
+      "h": 800,
+      "fine": true,
+      "reading_width": 1280,
+      "content_width": 1185.28,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 72.96000000000001,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 56.32000000000001
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 72.96000000000001
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 56.32000000000001
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 62.720000000000006
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 68.48
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 55.04
+        }
+      ],
+      "dialog_width_limit": 1248,
+      "dialog_height_limit": 768,
+      "preloader_logo_height": 416,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "fine": true,
+      "reading_width": 1440,
+      "content_width": 1333.44,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 82.08,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 63.36000000000001
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 82.08
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 63.36000000000001
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 70.56
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 77.03999999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 61.92
+        }
+      ],
+      "dialog_width_limit": 1408,
+      "dialog_height_limit": 868,
+      "preloader_logo_height": 468,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1680,
+      "h": 1050,
+      "fine": true,
+      "reading_width": 1680,
+      "content_width": 1555.68,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 88,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 66
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 86
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 66
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 76
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 82
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 66
+        }
+      ],
+      "dialog_width_limit": 1648,
+      "dialog_height_limit": 1018,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1920,
+      "h": 1080,
+      "fine": true,
+      "reading_width": 1920,
+      "content_width": 1552,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 88,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 66
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 86
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 66
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 76
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 82
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 66
+        }
+      ],
+      "dialog_width_limit": 1888,
+      "dialog_height_limit": 1048,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 2560,
+      "h": 1440,
+      "fine": true,
+      "reading_width": 2560,
+      "content_width": 1552,
+      "header_height": 108,
+      "hero_columns": 2,
+      "hero_title_size": 88,
+      "hero_title_width": 570,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 66
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 86
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 66
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 76
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 82
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 66
+        }
+      ],
+      "dialog_width_limit": 2528,
+      "dialog_height_limit": 1408,
+      "preloader_logo_height": 520,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 78,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 568,
+      "h": 320,
+      "fine": false,
+      "reading_width": 568,
+      "content_width": 522.56,
+      "header_height": 70,
+      "hero_columns": 1,
+      "hero_title_size": 36,
+      "hero_title_width": 522.56,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 150,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 48.28
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 48.28
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 48.28
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 48.28
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 48.28
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 48.28
+        }
+      ],
+      "menu_height_limit": 250,
+      "dialog_width_limit": 536,
+      "dialog_height_limit": 288,
+      "preloader_logo_height": 137.6,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 667,
+      "h": 375,
+      "fine": false,
+      "reading_width": 667,
+      "content_width": 613.64,
+      "header_height": 70,
+      "hero_columns": 1,
+      "hero_title_size": 36,
+      "hero_title_width": 613.6400000000001,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 161.25,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 305,
+      "dialog_width_limit": 635,
+      "dialog_height_limit": 343,
+      "preloader_logo_height": 161.25,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "fine": false,
+      "reading_width": 844,
+      "content_width": 781.544,
+      "header_height": 70,
+      "hero_columns": 2,
+      "hero_title_size": 40.51199999999999,
+      "hero_title_width": 399.8491162790698,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 167.7,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52.327999999999996
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 59.08
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52.327999999999996
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 55.70399999999999
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 55.70399999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 50.64
+        }
+      ],
+      "menu_height_limit": 320,
+      "dialog_width_limit": 812,
+      "dialog_height_limit": 358,
+      "preloader_logo_height": 167.7,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 932,
+      "h": 430,
+      "fine": false,
+      "reading_width": 932,
+      "content_width": 863.032,
+      "header_height": 70,
+      "hero_columns": 2,
+      "hero_title_size": 44.736,
+      "hero_title_width": 443.43572093023255,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 184.9,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 57.784000000000006
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 64
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 57.784000000000006
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 61.512
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 61.512
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 55.92
+        }
+      ],
+      "menu_height_limit": 360,
+      "dialog_width_limit": 900,
+      "dialog_height_limit": 398,
+      "preloader_logo_height": 184.9,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1024,
+      "h": 600,
+      "fine": true,
+      "reading_width": 1024,
+      "content_width": 948.224,
+      "header_height": 90,
+      "hero_columns": 2,
+      "hero_title_size": 59.391999999999996,
+      "hero_title_width": 544.6223673469386,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 3,
+      "photo_height": null,
+      "gallery_columns": 6,
+      "service_columns": 1,
+      "quote_columns": 2,
+      "footer_columns": 4,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 45.056000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 58.368
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 45.056000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 54.272
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 59.391999999999996
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 44.032
+        }
+      ],
+      "menu_height_limit": 510,
+      "dialog_width_limit": 992,
+      "dialog_height_limit": 568,
+      "preloader_logo_height": 312,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 66,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1114,
+      "h": 720,
+      "hs": 2,
+      "paneW": 540,
+      "paneH": 720,
+      "reading_width": 540,
+      "content_width": 496,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 56.699999999999996,
+      "hero_title_width": 496,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 360.18,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 45.900000000000006
+        }
+      ],
+      "menu_height_limit": 640,
+      "dialog_width_limit": 508,
+      "dialog_height_limit": 688,
+      "preloader_logo_height": 374.40000000000003,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1440,
+      "h": 900,
+      "hs": 2,
+      "paneW": 700,
+      "paneH": 900,
+      "reading_width": 700,
+      "content_width": 656,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 67,
+      "hero_title_width": 656,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 420,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 52
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 52
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 52
+        }
+      ],
+      "menu_height_limit": 820,
+      "dialog_width_limit": 668,
+      "dialog_height_limit": 868,
+      "preloader_logo_height": 468,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 1000,
+      "h": 720,
+      "hs": 2,
+      "paneW": 320,
+      "paneH": 720,
+      "reading_width": 320,
+      "content_width": 276,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 38,
+      "hero_title_width": 276,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 220,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 640,
+      "dialog_width_limit": 288,
+      "dialog_height_limit": 688,
+      "preloader_logo_height": 374.40000000000003,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 540,
+      "h": 1114,
+      "vs": 2,
+      "paneW": 540,
+      "paneH": 540,
+      "reading_width": 540,
+      "content_width": 496.8,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 56.699999999999996,
+      "hero_title_width": 496.79999999999995,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 360.18,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 45.900000000000006
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 45.900000000000006
+        }
+      ],
+      "menu_height_limit": 460,
+      "dialog_width_limit": 508,
+      "dialog_height_limit": 508,
+      "preloader_logo_height": 248.4,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 390,
+      "h": 844,
+      "safeTop": 47,
+      "safeBottom": 34,
+      "reading_width": 390,
+      "content_width": 354,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 40.949999999999996,
+      "hero_title_width": 354,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 260.13,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 34
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 34
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 34
+        }
+      ],
+      "menu_height_limit": 717,
+      "dialog_width_limit": 358,
+      "dialog_height_limit": 731,
+      "preloader_logo_height": 438.88,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 430,
+      "h": 932,
+      "safeTop": 59,
+      "safeBottom": 34,
+      "reading_width": 430,
+      "content_width": 394,
+      "header_height": 80,
+      "hero_columns": 1,
+      "hero_title_size": 45.15,
+      "hero_title_width": 394,
+      "hero_line_whitespace": "normal",
+      "selector_columns": 3,
+      "photo_height": 286.81,
+      "gallery_columns": 1,
+      "service_columns": 1,
+      "quote_columns": 1,
+      "footer_columns": 2,
+      "material_columns": 1,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 36.550000000000004
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 36.550000000000004
+        }
+      ],
+      "menu_height_limit": 793,
+      "dialog_width_limit": 398,
+      "dialog_height_limit": 807,
+      "preloader_logo_height": 484.64,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 44,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    },
+    {
+      "w": 844,
+      "h": 390,
+      "safeLeft": 44,
+      "safeRight": 44,
+      "safeBottom": 21,
+      "reading_width": 844,
+      "content_width": 756,
+      "header_height": 70,
+      "hero_columns": 2,
+      "hero_title_size": 40.51199999999999,
+      "hero_title_width": 386.1860465116279,
+      "hero_line_whitespace": "nowrap",
+      "selector_columns": 1,
+      "photo_height": 167.7,
+      "gallery_columns": 2,
+      "service_columns": 2,
+      "quote_columns": 2,
+      "footer_columns": 3,
+      "material_columns": 2,
+      "headings": [
+        {
+          "selector": ".expertise-heading h2",
+          "size": 52.327999999999996
+        },
+        {
+          "selector": ".projects-heading h2",
+          "size": 59.08
+        },
+        {
+          "selector": ".transformation-copy h2",
+          "size": 52.327999999999996
+        },
+        {
+          "selector": ".warranty-heading h2",
+          "size": 55.70399999999999
+        },
+        {
+          "selector": ".contact-copy h2",
+          "size": 55.70399999999999
+        },
+        {
+          "selector": ".territory-heading h2",
+          "size": 50.64
+        }
+      ],
+      "menu_height_limit": 320,
+      "dialog_width_limit": 724,
+      "dialog_height_limit": 337,
+      "preloader_logo_height": 167.7,
+      "touch_targets": {
+        ".brand": 44,
+        ".menu-toggle": 44,
+        ".header-quote": 44,
+        ".hero-switcher button": 68,
+        ".compare-toolbar button": 44,
+        ".project-filters button": 44,
+        ".dialog-close": 44,
+        ".project-dialog-controls button": 44,
+        ".footer-address a": 44,
+        ".footer-top nav a": 44
+      }
+    }
+  ]
+}

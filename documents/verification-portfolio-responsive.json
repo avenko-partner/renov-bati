@@ -1,0 +1,214 @@
+{
+  "status": "PASS",
+  "profiles": [
+    {
+      "width": 320,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 210,
+      "titleSize": 28
+    },
+    {
+      "width": 360,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 240,
+      "titleSize": 28
+    },
+    {
+      "width": 375,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 251,
+      "titleSize": 29
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 263,
+      "titleSize": 29
+    },
+    {
+      "width": 414,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 281,
+      "titleSize": 30.636
+    },
+    {
+      "width": 430,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 293,
+      "titleSize": 31.82
+    },
+    {
+      "width": 540,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 375,
+      "titleSize": 39.96000000000001
+    },
+    {
+      "width": 600,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 420,
+      "titleSize": 44.400000000000006
+    },
+    {
+      "width": 700,
+      "height": 900,
+      "segments": 1,
+      "columns": 1,
+      "cardHeight": 430,
+      "titleSize": 46
+    },
+    {
+      "width": 701,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 240,
+      "titleSize": 32
+    },
+    {
+      "width": 760,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 243,
+      "titleSize": 32
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 262,
+      "titleSize": 32
+    },
+    {
+      "width": 960,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 307,
+      "titleSize": 37.44
+    },
+    {
+      "width": 1024,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 328,
+      "titleSize": 39.936
+    },
+    {
+      "width": 1100,
+      "height": 900,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 350,
+      "titleSize": 42.9
+    },
+    {
+      "width": 1101,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 308,
+      "titleSize": 42.939
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 358,
+      "titleSize": 49.92
+    },
+    {
+      "width": 1366,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 382,
+      "titleSize": 53.274
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 403,
+      "titleSize": 56.16
+    },
+    {
+      "width": 1680,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 430,
+      "titleSize": 58
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 400,
+      "titleSize": 58
+    },
+    {
+      "width": 2560,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 400,
+      "titleSize": 58
+    },
+    {
+      "width": 3840,
+      "height": 900,
+      "segments": 1,
+      "columns": 12,
+      "cardHeight": 400,
+      "titleSize": 58
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "segments": 1,
+      "columns": 2,
+      "cardHeight": 270,
+      "titleSize": 32.916
+    },
+    {
+      "width": 1114,
+      "height": 720,
+      "segments": 2,
+      "columns": 1,
+      "cardHeight": 312,
+      "titleSize": 43.446
+    },
+    {
+      "width": 1000,
+      "height": 720,
+      "segments": 2,
+      "columns": 1,
+      "cardHeight": 320,
+      "titleSize": 39
+    }
+  ],
+  "limit": "Calcul de cascade CSS et dimensions déclarées, sans rendu navigateur."
+}

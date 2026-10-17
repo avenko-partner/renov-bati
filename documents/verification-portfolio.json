@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Les 124 nouveaux médias sont conservés, chacun dans un seul groupe",
+    "Arrivée : dix cartes déjà dans le HTML, sans longue liste de raccourcis ni comparateur",
+    "Chantiers regroupés : maison, véranda, salle de bains et commerce contiennent plusieurs vues",
+    "Tous les chantiers et inspirations sont accessibles par filtres et chargement supplémentaire",
+    "Une carte ouvre la galerie du bon lieu avec ses miniatures",
+    "Les flèches du clavier parcourent les médias",
+    "La photo actuelle reste visible pendant le chargement de la suivante",
+    "La galerie passe à une deuxième photographie",
+    "Navigation rapide : un ancien chargement ne réintroduit pas une photo dépassée",
+    "Les films du même chantier sont muets, contrôlables et chargés à la demande",
+    "Quitter le film arrête et libère le lecteur",
+    "Vue agrandie et retour avec Échap",
+    "Fermeture : retour du focus à la carte et libération du média",
+    "Les anciens noms de chantier restent reliés au bon groupe",
+    "Réouverture pendant la fermeture : le dernier chantier reste ouvert",
+    "Glissement horizontal tactile : photo suivante",
+    "Le déplacement vertical ne change pas la photo",
+    "Une erreur conserve la photo et propose une reprise",
+    "La reprise recharge la photographie demandée",
+    "Fermer pendant le chargement annule toute réapparition tardive",
+    "Accueil : les raccourcis utilisent les groupes et le portfolio",
+    "Accueil : une carte ouvre maintenant plusieurs photos et son film",
+    "L’avant/après atteint 0 et 100 puis revient à 0 en 18 secondes",
+    "Le survol ne bloque plus le balayage automatique",
+    "La manipulation est prioritaire et maintient la position pendant le repos",
+    "La reprise se fait depuis la position choisie",
+    "Le bouton permet une pause persistante",
+    "Réduction des mouvements : arrêt de l’automatisme",
+    "Hors écran : aucune boucle d’animation active",
+    "Les trois pages ont des identifiants uniques et des ressources présentes"
+  ],
+  "projects": 49,
+  "newMedia": 124,
+  "maxAutoStep": 0.28000000000000114,
+  "limits": [
+    "Simulation DOM et horloge contrôlée ; aucun rendu navigateur, appareil physique ou mesure FPS."
+  ]
+}

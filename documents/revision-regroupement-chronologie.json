@@ -1,0 +1,54 @@
+{
+  "method": "Examen des 109 photos, des planches des films concernés et des deux captures ; rapprochements par géométrie, ouvertures et matériaux, sans adresse inventée.",
+  "corrections": [
+    {
+      "correction": "Vérandas et extensions",
+      "evidence": "La maison de plain-pied aux volets bleus (9,43,44,54,55) est distincte de la maison à lucarnes (3,4,5,film3). Les séries 39–42/64, 45/46/53/58 et 47–52 ont des volumes et ouvertures distincts.",
+      "groups": [
+        "veranda-lumiere",
+        "maison-extension",
+        "extension-maconnee",
+        "maison-abords",
+        "dallage-extension"
+      ]
+    },
+    {
+      "correction": "Salles de bains",
+      "evidence": "31 → 33 → 32 est une évolution confirmée par les ouvertures et le film 6 complet. Le film 8 a des meubles blancs et un parement vert, distincts des meubles noirs et du parement gris des photos bain-pierre.",
+      "groups": [
+        "salle-de-bains",
+        "bain-pierre",
+        "bain-niches"
+      ]
+    },
+    {
+      "correction": "Toitures",
+      "evidence": "101–103 montrent une maison ancienne au pignon plein et à la fenêtre de toit, différente de la série avec noues 89–100. Ordre : 103 ancien, 101 préparation, 102 couverture posée.",
+      "groups": [
+        "charpente-toiture",
+        "renovation-toiture"
+      ]
+    },
+    {
+      "correction": "Carrelages",
+      "evidence": "83,85,86,87 ont des poteaux, fenêtres, plafonds et matériaux différents ; chacun reste dans une fiche indépendante. 84/88 partagent le grand volume sous structure métallique et les parois en doublage.",
+      "groups": [
+        "carrelage-pose",
+        "carrelage-technique",
+        "carrelage-baie",
+        "carrelage-salle",
+        "carrelage-grand-volume"
+      ]
+    },
+    {
+      "correction": "Intérieurs en chantier",
+      "evidence": "La photo 13 apparaît à 25 s du film 5 (climatisation, mur rose et isolation visibles). Le film 4 reste indépendant, sans rapprochement visuel suffisamment sûr.",
+      "groups": [
+        "cloisons-reseaux",
+        "reseaux-interieurs"
+      ]
+    }
+  ],
+  "projects": 49,
+  "newMedia": 124
+}

@@ -19,9 +19,16 @@ def prepare(base, output, source):
         if not (source/obsolete).exists():
             (output/obsolete).unlink(missing_ok=True)
     # Copie uniquement les fichiers publics et les ressources utilisées par le site.
+    collection_paths=set()
+    manifest=source/'portfolio-data.js'
+    if manifest.exists():
+        projects=json.loads(manifest.read_text(encoding='utf-8').removeprefix('window.RENOV_PORTFOLIO = ').strip().removesuffix(';'))
+        collection_paths={Path(item[key]).name for project in projects for item in project['media'] for key in ('src','thumb','poster','coverDetail') if item.get(key) and '/collection/' in item[key]}
+    def ignore_unused(directory,names):
+        return [name for name in names if name not in collection_paths] if Path(directory).name=='collection' and collection_paths else []
     for f in source.iterdir():
-        if f.name=='assets' and f.is_dir():shutil.copytree(f,output/f.name,dirs_exist_ok=True)
-        elif f.is_file() and f.suffix in {'.html','.css','.js','.txt','.xml'} and f.name!='LIRE-MOI.txt':shutil.copy2(f,output/f.name)
+        if f.name=='assets' and f.is_dir():shutil.copytree(f,output/f.name,dirs_exist_ok=True,ignore=ignore_unused)
+        elif f.name not in {'collection.js','collection-data.js'} and f.is_file() and ((f.suffix in {'.html','.css','.js','.txt','.xml'} and not f.name.startswith('LIRE-MOI')) or f.name in {'vercel.json','.vercelignore'}):shutil.copy2(f,output/f.name)
     urls=[]
     photos_by_url={}
     class Photos(HTMLParser):

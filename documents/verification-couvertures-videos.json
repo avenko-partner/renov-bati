@@ -1,0 +1,232 @@
+{
+  "status": "PASS",
+  "covers": 10,
+  "complementaryViews": 8,
+  "candidateFrames": 452,
+  "method": "Sélection de passages dans les vidéos originales, extraction en résolution native, légère accentuation des contours, WebP qualité 92. Pas de génération ni de suréchantillonnage.",
+  "entries": [
+    {
+      "project": "terrasse-maison",
+      "media": "film-13",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 21.29.42.mp4",
+      "sourceTimeSeconds": 24.25,
+      "detailTimeSeconds": 10.75,
+      "previousThumb": "./assets/collection/film-13-apercu-88e630bbbb.webp",
+      "previousSize": [
+        295,
+        520
+      ],
+      "poster": "./assets/collection/film-13-couverture-3e055ab7a9.webp",
+      "size": [
+        480,
+        848
+      ],
+      "detail": "./assets/collection/film-13-detail-18004d5b9e.webp",
+      "thumb": "./assets/collection/film-13-apercu-f418691d5a.webp",
+      "nativePixelsFactor": 2.65,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "fenetre-toit",
+      "media": "film-01",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 20.05.35.mp4",
+      "sourceTimeSeconds": 3.25,
+      "detailTimeSeconds": null,
+      "previousThumb": "./assets/collection/film-01-apercu-d4ef07214d.webp",
+      "previousSize": [
+        292,
+        520
+      ],
+      "poster": "./assets/collection/film-01-couverture-708edee542.webp",
+      "size": [
+        576,
+        1024
+      ],
+      "detail": null,
+      "thumb": "./assets/collection/film-01-apercu-ce647da762.webp",
+      "nativePixelsFactor": 3.88,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "intervention-toiture",
+      "media": "film-12",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 21.27.19.mp4",
+      "sourceTimeSeconds": 1.25,
+      "detailTimeSeconds": 21.25,
+      "previousThumb": "./assets/collection/film-12-apercu-aa1c702cf7.webp",
+      "previousSize": [
+        292,
+        520
+      ],
+      "poster": "./assets/collection/film-12-couverture-057f6975ba.webp",
+      "size": [
+        576,
+        1024
+      ],
+      "detail": "./assets/collection/film-12-detail-ee57570a57.webp",
+      "thumb": "./assets/collection/film-12-apercu-2c80d97604.webp",
+      "nativePixelsFactor": 3.88,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "salle-bains-dore",
+      "media": "film-09",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 20.48.08.mp4",
+      "sourceTimeSeconds": 20.25,
+      "detailTimeSeconds": 8.25,
+      "previousThumb": "./assets/collection/film-09-apercu-b6e6fce4b0.webp",
+      "previousSize": [
+        314,
+        520
+      ],
+      "poster": "./assets/collection/film-09-couverture-210119c239.webp",
+      "size": [
+        464,
+        768
+      ],
+      "detail": "./assets/collection/film-09-detail-1c895f8656.webp",
+      "thumb": "./assets/collection/film-09-apercu-4165f839eb.webp",
+      "nativePixelsFactor": 2.18,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "bain-lumiere",
+      "media": "film-15",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 23.23.57.mp4",
+      "sourceTimeSeconds": 0.25,
+      "detailTimeSeconds": 6.75,
+      "previousThumb": "./assets/collection/film-15-apercu-22f5670ec6.webp",
+      "previousSize": [
+        305,
+        520
+      ],
+      "poster": "./assets/collection/film-15-couverture-52dd1e3e9b.webp",
+      "size": [
+        480,
+        816
+      ],
+      "detail": "./assets/collection/film-15-detail-bb159ced1b.webp",
+      "thumb": "./assets/collection/film-15-apercu-8867f9308d.webp",
+      "nativePixelsFactor": 2.47,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "escalier-mineral",
+      "media": "film-14",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 23.19.24.mp4",
+      "sourceTimeSeconds": 1.75,
+      "detailTimeSeconds": 11.25,
+      "previousThumb": "./assets/collection/film-14-apercu-8cd8e8e9c8.webp",
+      "previousSize": [
+        275,
+        520
+      ],
+      "poster": "./assets/collection/film-14-couverture-198c17cd82.webp",
+      "size": [
+        448,
+        848
+      ],
+      "detail": "./assets/collection/film-14-detail-929d2caa12.webp",
+      "thumb": "./assets/collection/film-14-apercu-267a38dbf7.webp",
+      "nativePixelsFactor": 2.66,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "bassin",
+      "media": "film-07",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 20.44.58.mp4",
+      "sourceTimeSeconds": 7.25,
+      "detailTimeSeconds": null,
+      "previousThumb": "./assets/collection/film-07-apercu-4a42bf9c49.webp",
+      "previousSize": [
+        382,
+        520
+      ],
+      "poster": "./assets/collection/film-07-couverture-3d72a61d6c.webp",
+      "size": [
+        576,
+        784
+      ],
+      "detail": null,
+      "thumb": "./assets/collection/film-07-apercu-113f9685e1.webp",
+      "nativePixelsFactor": 2.27,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "agencement-marbre",
+      "media": "film-11",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 21.24.33.mp4",
+      "sourceTimeSeconds": 13.25,
+      "detailTimeSeconds": 5.25,
+      "previousThumb": "./assets/collection/film-11-apercu-340fb4801a.webp",
+      "previousSize": [
+        295,
+        520
+      ],
+      "poster": "./assets/collection/film-11-couverture-d2539ba71e.webp",
+      "size": [
+        480,
+        848
+      ],
+      "detail": "./assets/collection/film-11-detail-a6803f1905.webp",
+      "thumb": "./assets/collection/film-11-apercu-c487b54824.webp",
+      "nativePixelsFactor": 2.65,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "bain-niches",
+      "media": "film-08",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 20.46.09.mp4",
+      "sourceTimeSeconds": 4.25,
+      "detailTimeSeconds": 10.25,
+      "previousThumb": "./assets/collection/film-08-apercu-24ffc5404f.webp",
+      "previousSize": [
+        325,
+        520
+      ],
+      "poster": "./assets/collection/film-08-couverture-9c07a06cc6.webp",
+      "size": [
+        480,
+        768
+      ],
+      "detail": "./assets/collection/film-08-detail-8066aa63a0.webp",
+      "thumb": "./assets/collection/film-08-apercu-d5bd797225.webp",
+      "nativePixelsFactor": 2.18,
+      "generativeEditing": false,
+      "upscaling": false
+    },
+    {
+      "project": "reseaux-interieurs",
+      "media": "film-04",
+      "source": "media-work/source/ertan/WhatsApp Video 2026-10-16 at 20.26.52.mp4",
+      "sourceTimeSeconds": 1.75,
+      "detailTimeSeconds": 6.25,
+      "previousThumb": "./assets/collection/film-04-apercu-466f87385a.webp",
+      "previousSize": [
+        292,
+        520
+      ],
+      "poster": "./assets/collection/film-04-couverture-802dcd678f.webp",
+      "size": [
+        576,
+        1024
+      ],
+      "detail": "./assets/collection/film-04-detail-3ab4096582.webp",
+      "thumb": "./assets/collection/film-04-apercu-8694f08b9a.webp",
+      "nativePixelsFactor": 3.88,
+      "generativeEditing": false,
+      "upscaling": false
+    }
+  ],
+  "sourceLimit": "Les vidéos fournies restent la limite de détail ; aucun agrandissement ne restaure des détails absents.",
+  "publicExportVerified": true,
+  "browserLimit": "Planches et images sélectionnées examinées ; cadrage simulé pour la carte marbre. Aucun rendu navigateur."
+}

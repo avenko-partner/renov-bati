@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "checks": [
+    "La véranda des captures est séparée de la maison à lucarnes",
+    "Extensions, carrelages et seconde toiture ne sont plus mélangés",
+    "Avant, travaux, après : les phases ne reculent dans aucune série",
+    "Les couvertures finales ne sont pas forcées au début des galeries",
+    "La première image ne coupe pas l’animation d’ouverture de la fenêtre",
+    "Le chargement rapide ne fait pas clignoter une étiquette au centre de la photo",
+    "Le fondu commence dès l’insertion, au-dessus d’une image toujours visible",
+    "Un clic rapproché conserve le fondu courant et attend la vue suivante",
+    "La vue déjà décodée prend le relais à la fin du fondu précédent",
+    "Plusieurs clics pendant le fondu gardent deux couches et la dernière destination",
+    "La réduction des mouvements termine proprement le fondu et la vue en attente",
+    "Le lecteur attend son affiche avant de remplacer la photographie",
+    "Photo vers film : affiche décodée, fondu et lecture muette à la demande",
+    "Film vers photo : la dernière image du film reste pendant le fondu",
+    "La fin du fondu libère le film et ne laisse aucune couche résiduelle",
+    "Le délai de secours termine le fondu même sans événement de fin d’animation",
+    "Fermer pendant un fondu et une attente empêche toute réapparition tardive"
+  ],
+  "projects": 49,
+  "transitionMs": 480,
+  "limits": [
+    "Simulation des chargements, événements et états d’animation ; aucun rendu navigateur ni mesure FPS."
+  ]
+}

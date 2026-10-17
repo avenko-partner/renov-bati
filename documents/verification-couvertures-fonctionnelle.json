@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Les dix cartes de film utilisent les nouvelles couvertures natives, avec srcset exact et huit vues complémentaires décoratives.",
+    "Le lecteur utilise la couverture haute définition après décodage, tout en restant muet et contrôlable"
+  ],
+  "covers": 10,
+  "details": 8,
+  "limit": "Simulation DOM ; aucun rendu navigateur."
+}

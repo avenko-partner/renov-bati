@@ -202,6 +202,7 @@
     introObserver.observe(root,{attributes:true,attributeFilter:['class']});
   }
   document.addEventListener('visibilitychange',refresh);
+  document.addEventListener('renov-gallery-change',refresh);
   document.querySelector('#project-dialog')?.addEventListener('close',()=>queueMicrotask(refresh));
   if(typeof IntersectionObserver==='function'){
     try{const observer=new IntersectionObserver(records=>{const record=records.find(item=>item.target===frame);if(record){inView=record.isIntersecting;refresh();}},{threshold:0});observer.observe(frame);}catch{}

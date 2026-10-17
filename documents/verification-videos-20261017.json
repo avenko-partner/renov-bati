@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "videos": [
+    {
+      "file": "film-11-35f7127c6a.mp4",
+      "bytes": 986207,
+      "seconds": 10.0,
+      "width": 544,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-12-c3e3c59f5e.mp4",
+      "bytes": 503019,
+      "seconds": 10.0,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-08-e64b7ae645.mp4",
+      "bytes": 554583,
+      "seconds": 10.0,
+      "width": 600,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-03-f4aa29f98f.mp4",
+      "bytes": 755724,
+      "seconds": 10.0,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-09-aea9f011b9.mp4",
+      "bytes": 802290,
+      "seconds": 12.0,
+      "width": 580,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-14-9e15e9593f.mp4",
+      "bytes": 503247,
+      "seconds": 9.708333,
+      "width": 508,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-10-29709d284d.mp4",
+      "bytes": 990443,
+      "seconds": 12.0,
+      "width": 592,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-01-68e7111afc.mp4",
+      "bytes": 774609,
+      "seconds": 7.333333,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-06-1fa387ba34.mp4",
+      "bytes": 668124,
+      "seconds": 12.125,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-07-91361f22db.mp4",
+      "bytes": 695820,
+      "seconds": 9.041667,
+      "width": 706,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-13-3360c556c3.mp4",
+      "bytes": 1242131,
+      "seconds": 10.0,
+      "width": 544,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-04-618af866c7.mp4",
+      "bytes": 866289,
+      "seconds": 10.0,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-05-32e476d7f8.mp4",
+      "bytes": 857968,
+      "seconds": 12.125,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-02-eec57a95a2.mp4",
+      "bytes": 604389,
+      "seconds": 10.0,
+      "width": 540,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    },
+    {
+      "file": "film-15-fdbd00cb97.mp4",
+      "bytes": 642836,
+      "seconds": 6.916667,
+      "width": 564,
+      "height": 960,
+      "audio": false,
+      "faststart": true
+    }
+  ],
+  "webp": 233
+}

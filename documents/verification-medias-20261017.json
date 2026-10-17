@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": [
+    "109 photos et 15 films, sans entrée manquante",
+    "Galerie initiale limitée à 12 aperçus ; aucune vidéo ni grande image chargée par la galerie",
+    "Toutes les entrées atteignables par pagination",
+    "Filtre des 15 films ; grand média au clic seulement, muet et contrôlable",
+    "Navigation puis fermeture : arrêt et retrait des vidéos, retour du focus",
+    "Les inspirations sont identifiées, sans attribution à un chantier",
+    "Chemins complets et dimensions des 124 médias valides",
+    "La comparaison façade charge les deux bonnes étapes",
+    "Changement rapide de comparaison : la dernière demande est conservée",
+    "Défilement automatique visible, progressif et à précision fractionnaire",
+    "Progression temporelle sans saut sur une séquence de 90 images simulées",
+    "Pause volontaire immédiate",
+    "Arrêt hors écran",
+    "Respect de la réduction des mouvements",
+    "La manipulation arrête l’animation ; reprise après inactivité",
+    "Trois pages : identifiants uniques et ressources locales présentes"
+  ],
+  "limit": "Vérifications DOM et horloge simulée : aucun rendu navigateur, test physique mobile, FPS ou réseau Vercel réel."
+}

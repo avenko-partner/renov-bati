@@ -1,0 +1,2304 @@
+[
+  {
+    "id": "veranda-lumiere",
+    "title": "Une nouvelle pièce de lumière.",
+    "category": "maisons",
+    "label": "Véranda & menuiserie",
+    "description": "Ossature anthracite, toiture translucide et grandes surfaces vitrées : plusieurs regards sur la véranda, depuis le jardin et depuis l’intérieur.",
+    "media": [
+      {
+        "id": "photo-003",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-003-1c2869cd98.webp",
+        "thumb": "./assets/collection/photo-003-apercu-080888e378.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "id": "photo-004",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-004-13b8a41f5d.webp",
+        "thumb": "./assets/collection/photo-004-apercu-2f4ce76495.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "id": "photo-005",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-005-6acc990cd3.webp",
+        "thumb": "./assets/collection/photo-005-apercu-824cf5114f.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "id": "film-03",
+        "kind": "video",
+        "category": "facades",
+        "title": "Véranda ouverte sur le jardin",
+        "src": "./assets/collection/film-03-f4aa29f98f.mp4",
+        "thumb": "./assets/collection/film-03-apercu-a68b3a0e1b.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 10.0
+      }
+    ],
+    "cover": "photo-004",
+    "aliases": [],
+    "details": [
+      "Menuiseries anthracite",
+      "Baies vitrées",
+      "Toiture translucide"
+    ]
+  },
+  {
+    "id": "salle-de-bains",
+    "title": "Une salle de bains, réinventée.",
+    "category": "interieurs",
+    "label": "Rénovation intérieure",
+    "description": "Du carrelage ancien à une pièce claire : douche vitrée, baignoire et meubles suspendus. Les vues du chantier montrent les étapes et les finitions.",
+    "media": [
+      {
+        "id": "photo-031",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Salle de bains",
+        "src": "./assets/collection/photo-031-7114ae6c7f.webp",
+        "thumb": "./assets/collection/photo-031-apercu-7c1548f043.webp",
+        "width": 972,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-033",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Salle de bains",
+        "src": "./assets/collection/photo-033-2bd55f37dc.webp",
+        "thumb": "./assets/collection/photo-033-apercu-4374ad7003.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-032",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Salle de bains",
+        "src": "./assets/collection/photo-032-f4f0a19ed6.webp",
+        "thumb": "./assets/collection/photo-032-apercu-04b2e287b7.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "ancien-bain-clair",
+        "kind": "photo",
+        "category": "",
+        "title": "bain clair",
+        "src": "./assets/photos/bain-clair.webp",
+        "thumb": "./assets/photos/bain-clair-mobile.webp",
+        "width": 1200,
+        "height": 1600,
+        "phase": "after"
+      },
+      {
+        "id": "film-06",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Salle de bains : douche et meuble vasque",
+        "src": "./assets/collection/film-06-1fa387ba34.mp4",
+        "thumb": "./assets/collection/film-06-apercu-0e274290c9.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 12.1,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-032",
+    "aliases": [
+      "bain-clair"
+    ],
+    "details": [
+      "Douche & baignoire",
+      "Carrelage mural",
+      "Meubles suspendus"
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Carrelage en grande surface.",
+    "category": "professionnels",
+    "label": "Espaces professionnels",
+    "description": "De la préparation du sol aux circulations terminées : les photographies suivent la pose et la continuité des joints dans les allées.",
+    "media": [
+      {
+        "id": "photo-071",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-071-55592af0d7.webp",
+        "thumb": "./assets/collection/photo-071-apercu-a75e9863f3.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-076",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-076-fc2a3a9c3e.webp",
+        "thumb": "./assets/collection/photo-076-apercu-d879e9a6c6.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-072",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-072-9c20af66d8.webp",
+        "thumb": "./assets/collection/photo-072-apercu-4ac3eac316.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-073",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-073-4615e384a4.webp",
+        "thumb": "./assets/collection/photo-073-apercu-878ed83bad.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-074",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-074-feefac4007.webp",
+        "thumb": "./assets/collection/photo-074-apercu-a8f35847e5.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-075",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Carrelage en grande surface",
+        "src": "./assets/collection/photo-075-17bed7c297.webp",
+        "thumb": "./assets/collection/photo-075-apercu-daab4970d3.webp",
+        "width": 1024,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-072",
+    "aliases": [],
+    "details": [
+      "Préparation du support",
+      "Pose du carrelage",
+      "Alignement des joints"
+    ]
+  },
+  {
+    "id": "maison-extension",
+    "title": "La maison s’ouvre au jardin.",
+    "category": "maisons",
+    "label": "Extension & aménagement extérieur",
+    "description": "La terrasse existante laisse place à une véranda anthracite, installée dans le retour de la maison. Les vues présentent le lieu avant les travaux, puis l’espace vitré.",
+    "media": [
+      {
+        "id": "photo-054",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-054-b9e395fed2.webp",
+        "thumb": "./assets/collection/photo-054-apercu-c579df6462.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-044",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-044-4204ff836b.webp",
+        "thumb": "./assets/collection/photo-044-apercu-caff00ac7d.webp",
+        "width": 991,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-055",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-055-4f37149f60.webp",
+        "thumb": "./assets/collection/photo-055-apercu-8a41af51e2.webp",
+        "width": 1010,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-043",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-043-f0513ec000.webp",
+        "thumb": "./assets/collection/photo-043-apercu-dbf8907fbb.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-009",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-009-7694cd6e2b.webp",
+        "thumb": "./assets/collection/photo-009-apercu-ab92f88223.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-043",
+    "aliases": [],
+    "details": [
+      "Terrasse existante",
+      "Véranda anthracite",
+      "Ouverture sur le jardin"
+    ]
+  },
+  {
+    "id": "ravalement",
+    "title": "Une façade retrouve ses lignes.",
+    "category": "maisons",
+    "label": "Façade & terrasse",
+    "description": "Les vues de la maison réunissent la préparation des façades, les enduits et les aménagements au pied du bâtiment.",
+    "media": [
+      {
+        "id": "photo-010",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-010-0c12b6569a.webp",
+        "thumb": "./assets/collection/photo-010-apercu-2fe7a28fcc.webp",
+        "width": 805,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-014",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-014-56e936a0b2.webp",
+        "thumb": "./assets/collection/photo-014-apercu-4f93f6037a.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-015",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-015-43f30e717b.webp",
+        "thumb": "./assets/collection/photo-015-apercu-be093f3e69.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-016",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-016-0e93cd5235.webp",
+        "thumb": "./assets/collection/photo-016-apercu-ff71241ffa.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-011",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-011-c9a3321dcb.webp",
+        "thumb": "./assets/collection/photo-011-apercu-3ca5ed0aef.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-002",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-002-dbea9a295d.webp",
+        "thumb": "./assets/collection/photo-002-apercu-c0591a1a12.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-008",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-008-5913e5001f.webp",
+        "thumb": "./assets/collection/photo-008-apercu-28dc537677.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-001",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-001-20bc19a734.webp",
+        "thumb": "./assets/collection/photo-001-apercu-1259e62ddf.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "ancien-facade-relief",
+        "kind": "photo",
+        "category": "",
+        "title": "facade relief",
+        "src": "./assets/photos/facade-relief.webp",
+        "thumb": "./assets/photos/facade-relief-mobile.webp",
+        "width": 1200,
+        "height": 1600,
+        "phase": "after"
+      },
+      {
+        "id": "photo-017",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-017-6154c8bb8b.webp",
+        "thumb": "./assets/collection/photo-017-apercu-e8b189f271.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-007",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-007-c2a495837f.webp",
+        "thumb": "./assets/collection/photo-007-apercu-12f2f734ac.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "film-02",
+        "kind": "video",
+        "category": "exterieurs",
+        "title": "Terrasse carrelée au pied de la maison",
+        "src": "./assets/collection/film-02-eec57a95a2.mp4",
+        "thumb": "./assets/collection/film-02-apercu-01da3bf9e3.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 10.0,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-001",
+    "aliases": [],
+    "details": [
+      "Préparation de façade",
+      "Enduit clair",
+      "Terrasse carrelée"
+    ]
+  },
+  {
+    "id": "demeure-pierre",
+    "title": "La pierre, jusque dans les abords.",
+    "category": "exterieurs",
+    "label": "Terrasse & marches",
+    "description": "Terrasses, marches et cheminements autour d’une demeure : les différentes vues font lire les raccords et les détails du revêtement.",
+    "media": [
+      {
+        "id": "photo-024",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-024-2fedb60c82.webp",
+        "thumb": "./assets/collection/photo-024-apercu-f47143086e.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-019",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-019-64a04efcdb.webp",
+        "thumb": "./assets/collection/photo-019-apercu-3f0b850fd5.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-020",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-020-f15a64eba4.webp",
+        "thumb": "./assets/collection/photo-020-apercu-e01b9200ab.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-021",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-021-20455742a3.webp",
+        "thumb": "./assets/collection/photo-021-apercu-5cc663a6ba.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-022",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-022-6608ea9793.webp",
+        "thumb": "./assets/collection/photo-022-apercu-ede3076401.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-023",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-023-697aa653a7.webp",
+        "thumb": "./assets/collection/photo-023-apercu-4ac6cfcc0f.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-025",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-025-49f9d86215.webp",
+        "thumb": "./assets/collection/photo-025-apercu-3d003c2101.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-024",
+    "aliases": [],
+    "details": [
+      "Revêtements de terrasse",
+      "Marches extérieures",
+      "Finitions de rive"
+    ]
+  },
+  {
+    "id": "bain-pierre",
+    "title": "La pierre rencontre le noir.",
+    "category": "interieurs",
+    "label": "Salle de bains",
+    "description": "Meuble noir, deux vasques et douche vitrée : deux photographies des revêtements veinés et des éclairages de cette salle de bains.",
+    "media": [
+      {
+        "id": "ancien-salle-de-bains-pierre",
+        "kind": "photo",
+        "category": "",
+        "title": "salle de bains pierre",
+        "src": "./assets/photos/salle-de-bains-pierre.webp",
+        "thumb": "./assets/photos/salle-de-bains-pierre-mobile.webp",
+        "width": 989,
+        "height": 1441
+      },
+      {
+        "id": "ancien-douche-detail",
+        "kind": "photo",
+        "category": "",
+        "title": "douche detail",
+        "src": "./assets/photos/douche-detail.webp",
+        "thumb": "./assets/photos/douche-detail-mobile.webp",
+        "width": 979,
+        "height": 1427
+      }
+    ],
+    "cover": "ancien-salle-de-bains-pierre",
+    "aliases": [],
+    "details": [
+      "Revêtements veinés",
+      "Douche vitrée",
+      "Éclairage intégré"
+    ]
+  },
+  {
+    "id": "charpente-toiture",
+    "title": "Du bois à la couverture.",
+    "category": "toitures",
+    "label": "Charpente & couverture",
+    "description": "La charpente, l’écran et les liteaux précèdent les vues des tuiles, des noues et du faîtage.",
+    "media": [
+      {
+        "id": "photo-094",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-094-2ac42028bd.webp",
+        "thumb": "./assets/collection/photo-094-apercu-cf040eab70.webp",
+        "width": 796,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-100",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-100-ae3f326688.webp",
+        "thumb": "./assets/collection/photo-100-apercu-9ae3d874d7.webp",
+        "width": 802,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-098",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-098-49adc6142c.webp",
+        "thumb": "./assets/collection/photo-098-apercu-8d4e8b0eb4.webp",
+        "width": 694,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-099",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-099-5f49ab6b62.webp",
+        "thumb": "./assets/collection/photo-099-apercu-1c14303f7d.webp",
+        "width": 761,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-091",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-091-690b5f167b.webp",
+        "thumb": "./assets/collection/photo-091-apercu-9b33a13ef4.webp",
+        "width": 771,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-092",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-092-78fd2b7238.webp",
+        "thumb": "./assets/collection/photo-092-apercu-f1f5222c9d.webp",
+        "width": 944,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-093",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-093-f8c1e47a02.webp",
+        "thumb": "./assets/collection/photo-093-apercu-7313e383b4.webp",
+        "width": 766,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-096",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-096-1f9cbe55bb.webp",
+        "thumb": "./assets/collection/photo-096-apercu-763b196a18.webp",
+        "width": 686,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-089",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-089-5d9c099193.webp",
+        "thumb": "./assets/collection/photo-089-apercu-cdcb2d01d0.webp",
+        "width": 866,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-090",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-090-e316148183.webp",
+        "thumb": "./assets/collection/photo-090-apercu-e018bf8ff8.webp",
+        "width": 871,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-095",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-095-bd6282cf09.webp",
+        "thumb": "./assets/collection/photo-095-apercu-6656c56d71.webp",
+        "width": 886,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-097",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-097-870eaeb7eb.webp",
+        "thumb": "./assets/collection/photo-097-apercu-77ad578732.webp",
+        "width": 697,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-095",
+    "aliases": [],
+    "details": [
+      "Assemblages de charpente",
+      "Écran & liteaux",
+      "Tuiles & raccords"
+    ]
+  },
+  {
+    "id": "cuisine",
+    "title": "Des lignes, de la lumière.",
+    "category": "interieurs",
+    "label": "Cuisine & agencement",
+    "description": "Deux vues d’une cuisine aux façades coordonnées, avec plan de travail clair et éclairage intégré.",
+    "media": [
+      {
+        "id": "ancien-cuisine-lumiere",
+        "kind": "photo",
+        "category": "",
+        "title": "cuisine lumiere",
+        "src": "./assets/photos/cuisine-lumiere.webp",
+        "thumb": "./assets/photos/cuisine-lumiere-mobile.webp",
+        "width": 1280,
+        "height": 1600
+      },
+      {
+        "id": "ancien-cuisine-detail",
+        "kind": "photo",
+        "category": "",
+        "title": "cuisine detail",
+        "src": "./assets/photos/cuisine-detail.webp",
+        "thumb": "./assets/photos/cuisine-detail-mobile.webp",
+        "width": 1280,
+        "height": 1600
+      }
+    ],
+    "cover": "ancien-cuisine-lumiere",
+    "aliases": [],
+    "details": [
+      "Agencement",
+      "Plan de travail",
+      "Éclairage intégré"
+    ]
+  },
+  {
+    "id": "renovation-volumes",
+    "title": "Ouvrir les volumes.",
+    "category": "interieurs",
+    "label": "Rénovation & structure",
+    "description": "Les vues suivent l’ouverture entre les pièces et la préparation des nouveaux espaces, avant les finitions.",
+    "media": [
+      {
+        "id": "photo-104",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-104-77e5dcff86.webp",
+        "thumb": "./assets/collection/photo-104-apercu-5cec896d68.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-105",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-105-be7864d10e.webp",
+        "thumb": "./assets/collection/photo-105-apercu-91256e50e7.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "photo-106",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-106-5426559f72.webp",
+        "thumb": "./assets/collection/photo-106-apercu-691f5a1dd1.webp",
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "id": "photo-107",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-107-cd10620fb1.webp",
+        "thumb": "./assets/collection/photo-107-apercu-88fb460cce.webp",
+        "width": 989,
+        "height": 1280
+      },
+      {
+        "id": "photo-108",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-108-f4498f6aef.webp",
+        "thumb": "./assets/collection/photo-108-apercu-72f18a4b2d.webp",
+        "width": 977,
+        "height": 1280
+      },
+      {
+        "id": "photo-109",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-109-bb8b43e1a8.webp",
+        "thumb": "./assets/collection/photo-109-apercu-546abe0711.webp",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "cover": "photo-104",
+    "aliases": [],
+    "details": [
+      "Ouverture de pièces",
+      "Reprise des volumes",
+      "Préparation des finitions"
+    ]
+  },
+  {
+    "id": "maison-double-garage",
+    "title": "Une maison, une nouvelle lecture.",
+    "category": "maisons",
+    "label": "Façade & accès",
+    "description": "Deux vues de la même maison montrent l’évolution de la façade et de ses accès.",
+    "media": [
+      {
+        "id": "photo-028",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-028-6c31efcecd.webp",
+        "thumb": "./assets/collection/photo-028-apercu-22dae270e2.webp",
+        "width": 955,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-029",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-029-a2746a2367.webp",
+        "thumb": "./assets/collection/photo-029-apercu-e81c09b960.webp",
+        "width": 940,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-029",
+    "aliases": [],
+    "details": [
+      "Façade",
+      "Accès",
+      "Garage"
+    ]
+  },
+  {
+    "id": "pergola-jardin",
+    "title": "Une terrasse à l’abri.",
+    "category": "exterieurs",
+    "label": "Pergola & protections",
+    "description": "La photographie et le film détaillent la structure de pergola et ses protections latérales.",
+    "media": [
+      {
+        "id": "photo-006",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-006-42b050fb39.webp",
+        "thumb": "./assets/collection/photo-006-apercu-32715e8b7f.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "id": "film-10",
+        "kind": "video",
+        "category": "exterieurs",
+        "title": "Pergola et stores de terrasse",
+        "src": "./assets/collection/film-10-29709d284d.mp4",
+        "thumb": "./assets/collection/film-10-apercu-1c16ce77aa.webp",
+        "width": 592,
+        "height": 960,
+        "duration": 12.0
+      }
+    ],
+    "cover": "photo-006",
+    "aliases": [],
+    "details": [
+      "Pergola",
+      "Protections latérales",
+      "Terrasse"
+    ]
+  },
+  {
+    "id": "facade-maison",
+    "title": "Façade claire, lignes nettes.",
+    "category": "maisons",
+    "label": "Façade & extérieurs",
+    "description": "La façade claire et les encadrements se détachent de la couverture sombre. La terrasse prolonge les lignes de la maison.",
+    "media": [
+      {
+        "id": "ancien-facade-lumiere",
+        "kind": "photo",
+        "category": "",
+        "title": "facade lumiere",
+        "src": "./assets/photos/facade-lumiere.webp",
+        "thumb": "./assets/photos/facade-lumiere-mobile.webp",
+        "width": 1085,
+        "height": 801
+      }
+    ],
+    "cover": "ancien-facade-lumiere",
+    "aliases": [],
+    "details": [
+      "Enduit clair",
+      "Encadrements",
+      "Terrasse minérale"
+    ]
+  },
+  {
+    "id": "maconnerie-maison",
+    "title": "Les volumes prennent forme.",
+    "category": "maisons",
+    "label": "Maçonnerie de maison",
+    "description": "Les photographies montrent les façades en cours de travaux et les encadrements des ouvertures.",
+    "media": [
+      {
+        "id": "photo-059",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-059-5caf956466.webp",
+        "thumb": "./assets/collection/photo-059-apercu-bfb0463fa8.webp",
+        "width": 702,
+        "height": 1280
+      },
+      {
+        "id": "photo-056",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-056-875898fd81.webp",
+        "thumb": "./assets/collection/photo-056-apercu-dbde9af7ee.webp",
+        "width": 698,
+        "height": 1280
+      },
+      {
+        "id": "photo-057",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-057-82cc45d9fc.webp",
+        "thumb": "./assets/collection/photo-057-apercu-074d472168.webp",
+        "width": 702,
+        "height": 1280
+      },
+      {
+        "id": "photo-060",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-060-17a6bcb0f6.webp",
+        "thumb": "./assets/collection/photo-060-apercu-bcb5697533.webp",
+        "width": 702,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-059",
+    "aliases": [],
+    "details": [
+      "Maçonnerie",
+      "Ouvertures",
+      "Préparation des façades"
+    ]
+  },
+  {
+    "id": "maconnerie-construction",
+    "title": "Construire les premières lignes.",
+    "category": "maisons",
+    "label": "Gros œuvre",
+    "description": "Plusieurs angles de la construction font lire les élévations, les ouvertures et l’avancement de la maçonnerie.",
+    "media": [
+      {
+        "id": "photo-061",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-061-613f2df466.webp",
+        "thumb": "./assets/collection/photo-061-apercu-93c2341907.webp",
+        "width": 740,
+        "height": 1280
+      },
+      {
+        "id": "photo-062",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-062-a1ee7be399.webp",
+        "thumb": "./assets/collection/photo-062-apercu-878146a237.webp",
+        "width": 726,
+        "height": 1280
+      },
+      {
+        "id": "photo-063",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-063-467731198e.webp",
+        "thumb": "./assets/collection/photo-063-apercu-cd13a8d606.webp",
+        "width": 786,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-061",
+    "aliases": [],
+    "details": [
+      "Élévation des murs",
+      "Baies",
+      "Gros œuvre"
+    ]
+  },
+  {
+    "id": "salle-plafonds",
+    "title": "Les finitions d’un grand volume.",
+    "category": "professionnels",
+    "label": "Plafonds & aménagement",
+    "description": "Plafonds, luminaires et volumes intérieurs : les vues suivent les interventions dans une salle de grande dimension.",
+    "media": [
+      {
+        "id": "photo-066",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Plafonds et aménagement d’une salle",
+        "src": "./assets/collection/photo-066-76fe408201.webp",
+        "thumb": "./assets/collection/photo-066-apercu-4bb4c60352.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-069",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Plafonds et aménagement d’une salle",
+        "src": "./assets/collection/photo-069-c2f4ca27bf.webp",
+        "thumb": "./assets/collection/photo-069-apercu-7063a242dd.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-067",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Plafonds et aménagement d’une salle",
+        "src": "./assets/collection/photo-067-e62462e138.webp",
+        "thumb": "./assets/collection/photo-067-apercu-ce3c2dab2c.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-068",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Plafonds et aménagement d’une salle",
+        "src": "./assets/collection/photo-068-cfcd85719e.webp",
+        "thumb": "./assets/collection/photo-068-apercu-c311f40f39.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-065",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Plafonds et aménagement d’une salle",
+        "src": "./assets/collection/photo-065-45751e74f6.webp",
+        "thumb": "./assets/collection/photo-065-apercu-609de84feb.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-068",
+    "aliases": [],
+    "details": [
+      "Plafonds",
+      "Éclairage",
+      "Aménagement intérieur"
+    ]
+  },
+  {
+    "id": "local-structure",
+    "title": "La structure d’un espace professionnel.",
+    "category": "professionnels",
+    "label": "Maçonnerie & structure",
+    "description": "Les différents points de vue montrent la structure et les murs en cours d’élévation.",
+    "media": [
+      {
+        "id": "photo-077",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-077-25c93ebf5c.webp",
+        "thumb": "./assets/collection/photo-077-apercu-71c01178e6.webp",
+        "width": 1280,
+        "height": 676
+      },
+      {
+        "id": "photo-078",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-078-cea4c3e312.webp",
+        "thumb": "./assets/collection/photo-078-apercu-b2820cb2c3.webp",
+        "width": 1280,
+        "height": 676
+      },
+      {
+        "id": "photo-079",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-079-a468d0a4c5.webp",
+        "thumb": "./assets/collection/photo-079-apercu-2ede658653.webp",
+        "width": 1280,
+        "height": 676
+      }
+    ],
+    "cover": "photo-077",
+    "aliases": [],
+    "details": [
+      "Structure",
+      "Maçonnerie",
+      "Bâtiment professionnel"
+    ]
+  },
+  {
+    "id": "batiment-elevation",
+    "title": "Une enveloppe se construit.",
+    "category": "professionnels",
+    "label": "Gros œuvre professionnel",
+    "description": "Les façades en maçonnerie se lisent de l’extérieur, à différentes étapes de leur réalisation.",
+    "media": [
+      {
+        "id": "photo-080",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-080-da8e3ac9e7.webp",
+        "thumb": "./assets/collection/photo-080-apercu-5ccbc58773.webp",
+        "width": 1024,
+        "height": 1280
+      },
+      {
+        "id": "photo-081",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-081-99321f73b2.webp",
+        "thumb": "./assets/collection/photo-081-apercu-ad82e0204b.webp",
+        "width": 1024,
+        "height": 1280
+      },
+      {
+        "id": "photo-082",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-082-bd8daf27e5.webp",
+        "thumb": "./assets/collection/photo-082-apercu-4b8a8b749c.webp",
+        "width": 1024,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-080",
+    "aliases": [],
+    "details": [
+      "Élévation",
+      "Maçonnerie",
+      "Volumes extérieurs"
+    ]
+  },
+  {
+    "id": "carrelage-pose",
+    "title": "Le sol, dans ses détails.",
+    "category": "professionnels",
+    "label": "Pose de carrelage",
+    "description": "Une vue de la pose du carrelage dans une pièce à poteau central, avant la réalisation des joints.",
+    "media": [
+      {
+        "id": "photo-083",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-083-99cdbfca1c.webp",
+        "thumb": "./assets/collection/photo-083-apercu-0236fa276f.webp",
+        "width": 687,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-083",
+    "aliases": [],
+    "details": [
+      "Carrelage",
+      "Cales de pose"
+    ]
+  },
+  {
+    "id": "carrelage-grand-volume",
+    "title": "Un revêtement à grande échelle.",
+    "category": "professionnels",
+    "label": "Carrelage de grand volume",
+    "description": "Deux vues du carrelage pendant la pose, dans un espace largement ouvert.",
+    "media": [
+      {
+        "id": "photo-084",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-084-1919277bc6.webp",
+        "thumb": "./assets/collection/photo-084-apercu-d46a8e2249.webp",
+        "width": 706,
+        "height": 1280
+      },
+      {
+        "id": "photo-088",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-088-0eb9a12e68.webp",
+        "thumb": "./assets/collection/photo-088-apercu-14a1d095d9.webp",
+        "width": 702,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-084",
+    "aliases": [],
+    "details": [
+      "Grandes surfaces",
+      "Pose de carrelage",
+      "Planéité"
+    ]
+  },
+  {
+    "id": "terrasse",
+    "title": "À l’ombre des lignes.",
+    "category": "exterieurs",
+    "label": "Pergola & terrasse",
+    "description": "Une terrasse carrelée et sa structure de pergola anthracite au pied de la façade.",
+    "media": [
+      {
+        "id": "ancien-terrasse-pergola",
+        "kind": "photo",
+        "category": "",
+        "title": "terrasse pergola",
+        "src": "./assets/photos/terrasse-pergola.webp",
+        "thumb": "./assets/photos/terrasse-pergola-mobile.webp",
+        "width": 1025,
+        "height": 1393
+      }
+    ],
+    "cover": "ancien-terrasse-pergola",
+    "aliases": [],
+    "details": [
+      "Pergola",
+      "Sol de terrasse",
+      "Protections latérales"
+    ]
+  },
+  {
+    "id": "terrasse-maison",
+    "title": "Le jardin au pied de la maison.",
+    "category": "exterieurs",
+    "label": "Terrasse & abords",
+    "description": "Le film parcourt la terrasse, ses courbes et son raccord avec les façades.",
+    "media": [
+      {
+        "id": "film-13",
+        "kind": "video",
+        "category": "exterieurs",
+        "title": "Terrasse et façade côté jardin",
+        "src": "./assets/collection/film-13-3360c556c3.mp4",
+        "thumb": "./assets/collection/film-13-apercu-f418691d5a.webp",
+        "width": 544,
+        "height": 960,
+        "duration": 10.0,
+        "poster": "./assets/collection/film-13-couverture-3e055ab7a9.webp",
+        "posterWidth": 480,
+        "posterHeight": 848,
+        "coverPosition": "50% 38%",
+        "thumbWidth": 294,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-13-detail-18004d5b9e.webp",
+        "coverDetailWidth": 480,
+        "coverDetailHeight": 848
+      }
+    ],
+    "cover": "film-13",
+    "aliases": [],
+    "details": [
+      "Terrasse",
+      "Raccords de façade",
+      "Aménagement extérieur"
+    ]
+  },
+  {
+    "id": "couverture",
+    "title": "La précision du raccord.",
+    "category": "toitures",
+    "label": "Lucarne & couverture",
+    "description": "Une vue rapprochée de la lucarne et de son intégration dans la couverture.",
+    "media": [
+      {
+        "id": "ancien-couverture-lucarne",
+        "kind": "photo",
+        "category": "",
+        "title": "couverture lucarne",
+        "src": "./assets/photos/couverture-lucarne.webp",
+        "thumb": "./assets/photos/couverture-lucarne-mobile.webp",
+        "width": 1200,
+        "height": 1600
+      }
+    ],
+    "cover": "ancien-couverture-lucarne",
+    "aliases": [],
+    "details": [
+      "Lucarne",
+      "Couverture",
+      "Raccords"
+    ]
+  },
+  {
+    "id": "fenetre-toit",
+    "title": "La fenêtre de toit.",
+    "category": "toitures",
+    "label": "Couverture & étanchéité",
+    "description": "Un film de détail consacré à la fenêtre de toit et aux raccords dans les tuiles.",
+    "media": [
+      {
+        "id": "film-01",
+        "kind": "video",
+        "category": "toitures",
+        "title": "Fenêtre de toit et raccords de couverture",
+        "src": "./assets/collection/film-01-68e7111afc.mp4",
+        "thumb": "./assets/collection/film-01-apercu-ce647da762.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 7.3,
+        "poster": "./assets/collection/film-01-couverture-708edee542.webp",
+        "posterWidth": 576,
+        "posterHeight": 1024,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 292,
+        "thumbHeight": 520
+      }
+    ],
+    "cover": "film-01",
+    "aliases": [],
+    "details": [
+      "Fenêtre de toit",
+      "Tuiles",
+      "Raccords périphériques"
+    ]
+  },
+  {
+    "id": "intervention-toiture",
+    "title": "Au plus près de la toiture.",
+    "category": "toitures",
+    "label": "Intervention en couverture",
+    "description": "Le film montre une intervention sur la pente et les détails de la couverture.",
+    "media": [
+      {
+        "id": "film-12",
+        "kind": "video",
+        "category": "toitures",
+        "title": "Intervention en toiture",
+        "src": "./assets/collection/film-12-c3e3c59f5e.mp4",
+        "thumb": "./assets/collection/film-12-apercu-2c80d97604.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 10.0,
+        "poster": "./assets/collection/film-12-couverture-057f6975ba.webp",
+        "posterWidth": 576,
+        "posterHeight": 1024,
+        "coverPosition": "50% 28%",
+        "thumbWidth": 292,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-12-detail-ee57570a57.webp",
+        "coverDetailWidth": 576,
+        "coverDetailHeight": 1024
+      }
+    ],
+    "cover": "film-12",
+    "aliases": [],
+    "details": [
+      "Couverture",
+      "Intervention sur toiture"
+    ]
+  },
+  {
+    "id": "cloisons-reseaux",
+    "title": "Préparer la pièce suivante.",
+    "category": "interieurs",
+    "label": "Cloisons & réseaux",
+    "description": "Le doublage en cours dans une pièce, puis le parcours des cloisons et des pièces sous rampants de la maison.",
+    "media": [
+      {
+        "id": "photo-013",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-013-87a87fa433.webp",
+        "thumb": "./assets/collection/photo-013-apercu-e020260613.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "film-05",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Cloisons, doublages et volumes intérieurs",
+        "src": "./assets/collection/film-05-32e476d7f8.mp4",
+        "thumb": "./assets/collection/film-05-apercu-7e145910a7.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 12.1,
+        "phase": "work"
+      }
+    ],
+    "cover": "photo-013",
+    "aliases": [],
+    "details": [
+      "Doublages",
+      "Cloisons",
+      "Parois sous rampants"
+    ]
+  },
+  {
+    "id": "combles",
+    "title": "Aménager sous les combles.",
+    "category": "interieurs",
+    "label": "Aménagement intérieur",
+    "description": "Une vue du volume sous rampant pendant la préparation des parois et des équipements.",
+    "media": [
+      {
+        "id": "photo-018",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-018-92def30e53.webp",
+        "thumb": "./assets/collection/photo-018-apercu-2c45a29949.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-018",
+    "aliases": [],
+    "details": [
+      "Rampants",
+      "Parois",
+      "Aménagement"
+    ]
+  },
+  {
+    "id": "couloir",
+    "title": "Un sol, une perspective.",
+    "category": "interieurs",
+    "label": "Sol & éclairage",
+    "description": "Le sol aspect bois et les éclairages accompagnent la longueur du couloir.",
+    "media": [
+      {
+        "id": "photo-038",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-038-fe5dc791c5.webp",
+        "thumb": "./assets/collection/photo-038-apercu-fa4cfa7995.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-038",
+    "aliases": [],
+    "details": [
+      "Revêtement de sol",
+      "Éclairage",
+      "Finitions"
+    ]
+  },
+  {
+    "id": "salle-bains-dore",
+    "title": "Les détails d’une salle de bains.",
+    "category": "interieurs",
+    "label": "Salle de bains & finitions",
+    "description": "Le film parcourt les vasques, la robinetterie et la douche, au plus près des revêtements.",
+    "media": [
+      {
+        "id": "film-09",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Salle de bains : carrelage et robinetterie",
+        "src": "./assets/collection/film-09-aea9f011b9.mp4",
+        "thumb": "./assets/collection/film-09-apercu-4165f839eb.webp",
+        "width": 580,
+        "height": 960,
+        "duration": 12.0,
+        "poster": "./assets/collection/film-09-couverture-210119c239.webp",
+        "posterWidth": 464,
+        "posterHeight": 768,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 314,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-09-detail-1c895f8656.webp",
+        "coverDetailWidth": 464,
+        "coverDetailHeight": 768
+      }
+    ],
+    "cover": "film-09",
+    "aliases": [],
+    "details": [
+      "Vasques",
+      "Robinetterie",
+      "Douche"
+    ]
+  },
+  {
+    "id": "bain-lumiere",
+    "title": "La lumière au fil des parois.",
+    "category": "interieurs",
+    "label": "Salle de bains & éclairage",
+    "description": "Un parcours filmé de la baignoire, des niches et des éclairages intégrés.",
+    "media": [
+      {
+        "id": "film-15",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Salle de bains et éclairage intégré",
+        "src": "./assets/collection/film-15-fdbd00cb97.mp4",
+        "thumb": "./assets/collection/film-15-apercu-8867f9308d.webp",
+        "width": 564,
+        "height": 960,
+        "duration": 6.9,
+        "poster": "./assets/collection/film-15-couverture-52dd1e3e9b.webp",
+        "posterWidth": 480,
+        "posterHeight": 816,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 306,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-15-detail-bb159ced1b.webp",
+        "coverDetailWidth": 480,
+        "coverDetailHeight": 816
+      }
+    ],
+    "cover": "film-15",
+    "aliases": [],
+    "details": [
+      "Baignoire",
+      "Niches",
+      "Éclairage intégré"
+    ]
+  },
+  {
+    "id": "escalier",
+    "title": "Bois, métal, transparence.",
+    "category": "interieurs",
+    "label": "Escalier intérieur",
+    "description": "Une vue d’ensemble de l’escalier et de ses lignes entre deux niveaux.",
+    "media": [
+      {
+        "id": "ancien-escalier-bois",
+        "kind": "photo",
+        "category": "",
+        "title": "escalier bois",
+        "src": "./assets/photos/escalier-bois.webp",
+        "thumb": "./assets/photos/escalier-bois-mobile.webp",
+        "width": 826,
+        "height": 1574
+      }
+    ],
+    "cover": "ancien-escalier-bois",
+    "aliases": [],
+    "details": [
+      "Marches en bois",
+      "Structure",
+      "Garde-corps vitré"
+    ]
+  },
+  {
+    "id": "escalier-mineral",
+    "title": "Le contraste des marches.",
+    "category": "interieurs",
+    "label": "Escalier & revêtement",
+    "description": "Le film suit les marches claires et les contremarches sombres, jusqu’au palier.",
+    "media": [
+      {
+        "id": "film-14",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Escalier et habillage des marches",
+        "src": "./assets/collection/film-14-9e15e9593f.mp4",
+        "thumb": "./assets/collection/film-14-apercu-267a38dbf7.webp",
+        "width": 508,
+        "height": 960,
+        "duration": 9.7,
+        "poster": "./assets/collection/film-14-couverture-198c17cd82.webp",
+        "posterWidth": 448,
+        "posterHeight": 848,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 275,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-14-detail-929d2caa12.webp",
+        "coverDetailWidth": 448,
+        "coverDetailHeight": 848
+      }
+    ],
+    "cover": "film-14",
+    "aliases": [],
+    "details": [
+      "Marches",
+      "Contremarches",
+      "Finitions"
+    ]
+  },
+  {
+    "id": "veranda-salon",
+    "title": "Une pièce de vie en plus.",
+    "category": "maisons",
+    "label": "Extension vitrée",
+    "description": "Un espace vitré aménagé en séjour, ouvert sur le jardin.",
+    "media": [
+      {
+        "id": "ancien-veranda-salon",
+        "kind": "photo",
+        "category": "",
+        "title": "veranda salon",
+        "src": "./assets/photos/veranda-salon.webp",
+        "thumb": "./assets/photos/veranda-salon-mobile.webp",
+        "width": 1001,
+        "height": 1532
+      }
+    ],
+    "cover": "ancien-veranda-salon",
+    "aliases": [],
+    "details": [
+      "Menuiseries",
+      "Vitrages",
+      "Pièce de vie"
+    ]
+  },
+  {
+    "id": "piscine",
+    "title": "La matière au bord de l’eau.",
+    "category": "exterieurs",
+    "label": "Plage de piscine",
+    "description": "Le revêtement minéral compose les abords du bassin et son raccord avec le jardin.",
+    "media": [
+      {
+        "id": "ancien-plage-piscine",
+        "kind": "photo",
+        "category": "",
+        "title": "plage piscine",
+        "src": "./assets/photos/plage-piscine.webp",
+        "thumb": "./assets/photos/plage-piscine-mobile.webp",
+        "width": 1600,
+        "height": 900
+      }
+    ],
+    "cover": "ancien-plage-piscine",
+    "aliases": [],
+    "details": [
+      "Plage de piscine",
+      "Pierre",
+      "Abords"
+    ]
+  },
+  {
+    "id": "bassin",
+    "title": "L’eau, la pierre, le relief.",
+    "category": "exterieurs",
+    "label": "Bassin & parement",
+    "description": "Le film détaille le parement minéral et l’écoulement de l’eau dans le bassin.",
+    "media": [
+      {
+        "id": "film-07",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Bassin et parement minéral",
+        "src": "./assets/collection/film-07-91361f22db.mp4",
+        "thumb": "./assets/collection/film-07-apercu-113f9685e1.webp",
+        "width": 706,
+        "height": 960,
+        "duration": 9.0,
+        "poster": "./assets/collection/film-07-couverture-3d72a61d6c.webp",
+        "posterWidth": 576,
+        "posterHeight": 784,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 382,
+        "thumbHeight": 520
+      }
+    ],
+    "cover": "film-07",
+    "aliases": [],
+    "details": [
+      "Parement",
+      "Bassin",
+      "Finitions"
+    ]
+  },
+  {
+    "id": "agencement-marbre",
+    "title": "Un intérieur dans la matière.",
+    "category": "interieurs",
+    "label": "Revêtements & agencement",
+    "description": "Un film de détail sur les revêtements de sol et les éléments d’agencement.",
+    "media": [
+      {
+        "id": "film-11",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Revêtements et agencement intérieur",
+        "src": "./assets/collection/film-11-35f7127c6a.mp4",
+        "thumb": "./assets/collection/film-11-apercu-c487b54824.webp",
+        "width": 544,
+        "height": 960,
+        "duration": 10.0,
+        "poster": "./assets/collection/film-11-couverture-d2539ba71e.webp",
+        "posterWidth": 480,
+        "posterHeight": 848,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 294,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-11-detail-a6803f1905.webp",
+        "coverDetailWidth": 480,
+        "coverDetailHeight": 848
+      }
+    ],
+    "cover": "film-11",
+    "aliases": [],
+    "details": [
+      "Revêtement de sol",
+      "Agencement",
+      "Raccords"
+    ]
+  },
+  {
+    "id": "equipements-facade",
+    "title": "Les équipements côté jardin.",
+    "category": "exterieurs",
+    "label": "Équipements techniques",
+    "description": "Une vue des équipements extérieurs fixés en façade.",
+    "media": [
+      {
+        "id": "photo-012",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-012-00beb6ed0c.webp",
+        "thumb": "./assets/collection/photo-012-apercu-11814168f9.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-012",
+    "aliases": [],
+    "details": [
+      "Équipements extérieurs",
+      "Implantation en façade"
+    ]
+  },
+  {
+    "id": "equipements-bardage",
+    "title": "Les équipements et le bardage.",
+    "category": "exterieurs",
+    "label": "Équipements extérieurs",
+    "description": "Une vue du passage des réseaux et des équipements au pied du bardage.",
+    "media": [
+      {
+        "id": "photo-027",
+        "kind": "photo",
+        "category": "interieurs",
+        "title": "Rénovation intérieure",
+        "src": "./assets/collection/photo-027-ffc0f3aa99.webp",
+        "thumb": "./assets/collection/photo-027-apercu-c4d365cef0.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-027",
+    "aliases": [],
+    "details": [
+      "Équipements",
+      "Réseaux",
+      "Bardage"
+    ]
+  },
+  {
+    "id": "maison-pierre",
+    "title": "Une maison dans la pierre.",
+    "category": "exterieurs",
+    "label": "Maison & abords",
+    "description": "Une vue de la façade de pierre et de ses abords paysagers.",
+    "media": [
+      {
+        "id": "photo-070",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-070-a6f5a295eb.webp",
+        "thumb": "./assets/collection/photo-070-apercu-8190cd5722.webp",
+        "width": 960,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-070",
+    "aliases": [],
+    "details": [
+      "Façade de pierre",
+      "Abords"
+    ]
+  },
+  {
+    "id": "extension-maconnee",
+    "title": "Une extension aux lignes claires.",
+    "category": "maisons",
+    "label": "Extension maçonnée",
+    "description": "La maçonnerie de l’extension, puis ses enduits et ses grandes baies : quatre vues des volumes côté jardin.",
+    "media": [
+      {
+        "id": "photo-045",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-045-6f62408c6d.webp",
+        "thumb": "./assets/collection/photo-045-apercu-78e4df7684.webp",
+        "width": 1006,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-046",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-046-39e807f001.webp",
+        "thumb": "./assets/collection/photo-046-apercu-6f4c795da7.webp",
+        "width": 1027,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-058",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-058-e683449b81.webp",
+        "thumb": "./assets/collection/photo-058-apercu-7cb64552b7.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      },
+      {
+        "id": "photo-053",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-053-20f60afdb0.webp",
+        "thumb": "./assets/collection/photo-053-apercu-5d444ce975.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-053",
+    "aliases": [],
+    "details": [
+      "Maçonnerie",
+      "Enduits",
+      "Baies vitrées"
+    ]
+  },
+  {
+    "id": "maison-abords",
+    "title": "Agrandir les volumes, aménager les abords.",
+    "category": "maisons",
+    "label": "Extension & gros œuvre",
+    "description": "L’état existant, l’élévation en parpaings et la dalle extérieure sont réunis dans cette série de chantier.",
+    "media": [
+      {
+        "id": "photo-041",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-041-15470dc294.webp",
+        "thumb": "./assets/collection/photo-041-apercu-b18aa1d12c.webp",
+        "width": 988,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-064",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-064-a74fe71ee5.webp",
+        "thumb": "./assets/collection/photo-064-apercu-727ec30477.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-039",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-039-14c52ea96d.webp",
+        "thumb": "./assets/collection/photo-039-apercu-34f74b7b72.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-040",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-040-92ef09e0cb.webp",
+        "thumb": "./assets/collection/photo-040-apercu-ec3f4ca1fb.webp",
+        "width": 1280,
+        "height": 960,
+        "phase": "work"
+      },
+      {
+        "id": "photo-042",
+        "kind": "photo",
+        "category": "facades",
+        "title": "Façade, extension et menuiserie",
+        "src": "./assets/collection/photo-042-e99a3b6b61.webp",
+        "thumb": "./assets/collection/photo-042-apercu-a68f540e30.webp",
+        "width": 1280,
+        "height": 960,
+        "phase": "work"
+      }
+    ],
+    "cover": "photo-042",
+    "aliases": [],
+    "details": [
+      "État existant",
+      "Extension maçonnée",
+      "Dalle extérieure"
+    ]
+  },
+  {
+    "id": "dallage-extension",
+    "title": "Les abords prennent forme.",
+    "category": "exterieurs",
+    "label": "Dallage extérieur",
+    "description": "La dalle et les passages latéraux au pied d’une extension enduite, pendant la réalisation des sols extérieurs.",
+    "media": [
+      {
+        "id": "photo-047",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-047-d5e7a0584a.webp",
+        "thumb": "./assets/collection/photo-047-apercu-ee3b11b88f.webp",
+        "width": 720,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-048",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-048-89038c8d13.webp",
+        "thumb": "./assets/collection/photo-048-apercu-1efd63ea62.webp",
+        "width": 1280,
+        "height": 960,
+        "phase": "work"
+      },
+      {
+        "id": "photo-049",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-049-c18aa0d51e.webp",
+        "thumb": "./assets/collection/photo-049-apercu-9544e6e417.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-050",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-050-e6873668bc.webp",
+        "thumb": "./assets/collection/photo-050-apercu-e8825b569c.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-051",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-051-ccd912387d.webp",
+        "thumb": "./assets/collection/photo-051-apercu-7731752ace.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-052",
+        "kind": "photo",
+        "category": "exterieurs",
+        "title": "Terrasse, dallage et aménagement extérieur",
+        "src": "./assets/collection/photo-052-25abe7bc80.webp",
+        "thumb": "./assets/collection/photo-052-apercu-3adaa482f6.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      }
+    ],
+    "cover": "photo-051",
+    "aliases": [],
+    "details": [
+      "Dalle extérieure",
+      "Passages latéraux",
+      "Raccords de façade"
+    ]
+  },
+  {
+    "id": "bain-niches",
+    "title": "Des niches, des reflets, du relief.",
+    "category": "interieurs",
+    "label": "Salle de bains & niches",
+    "description": "Le film présente une autre salle de bains, avec des meubles blancs, des vasques sombres et des niches éclairées dans un parement vert veiné.",
+    "media": [
+      {
+        "id": "film-08",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Salle de bains : douche et niches éclairées",
+        "src": "./assets/collection/film-08-e64b7ae645.mp4",
+        "thumb": "./assets/collection/film-08-apercu-d5bd797225.webp",
+        "width": 600,
+        "height": 960,
+        "duration": 10.0,
+        "poster": "./assets/collection/film-08-couverture-9c07a06cc6.webp",
+        "posterWidth": 480,
+        "posterHeight": 768,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 325,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-08-detail-8066aa63a0.webp",
+        "coverDetailWidth": 480,
+        "coverDetailHeight": 768
+      }
+    ],
+    "cover": "film-08",
+    "aliases": [],
+    "details": [
+      "Vasques à poser",
+      "Niches éclairées",
+      "Parement veiné"
+    ]
+  },
+  {
+    "id": "renovation-toiture",
+    "title": "Une couverture renouvelée.",
+    "category": "toitures",
+    "label": "Rénovation de toiture",
+    "description": "Trois vues de la même maison suivent la couverture ancienne, la préparation du rampant et la nouvelle couverture.",
+    "media": [
+      {
+        "id": "photo-103",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-103-0a366e6725.webp",
+        "thumb": "./assets/collection/photo-103-apercu-ec32643bbe.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "before"
+      },
+      {
+        "id": "photo-101",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-101-4b769d094b.webp",
+        "thumb": "./assets/collection/photo-101-apercu-41959da7ec.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "work"
+      },
+      {
+        "id": "photo-102",
+        "kind": "photo",
+        "category": "toitures",
+        "title": "Charpente et couverture en tuiles",
+        "src": "./assets/collection/photo-102-ee97a235a2.webp",
+        "thumb": "./assets/collection/photo-102-apercu-0192c57f49.webp",
+        "width": 960,
+        "height": 1280,
+        "phase": "after"
+      }
+    ],
+    "cover": "photo-102",
+    "aliases": [],
+    "details": [
+      "Dépose",
+      "Écran & liteaux",
+      "Couverture neuve"
+    ]
+  },
+  {
+    "id": "carrelage-technique",
+    "title": "Le soin du raccord technique.",
+    "category": "professionnels",
+    "label": "Carrelage & raccords",
+    "description": "Une vue du carrelage clair et de son raccord autour d’une grille de sol.",
+    "media": [
+      {
+        "id": "photo-085",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-085-719615d5d3.webp",
+        "thumb": "./assets/collection/photo-085-apercu-4ed16bab62.webp",
+        "width": 698,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-085",
+    "aliases": [],
+    "details": [
+      "Carrelage clair",
+      "Raccord périphérique"
+    ]
+  },
+  {
+    "id": "carrelage-baie",
+    "title": "Le sol accompagne la baie.",
+    "category": "interieurs",
+    "label": "Carrelage intérieur",
+    "description": "Le carrelage est posé au pied d’une baie à plusieurs pans. Les cales restent visibles pendant le chantier.",
+    "media": [
+      {
+        "id": "photo-086",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-086-7e176214fd.webp",
+        "thumb": "./assets/collection/photo-086-apercu-78ab38acf4.webp",
+        "width": 808,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-086",
+    "aliases": [],
+    "details": [
+      "Pose du carrelage",
+      "Raccord aux menuiseries"
+    ]
+  },
+  {
+    "id": "carrelage-salle",
+    "title": "Un sol pour les grands espaces.",
+    "category": "professionnels",
+    "label": "Revêtement de sol",
+    "description": "Une vue de la pose d’un revêtement sombre dans une grande salle, avec ses cales et ses raccords.",
+    "media": [
+      {
+        "id": "photo-087",
+        "kind": "photo",
+        "category": "professionnels",
+        "title": "Gros œuvre et carrelage de locaux professionnels",
+        "src": "./assets/collection/photo-087-1b71d8efed.webp",
+        "thumb": "./assets/collection/photo-087-apercu-8c044a87ed.webp",
+        "width": 701,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-087",
+    "aliases": [],
+    "details": [
+      "Grande salle",
+      "Pose de revêtement"
+    ]
+  },
+  {
+    "id": "reseaux-interieurs",
+    "title": "Préparer les réseaux intérieurs.",
+    "category": "interieurs",
+    "label": "Réseaux & préparation",
+    "description": "Un film du passage des réseaux et des volumes ouverts pendant la rénovation.",
+    "media": [
+      {
+        "id": "film-04",
+        "kind": "video",
+        "category": "interieurs",
+        "title": "Rénovation intérieure : réseaux et structure",
+        "src": "./assets/collection/film-04-618af866c7.mp4",
+        "thumb": "./assets/collection/film-04-apercu-8694f08b9a.webp",
+        "width": 540,
+        "height": 960,
+        "duration": 10.0,
+        "poster": "./assets/collection/film-04-couverture-802dcd678f.webp",
+        "posterWidth": 576,
+        "posterHeight": 1024,
+        "coverPosition": "50% 48%",
+        "thumbWidth": 292,
+        "thumbHeight": 520,
+        "coverDetail": "./assets/collection/film-04-detail-3ab4096582.webp",
+        "coverDetailWidth": 576,
+        "coverDetailHeight": 1024
+      }
+    ],
+    "cover": "film-04",
+    "aliases": [],
+    "details": [
+      "Réseaux",
+      "Volumes en préparation"
+    ]
+  },
+  {
+    "id": "inspirations",
+    "title": "Matières & ambiances.",
+    "category": "inspirations",
+    "label": "Visuels d’inspiration",
+    "description": "Une sélection de visuels d’ambiance, présentés comme inspirations et sans attribution à un chantier réalisé.",
+    "media": [
+      {
+        "id": "photo-026",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-026-6dc6a969d5.webp",
+        "thumb": "./assets/collection/photo-026-apercu-96e943f7aa.webp",
+        "width": 905,
+        "height": 1280
+      },
+      {
+        "id": "photo-030",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-030-d58602365f.webp",
+        "thumb": "./assets/collection/photo-030-apercu-01910dd143.webp",
+        "width": 736,
+        "height": 1104
+      },
+      {
+        "id": "photo-034",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-034-85a3348208.webp",
+        "thumb": "./assets/collection/photo-034-apercu-190070ec60.webp",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "id": "photo-035",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-035-034b189ec7.webp",
+        "thumb": "./assets/collection/photo-035-apercu-29dc85f0b2.webp",
+        "width": 640,
+        "height": 1280
+      },
+      {
+        "id": "photo-036",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-036-283cc63406.webp",
+        "thumb": "./assets/collection/photo-036-apercu-3eddbbab04.webp",
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "id": "photo-037",
+        "kind": "photo",
+        "category": "ambiances",
+        "title": "Ambiance intérieure — visuel d’inspiration",
+        "src": "./assets/collection/photo-037-3a72d1a9b4.webp",
+        "thumb": "./assets/collection/photo-037-apercu-2108a6fd78.webp",
+        "width": 1024,
+        "height": 1280
+      }
+    ],
+    "cover": "photo-026",
+    "aliases": [],
+    "details": [
+      "Visuels d’inspiration"
+    ]
+  }
+]

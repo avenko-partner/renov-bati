@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Approcher du bas ajoute exactement dix cartes, sans clic ni déplacement du focus",
+    "Les lots suivants arrivent par dix, puis le dernier lot termine la liste",
+    "Un clic sur le bouton pendant le déclenchement automatique ne double pas le lot",
+    "Changer de filtre annule un lot déjà programmé pour le filtre précédent",
+    "Le chargement automatique respecte le filtre actif",
+    "Une galerie ouverte suspend l’ajout des cartes derrière la fenêtre",
+    "La fermeture de la galerie reprend le lot attendu si le bas est proche",
+    "Un onglet masqué ne charge pas de cartes ; le retour visible reprend",
+    "L’observation du bas commence après la sortie du préloader",
+    "Les lots restent automatiques avec réduction des mouvements, sans animation ajoutée",
+    "Le bouton reste fonctionnel lorsque l’observation du défilement est indisponible",
+    "Le retour arrière restauré réactive le chargement automatique",
+    "Préloader complet sur index.html",
+    "Préloader complet sur projets.html",
+    "Préloader complet sur informations.html",
+    "Une couverture non décodée maintient le préloader malgré la fin du dessin",
+    "La sortie reprend dès que les images du premier écran sont prêtes",
+    "Une image bloquée libère la page au bout de sept secondes",
+    "Une galerie appelée par lien direct attend la sortie du préloader",
+    "Les liens vers une autre page avec ancre ont aussi leur préloader",
+    "La préférence de réduction des mouvements évite le préloader animé",
+    "Un changement de page affiche le fond opaque et le logo avant de naviguer",
+    "La navigation conserve l’adresse exacte après un court temps de peinture",
+    "Une navigation annulée restitue une page utilisable",
+    "Le lien légal garde son ancre dans la navigation avec préloader",
+    "Ancres locales, galeries, téléphone, e-mail, réseaux, téléchargements et nouveaux onglets restent natifs",
+    "Le retour arrière ne laisse pas le préloader de départ au-dessus de la page",
+    "Un lien depuis une galerie ferme sa fenêtre avant de montrer le préloader",
+    "Les changements de page restent immédiats en mode de mouvements réduits"
+  ],
+  "autoBatchSize": 10,
+  "approachPx": 600,
+  "preloaderMaxWaitMs": 7000,
+  "limits": [
+    "Simulation DOM, chargements et horloge contrôlée ; aucune navigation ni observation du défilement dans un vrai navigateur."
+  ]
+}

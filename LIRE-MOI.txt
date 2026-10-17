@@ -1,3 +1,9 @@
+VERSION ACTUELLE : PORTFOLIO PAR CHANTIER — 17 OCTOBRE 2026
+Consulter LIRE-MOI-PORTFOLIO.txt. Les notes ci-dessous décrivent les versions antérieures et les éléments conservés.
+
+MISE À JOUR DU 17 OCTOBRE 2026
+Voir LIRE-MOI-MEDIAS.txt pour les 109 photos, 15 films muets, les nouvelles comparaisons et les optimisations de chargement. La notice historique ci-dessous décrit les fonctions conservées.
+
 RENOV BATI — DOSSIER COMPLET DU SITE
 Version 24 — visionneuse React et transitions photographiques
 

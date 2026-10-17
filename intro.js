@@ -2,7 +2,7 @@
   'use strict';
   const state=window.RENOV_INTRO,root=document.documentElement,overlay=document.querySelector('#brand-intro');
   if(!state||state.finished||!root.classList.contains('intro-pending')||!overlay)return;
-  const surfaces=[...document.querySelectorAll('.site-header,main,.site-footer,.skip-link')];
+  const surfaces=[...document.querySelectorAll('header,main,.site-footer,.skip-link')];
   const inertState=new Map(surfaces.map(el=>[el,el.hasAttribute('inert')]));
   const main=document.querySelector('main'),busyState=main?.getAttribute('aria-busy');
   const previousFocus=document.activeElement;
@@ -72,7 +72,15 @@
     ()=>{logoLoaded=true;logoSettled=true;revealIdentity();},
     ()=>{logoSettled=true;revealIdentity();}
   ));
-  const hero=document.querySelector('.hero-main img');if(hero)resources.push(decoded(hero));
+  // Wait for the first screen, never the whole portfolio or off-screen films.
+  const critical=new Set(),hero=document.querySelector('.hero-main img');
+  if(hero)critical.add(hero);
+  [...document.querySelectorAll('.work-card img')].slice(0,10).forEach(image=>{
+    const box=image.getBoundingClientRect();
+    if(box.bottom>0&&box.top<innerHeight+160)critical.add(image);
+  });
+  critical.forEach(image=>{image.loading='eager';resources.push(decoded(image));});
+  state.imageCount=critical.size;
   if(document.fonts?.ready)resources.push(document.fonts.ready);
   let settled=0;state.total=resources.length;state.completed=0;
   const tracked=resources.map(resource=>Promise.resolve(resource).catch(()=>{}).then(()=>{

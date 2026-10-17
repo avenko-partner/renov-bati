@@ -1,0 +1,545 @@
+{
+  "status": "PASS",
+  "pages": [
+    {
+      "status": "PASS",
+      "page": "index.html",
+      "profiles": [
+        {
+          "width": 320,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 360,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 375,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 390,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 414,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 430,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 540,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 600,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 700,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 701,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 760,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 820,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 960,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1024,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1100,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1101,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1280,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1366,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1680,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1920,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 2560,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 3840,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 844,
+          "height": 390,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1114,
+          "height": 720,
+          "segments": 2,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1000,
+          "height": 720,
+          "segments": 2,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        }
+      ],
+      "limits": [
+        "Analyse de cascade CSS, sans rendu navigateur."
+      ]
+    },
+    {
+      "status": "PASS",
+      "page": "projets.html",
+      "profiles": [
+        {
+          "width": 320,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 360,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 375,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 390,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 414,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 430,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 540,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 600,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 700,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 701,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 760,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 820,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 960,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1024,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1100,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1101,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1280,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1366,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1440,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1680,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1920,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 2560,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 3840,
+          "height": 900,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 844,
+          "height": 390,
+          "segments": 1,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1114,
+          "height": 720,
+          "segments": 2,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        },
+        {
+          "width": 1000,
+          "height": 720,
+          "segments": 2,
+          "cover": "cover",
+          "gallery": "contain",
+          "thumbs": "contain",
+          "viewerPosition": "absolute",
+          "zoom": false
+        }
+      ],
+      "limits": [
+        "Analyse de cascade CSS, sans rendu navigateur."
+      ]
+    }
+  ],
+  "coverRule": "Les couvertures peuvent remplir le cadre ; les médias ouverts et miniatures restent entiers. Les vues complémentaires de couverture sont limitées aux cartes de largeur supérieure ou égale à 540 px.",
+  "limit": "Analyse de cascade CSS ; les règles de conteneur sont validées syntaxiquement, sans rendu navigateur."
+}

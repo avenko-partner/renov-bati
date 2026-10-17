@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "profiles": [
+    {
+      "page": "index.html",
+      "width": 320,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 540,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 760,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 1024,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 1440,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 1920,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "index.html",
+      "width": 3840,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 320,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 390,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 540,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 760,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 1024,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 1440,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 1920,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "projets.html",
+      "width": 3840,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 320,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 390,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 540,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 760,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 1024,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 1440,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 1920,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    },
+    {
+      "page": "informations.html",
+      "width": 3840,
+      "fullScreenOpaque": true,
+      "logoDraws": true,
+      "reducedMotion": true
+    }
+  ],
+  "limit": "Analyse de cascade CSS ; aucun rendu navigateur."
+}

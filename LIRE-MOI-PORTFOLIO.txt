@@ -1,0 +1,59 @@
+COUVERTURES DES FILMS — 17 OCTOBRE 2026
+Dix couvertures de réalisations filmées ont été remplacées par des vues sélectionnées dans les vidéos originales. Les couvertures sont exportées à la définition native, en WebP de qualité supérieure, avec des miniatures séparées pour les petites vues. Un léger renforcement des contours est appliqué. Aucun détail, personne ou élément de chantier n’a été généré ; aucun suréchantillonnage.
+Huit réalisations disposent aussi d’une vue complémentaire du même film. À partir de 540 px de largeur de carte, les deux vues sont présentées côte à côte pour réduire l’agrandissement de chaque image. Les cadres plus petits montrent une seule vue. Les photographies et les films ouverts dans les fiches restent entiers et sans recadrage.
+La vidéo marbre montre désormais le sol en damier et le comptoir, au lieu du gros plan flou du coin d’un meuble. Les autres couvertures mettent en avant les volumes, équipements ou finitions visibles dans les sources. Les vidéos ne sont pas réencodées ni rallongées ; elles restent sans son.
+Les images natives contiennent environ 2,2 à 3,9 fois plus de pixels que les anciennes miniatures, selon le film. Cela ne transforme pas les vidéos fournies en photographies haute définition ; la qualité reste limitée par leur netteté d’origine. Les nouvelles couvertures et vues complémentaires représentent environ 1,10 Mo au total avant déduction des anciens aperçus.
+Le regroupement, l’ordre avant/travaux/après, le chargement automatique par dix et les préloaders sont conservés. Le script de préparation de la publication inclut les nouvelles couvertures et exclut les anciens aperçus inutilisés.
+Contrôles : fichiers WebP et empreintes, dimensions natives, intégration des dix couvertures, lecture muette, galeries, navigation, défilement automatique et export public. Images examinées en planches ; aucune vérification du rendu dans un navigateur ou sur appareil physique. ZIP extrait et vérifié. Aucune publication effectuée.
+
+DÉFILEMENT AUTOMATIQUE ET PRÉLOADER — 17 OCTOBRE 2026
+Extraire entièrement le ZIP, puis ouvrir index.html. Aucun outil à installer ; aucune publication réalisée.
+
+RÉALISATIONS
+Les dix premières cartes restent directement présentes dans le HTML. À environ 600 px du bas de la collection, le site ajoute automatiquement dix cartes du filtre actif. Le dernier lot est limité aux cartes restantes. Le bouton Voir d’autres réalisations reste disponible et partage la même logique pour éviter les doublons. Le chargement automatique ne déplace pas le focus. Les images restent paresseuses et aucun film n’est téléchargé en arrière-plan.
+L’ajout attend la fin du préloader. Une galerie ouverte ou un onglet masqué le suspend ; la fermeture ou le retour visible le réactive. Les cartes apparaissent avec une courte transition, supprimée en mode de mouvements réduits.
+
+CHANGEMENTS DE PAGE
+Le préloader personnalisé, avec les 69 contours du logo, est présent sur l’accueil, les réalisations et les informations légales. Un lien interne vers une autre page affiche la surface de marque avant la navigation. Le document suivant déroule le dessin puis attend le logo, les polices et les images du premier écran avant sa sortie. Il ne charge pas toutes les photos ni les films.
+Le dessin conserve son rythme initial ; une ressource bloquée libère la page après sept secondes au maximum. Les ancres locales, les galeries, le téléphone, l’e-mail, les liens externes, les téléchargements et les ouvertures dans un nouvel onglet gardent leur comportement. Le retour arrière restaure la page sans conserver le voile de départ. Les mouvements réduits évitent le préloader animé.
+
+VÉRIFICATIONS
+Contrôles DOM et horloge simulée : lots automatiques, filtres, double clic, focus, galeries, onglet masqué, retour arrière, trois préloaders, attente des couvertures, délai de secours et destinations des liens. Les contrôles des galeries, transitions, comparateur et accueil sont également passés. Cascade CSS analysée sur 26 profils pour le portfolio et 24 configurations pour le préloader. Aucun rendu dans un vrai navigateur, test sur appareil physique, mesure FPS ou Core Web Vitals réalisé. Les rapports sont dans documents/.
+Les médias, leur regroupement, la chronologie et le cadrage sont conservés. ZIP extrait et vérifié avant livraison.
+
+REGROUPEMENT, ORDRE ET TRANSITIONS — 17 OCTOBRE 2026
+Les deux vérandas des captures sont séparées. Les séries d’extensions, de carrelages, de salles de bains et de toitures ont été réexaminées. Les lieux dont le rapprochement visuel est incertain restent dans des fiches distinctes. Les 124 médias du dossier ertan sont conservés dans 49 fiches, dont une sélection d’inspirations indépendante.
+Les galeries présentant une évolution suivent l’ordre avant, travaux, après. La couverture reste choisie séparément : une photo finale peut servir de couverture sans bouleverser l’ordre des vues ouvertes. Les étapes identifiées sont indiquées au niveau des commandes et dans les libellés des miniatures.
+Les couvertures remplissent leur cadre. Les photographies et films ouverts, ainsi que les miniatures, restent entièrement visibles sans recadrage, étirement ou zoom. Le fond libre reprend la teinte sombre du site.
+Les changements de média attendent le décodage de la photo ou de l’affiche du film. Le fondu de 480 ms conserve la vue sortante ; en cas de clics rapides, il se termine puis affiche la dernière destination demandée. Les changements de proportions ne déplacent pas le cadre. La réduction des mouvements supprime le fondu. Les vidéos restent muettes, contrôlables et chargées à la demande.
+Les rapports de contrôle actuels sont dans documents/ : regroupement, chronologie, transitions, cadrage, 26 profils de mise en page et régression de l’accueil. Aucun rendu navigateur ni test sur appareil physique n’a pu être réalisé. ZIP extrait et contrôlé ; aucune publication effectuée.
+
+RENOV BATI — PORTFOLIO PAR CHANTIER — 17 OCTOBRE 2026
+
+OUVRIR LE SITE
+Extraire intégralement le ZIP puis ouvrir index.html. Le site et les galeries fonctionnent en local, sans installation. La page des réalisations est projets.html.
+
+PORTFOLIO
+La page commence directement par des cartes de chantier. L’ancien grand titre, la longue liste de raccourcis, le catalogue vertical et la galerie de fichiers séparée ont été remplacés par une seule grille.
+Chaque carte ouvre les vues rattachées au même lieu lorsque les façades, fenêtres, volumes et matériaux permettent le rapprochement. Les séries ont été regroupées visuellement d’après les fichiers fournis, sans attribuer d’adresse, de date ou de client inconnu. Les vues sans rapprochement suffisamment clair restent indépendantes.
+Les 109 photos et 15 films du dossier ertan sont conservés, répartis dans les groupes. Les six visuels d’ambiance restent dans le filtre Inspirations ; ils ne sont pas présentés comme des chantiers réalisés.
+Le visiteur peut filtrer, afficher d’autres cartes et parcourir les photos et films d’un chantier dans une seule fenêtre : miniatures, précédent/suivant, clavier, vue agrandie, glissement horizontal tactile pour les photos. Les grands médias sont chargés à leur ouverture. Les films restent sans piste audio et disposent des commandes de lecture.
+Les cartes de l’accueil ouvrent aussi ces groupes enrichis. Les anciens noms de projets sont reliés aux groupes correspondants.
+
+AVANT/APRÈS
+Un seul comparateur est conservé, sur index.html. Aucun autre comparateur n’est présent dans le portfolio.
+La ligne parcourt toute la largeur : 0 à 100 % en 9 secondes, puis 100 à 0 % en 9 secondes. L’aller-retour se répète avec une courbe douce aux extrémités. Le survol seul ne bloque pas l’animation.
+La manipulation à la souris, au toucher ou au clavier est prioritaire. Après 4 secondes sans nouvelle action, le balayage repart de la position choisie. Le bouton de pause reste disponible. L’onglet masqué, les galeries ouvertes, le comparateur hors écran et la réduction des mouvements arrêtent l’automatisme.
+
+MÉDIAS ET HÉBERGEMENT
+Les WebP et les 15 montages H.264 muets sont conservés. Les 124 médias et leurs aperçus totalisent environ 27,85 Mo ; le poids du ZIP complet inclut aussi le code, les anciennes ressources et les documents de maintenance.
+Les cartes sont affichées par groupes de dix. Aucun film ne démarre ou ne se télécharge en arrière-plan pendant la lecture du portfolio.
+vercel.json conserve le cache long sur les nouveaux médias, dont les noms incluent leur empreinte. .vercelignore exclut les documents privés et les ressources de maintenance du déploiement.
+Le script preparer-publication.py a été adapté aux galeries regroupées. Il prépare le dossier public sans rien publier.
+Conserver ertan.zip à part pour les originaux ; ils ne sont pas dupliqués dans cette livraison.
+
+VÉRIFICATIONS ET LIMITES
+Les rapports dans documents/ décrivent les contrôles effectués : galeries, filtres, pagination, changements rapides de média, lecture et arrêt des films, fermeture, clavier, focus, liens de l’accueil et course complète du comparateur. Les contrôles de régression de l’accueil couvrent le préloader, le carrousel de 4,5 secondes, le menu, les premiers scrolls et le formulaire de brouillon.
+Le CSS du portfolio a été analysé sur 26 profils de 320 à 3840 px, dont des écrans courts et deux scénarios à deux panneaux. Les photographies et films fournis ont été examinés pour le regroupement.
+Pas de rendu visuel dans un navigateur, d’essai sur appareils physiques, ni de mesure FPS, Core Web Vitals ou consommation Vercel réelle.
+Le ZIP est contrôlé et extrait avant livraison. Aucune publication effectuée.

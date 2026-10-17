@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "profiles": [
+    {
+      "width": 320,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 360,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 390,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 430,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 540,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 640,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 700,
+      "columns": "repeat(2,minmax(0,1fr))"
+    },
+    {
+      "width": 701,
+      "columns": "repeat(3,minmax(0,1fr))"
+    },
+    {
+      "width": 820,
+      "columns": "repeat(3,minmax(0,1fr))"
+    },
+    {
+      "width": 1000,
+      "columns": "repeat(3,minmax(0,1fr))"
+    },
+    {
+      "width": 1001,
+      "columns": "repeat(4,minmax(0,1fr))"
+    },
+    {
+      "width": 1280,
+      "columns": "repeat(4,minmax(0,1fr))"
+    },
+    {
+      "width": 1440,
+      "columns": "repeat(4,minmax(0,1fr))"
+    },
+    {
+      "width": 1920,
+      "columns": "repeat(4,minmax(0,1fr))"
+    },
+    {
+      "width": 2560,
+      "columns": "repeat(4,minmax(0,1fr))"
+    },
+    {
+      "width": 3840,
+      "columns": "repeat(4,minmax(0,1fr))"
+    }
+  ],
+  "limit": "Cascade CSS simulée, sans rendu navigateur."
+}
