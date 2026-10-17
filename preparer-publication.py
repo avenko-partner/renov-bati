@@ -11,9 +11,14 @@ def prepare(base, output, source):
     if parsed.scheme!='https' or not parsed.hostname or parsed.query or parsed.fragment or parsed.username or parsed.password:
         raise ValueError('Indiquez l’URL HTTPS du domaine retenu, sans paramètres ni fragment.')
     base=base.rstrip('/')+'/'
-    if output.resolve()==source.resolve() or (source/'assets').resolve()==output.resolve() or (source/'assets').resolve() in output.resolve().parents:
+    if output.resolve()==source.resolve() or output.resolve() in source.resolve().parents or (source/'assets').resolve()==output.resolve() or (source/'assets').resolve() in output.resolve().parents:
         raise ValueError('Le dossier de sortie doit être distinct du dossier source.')
+    if output.exists() and any(output.iterdir()):
+        if output.is_symlink() or not (output/'.renov-public-build').is_file():
+            raise ValueError('Le dossier de sortie contient des fichiers qui ne proviennent pas de ce générateur. Choisissez un dossier vide.')
+        shutil.rmtree(output)
     output.mkdir(parents=True,exist_ok=True)
+    (output/'.renov-public-build').write_text('Sortie publique générée. Ne pas modifier ici.\n',encoding='utf-8')
     # Nettoie uniquement les anciens fichiers retirés de ce site.
     for obsolete in ('zones-intervention.html','zones.js','prestations.html'):
         if not (source/obsolete).exists():
@@ -25,10 +30,28 @@ def prepare(base, output, source):
         projects=json.loads(manifest.read_text(encoding='utf-8').removeprefix('window.RENOV_PORTFOLIO = ').strip().removesuffix(';'))
         collection_paths={Path(item[key]).name for project in projects for item in project['media'] for key in ('src','thumb','poster','coverDetail') if item.get(key) and '/collection/' in item[key]}
     def ignore_unused(directory,names):
-        return [name for name in names if name not in collection_paths] if Path(directory).name=='collection' and collection_paths else []
-    for f in source.iterdir():
-        if f.name=='assets' and f.is_dir():shutil.copytree(f,output/f.name,dirs_exist_ok=True,ignore=ignore_unused)
-        elif f.name not in {'collection.js','collection-data.js'} and f.is_file() and ((f.suffix in {'.html','.css','.js','.txt','.xml'} and not f.name.startswith('LIRE-MOI')) or f.name in {'vercel.json','.vercelignore'}):shutil.copy2(f,output/f.name)
+        folder=Path(directory)
+        return [name for name in names if (folder/name).is_symlink() or ((folder/name).is_file() and ((folder.name=='collection' and name not in collection_paths) or not re.search(r'\.(?:webp|avif|jpe?g|png|svg|mp4|woff2?|ttf|otf|txt)$',name,re.I)))]
+    # Liste fermée : trois pages et uniquement leurs scripts et feuilles chargés.
+    class PublicReferences(HTMLParser):
+        def __init__(self):super().__init__();self.files=set()
+        def handle_starttag(self,tag,attrs):
+            a=dict(attrs)
+            ref=a.get('src') if tag=='script' else a.get('href') if tag=='link' and a.get('rel')=='stylesheet' else None
+            if ref:
+                if not re.fullmatch(r'\./[-a-z0-9]+\.(?:css|js)',ref):raise ValueError('Ressource publique non autorisée : '+ref)
+                self.files.add(ref[2:])
+    files={'index.html','projets.html','informations.html'}
+    for name in tuple(files):
+        refs=PublicReferences();refs.feed((source/name).read_text(encoding='utf-8'));files.update(refs.files)
+    shutil.copytree(source/'assets',output/'assets',dirs_exist_ok=True,ignore=ignore_unused)
+    for name in files:shutil.copy2(source/name,output/name)
+    config_path=source/'vercel.json'
+    if config_path.exists():
+        config=json.loads(config_path.read_text(encoding='utf-8'))
+        # Cette sortie est déjà statique : aucun générateur n'est nécessaire ici.
+        for key in ('buildCommand','outputDirectory'):config.pop(key,None)
+        (output/'vercel.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     urls=[]
     photos_by_url={}
     class Photos(HTMLParser):

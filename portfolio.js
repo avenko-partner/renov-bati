@@ -30,12 +30,13 @@
   if(focus)grid.children[previous]?.querySelector('a')?.focus({preventScroll:true});
  }
  if(grid){
-  const more=$('#work-more'),sentinel=more.closest('.work-more');
+  const more=$('#work-more'),sentinel=document.createElement('div');
+  sentinel.className='work-pagination-end';sentinel.setAttribute('aria-hidden','true');grid.after(sentinel);
   let observer=null,autoFrame=0,nearEnd=false,pageActive=true;
   const appendEffects=new Set();
   function cancelAppendEffects(){appendEffects.forEach(effect=>effect.cancel());appendEffects.clear();}
   function watchEnd(){
-   if(!observer)return;observer.disconnect();nearEnd=false;
+   sentinel.hidden=more.hidden;if(!observer)return;observer.disconnect();nearEnd=false;
    if(pageActive&&!more.hidden)observer.observe(sentinel);
   }
   function addBatch(focus=false){
@@ -58,8 +59,8 @@
    if(observer||typeof IntersectionObserver!=='function')return;
    observer=new IntersectionObserver(entries=>{
     const entry=entries.find(e=>e.target===sentinel);if(!entry)return;
-    nearEnd=entry.isIntersecting;queueBatch();
-   },{rootMargin:'0px 0px 600px 0px',threshold:0});watchEnd();
+    nearEnd=entry.isIntersecting||Boolean(entry.boundingClientRect&&entry.boundingClientRect.bottom<=0);queueBatch();
+   },{rootMargin:'0px',threshold:1});watchEnd();
   }
   render({hydrate:grid.children.length===10});
   filters.forEach(b=>b.addEventListener('click',()=>{
@@ -168,6 +169,6 @@
  document.addEventListener('click',e=>{const link=e.target.closest?.('[data-work],[data-project]');if(!link||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;const id=link.dataset.work||link.dataset.project;if(!byId.has(id))return;e.preventDefault();open(id,link);});
  document.addEventListener('visibilitychange',()=>{if(document.hidden&&active?.tagName==='VIDEO')active.pause();});document.addEventListener('renov-motion-change',()=>{cancelEffects();filterEffect?.cancel();if(reduced()&&transition)finishTransition(transition);});window.addEventListener('pagehide',finishClose);
  // Existing project anchors still open the matching group, including old names.
- if(grid){const id=decodeURIComponent(location.hash.slice(1));if(byId.has(id)){if(document.documentElement.classList.contains('intro-pending'))document.addEventListener('renov-intro-complete',()=>open(id),{once:true});else open(id);}}
+ if(grid){let id='';try{id=decodeURIComponent(location.hash.slice(1));}catch{}if(byId.has(id)){if(document.documentElement.classList.contains('intro-pending'))document.addEventListener('renov-intro-complete',()=>open(id),{once:true});else open(id);}}
  window.RENOV_PORTFOLIO_VIEWER={open,close};
 })();

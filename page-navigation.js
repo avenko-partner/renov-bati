@@ -30,9 +30,9 @@
     document.dispatchEvent(new CustomEvent('renov-close-menu'));
     surfaces=[...document.querySelectorAll('header,main,.site-footer,.skip-link')].map(node=>[node,node.hasAttribute('inert')]);
     surfaces.forEach(([node])=>node.setAttribute('inert',''));
-    overlay.hidden=false;overlay.setAttribute('aria-hidden','false');root.classList.add('page-departing');
+    overlay.hidden=false;overlay.setAttribute('aria-hidden','true');root.classList.add('page-departing');
     document.dispatchEvent(new CustomEvent('renov-page-leaving'));
-    // Give the opaque brand surface a paint before requesting the new document.
+    // Cover this document only. The destination owns the single logo drawing.
     departureTimer=setTimeout(()=>{try{location.assign(target.href);}catch{restore();}},120);
     // Restore a usable page if a browser cancels the navigation.
     recoveryTimer=setTimeout(restore,10000);

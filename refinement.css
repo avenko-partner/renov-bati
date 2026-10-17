@@ -483,3 +483,13 @@
 @media(max-width:960px) and (max-height:540px) and (orientation:landscape){
  .project-react-stage>img{height:clamp(150px,55svh,300px)}
 }
+
+/* Agency credit shares the footer rhythm and wraps on narrow screens. */
+.footer-credit{display:flex;align-items:center;flex-wrap:wrap;column-gap:14px;row-gap:0;max-width:100%;line-height:1.6}
+.footer-credit>span:last-child{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.footer-bottom .agency-credit{display:inline-flex;align-items:center;min-height:44px;color:var(--gold);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px;transition:text-underline-offset .2s ease}
+.footer-bottom .agency-credit:hover{text-underline-offset:7px}
+.footer-bottom .agency-credit:focus-visible{outline:1px solid var(--gold);outline-offset:4px}
+@media(max-width:640px){.footer-credit{column-gap:12px}}
+@media(prefers-reduced-motion:reduce){.footer-bottom .agency-credit{transition:none}}
+.reduce-motion .footer-bottom .agency-credit{transition:none}

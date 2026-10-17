@@ -7,3 +7,5 @@ nettoyer-anciennes-pages.cmd
 .git/
 node_modules/
 LIRE-MOI-PORTFOLIO.txt
+site-public/
+site-publication/

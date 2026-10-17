@@ -13,3 +13,20 @@ Le script Python attend une racine de travail comportant dist/ et documents/.
 
 Ces tests calculent des états, des déclarations et des estimations.
 Ils ne rendent aucune page dans un navigateur et ne constituent pas des tests sur appareils réels.
+
+CONTRÔLES DE LA REVUE DU 17 OCTOBRE 2026
+Les scripts verify-home-review.mjs, verify-navigation-review.mjs (avec review-harness.mjs)
+et verify-public-review.mjs correspondent aux nouveaux rapports.
+Depuis ce dossier, après installation des dépendances de test :
+  node verify-home-review.mjs
+  node verify-navigation-review.mjs
+Pour l’export (depuis la racine du site, sans publication) :
+  node preparer-site-public.mjs
+  python preparer-publication.py --url https://verification-renov-bati.example --sortie site-publication-verification
+Puis, depuis documents/tests :
+  node verify-public-review.mjs
+Le domaine .example n’existe que dans le dossier de vérification ; ne pas le publier.
+Les anciens scripts et rapports restent historiques. Les nouveaux scripts trouvent
+la racine du site automatiquement ; un premier argument permet d’en indiquer une autre.
+La navigation location.assign est instrumentée uniquement dans le test pour compter
+les destinations sans ouvrir de page. Ce remplacement n’existe pas dans le site livré.

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "checks": 6,
+  "coverage": [
+    "La sortie Vercel ne contient que les trois pages, leurs ressources locales et les médias, sans documents privés",
+    "Les 266 médias et aperçus référencés sont présents, sans ancien aperçu inutilisé dans la collection",
+    "Toutes les ressources HTML, CSS et données chargées sont présentes dans l’export public",
+    "Les scripts sont locaux et compatibles avec une CSP sans JavaScript inline ni évaluation dynamique",
+    "Vercel : sortie publique dédiée, CSP, protection iframe, MIME, permissions et politique de référent configurés",
+    "L’export SEO reste autonome : URLs du domaine de test, sitemap limité aux pages indexables et aucun générateur absent"
+  ],
+  "public_file_count": 369,
+  "public_bytes": 37723455,
+  "collection_assets": 266,
+  "limits": [
+    "Contrôle statique de la configuration CSP et des références ; pas d’exécution de cette politique dans un navigateur.",
+    "En-têtes non vérifiés sur une réponse HTTP Vercel : aucun déploiement effectué.",
+    "Aucun test d’intrusion ni vérification des accès au compte Vercel ou à la messagerie."
+  ]
+}

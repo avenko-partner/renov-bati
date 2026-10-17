@@ -24,11 +24,13 @@
 @media(prefers-reduced-motion:reduce){.intro-pending .brand-intro,.intro-running .brand-intro,.brand-intro{display:none!important}.intro-pending body{overflow:auto}.intro-pending .hero-line-inner,.intro-pending .hero-copy>.eyebrow,.intro-pending .hero-brief,.intro-pending .hero-controls,.intro-pending .hero-project{opacity:1!important;transform:none!important}.intro-pending .hero-rule{transform:none!important}}
 .reduce-motion .brand-intro{display:none!important}.reduce-motion.intro-pending body{overflow:auto}
 
-/* The same opaque logo surface bridges each document navigation. */
-.page-departing .brand-intro{display:grid!important;opacity:1;pointer-events:auto;animation:none}
+/* Cover the departing page; draw the logo only in the destination document. */
+.page-departing .brand-intro{display:grid!important;opacity:1;pointer-events:auto;animation:page-cover-in .12s ease-out both}
 .page-departing body{overflow:hidden}
-.page-departing .intro-traces{opacity:1;transition:none}
+.page-departing .intro-center{visibility:hidden}
+.page-departing .intro-traces{opacity:0;transition:none}
 .page-departing .intro-original{opacity:0;transition:none}
-.page-departing .intro-trace{animation:logo-outline var(--trace-duration,.94s) cubic-bezier(.3,.05,.25,1) var(--trace-delay,0s) both}
+.page-departing .intro-trace{animation:none;opacity:0;stroke-dashoffset:1}
+@keyframes page-cover-in{from{opacity:0}to{opacity:1}}
 @media(prefers-reduced-motion:reduce){.page-departing .brand-intro{display:none!important}.page-departing body{overflow:auto}.page-departing .intro-trace{animation:none}}
 .reduce-motion.page-departing .brand-intro{display:none!important}.reduce-motion.page-departing body{overflow:auto}

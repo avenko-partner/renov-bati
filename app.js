@@ -198,10 +198,10 @@
   form.addEventListener('submit',event=>{
     event.preventDefault();clearError();const values=Object.fromEntries(Object.entries(fields).map(([key,input])=>[key,input.value.trim()]));
     let invalid=null,message='';
-    if(!values.firstname||values.firstname.length>80||/[<>\r\n]/.test(values.firstname)){invalid=fields.firstname;message='Renseignez votre prénom.';}
-    else if(!values.lastname||values.lastname.length>80||/[<>\r\n]/.test(values.lastname)){invalid=fields.lastname;message='Renseignez votre nom.';}
-    else if(!/^(\+|00)?[\d\s().-]+$/.test(values.phone)||values.phone.replace(/\D/g,'').length<9||values.phone.replace(/\D/g,'').length>15){invalid=fields.phone;message='Renseignez un numéro de téléphone valide.';}
-    else if(values.email.length>254||!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]{2,}$/.test(values.email)){invalid=fields.email;message='Renseignez une adresse e-mail valide.';}
+    if(!values.firstname||values.firstname.length>80||/[<>\u0000-\u001f\u007f]/.test(values.firstname)){invalid=fields.firstname;message='Renseignez votre prénom.';}
+    else if(!values.lastname||values.lastname.length>80||/[<>\u0000-\u001f\u007f]/.test(values.lastname)){invalid=fields.lastname;message='Renseignez votre nom.';}
+    else if(values.phone.length>40||!/^(\+|00)?[\d ().-]+$/.test(values.phone)||values.phone.replace(/\D/g,'').length<9||values.phone.replace(/\D/g,'').length>15){invalid=fields.phone;message='Renseignez un numéro de téléphone valide.';}
+    else if(values.email.length>254||!/^[^\s@<>\u0000-\u001f\u007f]+@[^\s@<>\u0000-\u001f\u007f]+\.[^\s@<>\u0000-\u001f\u007f]{2,}$/.test(values.email)){invalid=fields.email;message='Renseignez une adresse e-mail valide.';}
     if(invalid){invalid.setAttribute('aria-invalid','true');$('#quote-error').textContent=message;invalid.focus();return;}
     const rows=[['Nom',values.firstname+' '+values.lastname],['Téléphone',values.phone],['E-mail',values.email]];
     const summary=$('#quote-summary');summary.replaceChildren();rows.forEach(([key,value])=>{const row=document.createElement('div'),term=document.createElement('dt'),definition=document.createElement('dd');term.textContent=key;definition.textContent=value;row.append(term,definition);summary.append(row);});
