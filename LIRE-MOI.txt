@@ -1,11 +1,17 @@
-RENOV BATI — DOSSIER COMPLET — 17 OCTOBRE 2026
+RENOV BATI — DOSSIER COMPLET — 19 OCTOBRE 2026
 
 OUVRIR EN LOCAL
 Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premium.
 Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
 n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
 
-DERNIÈRE MISE À JOUR — PAGINATION MOBILE ET BOUTON D'ACCUEIL
+DERNIÈRE MISE À JOUR — HÉBERGEUR ET CRÉATEUR DU SITE
+Vercel est confirmé comme hébergeur. La page informations.html indique Avenko Partner,
+William Tousson, entrepreneur individuel, et son SIRET dans les crédits de création.
+Coordonnées officielles de Vercel vérifiées le 19 octobre 2026. Le crédit du footer est conservé.
+Voir documents/MENTIONS-HEBERGEUR-CREATEUR-20261019.md pour les sources et les contrôles.
+
+PAGINATION MOBILE ET BOUTON D'ACCUEIL
 Sur téléphone, les lots de dix arrivent un peu avant la fin, avec préparation des
 deux prochaines couvertures seulement. L'apparition est immédiate, sans fondu retardé.
 Le bouton Voir les réalisations est encadré doré et regroupé avec le devis, avant

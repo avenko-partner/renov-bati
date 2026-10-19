@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "date": "2026-10-19",
+  "checks": [
+    "Hébergeur confirmé : identité, adresse, téléphone et lien officiel.",
+    "Crédit Avenko Partner, William Tousson EI et SIRET présent sans ajouter les informations non retenues.",
+    "Renov Bati reste l’éditeur.",
+    "Liens locaux, ancres et nouveaux liens externes vérifiés dans les trois pages.",
+    "Export public cohérent, sans documents de maintenance.",
+    "Accueil, projets, scripts, styles et 360 ressources média strictement identiques à la version reçue."
+  ],
+  "changed_files": [
+    "LIRE-MOI.txt",
+    "documents/VALIDATIONS-AVANT-DIFFUSION.md",
+    "informations.html"
+  ],
+  "preserved_media": 360,
+  "limits": [
+    "Vérifications statiques, sans rendu navigateur.",
+    "Aucun accès au compte Vercel ni déploiement.",
+    "Données du créateur reprises telles que fournies ; aucun extrait RNE indépendant consulté."
+  ]
+}
