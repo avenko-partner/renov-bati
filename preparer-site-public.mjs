@@ -3,9 +3,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {seoSettings,prepareSeo} from './preparer-seo.mjs';
 
 const source=path.dirname(fileURLToPath(import.meta.url));
 const output=path.join(source,'site-public');
+const seo=seoSettings(process.env);
 const marker='.renov-public-build';
 const pages=['index.html','projets.html','informations.html'];
 const files=new Set(pages);
@@ -21,6 +23,7 @@ for(const page of pages){
   for(const match of html.matchAll(/<link\b[^>]*\brel="stylesheet"[^>]*\bhref="([^"]+)"/gi))files.add(localFile(match[1]));
 }
 for(const name of ['robots.txt','sitemap.xml'])if(fs.existsSync(path.join(source,name)))files.add(name);
+if(fs.existsSync(path.join(source,'projects-react.js.LEGAL.txt')))files.add('projects-react.js.LEGAL.txt');
 
 const manifest=fs.readFileSync(path.join(source,'portfolio-data.js'),'utf8');
 const projects=JSON.parse(manifest.replace(/^window\.RENOV_PORTFOLIO\s*=\s*/,'').trim().replace(/;$/,''));
@@ -49,6 +52,11 @@ fs.mkdirSync(output,{recursive:true});
 for(const file of files){
   const target=path.join(output,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(source,file),target);
 }
+prepareSeo(output,pages,seo);
 fs.writeFileSync(path.join(output,marker),'Sortie publique générée. Ne pas modifier ici.\n');
-const bytes=[...files].reduce((sum,file)=>sum+fs.statSync(path.join(output,file)).size,0);
-console.log(`${pages.length} pages, ${files.size} fichiers publics, ${collection.size} médias et aperçus de collection, ${(bytes/1e6).toFixed(2)} Mo. Dossier : ${output}. Aucune publication effectuée.`);
+let bytes=0,count=0;
+function measure(folder){for(const item of fs.readdirSync(folder,{withFileTypes:true})){const file=path.join(folder,item.name);if(item.isDirectory())measure(file);else if(item.name!==marker){count++;bytes+=fs.statSync(file).size;}}}
+measure(output);
+console.log(`${pages.length} pages, ${count} fichiers publics, ${collection.size} médias et aperçus de collection, ${(bytes/1e6).toFixed(2)} Mo. Dossier : ${output}. Aucune publication effectuée.`);
+console.log(seo.origin?`URL SEO : ${seo.origin}`:'Domaine absent : URL relatives conservées. SITE_URL pourra être renseignée dans Vercel.');
+if(seo.preview)console.log('Prévisualisation : robots.txt bloque l’exploration et les trois pages portent noindex.');

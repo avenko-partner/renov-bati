@@ -45,6 +45,7 @@ def prepare(base, output, source):
     for name in tuple(files):
         refs=PublicReferences();refs.feed((source/name).read_text(encoding='utf-8'));files.update(refs.files)
     shutil.copytree(source/'assets',output/'assets',dirs_exist_ok=True,ignore=ignore_unused)
+    if (source/'projects-react.js.LEGAL.txt').exists():files.add('projects-react.js.LEGAL.txt')
     for name in files:shutil.copy2(source/name,output/name)
     config_path=source/'vercel.json'
     if config_path.exists():

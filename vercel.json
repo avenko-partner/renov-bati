@@ -1,8 +1,10 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
+  "installCommand": "",
   "buildCommand": "node preparer-site-public.mjs",
   "outputDirectory": "site-public",
+  "cleanUrls": false,
   "headers": [
     {
       "source": "/(.*)",

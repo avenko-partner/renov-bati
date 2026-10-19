@@ -5,7 +5,14 @@ Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premi
 Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
 n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
 
-DERNIÈRE MISE À JOUR — HÉBERGEUR ET CRÉATEUR DU SITE
+PRÉPARATION VERCEL — 19 OCTOBRE 2026
+Voir README.md pour les réglages exacts : Other, build node preparer-site-public.mjs,
+sortie site-public, aucune installation. Le domaine principal peut être renseigné dans
+SITE_URL ; le build prépare alors les URL SEO et le sitemap. Les prévisualisations
+portent noindex. Le ZIP contient les sources complètes ; Vercel sert uniquement la sortie
+publique, sans documents de maintenance ni anciennes sources. Aucun site n’a été publié.
+
+HÉBERGEUR ET CRÉATEUR DU SITE
 Vercel est confirmé comme hébergeur. La page informations.html indique Avenko Partner,
 William Tousson, entrepreneur individuel, et son SIRET dans les crédits de création.
 Coordonnées officielles de Vercel vérifiées le 19 octobre 2026. Le crédit du footer est conservé.
@@ -87,9 +94,8 @@ POINTS JURIDIQUES ENCORE À RÉGLER
 La revue est dans documents/REVUE-SECURITE-RGPD-FLUIDITE-20261017.md.
 La forme juridique et les personnes déclarées présentent des points à confirmer.
 Il manque le médiateur désigné, les attestations d’assurance et la politique réellement
-appliquée de conservation des demandes et journaux techniques. Les coordonnées Vercel
-sont indiquées comme hébergement prévu ; confirmer l’hébergement effectif à la mise
-en ligne. Le site n’est pas certifié conforme par cette revue de code.
+appliquée de conservation des demandes et journaux techniques. Vercel est confirmé comme hébergeur ; ses coordonnées sont intégrées aux mentions.
+Les paramètres effectifs de conservation des journaux restent à vérifier dans le compte Vercel. Le site n’est pas certifié conforme par cette revue de code.
 
 VÉRIFICATIONS
 33 groupes de contrôles de l’accueil, 23 de navigation/pagination/galeries/formulaire,

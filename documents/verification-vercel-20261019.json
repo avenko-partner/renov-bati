@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "resultat": "réussi",
+  "assertions": 2638,
+  "groupes": [
+    "configuration statique et sécurité",
+    "liens, ancres, styles et médias",
+    "sans domaine",
+    "production avec SITE_URL",
+    "domaine automatique Vercel",
+    "prévisualisation et environnement personnalisé",
+    "URL invalides",
+    "protection des sorties",
+    "envoi CLI réduit",
+    "export Python autonome",
+    "reproductibilité et préservation des sources"
+  ],
+  "fichiers_publics": 386,
+  "octets_publics": 42328222,
+  "films": 18,
+  "medias_collection": 278,
+  "limites": [
+    "Aucun déploiement Vercel effectué.",
+    "Pas de nouveau rendu dans un navigateur réel ni sur téléphone.",
+    "En-têtes HTTP et domaine à vérifier sur l’hébergement effectif."
+  ]
+}

@@ -5,3 +5,6 @@ Thumbs.db
 *.log
 site-publication/
 site-public/
+.env
+.env.*
+__pycache__/
