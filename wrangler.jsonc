@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "renov-bati-premium",
+  "compatibility_date": "2026-10-20",
+  "build": {
+    "command": "node preparer-site-public.mjs"
+  },
+  "assets": {
+    "directory": "./site-public",
+    "html_handling": "none",
+    "not_found_handling": "none"
+  }
+}

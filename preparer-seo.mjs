@@ -13,7 +13,9 @@ export function seoSettings(env){
     if(url.protocol!=='https:'||!url.hostname||url.username||url.password||url.search||url.hash||url.pathname!=='/')throw new Error('SITE_URL doit être l’origine HTTPS du site, sans chemin, paramètres ni identifiants.');
     origin=url.origin+'/';
   }
-  const environment=env.VERCEL_TARGET_ENV||env.VERCEL_ENV||'';
+  const siteEnvironment=(env.SITE_ENV||'').trim();
+  if(siteEnvironment&&!['production','preview'].includes(siteEnvironment))throw new Error('SITE_ENV doit être production ou preview.');
+  const environment=siteEnvironment||env.VERCEL_TARGET_ENV||env.VERCEL_ENV||'';
   return {origin,preview:Boolean(environment&&environment!=='production')};
 }
 

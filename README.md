@@ -1,59 +1,55 @@
-# Renov Bati — déploiement Vercel
+# Renov Bati — Cloudflare
 
-Le dossier est prêt à être importé dans Vercel. Aucun déploiement n’a été effectué.
-Les photos, les 18 films muets, les polices et le code du site sont inclus.
+Dossier préparé le 21 octobre 2026 pour **Cloudflare Workers Static Assets**. Aucun déploiement ni changement de DNS effectué.
 
-## Importer le projet
+## Mise en ligne lorsque vous êtes prêt
 
-1. Extraire entièrement le ZIP. Le dossier `renov-bati-premium` contient directement `index.html`, `vercel.json` et `assets/`.
-2. Copier **le contenu de ce dossier** à la racine du dépôt Git destiné au site, puis enregistrer et pousser les changements. Le ZIP ne contient aucun dépôt `.git` imbriqué.
-3. Dans Vercel, choisir **Add New → Project** et importer ce dépôt.
-4. Utiliser les réglages ci-dessous, déjà inscrits dans `vercel.json`, puis lancer le déploiement depuis Vercel lorsque vous êtes prêt.
+Le dossier `renov-bati-premium` contient directement `index.html`, `assets/` et `wrangler.jsonc`. Placer son contenu à la racine du dépôt Git, puis importer ce dépôt dans **Cloudflare → Workers & Pages → Create application → Import a repository**. Si ce dossier est conservé à l’intérieur du dépôt, le sélectionner comme racine du projet.
+
+Réglages :
 
 | Réglage | Valeur |
 | --- | --- |
-| Framework Preset | **Other** |
-| Root Directory | `.` si les fichiers sont à la racine du dépôt |
-| Build Command | `node preparer-site-public.mjs` |
-| Output Directory | `site-public` |
-| Install Command | Vide : aucune dépendance à installer |
+| Nom du Worker | `renov-bati-premium` ; adapter aussi `wrangler.jsonc` si ce nom est déjà utilisé |
+| Commande de build | `node preparer-site-public.mjs` |
+| Commande de déploiement | `npx wrangler deploy` |
+| Fichiers publics | `site-public/` |
+| Dépendances du build | Aucune ; Node.js suffit |
 
-Si le dépôt contient le dossier `renov-bati-premium/` au lieu de son contenu, sélectionner ce dossier comme **Root Directory**. Ne pas sélectionner `site-public` comme racine du projet : il est créé au build.
+La commande de déploiement publie réellement : elle est documentée ici, mais n’a pas été exécutée. L’authentification au compte Cloudflare reste à effectuer par son propriétaire. Wrangler utilise également la commande de build déclarée dans sa configuration.
 
-## Domaine et SEO
+## Domaine et référencement
 
-Dans **Settings → Environment Variables**, ajouter `SITE_URL` avec l’origine HTTPS réelle du site, sans chemin. Utiliser le domaine principal retenu, pour l’environnement Production (et Preview si souhaité), puis redéployer. Aucune variable secrète n’est nécessaire.
+Renseigner **SITE_URL** dans les variables de build avec l’origine HTTPS réelle du domaine principal, sans chemin ni paramètres. Ne pas inventer de domaine. Ajouter ensuite ce domaine dans les réglages du Worker et configurer les DNS selon les indications Cloudflare.
 
-Si `SITE_URL` est absente, le build utilise `VERCEL_PROJECT_PRODUCTION_URL` quand Vercel l’expose. Activer **Enable access to System Environment Variables** dans Vercel. La variable `SITE_URL` reste prioritaire pour choisir précisément le domaine principal, notamment avec ou sans `www`.
+Le build génère les liens canoniques, les données structurées, les URL de partage et le sitemap lorsque SITE_URL est fournie. Sans domaine, les liens relatifs restent utilisables. Aucun classement dans Google n’est garanti.
 
-Le build génère les liens canoniques, les URL de partage, les données structurées et le sitemap avec cette origine. Les pages de prévisualisation portent `noindex, nofollow` et leur `robots.txt` bloque l’exploration. C’est une consigne aux moteurs, pas une protection d’accès.
+**SITE_ENV=production** convient au build public. Pour un environnement de prévisualisation séparé, utiliser **SITE_ENV=preview** : pages noindex, robots bloqué, sitemap supprimé et en-tête X-Robots-Tag. Les URL workers.dev portent aussi noindex pour éviter leur indexation en parallèle du domaine principal. Ce réglage n’est pas un contrôle d’accès.
 
-Sans origine disponible, le site fonctionne avec ses liens relatifs ; aucun domaine n’est inventé. Ajouter le domaine définitif et redéployer pour finaliser le SEO. Après connexion du domaine, choisir la redirection vers ce domaine principal dans Vercel. La présence d’un sitemap ne garantit aucun classement dans Google.
+## Fichiers servis
 
-## Contrôler avant et après déploiement
+Le générateur inclut seulement les trois pages et leurs ressources. Les notices, les anciennes sources et documents de maintenance restent hors de `site-public/`. Le cache long est limité aux médias de collection dont le nom contient une empreinte ; tout remplacement utilise un nouveau nom.
 
-Avec Node.js, depuis ce dossier :
+Les règles `_headers` reprennent les en-têtes de sécurité. `_redirects` sert l’accueil à `/` ; les liens `.html` sont conservés par la configuration. Aucun script serveur, formulaire d’envoi distant, fonction payante, R2, Stream ou statistique n’est ajouté. Le formulaire existant prépare toujours un brouillon dans la messagerie du visiteur.
 
-```text
-node preparer-site-public.mjs
-```
+Les 18 films sont conservés localement et sans son. Les requêtes de fichiers statiques sont annoncées gratuites et illimitées par Cloudflare ; les services serveur, le stockage externe et la vidéo spécialisée suivent leurs propres règles. Le CDN seul n’est pas une offre de diffusion vidéo illimitée : vérifier l’offre et les conditions retenues pour l’exploitation des films. Aucune souscription n’a été faite.
 
-Le générateur ne publie rien. Il ne sert que les trois pages et leurs ressources. Les dossiers `documents/`, `ressources/`, les outils de préparation et les notices restent hors de `site-public/`. Cette séparation s’applique aussi aux déploiements Git ; `.vercelignore` réduit en plus les fichiers envoyés par la CLI.
+## Vérifications
 
-Le cache long est limité à la collection dont les fichiers ont des noms à empreinte. Pour remplacer un de ces médias, utiliser un nouveau nom et mettre à jour `portfolio-data.js`. Les autres ressources gardent les règles de cache par défaut de Vercel.
+Exécuter `node preparer-site-public.mjs` pour produire le dossier public sans publier. Le rapport `documents/verification-cloudflare-20261021.json` précise les contrôles réalisés et leurs limites.
 
-Après déploiement, vérifier l’accueil, les projets, les galeries, les films muets, le comparateur, le menu mobile et les liens de contact. Vérifier aussi `/robots.txt`, `/sitemap.xml` et l’absence d’accès public à `/documents/` et `/ressources/`. Les en-têtes de sécurité seront appliqués par Vercel et doivent être contrôlés sur cette URL.
+Après déploiement, contrôler les trois pages, les galeries, le menu mobile, les films et les liens de contact ; vérifier les en-têtes, les DNS, HTTPS, robots.txt et sitemap.xml. Les dossiers privés doivent rester inaccessibles.
 
-Le formulaire prépare un brouillon dans la messagerie du visiteur ; il n’envoie pas de demande depuis un serveur. Les mentions Vercel et les crédits Avenko Partner sont intégrés. Les éléments de l’entreprise restant à confirmer figurent dans `documents/VALIDATIONS-AVANT-DIFFUSION.md`.
+L’ancienne configuration Vercel reste présente comme configuration de repli ; elle est ignorée par Cloudflare et n’est pas servie au public. Les contrôles historiques datés restent dans documents/.
 
-## Sources techniques
+## Références officielles vérifiées le 21 octobre 2026
 
-Configuration vérifiée dans la documentation officielle Vercel le 19 octobre 2026 :
-
-- https://vercel.com/docs/project-configuration/vercel-json
-- https://vercel.com/docs/builds/configure-a-build
-- https://vercel.com/docs/git
-- https://vercel.com/docs/environment-variables/system-environment-variables
-- https://vercel.com/docs/deployments/vercel-ignore
-
-Contrôles locaux de cette préparation : `documents/verification-vercel-20261019.json`. Aucun déploiement ni nouveau contrôle dans un navigateur réel n’a été effectué.
+- https://developers.cloudflare.com/workers/static-assets/
+- https://developers.cloudflare.com/workers/static-assets/headers/
+- https://developers.cloudflare.com/workers/static-assets/redirects/
+- https://developers.cloudflare.com/workers/static-assets/routing/advanced/html-handling/
+- https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/
+- https://developers.cloudflare.com/workers/platform/limits/
+- https://www.cloudflare.com/privacypolicy/
+- https://www.cloudflare.com/cloudflare-customer-dpa/
+- https://www.cloudflare.com/service-specific-terms-application-services/

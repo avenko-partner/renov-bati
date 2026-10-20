@@ -23,6 +23,7 @@ for(const page of pages){
   for(const match of html.matchAll(/<link\b[^>]*\brel="stylesheet"[^>]*\bhref="([^"]+)"/gi))files.add(localFile(match[1]));
 }
 for(const name of ['robots.txt','sitemap.xml'])if(fs.existsSync(path.join(source,name)))files.add(name);
+for(const name of ['_headers','_redirects'])if(fs.existsSync(path.join(source,name)))files.add(name);
 if(fs.existsSync(path.join(source,'projects-react.js.LEGAL.txt')))files.add('projects-react.js.LEGAL.txt');
 
 const manifest=fs.readFileSync(path.join(source,'portfolio-data.js'),'utf8');
@@ -53,10 +54,14 @@ for(const file of files){
   const target=path.join(output,file);fs.mkdirSync(path.dirname(target),{recursive:true});fs.copyFileSync(path.join(source,file),target);
 }
 prepareSeo(output,pages,seo);
+if(seo.preview&&files.has('_headers')){
+  const headers=path.join(output,'_headers');
+  fs.writeFileSync(headers,fs.readFileSync(headers,'utf8').replace(/^\/\*\s*\n/,'/*\n  X-Robots-Tag: noindex, nofollow\n'));
+}
 fs.writeFileSync(path.join(output,marker),'Sortie publique générée. Ne pas modifier ici.\n');
 let bytes=0,count=0;
 function measure(folder){for(const item of fs.readdirSync(folder,{withFileTypes:true})){const file=path.join(folder,item.name);if(item.isDirectory())measure(file);else if(item.name!==marker){count++;bytes+=fs.statSync(file).size;}}}
 measure(output);
 console.log(`${pages.length} pages, ${count} fichiers publics, ${collection.size} médias et aperçus de collection, ${(bytes/1e6).toFixed(2)} Mo. Dossier : ${output}. Aucune publication effectuée.`);
-console.log(seo.origin?`URL SEO : ${seo.origin}`:'Domaine absent : URL relatives conservées. SITE_URL pourra être renseignée dans Vercel.');
+console.log(seo.origin?`URL SEO : ${seo.origin}`:'Domaine absent : URL relatives conservées. Renseigner SITE_URL au build pour le domaine définitif.');
 if(seo.preview)console.log('Prévisualisation : robots.txt bloque l’exploration et les trois pages portent noindex.');

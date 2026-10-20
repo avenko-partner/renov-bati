@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-21",
+  "origine": "Dernière archive livrée, version 14",
+  "mentions": {
+    "forme_juridique": "SAS",
+    "directeur_publication": "Artugrul Ertan",
+    "commentaires_cites": "retirés"
+  },
+  "images_examinees": 331,
+  "photos_avec_plaques_masquees": 4,
+  "variantes_retouchees": 8,
+  "fichiers_runtime_actualises": [
+    "portfolio-data.js"
+  ],
+  "rectangles": [
+    {
+      "old": "assets/collection/photo-048-89038c8d13.webp",
+      "width": 1280,
+      "height": 960,
+      "rectangle": [
+        1009,
+        284,
+        1052,
+        306
+      ],
+      "before_bytes": 183526,
+      "after_bytes": 175208,
+      "new_name": "photo-048-79271e8029.webp",
+      "outside_mean_absolute_error": 1.5263,
+      "outside_psnr_db": 41.144,
+      "new": "assets/collection/photo-048-79271e8029.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-048-apercu-1efd63ea62.webp",
+      "width": 420,
+      "height": 315,
+      "rectangle": [
+        330,
+        92,
+        347,
+        102
+      ],
+      "before_bytes": 17370,
+      "after_bytes": 17302,
+      "new_name": "photo-048-apercu-dfa804d2ca.webp",
+      "outside_mean_absolute_error": 1.8368,
+      "outside_psnr_db": 39.412,
+      "new": "assets/collection/photo-048-apercu-dfa804d2ca.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-049-apercu-9544e6e417.webp",
+      "width": 390,
+      "height": 520,
+      "rectangle": [
+        185,
+        171,
+        200,
+        179
+      ],
+      "before_bytes": 22194,
+      "after_bytes": 21556,
+      "new_name": "photo-049-apercu-84ca31523f.webp",
+      "outside_mean_absolute_error": 1.5152,
+      "outside_psnr_db": 40.666,
+      "new": "assets/collection/photo-049-apercu-84ca31523f.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-049-c18aa0d51e.webp",
+      "width": 960,
+      "height": 1280,
+      "rectangle": [
+        460,
+        424,
+        489,
+        438
+      ],
+      "before_bytes": 148298,
+      "after_bytes": 137468,
+      "new_name": "photo-049-1fb5ace5be.webp",
+      "outside_mean_absolute_error": 1.5507,
+      "outside_psnr_db": 41.038,
+      "new": "assets/collection/photo-049-1fb5ace5be.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-051-apercu-7731752ace.webp",
+      "width": 390,
+      "height": 520,
+      "rectangle": [
+        358,
+        271,
+        373,
+        279
+      ],
+      "before_bytes": 35062,
+      "after_bytes": 35412,
+      "new_name": "photo-051-apercu-d49ede4742.webp",
+      "outside_mean_absolute_error": 2.18,
+      "outside_psnr_db": 38.246,
+      "new": "assets/collection/photo-051-apercu-d49ede4742.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-051-ccd912387d.webp",
+      "width": 960,
+      "height": 1280,
+      "rectangle": [
+        885,
+        670,
+        914,
+        684
+      ],
+      "before_bytes": 203530,
+      "after_bytes": 197836,
+      "new_name": "photo-051-9ee550e114.webp",
+      "outside_mean_absolute_error": 1.6688,
+      "outside_psnr_db": 40.486,
+      "new": "assets/collection/photo-051-9ee550e114.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-080-apercu-5ccbc58773.webp",
+      "width": 416,
+      "height": 520,
+      "rectangle": [
+        237,
+        399,
+        292,
+        424
+      ],
+      "before_bytes": 9822,
+      "after_bytes": 9118,
+      "new_name": "photo-080-apercu-c3fb1715e8.webp",
+      "outside_mean_absolute_error": 1.1222,
+      "outside_psnr_db": 42.707,
+      "new": "assets/collection/photo-080-apercu-c3fb1715e8.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    },
+    {
+      "old": "assets/collection/photo-080-da8e3ac9e7.webp",
+      "width": 1024,
+      "height": 1280,
+      "rectangle": [
+        586,
+        986,
+        715,
+        1039
+      ],
+      "before_bytes": 53816,
+      "after_bytes": 46320,
+      "new_name": "photo-080-d4f49f10a4.webp",
+      "outside_mean_absolute_error": 0.9764,
+      "outside_psnr_db": 42.369,
+      "new": "assets/collection/photo-080-d4f49f10a4.webp",
+      "encoding": "WebP qualité 92, dimensions conservées, métadonnées retirées"
+    }
+  ],
+  "videos": "18 films conservés sans modification",
+  "publication_effectuee": false,
+  "controles": {
+    "mentions_demandees": "réussi",
+    "parcours_et_styles_preserves": "réussi",
+    "images_decodables": "331/331",
+    "variantes_dimensions_metadonnees_masques": "8/8",
+    "autres_medias_identiques": "352/352",
+    "anciens_fichiers_non_livres": "8/8",
+    "nouveaux_noms_a_empreinte": "8/8"
+  },
+  "limites": [
+    "Revue visuelle des images par planches et des véhicules repérés en grand format.",
+    "Aucune modification des vidéos.",
+    "Aucun nouveau rendu du site dans un navigateur réel.",
+    "Aucun déploiement effectué."
+  ]
+}

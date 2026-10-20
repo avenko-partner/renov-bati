@@ -8,3 +8,4 @@ site-public/
 .env
 .env.*
 __pycache__/
+.wrangler/

@@ -42,6 +42,7 @@ def prepare(base, output, source):
                 if not re.fullmatch(r'\./[-a-z0-9]+\.(?:css|js)',ref):raise ValueError('Ressource publique non autorisée : '+ref)
                 self.files.add(ref[2:])
     files={'index.html','projets.html','informations.html'}
+    files.update(name for name in ('_headers','_redirects') if (source/name).is_file())
     for name in tuple(files):
         refs=PublicReferences();refs.feed((source/name).read_text(encoding='utf-8'));files.update(refs.files)
     shutil.copytree(source/'assets',output/'assets',dirs_exist_ok=True,ignore=ignore_unused)

@@ -1,106 +1,33 @@
-RENOV BATI — DOSSIER COMPLET — 19 OCTOBRE 2026
+RENOV BATI — DOSSIER COMPLET — 21 OCTOBRE 2026
 
-OUVRIR EN LOCAL
-Extraire entièrement le ZIP. Ouvrir index.html dans le dossier renov-bati-premium.
-Les trois pages, les polices, les photos et les films sont inclus. Aucune installation
-n’est nécessaire pour consulter le site. Aucun déploiement n’a été effectué.
+Extraire entièrement le ZIP et ouvrir index.html. Les trois pages, les polices,
+les photos et les 18 films muets sont inclus. Aucune installation n’est nécessaire
+pour consulter le site localement.
 
-PRÉPARATION VERCEL — 19 OCTOBRE 2026
-Voir README.md pour les réglages exacts : Other, build node preparer-site-public.mjs,
-sortie site-public, aucune installation. Le domaine principal peut être renseigné dans
-SITE_URL ; le build prépare alors les URL SEO et le sitemap. Les prévisualisations
-portent noindex. Le ZIP contient les sources complètes ; Vercel sert uniquement la sortie
-publique, sans documents de maintenance ni anciennes sources. Aucun site n’a été publié.
-
-HÉBERGEUR ET CRÉATEUR DU SITE
-Vercel est confirmé comme hébergeur. La page informations.html indique Avenko Partner,
-William Tousson, entrepreneur individuel, et son SIRET dans les crédits de création.
-Coordonnées officielles de Vercel vérifiées le 19 octobre 2026. Le crédit du footer est conservé.
-Voir documents/MENTIONS-HEBERGEUR-CREATEUR-20261019.md pour les sources et les contrôles.
-
-PAGINATION MOBILE ET BOUTON D'ACCUEIL
-Sur téléphone, les lots de dix arrivent un peu avant la fin, avec préparation des
-deux prochaines couvertures seulement. L'apparition est immédiate, sans fondu retardé.
-Le bouton Voir les réalisations est encadré doré et regroupé avec le devis, avant
-le téléphone ; il occupe toute la largeur sur les formats compacts.
-Voir LIRE-MOI-FLUIDITE-MOBILE.txt et documents/verification-fluidite-mobile-cta-20261017.json.
-
-NAVBAR COMMUNE
-La navbar de l'accueil est reprise sur index.html, projets.html et informations.html :
-mêmes proportions, menu mobile, maintien en haut et progression dorée au défilement.
-Un seul script commun, site-header.js, pilote les trois pages. Depuis les pages
-secondaires, les liens de sections et de devis renvoient aux bonnes ancres de l'accueil.
-Voir LIRE-MOI-NAVBAR.txt et documents/verification-navbar-commune-20261017.json.
-
-PISCINE À L'ACCUEIL
-La piscine remplace uniquement la façade en première vue du carrousel d'accueil,
-avec sa miniature, sa légende et son lien vers le projet. Les deux vues suivantes
-restent la véranda puis la cuisine, toutes les 4,5 secondes. Le reste du site est conservé.
-Contrôles DOM et horloge simulée : documents/verification-retour-piscine-20261017.json.
-Pas de rendu navigateur après cette modification.
-
-COMPOSITION DES RÉALISATIONS
-Grille d’accueil recomposée : photos et légendes alignées, hauteurs maîtrisées,
-suppression des grands vides et des décalages artificiels. Les couvertures remplissent
-leur cadre ; les photos ouvertes dans une fiche restent visibles en entier.
-Voir LIRE-MOI-COMPOSITION.txt pour les changements et les limites de vérification.
-Les trois nouveaux films courts et muets restent inclus ; voir LIRE-MOI-VIDEOS-ACCUEIL.txt.
-Les éléments ci-dessous de navigation et de sécurité restent conservés.
-
-CORRECTIONS CONSERVÉES
-• Changement de page : un voile bref recouvre la page de départ. Le logo se dessine
-  une seule fois sur la page d’arrivée ; il ne commence plus à moitié avant de repartir.
-  L’arrivée attend les premières images, le logo et les polices, avec secours à 7 secondes.
-• Projets : dix cartes au départ, puis dix de plus. Sur ordinateur, le seuil reste
-  la fin du lot affiché ; sur téléphone, une avance de 140 à 260 px prépare la suite.
-  Le bouton manuel conserve la même logique. Aucun déplacement automatique du focus,
-  aucun téléchargement des films tant que leur fiche n’est pas ouverte.
-• Pieds de page : © 2026 Renov Bati, puis By Avenko partner. Avenko partner ouvre
-  https://avenkopartner.com/ dans un nouvel onglet protégé.
-• Formulaire : validation renforcée. Il prépare toujours un brouillon d’e-mail relu
-  par le visiteur ; le site n’envoie pas les coordonnées et ne les conserve pas.
-• Export Vercel : seuls les fichiers publics sont servis. Les documents de maintenance,
-  archives et anciennes sources restent hors du dossier public.
+HÉBERGEMENT CLOUDFLARE
+Les mentions légales et les liens de confidentialité désignent Cloudflare, Inc.
+La configuration Workers Static Assets est prête dans wrangler.jsonc.
+Voir README.md pour les réglages de build, le domaine et la mise en ligne.
+Aucun déploiement, changement de DNS ou abonnement effectué.
 
 CONTENU CONSERVÉ
-51 fiches de réalisations, plus une sélection d’inspirations séparée. Les 109 photos
-et les 15 premiers films, leurs vues et leur ordre sont conservés. Trois films sont ajoutés. Tous les médias déjà livrés
-sont identiques à ceux de la livraison précédente. Les dix couvertures vidéo optimisées
-restent présentes, sans recadrage dans les galeries. Les films sont muets.
-Le carrousel d’accueil reste à 4,5 secondes. Le comparateur de l’accueil conserve
-la course 0 → 100 → 0, neuf secondes par trajet, avec geste manuel prioritaire.
+Forme juridique : SAS. Directeur de la publication : Artugrul Ertan.
+Les commentaires éditoriaux retirés restent retirés. Quatre photos et leurs quatre
+aperçus portent un rectangle noir incrusté sur la plaque d’immatriculation.
+Tous les médias et le code des interactions sont conservés.
 
-PRÉPARER UN HÉBERGEMENT VERCEL (SANS PUBLIER)
-Depuis ce dossier, avec Node.js :
-  node preparer-site-public.mjs
-La sortie est site-public/. vercel.json prévoit cette commande et cette sortie pour
-un futur déploiement. Aucun paquet à installer. Le script ne publie rien.
-Ne pas choisir la racine entière comme dossier de fichiers à servir : documents/
-et ressources/ contiennent les éléments privés de maintenance.
-Les en-têtes CSP, MIME, iframe, permissions et référent sont configurés dans vercel.json.
-Ils ne s’appliquent pas à l’ouverture file:// et restent à contrôler sur l’hébergement.
-Les médias de collection ont des noms à empreinte et un cache long : tout remplacement
-ultérieur doit utiliser un nouveau nom de fichier.
+Le carrousel d’accueil reste à 4,5 secondes, le comparateur conserve le geste manuel
+et son animation automatique. La navbar et la pagination mobile sont conservées.
+Le formulaire prépare un brouillon d’e-mail ; il n’envoie pas de demande au serveur.
 
-DOMAINE ET RÉFÉRENCEMENT
-Le domaine définitif n’a pas été communiqué. Pour préparer un export avec les bonnes
-URL canoniques et le sitemap, sans publier :
-  python preparer-publication.py --url https://votre-domaine.fr
-Cet exemple n’est pas un domaine attribué à Renov Bati. La sortie site-publication/
-est un export statique autonome. Les deux générateurs refusent de supprimer une sortie
-non vide qu’ils ne reconnaissent pas comme générée.
+DOSSIER PUBLIC
+Commande locale : node preparer-site-public.mjs
+Sortie : site-public/
+Les documents de maintenance et notices restent hors de la sortie publique.
+SITE_URL sert à renseigner le domaine réel pour les URL SEO et le sitemap.
+SITE_ENV=preview prépare une version non indexable.
 
-POINTS JURIDIQUES ENCORE À RÉGLER
-La revue est dans documents/REVUE-SECURITE-RGPD-FLUIDITE-20261017.md.
-La forme juridique et les personnes déclarées présentent des points à confirmer.
-Il manque le médiateur désigné, les attestations d’assurance et la politique réellement
-appliquée de conservation des demandes et journaux techniques. Vercel est confirmé comme hébergeur ; ses coordonnées sont intégrées aux mentions.
-Les paramètres effectifs de conservation des journaux restent à vérifier dans le compte Vercel. Le site n’est pas certifié conforme par cette revue de code.
-
-VÉRIFICATIONS
-33 groupes de contrôles de l’accueil, 23 de navigation/pagination/galeries/formulaire,
-6 d’export, 6 d’intégration des nouveaux films et photos, plus contrôle des fichiers vidéo
-et comparaison de tous les anciens médias au ZIP source.
-Les rapports datés 20261017 et les scripts associés sont dans documents/.
-Les anciens rapports sont historiques. Aucun rendu dans un vrai navigateur, test sur
-appareil physique, mesure FPS/Core Web Vitals ou test d’intrusion distant n’a été réalisé.
+Les contrôles sont détaillés dans documents/verification-cloudflare-20261021.json.
+Les contrôles sur le compte Cloudflare, DNS et en-têtes réels restent à faire après
+le déploiement. Les justificatifs administratifs et d’assurance sont suivis dans
+documents/VALIDATIONS-AVANT-DIFFUSION.md ; cette note n’est pas publiée.
