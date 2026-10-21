@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-21",
+  "resultat": "réussi",
+  "assertions": 2635,
+  "groupes": [
+    "configuration statique et sécurité",
+    "liens, ancres, styles et médias",
+    "domaine cible renovbati78.fr",
+    "production avec SITE_URL",
+    "domaine automatique Vercel",
+    "prévisualisation et environnement personnalisé",
+    "URL invalides",
+    "protection des sorties",
+    "envoi CLI réduit",
+    "export Python autonome",
+    "reproductibilité et préservation des sources"
+  ],
+  "fichiers_publics": 389,
+  "octets_publics": 42299960,
+  "films": 18,
+  "medias_collection": 278,
+  "limites": [
+    "Aucun déploiement Cloudflare ou Vercel effectué.",
+    "Ce script vérifie le build et les fichiers, sans rendu navigateur.",
+    "En-têtes HTTP et domaine à vérifier sur l’hébergement effectif."
+  ]
+}

@@ -1,33 +1,11 @@
-RENOV BATI — DOSSIER COMPLET — 21 OCTOBRE 2026
+RENOV BATI — 21 OCTOBRE 2026 — FORMULAIRE MAILTO
 
-Extraire entièrement le ZIP et ouvrir index.html. Les trois pages, les polices,
-les photos et les 18 films muets sont inclus. Aucune installation n’est nécessaire
-pour consulter le site localement.
-
-HÉBERGEMENT CLOUDFLARE
-Les mentions légales et les liens de confidentialité désignent Cloudflare, Inc.
-La configuration Workers Static Assets est prête dans wrangler.jsonc.
-Voir README.md pour les réglages de build, le domaine et la mise en ligne.
-Aucun déploiement, changement de DNS ou abonnement effectué.
-
-CONTENU CONSERVÉ
-Forme juridique : SAS. Directeur de la publication : Artugrul Ertan.
-Les commentaires éditoriaux retirés restent retirés. Quatre photos et leurs quatre
-aperçus portent un rectangle noir incrusté sur la plaque d’immatriculation.
-Tous les médias et le code des interactions sont conservés.
-
-Le carrousel d’accueil reste à 4,5 secondes, le comparateur conserve le geste manuel
-et son animation automatique. La navbar et la pagination mobile sont conservées.
-Le formulaire prépare un brouillon d’e-mail ; il n’envoie pas de demande au serveur.
-
-DOSSIER PUBLIC
-Commande locale : node preparer-site-public.mjs
-Sortie : site-public/
-Les documents de maintenance et notices restent hors de la sortie publique.
-SITE_URL sert à renseigner le domaine réel pour les URL SEO et le sitemap.
-SITE_ENV=preview prépare une version non indexable.
-
-Les contrôles sont détaillés dans documents/verification-cloudflare-20261021.json.
-Les contrôles sur le compte Cloudflare, DNS et en-têtes réels restent à faire après
-le déploiement. Les justificatifs administratifs et d’assurance sont suivis dans
-documents/VALIDATIONS-AVANT-DIFFUSION.md ; cette note n’est pas publiée.
+Décompresser le ZIP : le dossier renov-bati-premium contient le site complet.
+Le formulaire prépare un récapitulatif puis ouvre un brouillon via « Ouvrir ma messagerie ».
+Le visiteur envoie lui-même le brouillon. Aucun envoi serveur ni activation Cloudflare Email Service n’est nécessaire.
+Sans messagerie configurée, les coordonnées, le téléphone, WhatsApp et le téléchargement de la demande restent disponibles.
+Les améliorations SEO et le domaine https://renovbati78.fr sont conservés.
+Les médias, films, masquages de plaques, couleurs et animations sont conservés.
+Construire sans publier : node preparer-site-public.mjs.
+Lire README.md pour l’hébergement et documents/verification-seo-contact-20261021.json pour les contrôles et limites.
+Aucun déploiement ni e-mail réel pendant cette correction.

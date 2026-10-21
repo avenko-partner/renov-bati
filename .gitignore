@@ -9,3 +9,7 @@ site-public/
 .env.*
 __pycache__/
 .wrangler/
+
+# Configuration locale et secrets : ne jamais publier.
+.dev.vars*
+.env*

@@ -1,5 +1,14 @@
 SOURCES DES CONTRÔLES — développement uniquement
 
+SEO ET FORMULAIRE MAILTO — 21 OCTOBRE 2026
+Depuis la racine du site, sans installation pour ces deux commandes :
+  python3 documents/tests/verify-build.py
+  python3 documents/tests/verify-cloudflare.py
+Le rapport consolidé est documents/verification-seo-contact-20261021.json.
+Le contact utilise le lien mailto préparé dans app.js, sans serveur de contact.
+Les tests et le harnais de l’ancien serveur de contact ont été retirés.
+Les instructions suivantes correspondent aux contrôles historiques.
+
 Ces fichiers ne sont pas nécessaires au fonctionnement du site.
 Le site reste utilisable sans compilation ni installation.
 Les scripts JS utilisent Node.js avec jsdom et css-tree (versions fixées dans package.json).

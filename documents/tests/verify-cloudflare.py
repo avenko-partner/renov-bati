@@ -44,8 +44,13 @@ def build(folder, settings=None, success=True):
 
 
 cfg = json.loads((ROOT / 'wrangler.jsonc').read_text())
-check('main' not in cfg, 'Aucun script Worker serveur')
+check('main' not in cfg, 'Site statique sans serveur de contact')
+check('vars' not in cfg, 'Aucune variable d’activation du formulaire mailto')
+check(all(key not in cfg for key in ('send_email','durable_objects','ratelimits','migrations')), 'Aucune ressource de messagerie ou stockage serveur')
+check(not (ROOT / 'worker.mjs').exists() and not (ROOT / 'configurer-contact.mjs').exists(), 'Ancien serveur de contact et configurateur retirés')
 check(cfg['name'] == 'renov-bati-premium', 'Nom du Worker explicite')
+check(cfg.get('routes') == [{'pattern':'renovbati78.fr','custom_domain':True},{'pattern':'www.renovbati78.fr','custom_domain':True}], 'Deux domaines confirmés par le propriétaire déclarés pour la production')
+check(cfg.get('workers_dev') is True and cfg.get('preview_urls') is False, 'Adresse provisoire conservée et URL de prévisualisation désactivées')
 check(cfg['build']['command'] == 'node preparer-site-public.mjs', 'Build déclaré')
 check(cfg['assets'] == {'directory': './site-public', 'html_handling': 'none',
                         'not_found_handling': 'none'},
@@ -58,7 +63,7 @@ rules = [line for line in headers.splitlines() if line and not line[0].isspace()
 check(len(rules) <= 100, 'Moins de 100 règles _headers')
 for header in ('X-Content-Type-Options: nosniff', 'X-Frame-Options: DENY',
                'Referrer-Policy: strict-origin-when-cross-origin',
-               "connect-src 'none'", "object-src 'none'", "frame-ancestors 'none'"):
+               "connect-src 'none'", "form-action 'none'", "object-src 'none'", "frame-ancestors 'none'"):
     check(header in headers, 'En-tête déclaré : ' + header)
 check('/assets/collection/*\n  Cache-Control: public, max-age=31536000, immutable' in headers,
       'Cache immutable limité aux médias de collection nommés par empreinte')
@@ -94,7 +99,7 @@ with tempfile.TemporaryDirectory(prefix='renov-cloudflare-check-') as temporary:
           'Tous les fichiers sous 25 MiB')
     for name in ('_headers', '_redirects'):
         check((public / name).read_bytes() == (ROOT / name).read_bytes(), 'Règle copiée : ' + name)
-    for name in ('documents', 'ressources', 'wrangler.jsonc', 'vercel.json', 'README.md',
+    for name in ('documents', 'ressources', 'wrangler.jsonc', 'worker.mjs', 'configurer-contact.mjs', 'vercel.json', 'README.md',
                  'LIRE-MOI.txt', 'preparer-site-public.mjs', '.git', 'node_modules'):
         check(not (public / name).exists(), 'Élément privé exclu : ' + name)
     public_bytes = sum(p.stat().st_size for p in files)
@@ -136,21 +141,20 @@ with tempfile.TemporaryDirectory(prefix='renov-cloudflare-check-') as temporary:
 report = {
     'date': '2026-10-21', 'cible': 'Cloudflare Workers Static Assets',
     'resultat': 'réussi', 'assertions_cloudflare': len(CHECKS), 'controles': CHECKS,
-    'verification_generale': 'verification-build-cloudflare-20261021.json — 2635 assertions réussies',
+    'verification_generale': 'verification-build-seo-contact-20261021.json',
     'sortie_publique': {'fichiers': public_count, 'octets': public_bytes,
                          'plus_gros_fichier_octets': max_bytes},
-    'configuration_reelle_a_fournir': ['Authentification au compte Cloudflare',
-                                      'Domaine principal et SITE_URL',
-                                      'Configuration du domaine et des DNS'],
+    'configuration_reelle_a_fournir': ['Domaine Cloudflare actif et rattaché au site lors de la mise en ligne'],
+    'configuration_messagerie_serveur_necessaire': False,
     'publication_effectuee': False,
     'limites': [
         'Validation locale des sources, règles et builds ; aucune requête sur un hébergement Cloudflare réel.',
         'Wrangler et ses règles HTTP restent à valider lors du déploiement autorisé.',
         'Aucun changement DNS, achat, abonnement, envoi de formulaire ou migration de compte.',
-        'Aucun nouveau rendu navigateur ; aucun changement de mise en page ou d’animation dans cette version.',
+        'Ce script contrôle la configuration ; les rendus navigateur sont consignés séparément.',
         'Aucune garantie de classement Google ni de gratuité générale des services vidéo.'
     ]
 }
-(ROOT / 'documents/verification-cloudflare-20261021.json').write_text(
+(ROOT / 'documents/verification-cloudflare-seo-contact-20261021.json').write_text(
     json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({k: v for k, v in report.items() if k != 'controles'}, ensure_ascii=False, indent=2))

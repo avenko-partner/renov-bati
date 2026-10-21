@@ -9,5 +9,17 @@
     "directory": "./site-public",
     "html_handling": "none",
     "not_found_handling": "none"
-  }
+  },
+  "routes": [
+    {
+      "pattern": "renovbati78.fr",
+      "custom_domain": true
+    },
+    {
+      "pattern": "www.renovbati78.fr",
+      "custom_domain": true
+    }
+  ],
+  "workers_dev": true,
+  "preview_urls": false
 }

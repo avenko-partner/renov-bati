@@ -5,7 +5,7 @@ import path from 'node:path';
 export function seoSettings(env){
   const explicit=(env.SITE_URL||'').trim();
   const automatic=(env.VERCEL_PROJECT_PRODUCTION_URL||'').trim();
-  const candidate=explicit||(automatic?`https://${automatic}`:'');
+  const candidate=explicit||(automatic?`https://${automatic}`:'https://renovbati78.fr');
   let origin='';
   if(candidate){
     let url;

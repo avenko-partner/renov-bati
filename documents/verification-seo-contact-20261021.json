@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-21",
+  "projet": "Renov Bati",
+  "resultat": "Formulaire mailto rétabli et contrôles locaux réussis.",
+  "correction": [
+    "Retour au formulaire initial : coordonnées, récapitulatif et lien Ouvrir ma messagerie.",
+    "Destinataire, sujet et corps du mailto préparés côté navigateur ; le visiteur envoie le brouillon dans sa messagerie.",
+    "Aucune confirmation automatique d’envoi ou de réception.",
+    "Serveur de contact, configurateur, dépendances de messagerie/stockage, tests et harnais serveur retirés.",
+    "Cloudflare conservé comme hébergeur statique, sans service e-mail à activer.",
+    "Politique de confidentialité et notices adaptées au mailto.",
+    "Titres, H1, contexte local Eure/Yvelines et métadonnées pour renovbati78.fr conservés."
+  ],
+  "verification_build": {
+    "assertions": 2635,
+    "rapport": "verification-build-seo-contact-20261021.json"
+  },
+  "verification_configuration_statique": {
+    "assertions": 89,
+    "rapport": "verification-cloudflare-seo-contact-20261021.json"
+  },
+  "verification_navigateur": {
+    "environnement": "Chrome, prévisualisation locale supervisée.",
+    "tests": [
+      "Formulaire vide : erreur et focus sur le prénom.",
+      "Coordonnées de test : récapitulatif correct, accents encodés dans le mailto et destinataire fixe correct.",
+      "Modifier mes coordonnées : retour aux champs avec conservation des valeurs.",
+      "Aucune confirmation fictive d’envoi.",
+      "Récapitulatif utilisable à 320 pixels de largeur de cadre.",
+      "Aucun débordement horizontal observé à 320, 390 et 1348 pixels de largeur extérieure ; champs de 16 pixels à 320 pixels."
+    ],
+    "largeurs_utiles_mobiles": [
+      305,
+      375
+    ],
+    "lien_mailto_declenche": false,
+    "commentaire": "Le lien mailto a été inspecté sans l’ouvrir pour ne pas déclencher une messagerie ni un envoi réel."
+  },
+  "preservation": {
+    "ressources_medias_polices_identiques": 360,
+    "films": 18,
+    "variantes_plaques_masquees": 8,
+    "page_projets_identique_a_la_version_precedente": true,
+    "script_app_js_identique_a_la_version_mailto_initiale": true
+  },
+  "sortie_publique": {
+    "fichiers": 389,
+    "octets": 42299960,
+    "comptage": "Hors marqueur technique local du build."
+  },
+  "activation_messagerie_serveur_necessaire": false,
+  "publication_effectuee": false,
+  "envois_reels": 0,
+  "limites": [
+    "Une messagerie doit être configurée sur l’appareil pour ouvrir le brouillon mailto.",
+    "Le site ne peut vérifier l’ouverture de la messagerie ni l’envoi ou la réception de l’e-mail.",
+    "Téléchargement de la demande, téléphone, e-mail affiché et WhatsApp conservés en alternatives ; téléchargement non déclenché pendant cette vérification navigateur.",
+    "Aucun test d’envoi réel, de messagerie sur matériel iOS/Android, de déploiement ou d’en-têtes de production.",
+    "La durée de conservation des e-mails reçus reste à définir par Renov Bati.",
+    "Aucun classement Google garanti."
+  ],
+  "rapports_historiques": "Les autres rapports antérieurs ne décrivent pas nécessairement cette version."
+}
