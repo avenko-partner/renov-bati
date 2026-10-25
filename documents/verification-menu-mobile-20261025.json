@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-25",
+  "projet": "Renov Bati",
+  "resultat": "Correction locale et vérifications réussies. Aucun déploiement effectué.",
+  "source": {
+    "archive": "renov-bati-premium-mailto.zip",
+    "sha256": "e3ccb07fe47ce3776cf684ee66a26c5ce9671571893a478cb945d484f06eed0f"
+  },
+  "regression_reproduite": {
+    "largeur_css": 390,
+    "hauteur_css": 700,
+    "avant_ouverture": {
+      "scroll_y": 14562,
+      "navbar_top": 0
+    },
+    "menu_ouvert_avant_correction": {
+      "scroll_y": 14204,
+      "navbar_top": -14204,
+      "navbar_bottom": -14123,
+      "nav_top": -14124.1298828125,
+      "body_overflow": "hidden",
+      "racine_overflow": "visible"
+    },
+    "constat": "Le verrouillage du body créait un conteneur de défilement qui détachait la navbar sticky du viewport."
+  },
+  "correction": [
+    "Verrouillage du viewport sur la racine html ; body ne devient plus un conteneur de défilement à l’ouverture du menu.",
+    "Mémorisation de la position à l’ouverture et restauration instantanée à la fermeture.",
+    "Arrêt à la position courante d’un défilement de focus ou d’ancrage encore en cours au moment de l’ouverture.",
+    "Retour du focus avec preventScroll pour Échap et le parcours clavier dans l’en-tête.",
+    "Contrôleur et feuille de style communs à index.html, projets.html et informations.html."
+  ],
+  "fichiers_application_modifies": [
+    "styles.css",
+    "site-header.js"
+  ],
+  "empreintes_sources": {
+    "styles.css": "112ab8a2f1a8b34d2e55c0a7bc964076218362d08d3145da869032860d5d4e16",
+    "site-header.js": "8fcced43a82dd3404363f8880b53520e0b8cc80da490d12cf8f4a4206d1b733b"
+  },
+  "tests_navigateur": {
+    "environnement": "Chrome, prévisualisation locale supervisée ; tailles CSS simulées dans une iframe de test.",
+    "scenarios_reussis": 12,
+    "echecs": 0,
+    "cas": [
+      {
+        "page": "informations.html",
+        "scenario": "390 × 700 — clavier, focus et position de lecture",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "projets.html",
+        "scenario": "390 × 700 — clavier, focus et position",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "390 × 700 — clavier, focus et position",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "320 × 700 — ouverture après défilement",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "768 × 700 — tablette",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "1100 × 700 — limite du menu compact",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "320 × 320 — paysage de faible hauteur",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "Pointeur, faible hauteur et défilement du fond",
+        "reussi": true,
+        "position_activation": 1872,
+        "position_ouverture": 1872,
+        "position_fermeture": 1872,
+        "navbar_top": 0
+      },
+      {
+        "page": "index.html",
+        "scenario": "Lien Garanties depuis le menu à 320 × 320",
+        "reussi": true,
+        "position_section_dans_viewport": 90.4375,
+        "menu_ferme": true,
+        "defilement_debloque": true
+      },
+      {
+        "page": "index.html",
+        "scenario": "Passage du menu ouvert à 1440 pixels",
+        "reussi": true,
+        "menu_ferme_apres_evenement_resize": true,
+        "navigation_bureau_accessible": true
+      },
+      {
+        "page": "index.html → projets.html",
+        "scenario": "Navigation entre pages depuis le menu ouvert",
+        "reussi": true,
+        "menu_ferme_sur_la_destination": true,
+        "defilement_debloque": true,
+        "navbar_top": 0
+      },
+      {
+        "page": "projets.html",
+        "scenario": "Ouverture et fermeture en haut de page",
+        "reussi": true,
+        "position_activation": 0,
+        "position_ouverture": 0,
+        "position_fermeture": 0,
+        "navbar_top": 0
+      }
+    ],
+    "lecture_de_la_position": "Coordonnées relevées dans le DOM au moment de l’activation et après ouverture/fermeture.",
+    "instrumentation": "Journal privé d’observation des événements utilisé uniquement dans le dossier de prévisualisation, exclu de la livraison."
+  },
+  "verifications_build": {
+    "date_execution": "2026-10-25",
+    "commande": "python3 documents/tests/verify-build.py",
+    "assertions_reussies": 2635,
+    "resultat": "réussi"
+  },
+  "verifications_cloudflare": {
+    "date_execution": "2026-10-25",
+    "commande": "python3 documents/tests/verify-cloudflare.py",
+    "assertions_reussies": 89,
+    "resultat": "réussi"
+  },
+  "syntaxe_javascript": {
+    "commande": "node --check site-header.js",
+    "resultat": "réussi"
+  },
+  "preservation": {
+    "medias_polices_inchanges_octet_par_octet": 360,
+    "films_conserves": 18,
+    "variantes_plaques_masquees_conservees": 8,
+    "trois_pages_html_identiques_a_la_source": true,
+    "configuration_hebergement_et_mailto_inchanges": true
+  },
+  "sortie_publique": {
+    "fichiers": 389,
+    "octets": 42300513,
+    "comptage": "Hors marqueur technique du build."
+  },
+  "limites": [
+    "Tests navigateur effectués dans Chrome ; Safari/iOS, Android et écrans pliants physiques non testés.",
+    "La simulation des largeurs ne reproduit pas tous les comportements d’un appareil physique.",
+    "Pas de déploiement Cloudflare, de modification DNS ou d’envoi d’e-mail.",
+    "Le correctif doit être transféré dans le dépôt utilisé pour le déploiement pour modifier le site en ligne.",
+    "Les rapports datés du 21 octobre 2026 sont conservés comme historiques."
+  ]
+}

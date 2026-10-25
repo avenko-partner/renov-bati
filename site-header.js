@@ -25,24 +25,30 @@
     nav.toggleAttribute('inert',concealed);
     if(concealed)nav.setAttribute('aria-hidden','true');else nav.removeAttribute('aria-hidden');
   }
+  let menuPosition=null;
   function closeMenu(){
-    header.classList.remove('menu-is-open');body.classList.remove('menu-open');
+    const position=menuPosition;menuPosition=null;
+    header.classList.remove('menu-is-open');body.classList.remove('menu-open');root.classList.remove('menu-open');
     toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Ouvrir le menu');syncNavigation();
+    if(position)window.scrollTo({...position,behavior:'instant'});
   }
   toggle.addEventListener('click',()=>{
-    const open=toggle.getAttribute('aria-expanded')!=='true';
-    toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Fermer le menu':'Ouvrir le menu');
-    header.classList.toggle('menu-is-open',open);body.classList.toggle('menu-open',open);syncNavigation();
+    if(toggle.getAttribute('aria-expanded')==='true'){closeMenu();return;}
+    menuPosition={left:scrollX,top:scrollY};
+    toggle.setAttribute('aria-expanded','true');toggle.setAttribute('aria-label','Fermer le menu');
+    header.classList.add('menu-is-open');body.classList.add('menu-open');root.classList.add('menu-open');syncNavigation();
+    // Stop an in-flight focus/anchor scroll at the reading position being locked.
+    window.scrollTo({...menuPosition,behavior:'instant'});
   });
   header.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
   document.addEventListener('renov-close-menu',closeMenu);
   document.addEventListener('keydown',event=>{
     if(!body.classList.contains('menu-open'))return;
-    if(event.key==='Escape'){closeMenu();toggle.focus();}
+    if(event.key==='Escape'){closeMenu();toggle.focus({preventScroll:true});}
     if(event.key==='Tab'){
       const controls=[header.querySelector('.brand'),...navLinks,quote,toggle].filter(Boolean),first=controls[0],last=controls.at(-1);
-      if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();}
-      else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();}
+      if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus({preventScroll:true});}
+      else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus({preventScroll:true});}
     }
   });
 

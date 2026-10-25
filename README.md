@@ -1,9 +1,17 @@
-# Renov Bati — site statique et formulaire mailto
+# Renov Bati — site statique et navigation mobile
 
-Version du 21 octobre 2026. Domaine communiqué : **https://renovbati78.fr/**.
+Version du 25 octobre 2026. Domaine communiqué : **https://renovbati78.fr/**.
 Cette correction n’a pas été déployée. Aucun e-mail réel n’a été envoyé.
 
-## Ce qui a changé
+## Menu mobile — correction du 25 octobre 2026
+
+Les deux fichiers modifiés pour le fonctionnement du site sont **styles.css** et **site-header.js**. Ils sont communs à l’accueil, aux réalisations et aux informations légales. Pour appliquer la correction à un dépôt déjà à jour, remplacer ces deux fichiers puis utiliser le déploiement habituel. Le ZIP contient aussi le dossier complet.
+
+Le menu s’ouvre sous la navbar depuis la position de lecture actuelle. Le verrouillage du défilement se fait sur la page racine pour conserver le positionnement sticky de l’en-tête. La position est mémorisée à l’ouverture et restaurée à la fermeture. Le retour du focus au clavier ne déclenche plus de déplacement de la page. Les liens vers les sections ou les autres pages continuent à fonctionner.
+
+Douze scénarios ont été contrôlés dans Chrome, dont les trois pages après défilement, les largeurs 320, 390, 768, 1100 et 1440 pixels, une hauteur de 320 pixels, le pointeur, le clavier, le blocage du fond et le redimensionnement vers la navigation de bureau. Le rapport détaillé est documents/verification-menu-mobile-20261025.json. Aucun test sur appareil physique et aucun déploiement n’ont été effectués pour cette correction.
+
+## Formulaire de contact
 
 Le formulaire fonctionne à nouveau entièrement dans le navigateur : coordonnées, récapitulatif, puis bouton **Ouvrir ma messagerie**. Le bouton ouvre un lien mailto avec le destinataire, le sujet et le texte préparés. Le visiteur doit envoyer le brouillon depuis sa messagerie. Le site ne confirme jamais un envoi qu’il ne peut pas vérifier.
 
@@ -48,6 +56,7 @@ La durée de conservation des demandes sans suite dans la messagerie et les sauv
 
 - python3 documents/tests/verify-build.py : build, liens, médias, SEO et reproductibilité.
 - python3 documents/tests/verify-cloudflare.py : configuration statique et exclusion du serveur de contact.
-- documents/verification-seo-contact-20261021.json : rapport de la correction mailto et limites.
+- documents/verification-menu-mobile-20261025.json : rapport de la correction du menu et vérifications de cette version.
+- documents/verification-seo-contact-20261021.json : rapport historique de la correction mailto et limites.
 
 Les rapports plus anciens sont historiques. Aucun contrôle local ne prouve la réception réelle d’un e-mail. L’envoi réel, les applications Mail des appareils physiques et les en-têtes de l’hébergement de production n’ont pas été testés dans cette correction.

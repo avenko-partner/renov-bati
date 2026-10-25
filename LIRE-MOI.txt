@@ -1,4 +1,9 @@
-RENOV BATI — 21 OCTOBRE 2026 — FORMULAIRE MAILTO
+RENOV BATI — 25 OCTOBRE 2026 — MENU MOBILE
+
+Correction commune aux trois pages : styles.css et site-header.js.
+Le menu reste sous la navbar après défilement ; sa fermeture retrouve la position de lecture.
+Les douze scénarios navigateur et les limites sont détaillés dans documents/verification-menu-mobile-20261025.json.
+Remplacer ces deux fichiers dans le dépôt puis utiliser le déploiement habituel ; le ZIP fournit aussi le dossier complet.
 
 Décompresser le ZIP : le dossier renov-bati-premium contient le site complet.
 Le formulaire prépare un récapitulatif puis ouvre un brouillon via « Ouvrir ma messagerie ».
